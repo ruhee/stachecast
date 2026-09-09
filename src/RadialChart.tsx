@@ -1,16 +1,14 @@
 import {
   Chart as ChartJS,
   RadialLinearScale,
-  PointElement,
   LineElement,
+  PointElement,
   Filler,
   Tooltip,
   Legend,
-  CategoryScale,
-  LinearScale,
   Title,
 } from 'chart.js';
-import { Line, Radar } from 'react-chartjs-2';
+import { Radar } from 'react-chartjs-2';
 
 ChartJS.register(
   RadialLinearScale,
@@ -19,10 +17,23 @@ ChartJS.register(
   Filler,
   Tooltip,
   Legend,
-  CategoryScale,
-  LinearScale,
   Title,
 );
+
+const options = {
+  layout: {
+    padding: {
+      top: 100
+    }
+  },
+  plugins: {
+    legend: {
+      position: 'right' as const,
+    },
+  },
+  responsive: true,
+  maintainAspectRatio: false,
+}
 
 export const radialData = {
   labels: [
@@ -80,7 +91,7 @@ export const radialData = {
 };
 
 export const RadialChart = () => (
-    <div style={{ maxWidth: "800px", maxHeight: "40vh" }}>
-      <Radar data={radialData} />;
+    <div className="chart radial">
+      <Radar options={options} data={radialData} />
     </div>
 )

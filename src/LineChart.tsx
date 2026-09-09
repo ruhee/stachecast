@@ -1,9 +1,7 @@
 import {
   Chart as ChartJS,
-  RadialLinearScale,
   PointElement,
   LineElement,
-  Filler,
   Tooltip,
   Legend,
   CategoryScale,
@@ -13,10 +11,8 @@ import {
 import { Line } from 'react-chartjs-2';
 
 ChartJS.register(
-  RadialLinearScale,
   PointElement,
   LineElement,
-  Filler,
   Tooltip,
   Legend,
   CategoryScale,
@@ -66,7 +62,7 @@ export const data = {
 };
 
 export const LineChart = () => (
-<div style={{ maxWidth: "800px", maxHeight: "40vh" }}>
-        <Line options={options} data={data} />
-      </div>
+  <div className="chart">
+    <Line options={options} data={data} />
+  </div>
 )
