@@ -58,12 +58,12 @@ export const data = {
             backgroundColor: 'rgba(238, 231, 22, 0.5)',
             borderColor: 'rgba(167, 162, 15, 1)',
         },
-        {
-            label: 'Sweeper',
-            data: [83.5,84.1,82.8,81.8],
-            backgroundColor: 'rgba(221, 179, 58, 0.5)',
-             borderColor: 'rgba(155, 125, 41, 1)',
-        },
+        // {
+        //     label: 'Sweeper',
+        //     data: [83.5,84.1,82.8,81.8],
+        //     backgroundColor: 'rgba(221, 179, 58, 0.5)',
+        //      borderColor: 'rgba(155, 125, 41, 1)',
+        // },
     //     {
     //         label: 'Changeup',
     //         data: [83.8,82.9,79.9,79.2],
