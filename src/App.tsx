@@ -7,7 +7,7 @@ import { VeloBarChart } from "./VeloBarChart";
 export function App() {
   return (
     <div className="container">
-    <h1>🧔🏻‍♂️ STACHECAST 👨🏻</h1>
+    <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
     {/* <img src={cease} /> */}
 
     <p>On September 7, Dylan Cease's velo was down and so was his facial hair. What this website asks is: are those things related?</p>
