@@ -1,22 +1,31 @@
 html {
-  color-scheme: light; /* light dark */
+  color-scheme: light; 
   font-family: system-ui;
   height: 100%;
   background-color: #eee;
 }
 
+#app {
+  display:flex;
+  justify-content: center;;
+}
+
 .container {
+  /* background: lightyellow; */
   max-width: 800px;
+  min-width:320px;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  place-items: center;
 
 }
 
 .chart-container {
+  /* background: lightblue; */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -36,7 +45,7 @@ h1 {
   font-family: "Denk One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4em;
+  font-size: clamp(2rem, 1rem + 4vw, 3rem);
   margin: 0;
   text-align: center;
   flex: 0 0 100%;
