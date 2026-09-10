@@ -1,11 +1,35 @@
 html {
   color-scheme: light; /* light dark */
   font-family: system-ui;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100%;
   background-color: #eee;
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height:0;
+}
+
+.chart {
+  flex-grow: 1; 
+  position: relative; 
+  flex: 1; 
+  min-height: 0; 
+  width: 100%;
+
 }
 
 h1 {
@@ -26,32 +50,7 @@ a:hover {
   color: #E8291C;
 }
 
-.container {
-  background: pink;
-  display: flex;
-  width: 100%;
-  /* max-width: 800px; */
-  flex-wrap: wrap;
-  height: 100vh;
 
-}
-
-.chart-container {
-  background-color: dodgerblue;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height:0;
-}
-
-.chart {
-  flex-grow: 1; 
-  position: relative; 
-  flex: 1; 
-  min-height: 0; 
-  width: 100%;
-
-}
 
 .radial {
   /* height: 600px; */
