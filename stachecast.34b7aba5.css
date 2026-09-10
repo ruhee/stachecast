@@ -1,0 +1,62 @@
+html {
+  color-scheme: light;
+  background-color: #eee;
+  height: 100%;
+  font-family: system-ui;
+}
+
+#app {
+  justify-content: center;
+  display: block;
+}
+
+.container {
+  background: #ffffe0;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 0;
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.chart-container {
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.chart {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  flex: 0 0 100%;
+  margin: 0;
+  font-family: Denk One, sans-serif;
+  font-size: clamp(2rem, 1rem + 4vw, 3rem);
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  color: #134a8e;
+}
+
+a:hover {
+  color: #e8291c;
+}
+
+footer {
+  color: #666;
+  margin: 20px 0;
+  font-size: .75em;
+}
+/*# sourceMappingURL=stachecast.34b7aba5.css.map */
