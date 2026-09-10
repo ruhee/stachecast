@@ -37,7 +37,6 @@ const options = {
 
 export const radialData = {
   labels: [
-    'Walrus stache',
     'Stache and soul patch',
     'Short beard',
     'Full beard',
@@ -47,21 +46,21 @@ export const radialData = {
   datasets: [
     {
       label: 'Slider',
-      data: [93, 94, 96, 92, 92],
+      data: [89.2, 89.1, 88.8, 88.2],
       backgroundColor: 'rgba(238, 231, 22, 0.2)',
       borderColor: 'rgba(167, 162, 15, 1)',
       borderWidth: 1,
     },
     {
       label: '4-seam',
-      data: [98.7, 97, 96, 95, 95],
+      data: [97.6, 97.2, 96.9, 96.1],
       backgroundColor: 'rgba(210, 45, 73, 0.2)',
       borderColor: 'rgba(147, 31, 51, 0.8)',
       borderWidth: 1,
     },
     {
       label: 'Sinker',
-      data: [94, 96, 95, 97, 96],
+      data: [96.1, 96.1, 95.8, 95],
       backgroundColor: 'rgba(254, 157, 0, 0.2)',
       borderColor: 'rgba(178, 110, 0, 1)',
       borderWidth: 1,
