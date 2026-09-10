@@ -15,6 +15,7 @@ h1 {
   font-size: 4em;
   margin: 0;
   text-align: center;
+  flex: 0 0 100%;
 }
 
 a {
@@ -26,28 +27,35 @@ a:hover {
 }
 
 .container {
+  background: pink;
   display: flex;
-  flex-direction: column;
   width: 100%;
-  max-width: 800px;
+  /* max-width: 800px; */
+  flex-wrap: wrap;
+  height: 100vh;
+
 }
 
 .chart-container {
+  background-color: dodgerblue;
   display: flex;
-  width:100%;
   flex-direction: column;
-  /* align-items: center; */
+  width: 100%;
+  min-height:0;
 }
 
 .chart {
-  /* flex-basis: 50%; */
   flex-grow: 1; 
+  position: relative; 
+  flex: 1; 
+  min-height: 0; 
+  width: 100%;
 
 }
 
 .radial {
-  height: 600px;
-  width: 600px;
+  /* height: 600px; */
+  /* width: 600px; */
   /* max-height: 400px; */
   /* max-width: 100%; */
 }

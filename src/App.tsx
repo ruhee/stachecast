@@ -1,5 +1,7 @@
+import { GameScoreBarChart } from "./GameScoreBarChart";
 import { LineChart } from "./LineChart"
 import { RadialChart } from './RadialChart';
+import { VeloBarChart } from "./VeloBarChart";
 // import cease from "url:./assets/cease.png"
 
 export function App() {
@@ -10,8 +12,8 @@ export function App() {
 
     <p>On September 7, Dylan Cease's velo was way down and so was his facial hair. What this website asks is: are those things related?</p>
       <div className="chart-container">
-        <RadialChart />
-        <LineChart />
+        <GameScoreBarChart />
+        <VeloBarChart />
       </div>
       <footer>
         <p>Brought to you by <a href="https://bsky.app/profile/ruhee.ca">the stupid brain</a> behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please <a href="mailto:ruhee.dewji@gmail.com">send me feedback or bug reports</a>.</p>
