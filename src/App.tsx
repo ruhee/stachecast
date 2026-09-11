@@ -8,7 +8,7 @@ export function App() {
     <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
     <p>On September 7, Dylan Cease's velo was down and so was his facial hair. What this website asks is: are those things related?</p>
       <div className="chart-container">
-        {/* <GameScoreBarChart /> */}
+        <GameScoreBarChart />
         <VeloBarChart />
       </div>
       <footer>
