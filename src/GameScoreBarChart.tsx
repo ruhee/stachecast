@@ -9,7 +9,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { labels } from './data/common';
+import { chartOptions, labels } from './data/common';
 import { yAxisImageLabelsPlugin } from './plugins/yAxisImages';
 import img from "url:./assets/img.png";
 
@@ -52,6 +52,7 @@ export const data = {
 export const GameScoreBarChart = () => {
   const [loadedImages, setLoadedImages] = useState([]);
   const [imagesReady, setImagesReady] = useState(false);
+  let options = chartOptions('2026 Game Scores', loadedImages);
 
   useEffect(() => {
     let isMounted = true;
@@ -75,47 +76,6 @@ export const GameScoreBarChart = () => {
   
     return () => { isMounted = false; };
   }, []);
-
-  const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-    indexAxis: 'y' as const,
-    layout: {
-      padding: {
-        left: 50 
-      }
-    },
-    scales: {
-      x: {
-        beginAtZero:false,
-      },
-      y: {
-        grid: {
-          drawOnChartArea: false,
-        },
-        ticks: {
-          // Distance between the Y-axis baseline border and the text strings
-          padding: 8, 
-          display: false, 
-        },
-      },
-    },
-    plugins: {
-      legend: {
-        position: 'top' as const,
-      },
-      title: {
-        display: true,
-        text: '2026 Game Scores',
-      },
-      yAxisImageLabels: {
-        images: loadedImages, 
-        // offset: 45,           
-        // width: 40,
-        // height: 40
-      },
-    },
-  };
   
   return (
     <div className="chart">
