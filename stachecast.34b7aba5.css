@@ -37,6 +37,7 @@ html, body, #app {
   aspect-ratio: 2;
   width: 100%;
   min-width: 0;
+  min-height: 280px;
   position: relative;
 }
 
