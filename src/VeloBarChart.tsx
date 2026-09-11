@@ -50,7 +50,6 @@ export const data = {
 
 export const VeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  const [imagesReady, setImagesReady] = useState(false);
   let options = chartOptions('2026 Average Fastball Velo', loadedImages);
 
   useEffect(() => {
@@ -69,7 +68,6 @@ export const VeloBarChart = () => {
     Promise.all(promises).then((images) => {
       if (isMounted) {
         setLoadedImages(images as never[]);
-        setImagesReady(true);
       }
     });
   

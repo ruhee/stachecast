@@ -25,6 +25,7 @@ export const chartOptions = (titleText: string, loadedImages: never[]) => ({
     scales: {
       x: {
         beginAtZero:false,
+        grace: '3%' as const,
       },
       y: {
         grid: {

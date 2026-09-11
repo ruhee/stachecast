@@ -43,7 +43,6 @@ export const data = {
 
 export const GameScoreBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  const [imagesReady, setImagesReady] = useState(false);
   let options = chartOptions('2026 Game Scores', loadedImages);
 
   useEffect(() => {
@@ -62,7 +61,6 @@ export const GameScoreBarChart = () => {
     Promise.all(promises).then((images) => {
       if (isMounted) {
         setLoadedImages(images as never[]);
-        setImagesReady(true);
       }
     });
   
