@@ -17422,161 +17422,169 @@ function App() {
             }, void 0, false, {
                 fileName: "src/App.tsx",
                 lineNumber: 8,
-                columnNumber: 5
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "On September 7, Dylan Cease's velo was down and so was his facial hair. What this website asks is: are those things related?"
             }, void 0, false, {
                 fileName: "src/App.tsx",
                 lineNumber: 9,
-                columnNumber: 5
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "chart-container",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 11,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 12,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _breakingVeloBarChart.BreakingVeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 13,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 10,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: [
-                            "Brought to you by ",
+                            "Brought to you by",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://bsky.app/profile/ruhee.ca",
                                 children: "the stupid brain"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 16,
-                                columnNumber: 30
+                                lineNumber: 21,
+                                columnNumber: 11
                             }, this),
-                            " behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please ",
+                            " ",
+                            "behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "mailto:ruhee.dewji@gmail.com",
                                 children: "send me feedback or bug reports"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 16,
-                                columnNumber: 196
+                                lineNumber: 24,
+                                columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 16,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Credits:"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 17,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: [
-                                    "Pitch data via ",
+                                    "Pitch data via",
+                                    " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
                                         children: "Baseball Savant and Statcast"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 30
+                                        lineNumber: 33,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 19,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "Beard data via MLB highlight packages and my eyes"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 20,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: [
-                                    "Exceptional product management from ",
+                                    "Exceptional product management from",
+                                    " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: "https://bsky.app/profile/gareths.bsky.social",
                                         children: "Gareth"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 51
+                                        lineNumber: 40,
+                                        columnNumber: 13
                                     }, this),
-                                    " and data science advice from ",
+                                    " ",
+                                    "and data science advice from",
+                                    " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: "https://bsky.app/profile/pointsman.bsky.social",
                                         children: "Chris"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 146
+                                        lineNumber: 42,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 21,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: [
-                                    "Perfect name thanks to ",
+                                    "Perfect name thanks to",
+                                    " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: "https://bsky.app/profile/phrichards.ca",
                                         children: "Phil"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 38
+                                        lineNumber: 46,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 22,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 18,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 24,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 15,
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]
@@ -17595,7 +17603,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./GameScoreBarChart":"d7NaK","./VeloBarChart":"c2zQv","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./BreakingVeloBarChart":"66Mc9"}],"d7NaK":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./GameScoreBarChart":"d7NaK","./VeloBarChart":"c2zQv","./BreakingVeloBarChart":"66Mc9","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d7NaK":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$a6bd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$a6bd.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -17619,27 +17627,27 @@ const data = {
     labels: (0, _common.labels),
     datasets: [
         {
-            label: 'Average',
+            label: "Average",
             data: [
                 57.6,
                 58.7,
                 77.2,
                 66.2
             ],
-            backgroundColor: 'rgba(19, 74, 142, 0.5)',
-            borderColor: 'rgba(19, 74, 142, 1)',
+            backgroundColor: "rgba(19, 74, 142, 0.5)",
+            borderColor: "rgba(19, 74, 142, 1)",
             borderWidth: 1
         },
         {
-            label: 'Highest',
+            label: "Highest",
             data: [
                 77,
                 72,
                 82,
                 94
             ],
-            backgroundColor: 'rgba(29, 45, 92, 0.5)',
-            borderColor: 'rgba(29, 45, 92, 1)',
+            backgroundColor: "rgba(29, 45, 92, 0.5)",
+            borderColor: "rgba(29, 45, 92, 1)",
             borderWidth: 1
         }
     ]
@@ -17647,13 +17655,13 @@ const data = {
 const GameScoreBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)('2026 Game Scores', loadedImages);
+    let options = (0, _common.chartOptions)("2026 Game Scores", loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
             return new Promise((resolve)=>{
                 const img = new Image();
-                img.crossOrigin = 'anonymous';
+                img.crossOrigin = "anonymous";
                 img.src = src;
                 img.onload = ()=>resolve(img);
                 img.onerror = ()=>resolve(null);
@@ -17676,12 +17684,12 @@ const GameScoreBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/GameScoreBarChart.tsx",
-            lineNumber: 72,
+            lineNumber: 74,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/GameScoreBarChart.tsx",
-        lineNumber: 71,
+        lineNumber: 73,
         columnNumber: 5
     }, undefined);
 };
@@ -31705,15 +31713,15 @@ const labelImagesSources = [
     (0, _imgPngDefault.default)
 ];
 const labels = [
-    'Stache and soul patch',
-    'Short beard',
-    'Full beard',
-    'Mountain man beard'
+    "Stache and soul patch",
+    "Short beard",
+    "Full beard",
+    "Mountain man beard"
 ];
 const chartOptions = (titleText, loadedImages)=>({
         responsive: true,
         maintainAspectRatio: false,
-        indexAxis: 'y',
+        indexAxis: "y",
         layout: {
             padding: {
                 left: 50
@@ -31722,7 +31730,7 @@ const chartOptions = (titleText, loadedImages)=>({
         scales: {
             x: {
                 beginAtZero: false,
-                grace: '3%'
+                grace: "3%"
             },
             y: {
                 grid: {
@@ -31737,7 +31745,7 @@ const chartOptions = (titleText, loadedImages)=>({
         },
         plugins: {
             legend: {
-                position: 'top'
+                position: "top"
             },
             title: {
                 display: true,
@@ -31768,14 +31776,14 @@ const yAxisImageLabelsPlugin = {
             const img = images[index];
             if (!img) return;
             const yPixel = y.getPixelForTick(index);
-            const offset = pluginOptions.offset || 45;
-            let imgWidth = pluginOptions.width || 40;
-            let imgHeight = pluginOptions.height || 40;
-            let xPixel = chart.chartArea.left - (offset || 45);
-            if (canvasWidth < 500) {
-                imgWidth = 24;
-                imgHeight = 24;
-                xPixel = chart.chartArea.left - 30;
+            const offset = pluginOptions.offset || 60;
+            let imgWidth = pluginOptions.width || 50;
+            let imgHeight = pluginOptions.height || 50;
+            let xPixel = chart.chartArea.left - (offset || 60);
+            if (canvasWidth < 650) {
+                imgWidth = 40;
+                imgHeight = 40;
+                xPixel = chart.chartArea.left - 50;
             }
             ctx.drawImage(img, xPixel, yPixel - imgHeight / 2, imgWidth, imgHeight);
         });
@@ -34085,27 +34093,27 @@ const data = {
     labels: (0, _common.labels),
     datasets: [
         {
-            label: 'Four-seam',
+            label: "Four-seam",
             data: [
                 97.6,
                 97.2,
                 96.9,
                 96.1
             ],
-            backgroundColor: 'rgba(210, 45, 73, 0.5)',
-            borderColor: 'rgba(147, 31, 51, 1)',
+            backgroundColor: "rgba(210, 45, 73, 0.5)",
+            borderColor: "rgba(147, 31, 51, 1)",
             borderWidth: 1
         },
         {
-            label: 'Sinker',
+            label: "Sinker",
             data: [
                 96.1,
                 96.1,
                 95.8,
                 95
             ],
-            backgroundColor: 'rgba(254, 157, 0, 0.5)',
-            borderColor: 'rgba(178, 110, 0, 1)',
+            backgroundColor: "rgba(254, 157, 0, 0.5)",
+            borderColor: "rgba(178, 110, 0, 1)",
             borderWidth: 1
         }
     ]
@@ -34113,13 +34121,13 @@ const data = {
 const VeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)('2026 Average Fastball Velo', loadedImages);
+    let options = (0, _common.chartOptions)("2026 Average Fastball Velo", loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
             return new Promise((resolve)=>{
                 const img = new Image();
-                img.crossOrigin = 'anonymous';
+                img.crossOrigin = "anonymous";
                 img.src = src;
                 img.onload = ()=>resolve(img);
                 img.onerror = ()=>resolve(null);
@@ -34142,13 +34150,13 @@ const VeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/VeloBarChart.tsx",
-            lineNumber: 79,
-            columnNumber: 11
+            lineNumber: 81,
+            columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/VeloBarChart.tsx",
-        lineNumber: 78,
-        columnNumber: 7
+        lineNumber: 80,
+        columnNumber: 5
     }, undefined);
 };
 _s(VeloBarChart, "FsEKGmMLwKxlCaAGmjFgljn2dng=");
@@ -34185,65 +34193,65 @@ const data = {
     labels: (0, _common.labels),
     datasets: [
         {
-            label: 'Slider',
+            label: "Slider",
             data: [
                 89.2,
                 89.1,
                 88.8,
                 88.2
             ],
-            backgroundColor: 'rgba(238, 231, 22, 0.5)',
+            backgroundColor: "rgba(238, 231, 22, 0.5)",
             borderWidth: 1,
-            borderColor: 'rgb(179, 173, 8)'
+            borderColor: "rgb(179, 173, 8)"
         },
         {
-            label: 'Sweeper',
+            label: "Sweeper",
             data: [
                 83.5,
                 84.1,
                 82.8,
                 81.8
             ],
-            backgroundColor: 'rgba(221, 179, 58, 0.5)',
+            backgroundColor: "rgba(221, 179, 58, 0.5)",
             borderWidth: 1,
-            borderColor: 'rgb(221, 179, 58)'
+            borderColor: "rgb(221, 179, 58)"
         },
         {
-            label: 'Changeup',
+            label: "Changeup",
             data: [
                 83.8,
                 82.9,
                 79.9,
                 79.2
             ],
-            backgroundColor: 'rgba(29, 190, 58, 0.5)',
+            backgroundColor: "rgba(29, 190, 58, 0.5)",
             borderWidth: 1,
-            borderColor: 'rgba(29, 190, 58, 1)'
+            borderColor: "rgba(29, 190, 58, 1)"
         },
         {
-            label: 'Knuckle Curve',
+            label: "Knuckle Curve",
             data: [
                 82.4,
                 82.9,
                 81.9,
                 80.6
             ],
-            backgroundColor: 'rgba(98, 54, 205, 0.5)',
+            backgroundColor: "rgba(98, 54, 205, 0.5)",
             borderWidth: 1,
-            borderColor: 'rgb(98, 54, 205)'
+            borderColor: "rgb(98, 54, 205)"
         }
     ]
 };
 const BreakingVeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)('2026 Average Breaking Ball/Offspeed Velo', loadedImages);
+    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velo", loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
             return new Promise((resolve)=>{
                 const img = new Image();
-                img.crossOrigin = 'anonymous';
+                img.crossOrigin = "anonymous";
                 img.src = src;
                 img.onload = ()=>resolve(img);
                 img.onerror = ()=>resolve(null);
@@ -34266,13 +34274,13 @@ const BreakingVeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/BreakingVeloBarChart.tsx",
-            lineNumber: 86,
-            columnNumber: 11
+            lineNumber: 91,
+            columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/BreakingVeloBarChart.tsx",
-        lineNumber: 85,
-        columnNumber: 7
+        lineNumber: 90,
+        columnNumber: 5
     }, undefined);
 };
 _s(BreakingVeloBarChart, "FsEKGmMLwKxlCaAGmjFgljn2dng=");
