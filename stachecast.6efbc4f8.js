@@ -17607,16 +17607,8 @@ var _chartJs = require("chart.js");
 var _reactChartjs2 = require("react-chartjs-2");
 var _common = require("./data/common");
 var _yAxisImages = require("./plugins/yAxisImages");
-var _imgPng = require("url:./assets/img.png");
-var _imgPngDefault = parcelHelpers.interopDefault(_imgPng);
 var _s = $RefreshSig$();
 (0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
-const labelImagesSources = [
-    (0, _imgPngDefault.default),
-    (0, _imgPngDefault.default),
-    (0, _imgPngDefault.default),
-    (0, _imgPngDefault.default)
-];
 const data = {
     labels: (0, _common.labels),
     datasets: [
@@ -17628,8 +17620,8 @@ const data = {
                 77.2,
                 66.2
             ],
-            backgroundColor: 'rgba(210, 45, 73, 0.5)',
-            borderColor: 'rgba(147, 31, 51, 1)',
+            backgroundColor: 'rgba(19, 74, 142, 0.5)',
+            borderColor: 'rgba(19, 74, 142, 1)',
             borderWidth: 1
         },
         {
@@ -17640,8 +17632,8 @@ const data = {
                 82,
                 94
             ],
-            backgroundColor: 'rgba(98, 54, 205, 0.5)',
-            borderColor: 'rgba(98, 54, 205, 1)',
+            backgroundColor: 'rgba(29, 45, 92, 0.5)',
+            borderColor: 'rgba(29, 45, 92, 1)',
             borderWidth: 1
         }
     ]
@@ -17653,7 +17645,7 @@ const GameScoreBarChart = ()=>{
     let options = (0, _common.chartOptions)('2026 Game Scores', loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
-        const promises = labelImagesSources.map((src)=>{
+        const promises = (0, _common.labelImagesSources).map((src)=>{
             return new Promise((resolve)=>{
                 const img = new Image();
                 img.crossOrigin = 'anonymous';
@@ -17682,12 +17674,12 @@ const GameScoreBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/GameScoreBarChart.tsx",
-            lineNumber: 82,
+            lineNumber: 74,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/GameScoreBarChart.tsx",
-        lineNumber: 81,
+        lineNumber: 73,
         columnNumber: 5
     }, undefined);
 };
@@ -17701,7 +17693,7 @@ $RefreshReg$(_c, "GameScoreBarChart");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","./plugins/yAxisImages":"bvSSy","url:./assets/img.png":"i9iTx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6U2cz":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","./plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6U2cz":[function(require,module,exports,__globalThis) {
 /*!
  * Chart.js v4.5.1
  * https://www.chartjs.org
@@ -31699,8 +31691,17 @@ module.exports = require("c4c10cbba9862d5f");
 },{"593632ccebda0d3a":"jMk1U"}],"baGnG":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "labelImagesSources", ()=>labelImagesSources);
 parcelHelpers.export(exports, "labels", ()=>labels);
 parcelHelpers.export(exports, "chartOptions", ()=>chartOptions);
+var _imgPng = require("url:../assets/img.png");
+var _imgPngDefault = parcelHelpers.interopDefault(_imgPng);
+const labelImagesSources = [
+    (0, _imgPngDefault.default),
+    (0, _imgPngDefault.default),
+    (0, _imgPngDefault.default),
+    (0, _imgPngDefault.default)
+];
 const labels = [
     'Stache and soul patch',
     'Short beard',
@@ -31745,27 +31746,25 @@ const chartOptions = (titleText, loadedImages)=>({
         }
     });
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bvSSy":[function(require,module,exports,__globalThis) {
-// yAxisImageLabelsPlugin.js
+},{"url:../assets/img.png":"i9iTx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"i9iTx":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("img.833f0632.png") + "?" + Date.now();
+
+},{}],"bvSSy":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "yAxisImageLabelsPlugin", ()=>yAxisImageLabelsPlugin);
 const yAxisImageLabelsPlugin = {
     id: 'yAxisImageLabels',
     afterDraw (chart, args, pluginOptions) {
-        // 1. Chart.js automatically passes your config into 'pluginOptions'
         const { images } = pluginOptions;
         const { ctx, scales: { y } } = chart;
         const canvasWidth = chart.width;
-        // Safety check if no images were provided to this specific chart
         if (!images || images.length === 0) return;
         ctx.save();
         y.ticks.forEach((tick, index)=>{
             const img = images[index];
             if (!img) return;
             const yPixel = y.getPixelForTick(index);
-            // Calculate layout positioning relative to the left axis border line
-            // You can also pass custom offsets through pluginOptions if desired!
             const offset = pluginOptions.offset || 45;
             let imgWidth = pluginOptions.width || 40;
             let imgHeight = pluginOptions.height || 40;
@@ -31773,7 +31772,7 @@ const yAxisImageLabelsPlugin = {
             if (canvasWidth < 500) {
                 imgWidth = 24;
                 imgHeight = 24;
-                xPixel = chart.chartArea.left - 30; // Closer alignment for narrow canvas boxes
+                xPixel = chart.chartArea.left - 30;
             }
             ctx.drawImage(img, xPixel, yPixel - imgHeight / 2, imgWidth, imgHeight);
         });
@@ -31781,10 +31780,7 @@ const yAxisImageLabelsPlugin = {
     }
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"i9iTx":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("img.833f0632.png") + "?" + Date.now();
-
-},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -34080,15 +34076,13 @@ var _chartJs = require("chart.js");
 var _reactChartjs2 = require("react-chartjs-2");
 var _common = require("./data/common");
 var _yAxisImages = require("./plugins/yAxisImages");
-var _imgPng = require("url:./assets/img.png");
-var _imgPngDefault = parcelHelpers.interopDefault(_imgPng);
 var _s = $RefreshSig$();
 (0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
 const data = {
     labels: (0, _common.labels),
     datasets: [
         {
-            label: 'Four-seam fastball',
+            label: 'Four-seam',
             data: [
                 97.6,
                 97.2,
@@ -34110,35 +34104,17 @@ const data = {
             backgroundColor: 'rgba(254, 157, 0, 0.5)',
             borderColor: 'rgba(178, 110, 0, 1)',
             borderWidth: 1
-        },
-        {
-            label: 'Slider',
-            data: [
-                89.2,
-                89.1,
-                88.8,
-                88.2
-            ],
-            backgroundColor: 'rgba(238, 231, 22, 0.5)',
-            borderWidth: 1,
-            borderColor: 'rgba(167, 162, 15, 1)'
         }
     ]
 };
-const labelImagesSources = [
-    (0, _imgPngDefault.default),
-    (0, _imgPngDefault.default),
-    (0, _imgPngDefault.default),
-    (0, _imgPngDefault.default)
-];
 const VeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
     const [imagesReady, setImagesReady] = (0, _react.useState)(false);
-    let options = (0, _common.chartOptions)('2026 Average Velo', loadedImages);
+    let options = (0, _common.chartOptions)('2026 Average Fastball Velo', loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
-        const promises = labelImagesSources.map((src)=>{
+        const promises = (0, _common.labelImagesSources).map((src)=>{
             return new Promise((resolve)=>{
                 const img = new Image();
                 img.crossOrigin = 'anonymous';
@@ -34167,12 +34143,12 @@ const VeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/VeloBarChart.tsx",
-            lineNumber: 89,
+            lineNumber: 81,
             columnNumber: 11
         }, undefined)
     }, void 0, false, {
         fileName: "src/VeloBarChart.tsx",
-        lineNumber: 88,
+        lineNumber: 80,
         columnNumber: 7
     }, undefined);
 };
@@ -34186,6 +34162,6 @@ $RefreshReg$(_c, "VeloBarChart");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","./plugins/yAxisImages":"bvSSy","url:./assets/img.png":"i9iTx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","./plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=stachecast.6efbc4f8.js.map
