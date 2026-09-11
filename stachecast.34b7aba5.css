@@ -5,39 +5,43 @@ html {
   font-family: system-ui;
 }
 
+html, body, #app {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
 #app {
-  justify-content: center;
   display: block;
 }
 
 .container {
-  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: column;
   width: 100%;
-  min-width: 0;
+  min-width: 320px;
   max-width: 800px;
-  height: 100vh;
   margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
 }
 
 .chart-container {
   flex-direction: column;
   width: 100%;
   min-width: 0;
-  max-width: 100%;
-  min-height: 0;
   display: flex;
-  overflow: hidden;
 }
 
 .chart {
+  aspect-ratio: 2;
   width: 100%;
   min-width: 0;
-  overflow: hidden;
+  position: relative;
 }
 
 h1 {
   text-align: center;
-  flex: 0 0 100%;
   margin: 0;
   font-family: Denk One, sans-serif;
   font-size: clamp(2rem, 1rem + 4vw, 3rem);

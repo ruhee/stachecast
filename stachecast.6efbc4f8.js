@@ -17410,6 +17410,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "App", ()=>App);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _gameScoreBarChart = require("./GameScoreBarChart");
 var _veloBarChart = require("./VeloBarChart");
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -17431,12 +17432,19 @@ function App() {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "chart-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
-                    fileName: "src/App.tsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/App.tsx",
                 lineNumber: 10,
                 columnNumber: 7
@@ -17581,7 +17589,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./VeloBarChart":"c2zQv","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"c2zQv":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./VeloBarChart":"c2zQv","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./GameScoreBarChart":"d7NaK"}],"c2zQv":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$678a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$678a.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -17677,6 +17685,7 @@ const VeloBarChart = ()=>{
     }, []);
     const options = {
         responsive: true,
+        maintainAspectRatio: false,
         indexAxis: 'y',
         layout: {
             padding: {
@@ -17721,12 +17730,12 @@ const VeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/VeloBarChart.tsx",
-            lineNumber: 128,
+            lineNumber: 129,
             columnNumber: 11
         }, undefined)
     }, void 0, false, {
         fileName: "src/VeloBarChart.tsx",
-        lineNumber: 127,
+        lineNumber: 128,
         columnNumber: 7
     }, undefined);
 };
@@ -34065,6 +34074,154 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d7NaK":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a6bd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$a6bd.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a6bd.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "data", ()=>data);
+parcelHelpers.export(exports, "GameScoreBarChart", ()=>GameScoreBarChart);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _chartJs = require("chart.js");
+var _reactChartjs2 = require("react-chartjs-2");
+var _common = require("./data/common");
+var _imgPng = require("url:./assets/img.png");
+var _imgPngDefault = parcelHelpers.interopDefault(_imgPng);
+var _yAxisImages = require("./plugins/yAxisImages");
+var _react = require("react");
+var _s = $RefreshSig$();
+(0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
+const labelImagesSources = [
+    (0, _imgPngDefault.default),
+    (0, _imgPngDefault.default),
+    (0, _imgPngDefault.default),
+    (0, _imgPngDefault.default)
+];
+const data = {
+    labels: (0, _common.labels),
+    datasets: [
+        {
+            label: 'Avg per type',
+            data: [
+                57.6,
+                58.7,
+                77.2,
+                66.2
+            ],
+            backgroundColor: 'rgba(210, 45, 73, 0.5)',
+            borderColor: 'rgba(147, 31, 51, 1)',
+            borderWidth: 1
+        },
+        {
+            label: 'Max per type',
+            data: [
+                77,
+                72,
+                82,
+                94
+            ],
+            backgroundColor: 'rgba(98, 54, 205, 0.5)',
+            borderColor: 'rgba(98, 54, 205, 1)',
+            borderWidth: 1
+        }
+    ]
+};
+const GameScoreBarChart = ()=>{
+    _s();
+    const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
+    const [imagesReady, setImagesReady] = (0, _react.useState)(false);
+    (0, _react.useEffect)(()=>{
+        let isMounted = true;
+        const promises = labelImagesSources.map((src)=>{
+            return new Promise((resolve)=>{
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.src = src;
+                img.onload = ()=>resolve(img);
+                img.onerror = ()=>resolve(null);
+            });
+        });
+        Promise.all(promises).then((images)=>{
+            if (isMounted) {
+                setLoadedImages(images);
+                setImagesReady(true);
+            }
+        });
+        return ()=>{
+            isMounted = false;
+        };
+    }, []);
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+        layout: {
+            padding: {
+                left: 50
+            }
+        },
+        scales: {
+            x: {
+                beginAtZero: false
+            },
+            y: {
+                grid: {
+                    drawOnChartArea: false
+                },
+                ticks: {
+                    // Distance between the Y-axis baseline border and the text strings
+                    padding: 8,
+                    display: false
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                position: 'top'
+            },
+            title: {
+                display: true,
+                text: '2026 Game Scores'
+            },
+            yAxisImageLabels: {
+                images: loadedImages
+            }
+        }
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "chart",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
+            options: options,
+            data: data,
+            plugins: [
+                (0, _yAxisImages.yAxisImageLabelsPlugin)
+            ]
+        }, void 0, false, {
+            fileName: "src/GameScoreBarChart.tsx",
+            lineNumber: 122,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/GameScoreBarChart.tsx",
+        lineNumber: 121,
+        columnNumber: 5
+    }, undefined);
+};
+_s(GameScoreBarChart, "LvUEEwr9JvGnkWpIdJ4JUB6iGJo=");
+_c = GameScoreBarChart;
+var _c;
+$RefreshReg$(_c, "GameScoreBarChart");
+
+  $parcel$ReactRefreshHelpers$a6bd.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","url:./assets/img.png":"i9iTx","./plugins/yAxisImages":"bvSSy","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=stachecast.6efbc4f8.js.map
