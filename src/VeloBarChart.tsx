@@ -85,6 +85,7 @@ export const VeloBarChart = () => {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     indexAxis: 'y' as const,
     layout: {
       padding: {
