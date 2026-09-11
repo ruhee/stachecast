@@ -1,4 +1,4 @@
-import type { Plugin } from 'chart.js';
+import type { Plugin } from "chart.js";
 
 export type YAxisImageLabelsOptions = {
   images?: Array<CanvasImageSource | null>;
@@ -7,4 +7,4 @@ export type YAxisImageLabelsOptions = {
   height?: number;
 };
 
-export const yAxisImageLabelsPlugin: Plugin<'bar', YAxisImageLabelsOptions>;
+export const yAxisImageLabelsPlugin: Plugin<"bar", YAxisImageLabelsOptions>;

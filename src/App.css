@@ -5,7 +5,9 @@ html {
   background-color: #eee;
 }
 
-html, body, #app {
+html,
+body,
+#app {
   width: 100%;
   max-width: 100%;
   margin: 0;
@@ -51,11 +53,11 @@ h1 {
 }
 
 a {
-  color: #134A8E;
+  color: #134a8e;
 }
 
 a:hover {
-  color: #E8291C;
+  color: #e8291c;
 }
 
 footer {
