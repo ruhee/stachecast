@@ -9,15 +9,10 @@ import {
   Tooltip,
   Legend
 } from 'chart.js';
-import img from "url:./assets/img.png"
+import img from "url:./assets/img.png";
+import { yAxisImageLabelsPlugin } from './plugins/yAxisImages';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
-
-// const labelImagesSources = [
-//   'https://assets.streamlinehq.com/image/private/w_68,h_68,ar_1/f_auto/v1/icons/interface-essential/add-circle-bold-221ce.png',
-//   'https://assets.streamlinehq.com/image/private/w_68,h_68,ar_1/f_auto/v1/icons/interface-essential/add-circle-bold-221ce.png',
-//   'https://assets.streamlinehq.com/image/private/w_68,h_68,ar_1/f_auto/v1/icons/interface-essential/add-circle-bold-221ce.png',
-// ];
 
 const labelImagesSources = [
     img,
@@ -63,42 +58,6 @@ export default function HorizontalImageLabelChart() {
     ],
   };
 
-  const yAxisImageLabelsPlugin = useMemo(() => ({
-    id: 'yAxisImageLabels',
-    afterDraw(chart) {
-      const { ctx, scales: { y } } = chart;
-      
-      if (loadedImages.length === 0) return;
-
-      ctx.save();
-
-      y.ticks.forEach((tick, index) => {
-        const img = loadedImages[index];
-        if (!img) return;
-
-        // 1. Get the precise vertical pixel center for each row item
-        const yPixel = y.getPixelForTick(index);
-        
-        // 2. Position the image to the LEFT of the chart grid boundary line.
-        // Moving it left by 45 pixels leaves clean space for text labels.
-        const xPixel = chart.chartArea.left - 45; 
-
-        const imgWidth = 40;
-        const imgHeight = 40;
-
-        ctx.drawImage(
-          img,
-          xPixel, 
-          yPixel - imgHeight / 2, // Centered perfectly vertically with the bar text row
-          imgWidth,
-          imgHeight
-        );
-      });
-
-      ctx.restore();
-    },
-  }), [loadedImages]);
-
   const options = {
     // 3. Flips the bars horizontally
     indexAxis: 'y', 
@@ -107,6 +66,14 @@ export default function HorizontalImageLabelChart() {
       // 4. Add safety padding buffer on the LEFT side of the canvas context frame
       padding: {
         left: 50 
+      }
+    },
+    plugins: {
+      yAxisImageLabels: {
+        images: loadedImages, 
+        offset: 45,           
+        width: 40,
+        height: 40
       }
     },
     scales: {
