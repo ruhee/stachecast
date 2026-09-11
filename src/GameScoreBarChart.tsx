@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -9,9 +10,8 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { labels } from './data/common';
-import img from "url:./assets/img.png";
 import { yAxisImageLabelsPlugin } from './plugins/yAxisImages';
-import { useEffect, useState } from 'react';
+import img from "url:./assets/img.png";
 
 ChartJS.register(
   CategoryScale,
