@@ -1,5 +1,6 @@
 import { GameScoreBarChart } from "./GameScoreBarChart";
 import { VeloBarChart } from "./VeloBarChart";
+import { BreakingVeloBarChart } from "./BreakingVeloBarChart";
 
 export function App() {
   return (
@@ -9,6 +10,7 @@ export function App() {
       <div className="chart-container">
         <GameScoreBarChart />
         <VeloBarChart />
+        <BreakingVeloBarChart />
       </div>
       <footer>
         <p>Brought to you by <a href="https://bsky.app/profile/ruhee.ca">the stupid brain</a> behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please <a href="mailto:ruhee.dewji@gmail.com">send me feedback or bug reports</a>.</p>
