@@ -9,9 +9,8 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { chartOptions, labels } from './data/common';
+import { chartOptions, labels, labelImagesSources } from './data/common';
 import { yAxisImageLabelsPlugin } from './plugins/yAxisImages';
-import img from "url:./assets/img.png";
 
 ChartJS.register(
   CategoryScale,
@@ -22,35 +21,28 @@ ChartJS.register(
   Legend
 );
 
-const labelImagesSources = [
-  img,
-  img,
-  img,
-  img
-];
-
 export const data = {
   labels: labels, 
   datasets: [
     {
       label: 'Average',
       data: [57.6, 58.7, 77.2, 66.2],
-      backgroundColor: 'rgba(210, 45, 73, 0.5)',
-      borderColor: 'rgba(147, 31, 51, 1)',
+      backgroundColor: 'rgba(19, 74, 142, 0.5)',
+      borderColor: 'rgba(19, 74, 142, 1)',
       borderWidth: 1,
     },
     { 
       label: 'Highest',
       data: [77, 72, 82, 94],
-      backgroundColor: 'rgba(98, 54, 205, 0.5)',
-      borderColor: 'rgba(98, 54, 205, 1)',
+      backgroundColor: 'rgba(29, 45, 92, 0.5)',
+      borderColor: 'rgba(29, 45, 92, 1)',
       borderWidth: 1,
     }
   ]
 }
 
 export const GameScoreBarChart = () => {
-  const [loadedImages, setLoadedImages] = useState([]);
+  const [loadedImages, setLoadedImages] = useState<never[]>([]);
   const [imagesReady, setImagesReady] = useState(false);
   let options = chartOptions('2026 Game Scores', loadedImages);
 
@@ -69,7 +61,7 @@ export const GameScoreBarChart = () => {
   
     Promise.all(promises).then((images) => {
       if (isMounted) {
-        setLoadedImages(images);
+        setLoadedImages(images as never[]);
         setImagesReady(true);
       }
     });

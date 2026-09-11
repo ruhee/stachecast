@@ -9,9 +9,8 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { chartOptions, labels } from './data/common';
+import { chartOptions, labels, labelImagesSources } from './data/common';
 import { yAxisImageLabelsPlugin } from './plugins/yAxisImages';
-import img from "url:./assets/img.png";
 
 ChartJS.register(
   CategoryScale,
@@ -26,7 +25,7 @@ export const data = {
   labels: labels, 
   datasets: [
     {
-      label: 'Four-seam fastball',
+      label: 'Four-seam',
       data: [97.6, 97.2, 96.9, 96.1],
       backgroundColor: 'rgba(210, 45, 73, 0.5)',
       borderColor: 'rgba(147, 31, 51, 1)',
@@ -39,27 +38,20 @@ export const data = {
       borderColor: 'rgba(178, 110, 0, 1)',
       borderWidth: 1,
     },
-    {
-      label: 'Slider',
-      data: [89.2, 89.1,88.8,88.2],
-      backgroundColor: 'rgba(238, 231, 22, 0.5)',
-      borderWidth: 1,
-      borderColor: 'rgba(167, 162, 15, 1)',
-    },
+    // {
+    //   label: 'Slider',
+    //   data: [89.2, 89.1,88.8,88.2],
+    //   backgroundColor: 'rgba(238, 231, 22, 0.5)',
+    //   borderWidth: 1,
+    //   borderColor: 'rgba(167, 162, 15, 1)',
+    // },
   ]
 }
 
-const labelImagesSources = [
-  img,
-  img,
-  img,
-  img
-];
-
 export const VeloBarChart = () => {
-  const [loadedImages, setLoadedImages] = useState([]);
+  const [loadedImages, setLoadedImages] = useState<never[]>([]);
   const [imagesReady, setImagesReady] = useState(false);
-  let options = chartOptions('2026 Average Velo', loadedImages);
+  let options = chartOptions('2026 Average Fastball Velo', loadedImages);
 
   useEffect(() => {
     let isMounted = true;
@@ -76,7 +68,7 @@ export const VeloBarChart = () => {
   
     Promise.all(promises).then((images) => {
       if (isMounted) {
-        setLoadedImages(images);
+        setLoadedImages(images as never[]);
         setImagesReady(true);
       }
     });
