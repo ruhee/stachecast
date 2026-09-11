@@ -5,4 +5,40 @@ export const labels: string[] = [
   'Mountain man beard'
 ];
 
-export const veloByType = {}
+export const chartOptions = (titleText: string, loadedImages: never[]) => ({
+   responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y' as const,
+    layout: {
+      padding: {
+        left: 50 
+      }
+    },
+    scales: {
+      x: {
+        beginAtZero:false,
+      },
+      y: {
+        grid: {
+          drawOnChartArea: false,
+        },
+        ticks: {
+          // Distance between the Y-axis baseline border and the text strings
+          padding: 8, 
+          display: false, 
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        position: 'top' as const,
+      },
+      title: {
+        display: true,
+        text: titleText,
+      },
+      yAxisImageLabels: {
+        images: loadedImages, 
+      },
+    },
+});
