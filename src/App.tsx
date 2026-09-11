@@ -1,5 +1,4 @@
 import { GameScoreBarChart } from "./GameScoreBarChart";
-import ImageLabelChart from "./TestChart";
 import { VeloBarChart } from "./VeloBarChart";
 
 export function App() {
