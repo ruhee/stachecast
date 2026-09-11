@@ -10,6 +10,7 @@ import {
 import { Bar } from 'react-chartjs-2';
 import { labels } from './data/common';
 
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -21,10 +22,11 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  indexAxis: 'y' as const,
   scales: {
-y: {
-    beginAtZero:false,
-}
+    x: {
+        beginAtZero:false,
+    }
   },
   plugins: {
     legend: {
