@@ -5,6 +5,7 @@ export const yAxisImageLabelsPlugin = {
     // 1. Chart.js automatically passes your config into 'pluginOptions'
     const { images } = pluginOptions;
     const { ctx, scales: { y } } = chart;
+    const canvasWidth = chart.width;
     
     // Safety check if no images were provided to this specific chart
     if (!images || images.length === 0) return;
@@ -20,10 +21,16 @@ export const yAxisImageLabelsPlugin = {
       // Calculate layout positioning relative to the left axis border line
       // You can also pass custom offsets through pluginOptions if desired!
       const offset = pluginOptions.offset || 45;
-      const xPixel = chart.chartArea.left - offset; 
 
-      const imgWidth = pluginOptions.width || 40;
-      const imgHeight = pluginOptions.height || 40;
+      let imgWidth = pluginOptions.width || 40;
+        let imgHeight = pluginOptions.height || 40;
+        let xPixel = chart.chartArea.left - (offset || 45);
+
+        if (canvasWidth < 500) {
+          imgWidth = 24;
+          imgHeight = 24;
+          xPixel = chart.chartArea.left - 30; // Closer alignment for narrow canvas boxes
+        }
 
       ctx.drawImage(
         img,
