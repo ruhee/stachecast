@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -7,10 +7,10 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
-import { Bar } from 'react-chartjs-2';
-import { chartOptions, labels, labelImagesSources } from './data/common';
-import { yAxisImageLabelsPlugin } from './plugins/yAxisImages';
+} from "chart.js";
+import { Bar } from "react-chartjs-2";
+import { chartOptions, labels, labelImagesSources } from "./data/common";
+import { yAxisImageLabelsPlugin } from "./plugins/yAxisImages";
 
 ChartJS.register(
   CategoryScale,
@@ -18,24 +18,24 @@ ChartJS.register(
   BarElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
 );
 
 export const data = {
-  labels: labels, 
+  labels: labels,
   datasets: [
     {
-      label: 'Four-seam',
+      label: "Four-seam",
       data: [97.6, 97.2, 96.9, 96.1],
-      backgroundColor: 'rgba(210, 45, 73, 0.5)',
-      borderColor: 'rgba(147, 31, 51, 1)',
+      backgroundColor: "rgba(210, 45, 73, 0.5)",
+      borderColor: "rgba(147, 31, 51, 1)",
       borderWidth: 1,
     },
-    { 
-      label: 'Sinker',
+    {
+      label: "Sinker",
       data: [96.1, 96.1, 95.8, 95],
-      backgroundColor: 'rgba(254, 157, 0, 0.5)',
-      borderColor: 'rgba(178, 110, 0, 1)',
+      backgroundColor: "rgba(254, 157, 0, 0.5)",
+      borderColor: "rgba(178, 110, 0, 1)",
       borderWidth: 1,
     },
     // {
@@ -45,38 +45,40 @@ export const data = {
     //   borderWidth: 1,
     //   borderColor: 'rgba(167, 162, 15, 1)',
     // },
-  ]
-}
+  ],
+};
 
 export const VeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions('2026 Average Fastball Velo', loadedImages);
+  let options = chartOptions("2026 Average Fastball Velo", loadedImages);
 
   useEffect(() => {
     let isMounted = true;
-      
+
     const promises = labelImagesSources.map((src) => {
       return new Promise((resolve) => {
         const img = new Image();
-        img.crossOrigin = 'anonymous'; 
+        img.crossOrigin = "anonymous";
         img.src = src;
         img.onload = () => resolve(img);
         img.onerror = () => resolve(null);
       });
     });
-  
+
     Promise.all(promises).then((images) => {
       if (isMounted) {
         setLoadedImages(images as never[]);
       }
     });
-  
-    return () => { isMounted = false; };
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   return (
-      <div className="chart">
-          <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]}  />
-      </div>
-  )
-}
+    <div className="chart">
+      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
+    </div>
+  );
+};

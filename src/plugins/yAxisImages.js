@@ -13,17 +13,17 @@ export const yAxisImageLabelsPlugin = {
       const img = images[index];
       if (!img) return;
 
-      const yPixel = y.getPixelForTick(index);
-      const offset = pluginOptions.offset || 45;
+      const yPixel = y.getPixelForTick(index);  
+      const offset = pluginOptions.offset || 60;
 
-      let imgWidth = pluginOptions.width || 40;
-      let imgHeight = pluginOptions.height || 40;
-      let xPixel = chart.chartArea.left - (offset || 45);
+      let imgWidth = pluginOptions.width || 50;
+      let imgHeight = pluginOptions.height || 50;
+      let xPixel = chart.chartArea.left - (offset || 60);
 
-      if (canvasWidth < 500) {
-        imgWidth = 24;
-        imgHeight = 24;
-        xPixel = chart.chartArea.left - 30;
+      if (canvasWidth < 650) {
+        imgWidth = 40;
+        imgHeight = 40;
+        xPixel = chart.chartArea.left - 50;
       }
 
       ctx.drawImage(
