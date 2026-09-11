@@ -8,9 +8,8 @@ export function App() {
     <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
     <p>On September 7, Dylan Cease's velo was down and so was his facial hair. What this website asks is: are those things related?</p>
       <div className="chart-container">
-        <ImageLabelChart />
         {/* <GameScoreBarChart /> */}
-        {/* <VeloBarChart /> */}
+        <VeloBarChart />
       </div>
       <footer>
         <p>Brought to you by <a href="https://bsky.app/profile/ruhee.ca">the stupid brain</a> behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please <a href="mailto:ruhee.dewji@gmail.com">send me feedback or bug reports</a>.</p>
