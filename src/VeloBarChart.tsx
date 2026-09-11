@@ -116,9 +116,9 @@ export const VeloBarChart = () => {
       },
       yAxisImageLabels: {
         images: loadedImages, 
-        offset: 45,           
-        width: 40,
-        height: 40
+        // offset: 45,           
+        // width: 40,
+        // height: 40
       },
     },
   };
