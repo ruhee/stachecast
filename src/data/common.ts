@@ -1,3 +1,11 @@
+import img from "url:../assets/img.png";
+export const labelImagesSources = [
+  img,
+  img,
+  img,
+  img
+];
+
 export const labels: string[] = [
   'Stache and soul patch',
   'Short beard',
