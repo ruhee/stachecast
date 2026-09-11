@@ -17412,6 +17412,7 @@ parcelHelpers.export(exports, "App", ()=>App);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _gameScoreBarChart = require("./GameScoreBarChart");
 var _veloBarChart = require("./VeloBarChart");
+var _breakingVeloBarChart = require("./BreakingVeloBarChart");
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container",
@@ -17420,14 +17421,14 @@ function App() {
                 children: "\uD83D\uDC68\uD83C\uDFFB STACHECAST \uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "On September 7, Dylan Cease's velo was down and so was his facial hair. What this website asks is: are those things related?"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -17435,18 +17436,23 @@ function App() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 11,
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _breakingVeloBarChart.BreakingVeloBarChart), {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -17459,7 +17465,7 @@ function App() {
                                 children: "the stupid brain"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 14,
+                                lineNumber: 16,
                                 columnNumber: 30
                             }, this),
                             " behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please ",
@@ -17468,21 +17474,21 @@ function App() {
                                 children: "send me feedback or bug reports"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 14,
+                                lineNumber: 16,
                                 columnNumber: 196
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 14,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Credits:"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 15,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -17495,20 +17501,20 @@ function App() {
                                         children: "Baseball Savant and Statcast"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 17,
+                                        lineNumber: 19,
                                         columnNumber: 30
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 17,
+                                lineNumber: 19,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "Beard data via MLB highlight packages and my eyes"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 18,
+                                lineNumber: 20,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -17519,7 +17525,7 @@ function App() {
                                         children: "Gareth"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 21,
                                         columnNumber: 51
                                     }, this),
                                     " and data science advice from ",
@@ -17528,13 +17534,13 @@ function App() {
                                         children: "Chris"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 21,
                                         columnNumber: 146
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 19,
+                                lineNumber: 21,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -17545,38 +17551,38 @@ function App() {
                                         children: "Phil"
                                     }, void 0, false, {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 20,
+                                        lineNumber: 22,
                                         columnNumber: 38
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 20,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 16,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 22,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 13,
+                lineNumber: 15,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }
@@ -17589,7 +17595,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./GameScoreBarChart":"d7NaK","./VeloBarChart":"c2zQv","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d7NaK":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./GameScoreBarChart":"d7NaK","./VeloBarChart":"c2zQv","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./BreakingVeloBarChart":"66Mc9"}],"d7NaK":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$a6bd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$a6bd.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -17641,7 +17647,6 @@ const data = {
 const GameScoreBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    const [imagesReady, setImagesReady] = (0, _react.useState)(false);
     let options = (0, _common.chartOptions)('2026 Game Scores', loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
@@ -17655,10 +17660,7 @@ const GameScoreBarChart = ()=>{
             });
         });
         Promise.all(promises).then((images)=>{
-            if (isMounted) {
-                setLoadedImages(images);
-                setImagesReady(true);
-            }
+            if (isMounted) setLoadedImages(images);
         });
         return ()=>{
             isMounted = false;
@@ -17674,16 +17676,16 @@ const GameScoreBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/GameScoreBarChart.tsx",
-            lineNumber: 74,
+            lineNumber: 72,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/GameScoreBarChart.tsx",
-        lineNumber: 73,
+        lineNumber: 71,
         columnNumber: 5
     }, undefined);
 };
-_s(GameScoreBarChart, "LvUEEwr9JvGnkWpIdJ4JUB6iGJo=");
+_s(GameScoreBarChart, "FsEKGmMLwKxlCaAGmjFgljn2dng=");
 _c = GameScoreBarChart;
 var _c;
 $RefreshReg$(_c, "GameScoreBarChart");
@@ -31719,7 +31721,8 @@ const chartOptions = (titleText, loadedImages)=>({
         },
         scales: {
             x: {
-                beginAtZero: false
+                beginAtZero: false,
+                grace: '3%'
             },
             y: {
                 grid: {
@@ -34110,7 +34113,6 @@ const data = {
 const VeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    const [imagesReady, setImagesReady] = (0, _react.useState)(false);
     let options = (0, _common.chartOptions)('2026 Average Fastball Velo', loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
@@ -34124,10 +34126,7 @@ const VeloBarChart = ()=>{
             });
         });
         Promise.all(promises).then((images)=>{
-            if (isMounted) {
-                setLoadedImages(images);
-                setImagesReady(true);
-            }
+            if (isMounted) setLoadedImages(images);
         });
         return ()=>{
             isMounted = false;
@@ -34143,21 +34142,145 @@ const VeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/VeloBarChart.tsx",
-            lineNumber: 81,
+            lineNumber: 79,
             columnNumber: 11
         }, undefined)
     }, void 0, false, {
         fileName: "src/VeloBarChart.tsx",
-        lineNumber: 80,
+        lineNumber: 78,
         columnNumber: 7
     }, undefined);
 };
-_s(VeloBarChart, "LvUEEwr9JvGnkWpIdJ4JUB6iGJo=");
+_s(VeloBarChart, "FsEKGmMLwKxlCaAGmjFgljn2dng=");
 _c = VeloBarChart;
 var _c;
 $RefreshReg$(_c, "VeloBarChart");
 
   $parcel$ReactRefreshHelpers$678a.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","./plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"66Mc9":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$776c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$776c.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$776c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "data", ()=>data);
+parcelHelpers.export(exports, "BreakingVeloBarChart", ()=>BreakingVeloBarChart);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _chartJs = require("chart.js");
+var _reactChartjs2 = require("react-chartjs-2");
+var _common = require("./data/common");
+var _yAxisImages = require("./plugins/yAxisImages");
+var _s = $RefreshSig$();
+(0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
+const data = {
+    labels: (0, _common.labels),
+    datasets: [
+        {
+            label: 'Slider',
+            data: [
+                89.2,
+                89.1,
+                88.8,
+                88.2
+            ],
+            backgroundColor: 'rgba(238, 231, 22, 0.5)',
+            borderWidth: 1,
+            borderColor: 'rgb(179, 173, 8)'
+        },
+        {
+            label: 'Sweeper',
+            data: [
+                83.5,
+                84.1,
+                82.8,
+                81.8
+            ],
+            backgroundColor: 'rgba(221, 179, 58, 0.5)',
+            borderWidth: 1,
+            borderColor: 'rgb(221, 179, 58)'
+        },
+        {
+            label: 'Changeup',
+            data: [
+                83.8,
+                82.9,
+                79.9,
+                79.2
+            ],
+            backgroundColor: 'rgba(29, 190, 58, 0.5)',
+            borderWidth: 1,
+            borderColor: 'rgba(29, 190, 58, 1)'
+        },
+        {
+            label: 'Knuckle Curve',
+            data: [
+                82.4,
+                82.9,
+                81.9,
+                80.6
+            ],
+            backgroundColor: 'rgba(98, 54, 205, 0.5)',
+            borderWidth: 1,
+            borderColor: 'rgb(98, 54, 205)'
+        }
+    ]
+};
+const BreakingVeloBarChart = ()=>{
+    _s();
+    const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
+    let options = (0, _common.chartOptions)('2026 Average Breaking Ball/Offspeed Velo', loadedImages);
+    (0, _react.useEffect)(()=>{
+        let isMounted = true;
+        const promises = (0, _common.labelImagesSources).map((src)=>{
+            return new Promise((resolve)=>{
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.src = src;
+                img.onload = ()=>resolve(img);
+                img.onerror = ()=>resolve(null);
+            });
+        });
+        Promise.all(promises).then((images)=>{
+            if (isMounted) setLoadedImages(images);
+        });
+        return ()=>{
+            isMounted = false;
+        };
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "chart",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
+            options: options,
+            data: data,
+            plugins: [
+                (0, _yAxisImages.yAxisImageLabelsPlugin)
+            ]
+        }, void 0, false, {
+            fileName: "src/BreakingVeloBarChart.tsx",
+            lineNumber: 86,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/BreakingVeloBarChart.tsx",
+        lineNumber: 85,
+        columnNumber: 7
+    }, undefined);
+};
+_s(BreakingVeloBarChart, "FsEKGmMLwKxlCaAGmjFgljn2dng=");
+_c = BreakingVeloBarChart;
+var _c;
+$RefreshReg$(_c, "BreakingVeloBarChart");
+
+  $parcel$ReactRefreshHelpers$776c.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
