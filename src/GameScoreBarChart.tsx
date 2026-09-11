@@ -30,23 +30,23 @@ const labelImagesSources = [
 ];
 
 export const data = {
-    labels: labels, 
-    datasets: [
-        {
-            label: 'Avg per type',
-            data: [57.6, 58.7, 77.2, 66.2],
-            backgroundColor: 'rgba(210, 45, 73, 0.5)',
-            borderColor: 'rgba(147, 31, 51, 1)',
-            borderWidth: 1,
-          },
-        { 
-            label: 'Max per type',
-            data: [77, 72, 82, 94],
-            backgroundColor: 'rgba(98, 54, 205, 0.5)',
-            borderColor: 'rgba(98, 54, 205, 1)',
-            borderWidth: 1,
-        }
-    ]
+  labels: labels, 
+  datasets: [
+    {
+      label: 'Average',
+      data: [57.6, 58.7, 77.2, 66.2],
+      backgroundColor: 'rgba(210, 45, 73, 0.5)',
+      borderColor: 'rgba(147, 31, 51, 1)',
+      borderWidth: 1,
+    },
+    { 
+      label: 'Highest',
+      data: [77, 72, 82, 94],
+      backgroundColor: 'rgba(98, 54, 205, 0.5)',
+      borderColor: 'rgba(98, 54, 205, 1)',
+      borderWidth: 1,
+    }
+  ]
 }
 
 export const GameScoreBarChart = () => {
