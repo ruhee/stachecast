@@ -78,6 +78,7 @@ export const GameScoreBarChart = () => {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     indexAxis: 'y' as const,
     layout: {
       padding: {
