@@ -1,6 +1,7 @@
 import { GameScoreBarChart } from "./GameScoreBarChart";
 import { VeloBarChart } from "./VeloBarChart";
 import { BreakingVeloBarChart } from "./BreakingVeloBarChart";
+import { K9BarChart } from "./K9BarChart";
 
 export function App() {
   return (
@@ -15,13 +16,14 @@ export function App() {
         website asks is: are those things related?
       </p>
       <div className="chart-container">
-        <p>In 2026, Cease's fastball velo is inversely related to the amount of hair on his face.</p>
+        <p>In 2026, Cease's velo is inversely related to the amount of hair on his face.</p>
         <VeloBarChart />
-        <p>The breaking and offspeed pitches follow a similar trend.</p>
         <BreakingVeloBarChart />
         <p>Cease generally has higher game scores with a full beard, though, and all of his best games by game score (<a href="https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win">a no-hit bid into the 7th</a>, <a href="https://www.mlb.com/video/dylan-cease-flirts-with-no-hitter-in-blue-jays-win">a no-hit bid into the 9th</a>, and <a href="https://www.mlb.com/news/dylan-cease-pitches-complete-game-shutout-al-cy-young-award-case
         ">a CG shutout</a>) were on full-beard or long-beard days.</p>
         <GameScoreBarChart />
+        <p>His strikeouts are also highest with a beard.</p>
+        <K9BarChart />
       </div>
       <footer>
         <p>

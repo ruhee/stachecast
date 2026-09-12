@@ -38,19 +38,12 @@ export const data = {
       borderColor: "rgba(226, 149, 82, 1)",
       borderWidth: 1,
     },
-    // {
-    //   label: 'Slider',
-    //   data: [89.2, 89.1,88.8,88.2],
-    //   backgroundColor: 'rgba(238, 231, 22, 0.5)',
-    //   borderWidth: 1,
-    //   borderColor: 'rgba(167, 162, 15, 1)',
-    // },
   ],
 };
 
 export const VeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions("2026 Average Fastball Velo", loadedImages);
+  let options = chartOptions("2026 Average Fastball Velocity", loadedImages);
 
   useEffect(() => {
     let isMounted = true;

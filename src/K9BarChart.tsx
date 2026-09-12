@@ -25,42 +25,18 @@ export const data = {
   labels: labels,
   datasets: [
     {
-      label: "Slider",
-      data: [89.2, 89.1, 88.8, 88.2],
-      backgroundColor: "rgba(0, 87, 127, 0.5)",
+      label: "K/9",
+      data: [6.22, 5.38, 6.64, 7.08],
+      backgroundColor: "rgba(6, 86, 61, 0.5)",
+      borderColor: "rgba(6, 86, 61, 1)",
       borderWidth: 1,
-      borderColor: "rgb(0, 87, 127, 8)",
-    },
-    {
-      label: "Sweeper",
-      data: [83.5, 84.1, 82.8, 81.8],
-      backgroundColor: "rgba(150, 101, 177, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgb(150, 101, 177)",
-    },
-    {
-      label: "Changeup",
-      data: [83.8, 82.9, 79.9, 79.2],
-      backgroundColor: "rgba(255, 114, 136, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgba(255, 114, 136, 1)",
-    },
-    {
-      label: "Knuckle Curve",
-      data: [82.4, 82.9, 81.9, 80.6],
-      backgroundColor: "rgba(255, 196, 59, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgb(255, 196, 59, 1)",
     },
   ],
 };
 
-export const BreakingVeloBarChart = () => {
+export const K9BarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions(
-    "2026 Average Breaking Ball/Offspeed Velocity",
-    loadedImages,
-  );
+  let options = chartOptions("2026 Strikeouts/9", loadedImages, false);
 
   useEffect(() => {
     let isMounted = true;
@@ -87,7 +63,7 @@ export const BreakingVeloBarChart = () => {
   }, []);
 
   return (
-    <div className="chart breaking">
+    <div className="chart">
       <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
