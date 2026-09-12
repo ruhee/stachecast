@@ -34,8 +34,8 @@ export const data = {
     {
       label: "Sinker",
       data: [96.1, 96.1, 95.8, 95],
-      backgroundColor: "rgba(254, 157, 0, 0.5)",
-      borderColor: "rgba(178, 110, 0, 1)",
+      backgroundColor: "rgba(226, 149, 82, 0.5)",
+      borderColor: "rgba(226, 149, 82, 1)",
       borderWidth: 1,
     },
     // {
