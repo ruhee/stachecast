@@ -31749,13 +31749,13 @@ var _full2Jpg = require("url:../assets/full2.jpg");
 var _full2JpgDefault = parcelHelpers.interopDefault(_full2Jpg);
 var _long2Jpg = require("url:../assets/long2.jpg");
 var _long2JpgDefault = parcelHelpers.interopDefault(_long2Jpg);
-var _short3Jpg = require("url:../assets/short3.jpg");
-var _short3JpgDefault = parcelHelpers.interopDefault(_short3Jpg);
+var _short4Jpg = require("url:../assets/short4.jpg");
+var _short4JpgDefault = parcelHelpers.interopDefault(_short4Jpg);
 var _stacheJpeg = require("url:../assets/stache.jpeg");
 var _stacheJpegDefault = parcelHelpers.interopDefault(_stacheJpeg);
 const labelImagesSources = [
     (0, _stacheJpegDefault.default),
-    (0, _short3JpgDefault.default),
+    (0, _short4JpgDefault.default),
     (0, _full2JpgDefault.default),
     (0, _long2JpgDefault.default)
 ];
@@ -31805,14 +31805,14 @@ const chartOptions = (titleText, loadedImages, showLegend = true)=>({
         }
     });
 
-},{"url:../assets/full2.jpg":"fGpW9","url:../assets/long2.jpg":"j8RCw","url:../assets/short3.jpg":"8IzWP","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fGpW9":[function(require,module,exports,__globalThis) {
+},{"url:../assets/full2.jpg":"fGpW9","url:../assets/long2.jpg":"j8RCw","url:../assets/short4.jpg":"6kYPc","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fGpW9":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("full2.2a0a7b8e.jpg") + "?" + Date.now();
 
 },{}],"j8RCw":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("long2.27f9a16b.jpg") + "?" + Date.now();
 
-},{}],"8IzWP":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("short3.d3aabe26.jpg") + "?" + Date.now();
+},{}],"6kYPc":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("short4.c478c5fe.jpg") + "?" + Date.now();
 
 },{}],"cBjlu":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("stache.03636207.jpeg") + "?" + Date.now();
