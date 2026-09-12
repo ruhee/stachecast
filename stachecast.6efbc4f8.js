@@ -17425,8 +17425,30 @@ function App() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "On September 7, Dylan Cease's velo was down and so was his facial hair. What this website asks is: are those things related?"
-            }, void 0, false, {
+                children: [
+                    "On September 7, Dylan Cease's",
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302",
+                        children: "velo was down"
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    " ",
+                    "and, for the first time in awhile, ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://bloximages.chicago2.vip.townnews.com/daytondailynews.com/content/tncms/assets/v3/editorial/1/a9/1a9e0a1f-68dd-56e0-a2f6-ac8e3af5bb16/6a9f7871e7e50.image.jpg?resize=1763%2C1176",
+                        children: "so was his facial hair"
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 14,
+                        columnNumber: 44
+                    }, this),
+                    ". What this website asks is: are those things related?"
+                ]
+            }, void 0, true, {
                 fileName: "src/App.tsx",
                 lineNumber: 9,
                 columnNumber: 7
@@ -17434,25 +17456,75 @@ function App() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "chart-container",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "In 2026, Cease's fastball velo is inversely related to the amount of hair on his face."
+                    }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 14,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 15,
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "The breaking and offspeed pitches follow a similar trend."
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _breakingVeloBarChart.BreakingVeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 16,
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            "Cease generally has higher game scores with a full beard, though, and all of his best games by game score (",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win",
+                                children: "a no-hit bid into the 7th"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 22,
+                                columnNumber: 119
+                            }, this),
+                            ", ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://www.mlb.com/video/dylan-cease-flirts-with-no-hitter-in-blue-jays-win",
+                                children: "a no-hit bid into the 9th"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 22,
+                                columnNumber: 248
+                            }, this),
+                            ", and ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://www.mlb.com/news/dylan-cease-pitches-complete-game-shutout-al-cy-young-award-case ",
+                                children: "a CG shutout"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 22,
+                                columnNumber: 370
+                            }, this),
+                            ") were on full-beard or long-beard days."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 13,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -17466,7 +17538,7 @@ function App() {
                                 children: "the stupid brain"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 21,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -17477,14 +17549,14 @@ function App() {
                                 children: "send me feedback or bug reports"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 24,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 19,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17496,7 +17568,7 @@ function App() {
                                 children: "Baseball Savant and Statcast"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 31,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             ". Beard data via MLB highlight packages and my eyes. Exceptional product management from",
@@ -17506,18 +17578,17 @@ function App() {
                                 children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 34,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this),
-                            " ",
-                            "and data science advice from",
+                            " and data science advice from",
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://bsky.app/profile/pointsman.bsky.social",
                                 children: "Chris"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 36,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             ". Perfect name thanks to",
@@ -17527,27 +17598,28 @@ function App() {
                                 children: "Phil"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 38,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
-                            ". "
+                            ".",
+                            " "
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 30,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 39,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 18,
+                lineNumber: 26,
                 columnNumber: 7
             }, this)
         ]
@@ -31667,10 +31739,10 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "labelImagesSources", ()=>labelImagesSources);
 parcelHelpers.export(exports, "labels", ()=>labels);
 parcelHelpers.export(exports, "chartOptions", ()=>chartOptions);
-var _fullJpg = require("url:../assets/full.jpg");
-var _fullJpgDefault = parcelHelpers.interopDefault(_fullJpg);
-var _longJpg = require("url:../assets/long.jpg");
-var _longJpgDefault = parcelHelpers.interopDefault(_longJpg);
+var _full2Jpg = require("url:../assets/full2.jpg");
+var _full2JpgDefault = parcelHelpers.interopDefault(_full2Jpg);
+var _long2Jpg = require("url:../assets/long2.jpg");
+var _long2JpgDefault = parcelHelpers.interopDefault(_long2Jpg);
 var _short3Jpg = require("url:../assets/short3.jpg");
 var _short3JpgDefault = parcelHelpers.interopDefault(_short3Jpg);
 var _stacheJpeg = require("url:../assets/stache.jpeg");
@@ -31678,8 +31750,8 @@ var _stacheJpegDefault = parcelHelpers.interopDefault(_stacheJpeg);
 const labelImagesSources = [
     (0, _stacheJpegDefault.default),
     (0, _short3JpgDefault.default),
-    (0, _fullJpgDefault.default),
-    (0, _longJpgDefault.default)
+    (0, _full2JpgDefault.default),
+    (0, _long2JpgDefault.default)
 ];
 const labels = [
     "Stache and soul patch",
@@ -31726,17 +31798,17 @@ const chartOptions = (titleText, loadedImages)=>({
         }
     });
 
-},{"url:../assets/full.jpg":"lMeuX","url:../assets/long.jpg":"5dnxM","url:../assets/short3.jpg":"8IzWP","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"lMeuX":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("full.5b175b39.jpg") + "?" + Date.now();
-
-},{}],"5dnxM":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("long.77c6157c.jpg") + "?" + Date.now();
-
-},{}],"8IzWP":[function(require,module,exports,__globalThis) {
+},{"url:../assets/short3.jpg":"8IzWP","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../assets/full2.jpg":"fGpW9","url:../assets/long2.jpg":"j8RCw"}],"8IzWP":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("short3.d3aabe26.jpg") + "?" + Date.now();
 
 },{}],"cBjlu":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("stache.03636207.jpeg") + "?" + Date.now();
+
+},{}],"fGpW9":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("full2.2a0a7b8e.jpg") + "?" + Date.now();
+
+},{}],"j8RCw":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("long2.27f9a16b.jpg") + "?" + Date.now();
 
 },{}],"bvSSy":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
