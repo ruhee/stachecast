@@ -43,6 +43,10 @@ body,
   min-height: 280px;
 }
 
+.breaking {
+  min-height: 310px;
+}
+
 h1 {
   font-family: "Denk One", sans-serif;
   font-weight: 400;
