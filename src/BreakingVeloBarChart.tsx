@@ -87,7 +87,7 @@ export const BreakingVeloBarChart = () => {
   }, []);
 
   return (
-    <div className="chart">
+    <div className="chart breaking">
       <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
