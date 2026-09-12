@@ -17488,86 +17488,49 @@ function App() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Credits:"
-                    }, void 0, false, {
-                        fileName: "src/App.tsx",
-                        lineNumber: 29,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "Pitch data via",
-                                    " ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
-                                        children: "Baseball Savant and Statcast"
-                                    }, void 0, false, {
-                                        fileName: "src/App.tsx",
-                                        lineNumber: 33,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            "Pitch data via",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
+                                children: "Baseball Savant and Statcast"
+                            }, void 0, false, {
                                 fileName: "src/App.tsx",
                                 lineNumber: 31,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Beard data via MLB highlight packages and my eyes"
+                            ". Beard data via MLB highlight packages and my eyes. Exceptional product management from",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://bsky.app/profile/gareths.bsky.social",
+                                children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 37,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "Exceptional product management from",
-                                    " ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "https://bsky.app/profile/gareths.bsky.social",
-                                        children: "Gareth"
-                                    }, void 0, false, {
-                                        fileName: "src/App.tsx",
-                                        lineNumber: 40,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    "and data science advice from",
-                                    " ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "https://bsky.app/profile/pointsman.bsky.social",
-                                        children: "Chris"
-                                    }, void 0, false, {
-                                        fileName: "src/App.tsx",
-                                        lineNumber: 42,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            " ",
+                            "and data science advice from",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://bsky.app/profile/pointsman.bsky.social",
+                                children: "Chris"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 36,
+                                columnNumber: 11
+                            }, this),
+                            ". Perfect name thanks to",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://bsky.app/profile/phrichards.ca",
+                                children: "Phil"
+                            }, void 0, false, {
                                 fileName: "src/App.tsx",
                                 lineNumber: 38,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "Perfect name thanks to",
-                                    " ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "https://bsky.app/profile/phrichards.ca",
-                                        children: "Phil"
-                                    }, void 0, false, {
-                                        fileName: "src/App.tsx",
-                                        lineNumber: 46,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/App.tsx",
-                                lineNumber: 44,
-                                columnNumber: 11
-                            }, this)
+                            ". "
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
@@ -17575,10 +17538,10 @@ function App() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters"
+                        children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 49,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this)
                 ]
