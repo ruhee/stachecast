@@ -17413,6 +17413,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _gameScoreBarChart = require("./GameScoreBarChart");
 var _veloBarChart = require("./VeloBarChart");
 var _breakingVeloBarChart = require("./BreakingVeloBarChart");
+var _k9BarChart = require("./K9BarChart");
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container",
@@ -17421,7 +17422,7 @@ function App() {
                 children: "\uD83D\uDC68\uD83C\uDFFB STACHECAST \uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17433,7 +17434,7 @@ function App() {
                         children: "velo was down"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 11,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, this),
                     " ",
@@ -17443,34 +17444,27 @@ function App() {
                         children: "so was his facial hair"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 44
                     }, this),
                     ". What this website asks is: are those things related?"
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "chart-container",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "In 2026, Cease's fastball velo is inversely related to the amount of hair on his face."
+                        children: "In 2026, Cease's velo is inversely related to the amount of hair on his face."
                     }, void 0, false, {
-                        fileName: "src/App.tsx",
-                        lineNumber: 18,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 19,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "The breaking and offspeed pitches follow a similar trend."
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 20,
                         columnNumber: 9
@@ -17520,11 +17514,23 @@ function App() {
                         fileName: "src/App.tsx",
                         lineNumber: 24,
                         columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "His strikeouts are also highest with a beard."
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _k9BarChart.K9BarChart), {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 26,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -17538,7 +17544,7 @@ function App() {
                                 children: "the stupid brain"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 29,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -17549,14 +17555,14 @@ function App() {
                                 children: "send me feedback or bug reports"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 32,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 27,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17568,7 +17574,7 @@ function App() {
                                 children: "Baseball Savant and Statcast"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 40,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             ". Beard data via MLB highlight packages and my eyes. Exceptional product management from",
@@ -17578,7 +17584,7 @@ function App() {
                                 children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 45,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             " and data science advice from",
@@ -17588,7 +17594,7 @@ function App() {
                                 children: "Chris"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
                             ". Perfect name thanks to",
@@ -17598,7 +17604,7 @@ function App() {
                                 children: "Phil"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             ".",
@@ -17606,26 +17612,26 @@ function App() {
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 38,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 51,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -17638,7 +17644,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./GameScoreBarChart":"d7NaK","./VeloBarChart":"c2zQv","./BreakingVeloBarChart":"66Mc9","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d7NaK":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./GameScoreBarChart":"d7NaK","./VeloBarChart":"c2zQv","./BreakingVeloBarChart":"66Mc9","./K9BarChart":"4Tyg6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d7NaK":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$a6bd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$a6bd.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -31759,7 +31765,7 @@ const labels = [
     "Full beard",
     "Long beard"
 ];
-const chartOptions = (titleText, loadedImages)=>({
+const chartOptions = (titleText, loadedImages, showLegend = true)=>({
         responsive: true,
         maintainAspectRatio: false,
         indexAxis: "y",
@@ -31786,6 +31792,7 @@ const chartOptions = (titleText, loadedImages)=>({
         },
         plugins: {
             legend: {
+                display: showLegend,
                 position: "top"
             },
             title: {
@@ -31798,17 +31805,17 @@ const chartOptions = (titleText, loadedImages)=>({
         }
     });
 
-},{"url:../assets/short3.jpg":"8IzWP","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../assets/full2.jpg":"fGpW9","url:../assets/long2.jpg":"j8RCw"}],"8IzWP":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("short3.d3aabe26.jpg") + "?" + Date.now();
-
-},{}],"cBjlu":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stache.03636207.jpeg") + "?" + Date.now();
-
-},{}],"fGpW9":[function(require,module,exports,__globalThis) {
+},{"url:../assets/full2.jpg":"fGpW9","url:../assets/long2.jpg":"j8RCw","url:../assets/short3.jpg":"8IzWP","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fGpW9":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("full2.2a0a7b8e.jpg") + "?" + Date.now();
 
 },{}],"j8RCw":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("long2.27f9a16b.jpg") + "?" + Date.now();
+
+},{}],"8IzWP":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("short3.d3aabe26.jpg") + "?" + Date.now();
+
+},{}],"cBjlu":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stache.03636207.jpeg") + "?" + Date.now();
 
 },{}],"bvSSy":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34171,7 +34178,7 @@ const data = {
 const VeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Average Fastball Velo", loadedImages);
+    let options = (0, _common.chartOptions)("2026 Average Fastball Velocity", loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
@@ -34200,12 +34207,12 @@ const VeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/VeloBarChart.tsx",
-            lineNumber: 81,
+            lineNumber: 74,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/VeloBarChart.tsx",
-        lineNumber: 80,
+        lineNumber: 73,
         columnNumber: 5
     }, undefined);
 };
@@ -34295,7 +34302,7 @@ const data = {
 const BreakingVeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velo", loadedImages);
+    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
@@ -34339,6 +34346,94 @@ var _c;
 $RefreshReg$(_c, "BreakingVeloBarChart");
 
   $parcel$ReactRefreshHelpers$776c.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","./data/common":"baGnG","./plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4Tyg6":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3283 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$3283.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3283.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "data", ()=>data);
+parcelHelpers.export(exports, "K9BarChart", ()=>K9BarChart);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _chartJs = require("chart.js");
+var _reactChartjs2 = require("react-chartjs-2");
+var _common = require("./data/common");
+var _yAxisImages = require("./plugins/yAxisImages");
+var _s = $RefreshSig$();
+(0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
+const data = {
+    labels: (0, _common.labels),
+    datasets: [
+        {
+            label: "K/9",
+            data: [
+                6.22,
+                5.38,
+                6.64,
+                7.08
+            ],
+            backgroundColor: "rgba(6, 86, 61, 0.5)",
+            borderColor: "rgba(6, 86, 61, 1)",
+            borderWidth: 1
+        }
+    ]
+};
+const K9BarChart = ()=>{
+    _s();
+    const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
+    let options = (0, _common.chartOptions)("2026 Strikeouts/9", loadedImages, false);
+    (0, _react.useEffect)(()=>{
+        let isMounted = true;
+        const promises = (0, _common.labelImagesSources).map((src)=>{
+            return new Promise((resolve)=>{
+                const img = new Image();
+                img.crossOrigin = "anonymous";
+                img.src = src;
+                img.onload = ()=>resolve(img);
+                img.onerror = ()=>resolve(null);
+            });
+        });
+        Promise.all(promises).then((images)=>{
+            if (isMounted) setLoadedImages(images);
+        });
+        return ()=>{
+            isMounted = false;
+        };
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "chart",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
+            options: options,
+            data: data,
+            plugins: [
+                (0, _yAxisImages.yAxisImageLabelsPlugin)
+            ]
+        }, void 0, false, {
+            fileName: "src/K9BarChart.tsx",
+            lineNumber: 67,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/K9BarChart.tsx",
+        lineNumber: 66,
+        columnNumber: 5
+    }, undefined);
+};
+_s(K9BarChart, "FsEKGmMLwKxlCaAGmjFgljn2dng=");
+_c = K9BarChart;
+var _c;
+$RefreshReg$(_c, "K9BarChart");
+
+  $parcel$ReactRefreshHelpers$3283.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
