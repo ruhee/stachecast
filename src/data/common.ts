@@ -11,7 +11,7 @@ export const labels: string[] = [
   "Long beard",
 ];
 
-export const chartOptions = (titleText: string, loadedImages: never[]) => ({
+export const chartOptions = (titleText: string, loadedImages: never[], showLegend: boolean = true) => ({
   responsive: true,
   maintainAspectRatio: false,
   indexAxis: "y" as const,
@@ -38,6 +38,7 @@ export const chartOptions = (titleText: string, loadedImages: never[]) => ({
   },
   plugins: {
     legend: {
+      display: showLegend,
       position: "top" as const,
     },
     title: {

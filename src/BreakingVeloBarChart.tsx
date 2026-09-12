@@ -58,7 +58,7 @@ export const data = {
 export const BreakingVeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
   let options = chartOptions(
-    "2026 Average Breaking Ball/Offspeed Velo",
+    "2026 Average Breaking Ball/Offspeed Velocity",
     loadedImages,
   );
 
