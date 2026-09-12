@@ -26,29 +26,19 @@ export function App() {
           </a>
           .
         </p>
-        <p>Credits:</p>
-        <ul>
-          <li>
-            Pitch data via{" "}
-            <a href="https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026">
-              Baseball Savant and Statcast
-            </a>
-          </li>
-          <li>Beard data via MLB highlight packages and my eyes</li>
-          <li>
-            Exceptional product management from{" "}
-            <a href="https://bsky.app/profile/gareths.bsky.social">Gareth</a>{" "}
-            and data science advice from{" "}
-            <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a>
-          </li>
-          <li>
-            Perfect name thanks to{" "}
-            <a href="https://bsky.app/profile/phrichards.ca">Phil</a>
-          </li>
-        </ul>
+
+        <p>Pitch data via{" "}
+          <a href="https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026">
+            Baseball Savant and Statcast
+          </a>. Beard data via MLB highlight packages and my eyes. Exceptional product management from{" "}
+          <a href="https://bsky.app/profile/gareths.bsky.social">Gareth</a>{" "}
+          and data science advice from{" "}
+          <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a>.
+          Perfect name thanks to{" "}
+          <a href="https://bsky.app/profile/phrichards.ca">Phil</a>. </p>
         <p>
           With sincerest and most sheepish apologies to Dylan Cease, a king
-          among starters
+          among starters. Keep the beard, IMO.
         </p>
       </footer>
     </div>
