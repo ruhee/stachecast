@@ -1,11 +1,14 @@
-import img from "url:../assets/img.png";
-export const labelImagesSources = [img, img, img, img];
+import full from "url:../assets/full.jpg";
+import long from "url:../assets/long.jpg";
+import short from "url:../assets/short3.jpg";
+import stache from "url:../assets/stache.jpeg";
+export const labelImagesSources = [stache, short, full, long];
 
 export const labels: string[] = [
   "Stache and soul patch",
   "Short beard",
   "Full beard",
-  "Mountain man beard",
+  "Long beard",
 ];
 
 export const chartOptions = (titleText: string, loadedImages: never[]) => ({
