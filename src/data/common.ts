@@ -1,6 +1,6 @@
 import full from "url:../assets/full2.jpg";
 import long from "url:../assets/long2.jpg";
-import short from "url:../assets/short3.jpg";
+import short from "url:../assets/short4.jpg";
 import stache from "url:../assets/stache.jpeg";
 export const labelImagesSources = [stache, short, full, long];
 
