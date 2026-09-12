@@ -16,8 +16,8 @@ export const yAxisImageLabelsPlugin = {
       const yPixel = y.getPixelForTick(index);  
       const offset = pluginOptions.offset || 60;
 
-      let imgWidth = pluginOptions.width || 50;
-      let imgHeight = pluginOptions.height || 50;
+      let imgWidth = pluginOptions.width || 55;
+      let imgHeight = pluginOptions.height || 55;
       let xPixel = chart.chartArea.left - (offset || 60);
 
       if (canvasWidth < 650) {
