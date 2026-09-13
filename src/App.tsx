@@ -60,10 +60,13 @@ export function App() {
         <p>
           Brought to you by{" "}
           <a href="https://bsky.app/profile/ruhee.ca">Ruhee</a>, the stupid
-          brain behind the David Price Nickname Generator (RIP) and the Stanton
-          Strikeout Tracker (also RIP). Please{" "}
+          brain behind the{" "}
+          <a href="https://nationalpost.com/sports/baseball/mlb/toronto-blue-jays-fan-created-a-david-price-nickname-generator-and-the-ace-thought-it-was-pretty-funny">
+            David Price Nickname Generator
+          </a>{" "}
+          and the Stanton Strikeout Tracker. Please{" "}
           <a href="mailto:ruhee.dewji@gmail.com">
-            send me feedback or bug reports
+            send feedback
           </a>
           .
         </p>
