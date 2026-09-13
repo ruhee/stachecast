@@ -17554,8 +17554,18 @@ function App() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "In conclusion:"
-            }, void 0, false, {
+                children: [
+                    "In conclusion... maybe more data is still needed? ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://en.wikipedia.org/wiki/List_of_facial_hairstyles",
+                        children: "Let's get cracking, Dylan."
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 60,
+                        columnNumber: 59
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/App.tsx",
                 lineNumber: 59,
                 columnNumber: 7
@@ -31804,6 +31814,10 @@ const labels = [
 ];
 const chartOptions = (titleText, loadedImages, showLegend = true, xMin = 0)=>({
         responsive: true,
+        onHover: (event, chartElements)=>{
+            const target = event.native?.target;
+            if (target) target.style.cursor = chartElements.length > 0 ? "pointer" : "default";
+        },
         maintainAspectRatio: false,
         indexAxis: "y",
         layout: {
@@ -31831,7 +31845,15 @@ const chartOptions = (titleText, loadedImages, showLegend = true, xMin = 0)=>({
         plugins: {
             legend: {
                 display: showLegend,
-                position: "top"
+                position: "top",
+                onHover: (event)=>{
+                    const target = event.native?.target;
+                    if (target) target.style.cursor = "pointer";
+                },
+                onLeave: (event)=>{
+                    const target = event.native?.target;
+                    if (target) target.style.cursor = "default";
+                }
             },
             title: {
                 display: true,
