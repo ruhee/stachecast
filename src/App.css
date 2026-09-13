@@ -41,6 +41,7 @@ body,
   min-width: 0;
   aspect-ratio: 2 / 1;
   min-height: 280px;
+  padding: 20px 0;
 }
 
 .breaking {
