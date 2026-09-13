@@ -57,7 +57,7 @@ export function App() {
         <K9BarChart />
       </div>
       <p>
-        In conclusion... maybe more data is still needed? <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">Let's get cracking, Dylan.</a>
+        Can we conclude anything from this? Perhaps we still need more data... <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">let's get cracking, Dylan.</a>
       </p>
       <footer>
         <p>
