@@ -24,9 +24,10 @@ export function App() {
           his face.
         </p>
         <VeloBarChart />
+        <p>(Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)</p>
         <BreakingVeloBarChart />
         <p>
-          Cease generally has higher game scores with a full beard, though, and
+          Cease achieves higher game scores with a full beard, though, and
           all of his best games by game score (
           <a href="https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win">
             a no-hit bid into the 7th
@@ -42,7 +43,7 @@ export function App() {
           >
             a CG shutout
           </a>
-          ) were on full-beard or long-beard days.
+          ) were on full-beard or long-beard outings.
         </p>
         <GameScoreBarChart />
         <p>
