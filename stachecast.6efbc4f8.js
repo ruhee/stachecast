@@ -34333,7 +34333,7 @@ const data = {
 const BreakingVeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages, true, 75);
+    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages, true, 74);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
