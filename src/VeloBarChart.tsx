@@ -43,7 +43,7 @@ export const data = {
 
 export const VeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions("2026 Average Fastball Velocity", loadedImages);
+  let options = chartOptions("2026 Average Fastball Velocity", loadedImages, true, 94);
 
   useEffect(() => {
     let isMounted = true;

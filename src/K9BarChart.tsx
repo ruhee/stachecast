@@ -36,7 +36,7 @@ export const data = {
 
 export const K9BarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions("2026 Strikeouts/9", loadedImages, false);
+  let options = chartOptions("2026 Strikeouts/9", loadedImages, false, 9);
 
   useEffect(() => {
     let isMounted = true;
