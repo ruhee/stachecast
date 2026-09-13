@@ -17419,7 +17419,7 @@ function App() {
         className: "container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8 STACHECAST \uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F"
+                children: "\uD83D\uDC68\uD83C\uDFFB STACHECAST \uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F"
             }, void 0, false, {
                 fileName: "src/App.tsx",
                 lineNumber: 9,
