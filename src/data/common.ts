@@ -1,7 +1,10 @@
+import { ChartEvent, ActiveElement } from "chart.js";
+
 import full from "url:../assets/full2.jpg";
 import long from "url:../assets/long2.jpg";
 import short from "url:../assets/short4.jpg";
 import stache from "url:../assets/stache.jpeg";
+
 export const labelImagesSources = [stache, short, full, long];
 
 export const labels: string[] = [
@@ -11,8 +14,19 @@ export const labels: string[] = [
   "Long beard",
 ];
 
-export const chartOptions = (titleText: string, loadedImages: never[], showLegend: boolean = true, xMin: number = 0) => ({
+export const chartOptions = (
+  titleText: string,
+  loadedImages: never[],
+  showLegend: boolean = true,
+  xMin: number = 0,
+) => ({
   responsive: true,
+  onHover: (event: ChartEvent, chartElements: ActiveElement[]) => {
+    const target = event.native?.target as HTMLElement | null;
+    if (target) {
+      target.style.cursor = chartElements.length > 0 ? "pointer" : "default";
+    }
+  },
   maintainAspectRatio: false,
   indexAxis: "y" as const,
   layout: {
@@ -41,6 +55,18 @@ export const chartOptions = (titleText: string, loadedImages: never[], showLegen
     legend: {
       display: showLegend,
       position: "top" as const,
+      onHover: (event: ChartEvent) => {
+        const target = event.native?.target as HTMLElement | null;
+        if (target) {
+          target.style.cursor = "pointer";
+        }
+      },
+      onLeave: (event: ChartEvent) => {
+        const target = event.native?.target as HTMLElement | null;
+        if (target) {
+          target.style.cursor = "default";
+        }
+      },
     },
     title: {
       display: true,
