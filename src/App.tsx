@@ -57,7 +57,10 @@ export function App() {
         <K9BarChart />
       </div>
       <p>
-        Can we conclude anything from this? Perhaps we still need more data... <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">let's get cracking, Dylan.</a>
+        Can we conclude anything from this? Perhaps we still need more data...{" "}
+        <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">
+          let's get cracking, Dylan.
+        </a>
       </p>
       <footer>
         <p>
@@ -76,8 +79,10 @@ export function App() {
           <a href="https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026">
             Baseball Savant and Statcast
           </a>
-          . Beard data via MLB highlight packages and my eyes. Exceptional
-          advice by{" "}
+          . Beard data via MLB highlight packages and my eyes. All other data
+          from{" "}
+          <a href="https://www.baseball-reference.com/">Baseball Reference</a>.
+          Exceptional advice by{" "}
           <a href="https://bsky.app/profile/gareths.bsky.social">Gareth</a> and{" "}
           <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a>.
           Perfect name thanks to{" "}
