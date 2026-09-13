@@ -17726,7 +17726,7 @@ const data = {
 const GameScoreBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Game Scores", loadedImages);
+    let options = (0, _common.chartOptions)("2026 Game Scores", loadedImages, true, 50);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
@@ -31795,7 +31795,7 @@ const labels = [
     "Full beard",
     "Long beard"
 ];
-const chartOptions = (titleText, loadedImages, showLegend = true)=>({
+const chartOptions = (titleText, loadedImages, showLegend = true, xMin = 0)=>({
         responsive: true,
         maintainAspectRatio: false,
         indexAxis: "y",
@@ -31807,6 +31807,7 @@ const chartOptions = (titleText, loadedImages, showLegend = true)=>({
         scales: {
             x: {
                 beginAtZero: false,
+                min: xMin,
                 grace: "3%"
             },
             y: {
@@ -34208,7 +34209,7 @@ const data = {
 const VeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Average Fastball Velocity", loadedImages);
+    let options = (0, _common.chartOptions)("2026 Average Fastball Velocity", loadedImages, true, 94);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
@@ -34332,7 +34333,7 @@ const data = {
 const BreakingVeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages);
+    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages, true, 75);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
@@ -34361,12 +34362,12 @@ const BreakingVeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/BreakingVeloBarChart.tsx",
-            lineNumber: 91,
+            lineNumber: 93,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/BreakingVeloBarChart.tsx",
-        lineNumber: 90,
+        lineNumber: 92,
         columnNumber: 5
     }, undefined);
 };
@@ -34420,7 +34421,7 @@ const data = {
 const K9BarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Strikeouts/9", loadedImages, false);
+    let options = (0, _common.chartOptions)("2026 Strikeouts/9", loadedImages, false, 9);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
