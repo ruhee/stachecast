@@ -22,7 +22,7 @@ export function App() {
         <p>Cease generally has higher game scores with a full beard, though, and all of his best games by game score (<a href="https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win">a no-hit bid into the 7th</a>, <a href="https://www.mlb.com/video/dylan-cease-flirts-with-no-hitter-in-blue-jays-win">a no-hit bid into the 9th</a>, and <a href="https://www.mlb.com/news/dylan-cease-pitches-complete-game-shutout-al-cy-young-award-case
         ">a CG shutout</a>) were on full-beard or long-beard days.</p>
         <GameScoreBarChart />
-        <p>His strikeouts are also highest with a beard.</p>
+        <p>His strikeouts follow the velo trend.</p>
         <K9BarChart />
       </div>
       <footer>
