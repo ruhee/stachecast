@@ -17438,14 +17438,15 @@ function App() {
                         columnNumber: 9
                     }, this),
                     " ",
-                    "and, for the first time in awhile, ",
+                    "and, for the first time in awhile,",
+                    " ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "https://bloximages.chicago2.vip.townnews.com/daytondailynews.com/content/tncms/assets/v3/editorial/1/a9/1a9e0a1f-68dd-56e0-a2f6-ac8e3af5bb16/6a9f7871e7e50.image.jpg?resize=1763%2C1176",
                         children: "so was his facial hair"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 15,
-                        columnNumber: 44
+                        lineNumber: 16,
+                        columnNumber: 9
                     }, this),
                     ". What this website asks is: are those things related?"
                 ]
@@ -17461,17 +17462,17 @@ function App() {
                         children: "In 2026, Cease's velo is inversely related to the amount of hair on his face."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 19,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _veloBarChart.VeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 20,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _breakingVeloBarChart.BreakingVeloBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 21,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17482,55 +17483,67 @@ function App() {
                                 children: "a no-hit bid into the 7th"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 22,
-                                columnNumber: 119
+                                lineNumber: 31,
+                                columnNumber: 11
                             }, this),
-                            ", ",
+                            ",",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://www.mlb.com/video/dylan-cease-flirts-with-no-hitter-in-blue-jays-win",
                                 children: "a no-hit bid into the 9th"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 22,
-                                columnNumber: 248
+                                lineNumber: 35,
+                                columnNumber: 11
                             }, this),
-                            ", and ",
+                            ", and",
+                            " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://www.mlb.com/news/dylan-cease-pitches-complete-game-shutout-al-cy-young-award-case ",
                                 children: "a CG shutout"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 22,
-                                columnNumber: 370
+                                lineNumber: 39,
+                                columnNumber: 11
                             }, this),
                             ") were on full-beard or long-beard days."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 22,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 24,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "His strikeouts are also highest with a beard."
-                    }, void 0, false, {
+                        children: [
+                            "His strikeouts follow the velo trend a little more, but they're highest with the short beard. (",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
+                                children: "Really"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 50,
+                                columnNumber: 42
+                            }, this),
+                            " small sample size, though: only 3 starts in 2026 with this beard type)"
+                        ]
+                    }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 25,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _k9BarChart.K9BarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 26,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 18,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -17544,7 +17557,7 @@ function App() {
                                 children: "the stupid brain"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 31,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -17555,14 +17568,14 @@ function App() {
                                 children: "send me feedback or bug reports"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 34,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 29,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17574,27 +17587,27 @@ function App() {
                                 children: "Baseball Savant and Statcast"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 42,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
-                            ". Beard data via MLB highlight packages and my eyes. Exceptional product management from",
+                            ". Beard data via MLB highlight packages and my eyes. Exceptional advice by",
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://bsky.app/profile/gareths.bsky.social",
                                 children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 47,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this),
-                            " and data science advice from",
+                            " and",
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://bsky.app/profile/pointsman.bsky.social",
                                 children: "Chris"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 49,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             ". Perfect name thanks to",
@@ -17604,7 +17617,7 @@ function App() {
                                 children: "Phil"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 51,
+                                lineNumber: 77,
                                 columnNumber: 11
                             }, this),
                             ".",
@@ -17612,20 +17625,20 @@ function App() {
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 40,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 53,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 28,
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]
@@ -34376,10 +34389,10 @@ const data = {
         {
             label: "K/9",
             data: [
-                6.22,
-                5.38,
-                6.64,
-                7.08
+                13.03,
+                15.06,
+                12.13,
+                11.44
             ],
             backgroundColor: "rgba(6, 86, 61, 0.5)",
             borderColor: "rgba(6, 86, 61, 1)",
