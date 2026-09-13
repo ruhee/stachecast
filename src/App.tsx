@@ -56,6 +56,9 @@ export function App() {
         </p>
         <K9BarChart />
       </div>
+      <p>
+        In conclusion... maybe more data is still needed? <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">Let's get cracking, Dylan.</a>
+      </p>
       <footer>
         <p>
           Brought to you by{" "}
@@ -65,10 +68,7 @@ export function App() {
             David Price Nickname Generator
           </a>{" "}
           and the Stanton Strikeout Tracker. Please{" "}
-          <a href="mailto:ruhee.dewji@gmail.com">
-            send feedback
-          </a>
-          .
+          <a href="mailto:ruhee.dewji@gmail.com">send feedback</a>.
         </p>
 
         <p>
