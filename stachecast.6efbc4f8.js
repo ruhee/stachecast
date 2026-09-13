@@ -17470,20 +17470,27 @@ function App() {
                         lineNumber: 26,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _breakingVeloBarChart.BreakingVeloBarChart), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "(Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)"
+                    }, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 27,
                         columnNumber: 9
                     }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _breakingVeloBarChart.BreakingVeloBarChart), {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: [
-                            "Cease generally has higher game scores with a full beard, though, and all of his best games by game score (",
+                            "Cease achieves higher game scores with a full beard, though, and all of his best games by game score (",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win",
                                 children: "a no-hit bid into the 7th"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 31,
+                                lineNumber: 35,
                                 columnNumber: 11
                             }, this),
                             ",",
@@ -17493,7 +17500,7 @@ function App() {
                                 children: "a no-hit bid into the 9th"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 35,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, this),
                             ", and",
@@ -17503,19 +17510,19 @@ function App() {
                                 children: "a CG shutout"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 39,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this),
-                            ") were on full-beard or long-beard days."
+                            ") were on full-beard or long-beard outings."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 28,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gameScoreBarChart.GameScoreBarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 47,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17525,19 +17532,19 @@ function App() {
                                 children: "Really"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 50,
+                                lineNumber: 54,
                                 columnNumber: 42
                             }, this),
                             " small sample size, though: only 3 starts in 2026 with this beard type)"
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 48,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _k9BarChart.K9BarChart), {}, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 53,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this)
                 ]
@@ -17554,28 +17561,38 @@ function App() {
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://bsky.app/profile/ruhee.ca",
-                                children: "the stupid brain"
+                                children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 58,
+                                lineNumber: 62,
+                                columnNumber: 11
+                            }, this),
+                            ", the stupid brain behind the",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://nationalpost.com/sports/baseball/mlb/toronto-blue-jays-fan-created-a-david-price-nickname-generator-and-the-ace-thought-it-was-pretty-funny",
+                                children: "David Price Nickname Generator"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             " ",
-                            "behind the David Price Nickname Generator (RIP) and the Stanton Strikeout Tracker (also RIP). Please",
+                            "and the Stanton Strikeout Tracker. Please",
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "mailto:ruhee.dewji@gmail.com",
-                                children: "send me feedback or bug reports"
+                                children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 61,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 56,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17587,7 +17604,7 @@ function App() {
                                 children: "Baseball Savant and Statcast"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 69,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this),
                             ". Beard data via MLB highlight packages and my eyes. Exceptional advice by",
@@ -17597,7 +17614,7 @@ function App() {
                                 children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 74,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this),
                             " and",
@@ -17607,7 +17624,7 @@ function App() {
                                 children: "Chris"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 75,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this),
                             ". Perfect name thanks to",
@@ -17617,7 +17634,7 @@ function App() {
                                 children: "Phil"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 77,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, this),
                             ".",
@@ -17625,20 +17642,20 @@ function App() {
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 67,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 79,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 55,
+                lineNumber: 59,
                 columnNumber: 7
             }, this)
         ]
