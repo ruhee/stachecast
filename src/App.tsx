@@ -24,11 +24,14 @@ export function App() {
           his face.
         </p>
         <VeloBarChart />
-        <p>(Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)</p>
+        <p>
+          (Tap or click the legend to turn datasets on/off, and tap or hover on
+          individual bars for numbers.)
+        </p>
         <BreakingVeloBarChart />
         <p>
-          Cease achieves higher game scores with a full beard, though, and
-          all of his best games by game score (
+          Cease achieves higher game scores with a full beard, though, and all
+          of his best games by game score (
           <a href="https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win">
             a no-hit bid into the 7th
           </a>
@@ -56,8 +59,8 @@ export function App() {
       <footer>
         <p>
           Brought to you by{" "}
-          <a href="https://bsky.app/profile/ruhee.ca">the stupid brain</a>{" "}
-          behind the David Price Nickname Generator (RIP) and the Stanton
+          <a href="https://bsky.app/profile/ruhee.ca">Ruhee</a>, the stupid
+          brain behind the David Price Nickname Generator (RIP) and the Stanton
           Strikeout Tracker (also RIP). Please{" "}
           <a href="mailto:ruhee.dewji@gmail.com">
             send me feedback or bug reports
