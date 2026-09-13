@@ -17554,8 +17554,18 @@ function App() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "In conclusion: what's the deal with that walrus stache + soul patch combination? I guess it gets results. That's why I'm making dumb sites like this instead of pitching in the major leagues. Thanks for coming on this journey with me."
-            }, void 0, false, {
+                children: [
+                    "In conclusion... maybe more data is still needed? ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://en.wikipedia.org/wiki/List_of_facial_hairstyles",
+                        children: "Let's get cracking, Dylan."
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 60,
+                        columnNumber: 59
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/App.tsx",
                 lineNumber: 59,
                 columnNumber: 7
@@ -17571,7 +17581,7 @@ function App() {
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 63,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this),
                             ", the stupid brain behind the",
@@ -17581,7 +17591,7 @@ function App() {
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 65,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -17592,14 +17602,14 @@ function App() {
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 69,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 61,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17611,7 +17621,7 @@ function App() {
                                 children: "Baseball Savant and Statcast"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 77,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this),
                             ". Beard data via MLB highlight packages and my eyes. Exceptional advice by",
@@ -17621,7 +17631,7 @@ function App() {
                                 children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 82,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this),
                             " and",
@@ -17631,7 +17641,7 @@ function App() {
                                 children: "Chris"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 83,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this),
                             ". Perfect name thanks to",
@@ -17641,7 +17651,7 @@ function App() {
                                 children: "Phil"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 85,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, this),
                             ".",
@@ -17649,20 +17659,20 @@ function App() {
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 75,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 87,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 60,
+                lineNumber: 62,
                 columnNumber: 7
             }, this)
         ]
@@ -34295,9 +34305,9 @@ const data = {
                 88.8,
                 88.2
             ],
-            backgroundColor: "rgba(0, 87, 127, 0.5)",
+            backgroundColor: "rgba(29, 45, 92, 0.5)",
             borderWidth: 1,
-            borderColor: "rgb(0, 87, 127, 8)"
+            borderColor: "rgb(29, 45, 92)"
         },
         {
             label: "Sweeper",
@@ -34307,9 +34317,9 @@ const data = {
                 82.8,
                 81.8
             ],
-            backgroundColor: "rgba(150, 101, 177, 0.5)",
+            backgroundColor: "rgba(108, 54, 124, 0.5)",
             borderWidth: 1,
-            borderColor: "rgb(150, 101, 177)"
+            borderColor: "rgb(108, 54, 124)"
         },
         {
             label: "Changeup",
@@ -34319,9 +34329,9 @@ const data = {
                 79.9,
                 79.2
             ],
-            backgroundColor: "rgba(255, 114, 136, 0.5)",
+            backgroundColor: "rgba(187, 52, 121, 0.5)",
             borderWidth: 1,
-            borderColor: "rgba(255, 114, 136, 1)"
+            borderColor: "rgba(187, 52, 121, 1)"
         },
         {
             label: "Knuckle Curve",
@@ -34331,9 +34341,9 @@ const data = {
                 81.9,
                 80.6
             ],
-            backgroundColor: "rgba(255, 196, 59, 0.5)",
+            backgroundColor: "rgba(255, 145, 0, 0.5)",
             borderWidth: 1,
-            borderColor: "rgb(255, 196, 59, 1)"
+            borderColor: "rgb(255, 145, 0, 1)"
         }
     ]
 };
