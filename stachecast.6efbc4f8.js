@@ -17555,14 +17555,14 @@ function App() {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
-                    "In conclusion... maybe more data is still needed? ",
+                    "Can we conclude anything from this? Perhaps we still need more data... ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "https://en.wikipedia.org/wiki/List_of_facial_hairstyles",
-                        children: "Let's get cracking, Dylan."
+                        children: "let's get cracking, Dylan."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 60,
-                        columnNumber: 59
+                        columnNumber: 80
                     }, this)
                 ]
             }, void 0, true, {
