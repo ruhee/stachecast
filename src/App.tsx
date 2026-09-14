@@ -63,6 +63,7 @@ export function App() {
         </a>
       </p>
       <footer>
+        <p><em>Data includes 2026 appearances through September 13</em></p>
         <p>
           Brought to you by{" "}
           <a href="https://bsky.app/profile/ruhee.ca">Ruhee</a>, the stupid
