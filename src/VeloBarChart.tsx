@@ -26,14 +26,14 @@ export const data = {
   datasets: [
     {
       label: "Four-seam",
-      data: [97.6, 97.2, 96.9, 96.1],
+      data: [97.4, 97.2, 96.9, 96.1],
       backgroundColor: "rgba(210, 45, 73, 0.5)",
       borderColor: "rgba(147, 31, 51, 1)",
       borderWidth: 1,
     },
     {
       label: "Sinker",
-      data: [96.1, 96.1, 95.8, 95],
+      data: [95.9, 96.1, 95.8, 95],
       backgroundColor: "rgba(226, 149, 82, 0.5)",
       borderColor: "rgba(226, 149, 82, 1)",
       borderWidth: 1,

@@ -26,7 +26,7 @@ export const data = {
   datasets: [
     {
       label: "Average",
-      data: [57.6, 58.7, 77.2, 66.2],
+      data: [57.7, 58.7, 77.2, 66.2],
       backgroundColor: "rgba(140, 36, 97, 0.5)",
       borderColor: "rgba(140, 36, 97, 1)",
       borderWidth: 1,
