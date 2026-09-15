@@ -1,7 +1,7 @@
-import { GameScoreBarChart } from "./GameScoreBarChart";
-import { VeloBarChart } from "./VeloBarChart";
-import { BreakingVeloBarChart } from "./BreakingVeloBarChart";
-import { K9BarChart } from "./K9BarChart";
+import { GameScoreBarChart } from "./components/charts/GameScoreBarChart";
+import { VeloBarChart } from "./components/charts/VeloBarChart";
+import { BreakingVeloBarChart } from "./components/charts/BreakingVeloBarChart";
+import { K9BarChart } from "./components/charts/K9BarChart";
 
 export function App() {
   return (

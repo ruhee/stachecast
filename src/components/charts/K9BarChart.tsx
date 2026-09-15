@@ -9,8 +9,8 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { chartOptions, labels, labelImagesSources } from "./data/common";
-import { yAxisImageLabelsPlugin } from "./plugins/yAxisImages";
+import { chartOptions, labels, labelImagesSources } from "../../data/common";
+import { yAxisImageLabelsPlugin } from "../../plugins/yAxisImages";
 
 ChartJS.register(
   CategoryScale,
@@ -25,25 +25,18 @@ export const data = {
   labels: labels,
   datasets: [
     {
-      label: "Average",
-      data: [57.7, 58.7, 77.2, 66.2],
-      backgroundColor: "rgba(140, 36, 97, 0.5)",
-      borderColor: "rgba(140, 36, 97, 1)",
-      borderWidth: 1,
-    },
-    {
-      label: "Highest",
-      data: [77, 72, 82, 94],
-      backgroundColor: "rgba(19, 74, 142, 0.5)",
-      borderColor: "rgba(19, 74, 142, 1)",
+      label: "K/9",
+      data: [13.25, 15.06, 12.13, 11.44],
+      backgroundColor: "rgba(6, 86, 61, 0.5)",
+      borderColor: "rgba(6, 86, 61, 1)",
       borderWidth: 1,
     },
   ],
 };
 
-export const GameScoreBarChart = () => {
+export const K9BarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions("2026 Game Scores", loadedImages, true, 50);
+  let options = chartOptions("2026 Strikeouts/9", loadedImages, false, 9);
 
   useEffect(() => {
     let isMounted = true;
