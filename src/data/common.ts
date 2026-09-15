@@ -37,7 +37,7 @@ export const chartOptions = (
   scales: {
     x: {
       beginAtZero: false,
-      min: xMin,
+      min: xMin ? xMin : undefined,
       grace: "3%" as const,
     },
     y: {

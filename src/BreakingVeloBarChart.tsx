@@ -60,8 +60,6 @@ export const BreakingVeloBarChart = () => {
   let options = chartOptions(
     "2026 Average Breaking Ball/Offspeed Velocity",
     loadedImages,
-    true,
-    74,
   );
 
   useEffect(() => {
