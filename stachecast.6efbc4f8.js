@@ -17555,14 +17555,15 @@ function App() {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
-                    "Can we conclude anything from this? Perhaps we still need more data... ",
+                    "Can we conclude anything from this? Perhaps we still need more data...",
+                    " ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "https://en.wikipedia.org/wiki/List_of_facial_hairstyles",
                         children: "let's get cracking, Dylan."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 60,
-                        columnNumber: 80
+                        lineNumber: 61,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -17573,6 +17574,19 @@ function App() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
+                            children: "Data includes 2026 appearances through September 13"
+                        }, void 0, false, {
+                            fileName: "src/App.tsx",
+                            lineNumber: 66,
+                            columnNumber: 12
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 66,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: [
                             "Brought to you by",
                             " ",
@@ -17581,7 +17595,7 @@ function App() {
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 65,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             ", the stupid brain behind the",
@@ -17591,7 +17605,7 @@ function App() {
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 67,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -17602,14 +17616,14 @@ function App() {
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 71,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 63,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -17621,17 +17635,27 @@ function App() {
                                 children: "Baseball Savant and Statcast"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 76,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, this),
-                            ". Beard data via MLB highlight packages and my eyes. Exceptional advice by",
+                            ". Beard data via MLB highlight packages and my eyes. All other data from",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://www.baseball-reference.com/",
+                                children: "Baseball Reference"
+                            }, void 0, false, {
+                                fileName: "src/App.tsx",
+                                lineNumber: 85,
+                                columnNumber: 11
+                            }, this),
+                            ". Exceptional advice by",
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "https://bsky.app/profile/gareths.bsky.social",
                                 children: "Gareth"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 81,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             " and",
@@ -17641,7 +17665,7 @@ function App() {
                                 children: "Chris"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 82,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this),
                             ". Perfect name thanks to",
@@ -17651,7 +17675,7 @@ function App() {
                                 children: "Phil"
                             }, void 0, false, {
                                 fileName: "src/App.tsx",
-                                lineNumber: 84,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this),
                             ".",
@@ -17659,20 +17683,20 @@ function App() {
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
-                        lineNumber: 74,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 86,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 62,
+                lineNumber: 65,
                 columnNumber: 7
             }, this)
         ]
@@ -17717,7 +17741,7 @@ const data = {
         {
             label: "Average",
             data: [
-                57.6,
+                57.7,
                 58.7,
                 77.2,
                 66.2
@@ -31828,7 +31852,7 @@ const chartOptions = (titleText, loadedImages, showLegend = true, xMin = 0)=>({
         scales: {
             x: {
                 beginAtZero: false,
-                min: xMin,
+                min: xMin ? xMin : undefined,
                 grace: "3%"
             },
             y: {
@@ -34212,7 +34236,7 @@ const data = {
         {
             label: "Four-seam",
             data: [
-                97.6,
+                97.4,
                 97.2,
                 96.9,
                 96.1
@@ -34224,7 +34248,7 @@ const data = {
         {
             label: "Sinker",
             data: [
-                96.1,
+                95.9,
                 96.1,
                 95.8,
                 95
@@ -34312,7 +34336,7 @@ const data = {
         {
             label: "Slider",
             data: [
-                89.2,
+                89,
                 89.1,
                 88.8,
                 88.2
@@ -34324,7 +34348,7 @@ const data = {
         {
             label: "Sweeper",
             data: [
-                83.5,
+                83.3,
                 84.1,
                 82.8,
                 81.8
@@ -34336,7 +34360,7 @@ const data = {
         {
             label: "Changeup",
             data: [
-                83.8,
+                83.3,
                 82.9,
                 79.9,
                 79.2
@@ -34348,7 +34372,7 @@ const data = {
         {
             label: "Knuckle Curve",
             data: [
-                82.4,
+                82.3,
                 82.9,
                 81.9,
                 80.6
@@ -34362,7 +34386,7 @@ const data = {
 const BreakingVeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
-    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages, true, 74);
+    let options = (0, _common.chartOptions)("2026 Average Breaking Ball/Offspeed Velocity", loadedImages);
     (0, _react.useEffect)(()=>{
         let isMounted = true;
         const promises = (0, _common.labelImagesSources).map((src)=>{
@@ -34391,12 +34415,12 @@ const BreakingVeloBarChart = ()=>{
             ]
         }, void 0, false, {
             fileName: "src/BreakingVeloBarChart.tsx",
-            lineNumber: 93,
+            lineNumber: 91,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/BreakingVeloBarChart.tsx",
-        lineNumber: 92,
+        lineNumber: 90,
         columnNumber: 5
     }, undefined);
 };
@@ -34436,7 +34460,7 @@ const data = {
         {
             label: "K/9",
             data: [
-                13.03,
+                13.25,
                 15.06,
                 12.13,
                 11.44
