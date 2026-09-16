@@ -17448,14 +17448,14 @@ function App() {
                         lineNumber: 16,
                         columnNumber: 9
                     }, this),
-                    " (compare to his ",
+                    " (compare that to his ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "./cease-sept2.jpg",
                         children: "previous start"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 18,
-                        columnNumber: 30
+                        columnNumber: 35
                     }, this),
                     "). What this website asks is: are those things related?"
                 ]
