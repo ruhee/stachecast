@@ -10,13 +10,12 @@ export function App() {
       <p>
         On September 7, Dylan Cease's{" "}
         <a href="https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302">
-          velo was down
+          velocity was down
         </a>{" "}
         and, for the first time in awhile,{" "}
-        <a href="https://bloximages.chicago2.vip.townnews.com/daytondailynews.com/content/tncms/assets/v3/editorial/1/a9/1a9e0a1f-68dd-56e0-a2f6-ac8e3af5bb16/6a9f7871e7e50.image.jpg?resize=1763%2C1176">
+        <a href="./cease-sept7.jpg">
           so was his facial hair
-        </a>
-        . What this website asks is: are those things related?
+        </a> (compare to his <a href="./cease-sept2.jpg">previous start</a>). What this website asks is: are those things related?
       </p>
       <div className="chart-container">
         <p>
@@ -63,7 +62,7 @@ export function App() {
         </a>
       </p>
       <footer>
-        <p><em>Data includes 2026 appearances through September 13</em></p>
+        <p><em>Data includes 2026 appearances through September 13. 2019-2025 coming soon/eventually</em></p>
         <p>
           Brought to you by{" "}
           <a href="https://bsky.app/profile/ruhee.ca">Ruhee</a>, the stupid
