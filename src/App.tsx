@@ -15,7 +15,7 @@ export function App() {
         and, for the first time in awhile,{" "}
         <a href="./cease-sept7.jpg">
           so was his facial hair
-        </a> (compare to his <a href="./cease-sept2.jpg">previous start</a>). What this website asks is: are those things related?
+        </a> (compare that to his <a href="./cease-sept2.jpg">previous start</a>). What this website asks is: are those things related?
       </p>
       <div className="chart-container">
         <p>
