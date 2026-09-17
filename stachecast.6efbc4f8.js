@@ -34250,8 +34250,8 @@ const data = {
                 96.9,
                 96.1
             ],
-            backgroundColor: "rgba(210, 45, 73, 0.5)",
-            borderColor: "rgba(147, 31, 51, 1)",
+            backgroundColor: "rgba(142, 16, 16, 0.5)",
+            borderColor: "rgba(142, 16, 16, 1)",
             borderWidth: 1
         },
         {
@@ -34262,8 +34262,8 @@ const data = {
                 95.8,
                 95
             ],
-            backgroundColor: "rgba(226, 149, 82, 0.5)",
-            borderColor: "rgba(226, 149, 82, 1)",
+            backgroundColor: "rgba(94, 82, 185, 0.5)",
+            borderColor: "rgba(94, 82, 185, 1)",
             borderWidth: 1
         }
     ]
