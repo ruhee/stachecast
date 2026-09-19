@@ -17468,7 +17468,7 @@ function App() {
                 className: "chart-container",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "In 2026, Cease's velo is inversely related to the amount of hair on his face."
+                        children: "In 2026, Cease's velo is loosely inversely related to the amount of hair on his face, though the stache does better than the short beard on average."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 21,
@@ -17584,7 +17584,7 @@ function App() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                            children: "Data includes 2026 appearances through September 13. 2019-2025 coming soon/eventually"
+                            children: "Data includes 2026 appearances through September 19. 2019-2025 coming soon/eventually"
                         }, void 0, false, {
                             fileName: "src/App.tsx",
                             lineNumber: 65,
@@ -17751,9 +17751,9 @@ const data = {
             label: "Average",
             data: [
                 57.7,
-                58.7,
-                77.2,
-                66.2
+                55.4,
+                72.8,
+                66.9
             ],
             backgroundColor: "rgba(140, 36, 97, 0.5)",
             borderColor: "rgba(140, 36, 97, 1)",
@@ -34246,9 +34246,9 @@ const data = {
             label: "Four-seam",
             data: [
                 97.4,
-                97.2,
-                96.9,
-                96.1
+                96.7,
+                97,
+                95.9
             ],
             backgroundColor: "rgba(142, 16, 16, 0.5)",
             borderColor: "rgba(142, 16, 16, 1)",
@@ -34258,9 +34258,9 @@ const data = {
             label: "Sinker",
             data: [
                 95.9,
-                96.1,
                 95.8,
-                95
+                96.2,
+                94.8
             ],
             backgroundColor: "rgba(94, 82, 185, 0.5)",
             borderColor: "rgba(94, 82, 185, 1)",
@@ -34346,9 +34346,9 @@ const data = {
             label: "Slider",
             data: [
                 89,
-                89.1,
-                88.8,
-                88.2
+                88.6,
+                89,
+                88
             ],
             backgroundColor: "rgba(29, 45, 92, 0.5)",
             borderWidth: 1,
@@ -34360,7 +34360,7 @@ const data = {
                 83.3,
                 84.1,
                 82.8,
-                81.8
+                81.4
             ],
             backgroundColor: "rgba(108, 54, 124, 0.5)",
             borderWidth: 1,
@@ -34370,9 +34370,9 @@ const data = {
             label: "Changeup",
             data: [
                 83.3,
-                82.9,
-                79.9,
-                79.2
+                82,
+                80.2,
+                78.6
             ],
             backgroundColor: "rgba(187, 52, 121, 0.5)",
             borderWidth: 1,
@@ -34382,9 +34382,9 @@ const data = {
             label: "Knuckle Curve",
             data: [
                 82.3,
-                82.9,
+                81.7,
                 81.9,
-                80.6
+                80.4
             ],
             backgroundColor: "rgba(255, 145, 0, 0.5)",
             borderWidth: 1,
@@ -34470,7 +34470,7 @@ const data = {
             label: "K/9",
             data: [
                 13.25,
-                15.06,
+                14.04,
                 12.13,
                 11.44
             ],
