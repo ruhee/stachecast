@@ -26,7 +26,7 @@ export const data = {
   datasets: [
     {
       label: "K/9",
-      data: [13.25, 15.06, 12.13, 11.44],
+      data: [13.25, 14.04, 12.13, 11.44],
       backgroundColor: "rgba(6, 86, 61, 0.5)",
       borderColor: "rgba(6, 86, 61, 1)",
       borderWidth: 1,
