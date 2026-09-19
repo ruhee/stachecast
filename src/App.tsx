@@ -19,8 +19,8 @@ export function App() {
       </p>
       <div className="chart-container">
         <p>
-          In 2026, Cease's velo is inversely related to the amount of hair on
-          his face.
+          In 2026, Cease's velo is loosely inversely related to the amount of hair on
+          his face, though the stache does better than the short beard on average.
         </p>
         <VeloBarChart />
         <p>
@@ -62,7 +62,7 @@ export function App() {
         </a>
       </p>
       <footer>
-        <p><em>Data includes 2026 appearances through September 13. 2019-2025 coming soon/eventually</em></p>
+        <p><em>Data includes 2026 appearances through September 19. 2019-2025 coming soon/eventually</em></p>
         <p>
           Brought to you by{" "}
           <a href="https://bsky.app/profile/ruhee.ca">Ruhee</a>, the stupid
