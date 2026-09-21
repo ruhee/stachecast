@@ -51,7 +51,7 @@ export function App() {
         <p>
           His strikeouts follow the velo trend a little more, but they're
           highest with the short beard. (<em>Really</em> small sample size,
-          though: only 3 starts in 2026 with this beard type)
+          though: only 4 starts in 2026 with this beard type)
         </p>
         <K9BarChart />
       </div>
