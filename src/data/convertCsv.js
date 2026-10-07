@@ -1,5 +1,6 @@
-const csv = require('csvtojson');
-const fs = require('fs');
+import csv from 'csvtojson';
+import { writeFileSync } from 'fs';
+const __dirname = import.meta.dirname;
 
 const csvFilePath = `${__dirname}/master-2026.csv`
 
@@ -26,14 +27,14 @@ csv({
         jsonObj.filter(item => item['Normalized'] === 'Full beard')
     )
 
-    full_beard = jsonObj.filter(item => item['Normalized'] === 'Full beard')
+    // full_beard = jsonObj.filter(item => item['Normalized'] === 'Full beard')
     // construct { four_seam: n, ... }
 
 
 
 
 
-    fs.writeFileSync('converted-2026.json', JSON.stringify(jsonObj, null, 2))
+    writeFileSync('converted-2026.json', JSON.stringify(jsonObj, null, 2))
     // console.log(jsonObj);
     console.log("Saved file converted-2026.json");
 })
