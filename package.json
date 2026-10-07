@@ -4,6 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "source": "src/index.html",
+  "type": "module",
   "scripts": {
     "start": "parcel",
     "build": "parcel build --public-url ./",
@@ -29,7 +30,9 @@
     "globals": "^17.13.0",
     "parcel": "^2.14.0",
     "parcel-reporter-static-files-copy": "^1.5.3",
-    "prettier": "^3.9.9"
+    "prettier": "^3.9.9",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.1"
   },
   "staticFiles": {
     "staticPath": "public"

@@ -3,6 +3,7 @@ import globals from "globals";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
 import eslintConfigPrettier from "eslint-config-prettier";
+import tseslint from "typescript-eslint";
 
 export default [
   js.configs.recommended,
@@ -13,7 +14,7 @@ export default [
       sourceType: "module",
       globals: {
         ...globals.browser,
-        ...globals.node, // Useful for config files
+        ...globals.node,
       },
       parserOptions: {
         ecmaFeatures: {
@@ -28,13 +29,22 @@ export default [
     rules: {
       ...reactPlugin.configs.recommended.rules,
       ...reactHooksPlugin.configs.recommended.rules,
-      "react/react-in-jsx-scope": "off", // Not needed in modern React
+      "react/react-in-jsx-scope": "off", 
       "react/prop-types": "off",         // Optional: turn off if using TypeScript
     },
     settings: {
       react: {
         version: "detect", // Automatically detect React version
       },
+    },
+  },
+  {
+    files: ["**/*.{ts,tsx}"],
+    languageOptions: {
+      parser: tseslint.parser,
+    },
+    rules: {
+      "no-undef": "off",
     },
   },
   // Must be last to override conflicting formatting rules
