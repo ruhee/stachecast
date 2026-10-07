@@ -8,7 +8,7 @@ export function App() {
     <div className="container">
       <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
       <p>
-        On September 7, Dylan Cease's{' '}
+        On September 7, Dylan Cease&rsquo;s{' '}
         <a href="https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302">
           velocity was down
         </a>{' '}
@@ -19,7 +19,7 @@ export function App() {
       </p>
       <div className="chart-container">
         <p>
-          In 2026, Cease's velo is loosely inversely related to the amount of
+          In 2026, Cease&rsquo;s velo is loosely inversely related to the amount of
           hair on his face, though the stache does better than the short beard
           on average.
         </p>
@@ -50,7 +50,7 @@ export function App() {
         </p>
         <GameScoreBarChart />
         <p>
-          His strikeouts follow the velo trend a little more, but they're
+          His strikeouts follow the velo trend a little more, but they&rsquo;re
           highest with the short beard. (<em>Really</em> small sample size,
           though: only 4 starts in 2026 with this beard type)
         </p>
@@ -59,7 +59,7 @@ export function App() {
       <p>
         Can we conclude anything from this? Perhaps we still need more data...{' '}
         <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">
-          let's get cracking, Dylan.
+          let&rsquo;s get cracking, Dylan.
         </a>
       </p>
       <footer>
