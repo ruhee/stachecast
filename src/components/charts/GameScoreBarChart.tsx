@@ -9,7 +9,8 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { chartOptions, labels, labelImagesSources } from "../../data/common";
+import { chartOptions, labelImagesSources } from "../../data/common";
+import { gameScoreData } from "../../data/chartData";
 import { yAxisImageLabelsPlugin } from "../../plugins/yAxisImages";
 
 ChartJS.register(
@@ -20,26 +21,6 @@ ChartJS.register(
   Tooltip,
   Legend,
 );
-
-export const data = {
-  labels: labels,
-  datasets: [
-    {
-      label: "Average",
-      data: [57.7, 55.4, 72.8, 66.9],
-      backgroundColor: "rgba(140, 36, 97, 0.5)",
-      borderColor: "rgba(140, 36, 97, 1)",
-      borderWidth: 1,
-    },
-    {
-      label: "Highest",
-      data: [77, 72, 82, 94],
-      backgroundColor: "rgba(19, 74, 142, 0.5)",
-      borderColor: "rgba(19, 74, 142, 1)",
-      borderWidth: 1,
-    },
-  ],
-};
 
 export const GameScoreBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
@@ -71,7 +52,7 @@ export const GameScoreBarChart = () => {
 
   return (
     <div className="chart">
-      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
+      <Bar options={options} data={gameScoreData} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };

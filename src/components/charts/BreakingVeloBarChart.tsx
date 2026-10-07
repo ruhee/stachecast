@@ -9,7 +9,8 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { chartOptions, labels, labelImagesSources } from "../../data/common";
+import { chartOptions, labelImagesSources } from "../../data/common";
+import { breakingVeloData } from "../../data/chartData";
 import { yAxisImageLabelsPlugin } from "../../plugins/yAxisImages";
 
 ChartJS.register(
@@ -20,40 +21,6 @@ ChartJS.register(
   Tooltip,
   Legend,
 );
-
-export const data = {
-  labels: labels,
-  datasets: [
-    {
-      label: "Slider",
-      data: [89, 88.6, 89, 88],
-      backgroundColor: "rgba(29, 45, 92, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgb(29, 45, 92)",
-    },
-    {
-      label: "Sweeper",
-      data: [83.3, 84.1, 82.8, 81.4],
-      backgroundColor: "rgba(108, 54, 124, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgb(108, 54, 124)",
-    },
-    {
-      label: "Changeup",
-      data: [83.3, 82, 80.2, 78.6],
-      backgroundColor: "rgba(187, 52, 121, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgba(187, 52, 121, 1)",
-    },
-    {
-      label: "Knuckle Curve",
-      data: [82.3, 81.7, 81.9, 80.4],
-      backgroundColor: "rgba(255, 145, 0, 0.5)",
-      borderWidth: 1,
-      borderColor: "rgb(255, 145, 0, 1)",
-    },
-  ],
-};
 
 export const BreakingVeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
@@ -88,7 +55,7 @@ export const BreakingVeloBarChart = () => {
 
   return (
     <div className="chart breaking">
-      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
+      <Bar options={options} data={breakingVeloData} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };

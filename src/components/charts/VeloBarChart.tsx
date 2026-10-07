@@ -9,7 +9,8 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { chartOptions, labels, labelImagesSources } from "../../data/common";
+import { chartOptions, labelImagesSources } from "../../data/common";
+import { veloData } from "../../data/chartData";
 import { yAxisImageLabelsPlugin } from "../../plugins/yAxisImages";
 
 ChartJS.register(
@@ -20,26 +21,6 @@ ChartJS.register(
   Tooltip,
   Legend,
 );
-
-export const data = {
-  labels: labels,
-  datasets: [
-    {
-      label: "Four-seam",
-      data: [97.4, 96.7, 97, 95.9],
-      backgroundColor: "rgba(142, 16, 16, 0.5)",
-      borderColor: "rgba(142, 16, 16, 1)",
-      borderWidth: 1,
-    },
-    {
-      label: "Sinker",
-      data: [95.9, 95.8, 96.2, 94.8],
-      backgroundColor: "rgba(94, 82, 185, 0.5)",
-      borderColor: "rgba(94, 82, 185, 1)",
-      borderWidth: 1,
-    },
-  ],
-};
 
 export const VeloBarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
@@ -71,7 +52,7 @@ export const VeloBarChart = () => {
 
   return (
     <div className="chart">
-      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
+      <Bar options={options} data={veloData} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };

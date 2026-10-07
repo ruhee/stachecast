@@ -9,7 +9,8 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { chartOptions, labels, labelImagesSources } from "../../data/common";
+import { chartOptions, labelImagesSources } from "../../data/common";
+import { k9data } from "../../data/chartData";
 import { yAxisImageLabelsPlugin } from "../../plugins/yAxisImages";
 
 ChartJS.register(
@@ -20,19 +21,6 @@ ChartJS.register(
   Tooltip,
   Legend,
 );
-
-export const data = {
-  labels: labels,
-  datasets: [
-    {
-      label: "K/9",
-      data: [13.25, 14.04, 12.13, 11.44],
-      backgroundColor: "rgba(6, 86, 61, 0.5)",
-      borderColor: "rgba(6, 86, 61, 1)",
-      borderWidth: 1,
-    },
-  ],
-};
 
 export const K9BarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
@@ -64,7 +52,7 @@ export const K9BarChart = () => {
 
   return (
     <div className="chart">
-      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
+      <Bar options={options} data={k9data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };
