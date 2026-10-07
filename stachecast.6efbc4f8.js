@@ -17468,7 +17468,7 @@ function App() {
                 className: "chart-container",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "In 2026, Cease's velo is inversely related to the amount of hair on his face."
+                        children: "In 2026, Cease's velo is loosely inversely related to the amount of hair on his face, though the stache does better than the short beard on average."
                     }, void 0, false, {
                         fileName: "src/App.tsx",
                         lineNumber: 21,
@@ -17544,7 +17544,7 @@ function App() {
                                 lineNumber: 53,
                                 columnNumber: 42
                             }, this),
-                            " small sample size, though: only 3 starts in 2026 with this beard type)"
+                            " small sample size, though: only 4 starts in 2026 with this beard type)"
                         ]
                     }, void 0, true, {
                         fileName: "src/App.tsx",
@@ -17584,7 +17584,7 @@ function App() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                            children: "Data includes 2026 appearances through September 13. 2019-2025 coming soon/eventually"
+                            children: "Data includes all 2026 appearances. 2019-2025 coming soon/eventually"
                         }, void 0, false, {
                             fileName: "src/App.tsx",
                             lineNumber: 65,
@@ -17734,45 +17734,16 @@ $parcel$ReactRefreshHelpers$c3d6.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "data", ()=>data);
 parcelHelpers.export(exports, "GameScoreBarChart", ()=>GameScoreBarChart);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _chartJs = require("chart.js");
 var _reactChartjs2 = require("react-chartjs-2");
 var _common = require("../../data/common");
+var _chartData = require("../../data/chartData");
 var _yAxisImages = require("../../plugins/yAxisImages");
 var _s = $RefreshSig$();
 (0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
-const data = {
-    labels: (0, _common.labels),
-    datasets: [
-        {
-            label: "Average",
-            data: [
-                57.7,
-                58.7,
-                77.2,
-                66.2
-            ],
-            backgroundColor: "rgba(140, 36, 97, 0.5)",
-            borderColor: "rgba(140, 36, 97, 1)",
-            borderWidth: 1
-        },
-        {
-            label: "Highest",
-            data: [
-                77,
-                72,
-                82,
-                94
-            ],
-            backgroundColor: "rgba(19, 74, 142, 0.5)",
-            borderColor: "rgba(19, 74, 142, 1)",
-            borderWidth: 1
-        }
-    ]
-};
 const GameScoreBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
@@ -17799,18 +17770,18 @@ const GameScoreBarChart = ()=>{
         className: "chart",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
             options: options,
-            data: data,
+            data: (0, _chartData.gameScoreData),
             plugins: [
                 (0, _yAxisImages.yAxisImageLabelsPlugin)
             ]
         }, void 0, false, {
             fileName: "src/components/charts/GameScoreBarChart.tsx",
-            lineNumber: 74,
+            lineNumber: 55,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/charts/GameScoreBarChart.tsx",
-        lineNumber: 73,
+        lineNumber: 54,
         columnNumber: 5
     }, undefined);
 };
@@ -17824,7 +17795,7 @@ $RefreshReg$(_c, "GameScoreBarChart");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6U2cz":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/chartData":"kR6jO"}],"6U2cz":[function(require,module,exports,__globalThis) {
 /*!
  * Chart.js v4.5.1
  * https://www.chartjs.org
@@ -34219,36 +34190,123 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ch1fs":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$8d68 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$8d68.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8d68.prelude(module);
-
-try {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kR6jO":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "data", ()=>data);
-parcelHelpers.export(exports, "VeloBarChart", ()=>VeloBarChart);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _chartJs = require("chart.js");
-var _reactChartjs2 = require("react-chartjs-2");
-var _common = require("../../data/common");
-var _yAxisImages = require("../../plugins/yAxisImages");
-var _s = $RefreshSig$();
-(0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
-const data = {
+parcelHelpers.export(exports, "breakingVeloData", ()=>breakingVeloData);
+parcelHelpers.export(exports, "gameScoreData", ()=>gameScoreData);
+parcelHelpers.export(exports, "k9data", ()=>k9data);
+parcelHelpers.export(exports, "veloData", ()=>veloData);
+var _common = require("./common");
+const breakingVeloData = {
+    labels: (0, _common.labels),
+    datasets: [
+        {
+            label: "Slider",
+            data: [
+                89,
+                88.6,
+                89,
+                88
+            ],
+            backgroundColor: "rgba(29, 45, 92, 0.5)",
+            borderWidth: 1,
+            borderColor: "rgb(29, 45, 92)"
+        },
+        {
+            label: "Sweeper",
+            data: [
+                83.3,
+                84.1,
+                82.8,
+                81.4
+            ],
+            backgroundColor: "rgba(108, 54, 124, 0.5)",
+            borderWidth: 1,
+            borderColor: "rgb(108, 54, 124)"
+        },
+        {
+            label: "Changeup",
+            data: [
+                83.3,
+                82,
+                80.2,
+                78.6
+            ],
+            backgroundColor: "rgba(187, 52, 121, 0.5)",
+            borderWidth: 1,
+            borderColor: "rgba(187, 52, 121, 1)"
+        },
+        {
+            label: "Knuckle Curve",
+            data: [
+                82.3,
+                81.7,
+                81.9,
+                80.4
+            ],
+            backgroundColor: "rgba(255, 145, 0, 0.5)",
+            borderWidth: 1,
+            borderColor: "rgb(255, 145, 0, 1)"
+        }
+    ]
+};
+const gameScoreData = {
+    labels: (0, _common.labels),
+    datasets: [
+        {
+            label: "Average",
+            data: [
+                57.7,
+                55.4,
+                72.8,
+                66.9
+            ],
+            backgroundColor: "rgba(140, 36, 97, 0.5)",
+            borderColor: "rgba(140, 36, 97, 1)",
+            borderWidth: 1
+        },
+        {
+            label: "Highest",
+            data: [
+                77,
+                72,
+                82,
+                94
+            ],
+            backgroundColor: "rgba(19, 74, 142, 0.5)",
+            borderColor: "rgba(19, 74, 142, 1)",
+            borderWidth: 1
+        }
+    ]
+};
+const k9data = {
+    labels: (0, _common.labels),
+    datasets: [
+        {
+            label: "K/9",
+            data: [
+                13.25,
+                14.04,
+                12.13,
+                11.44
+            ],
+            backgroundColor: "rgba(6, 86, 61, 0.5)",
+            borderColor: "rgba(6, 86, 61, 1)",
+            borderWidth: 1
+        }
+    ]
+};
+const veloData = {
     labels: (0, _common.labels),
     datasets: [
         {
             label: "Four-seam",
             data: [
                 97.4,
-                97.2,
-                96.9,
-                96.1
+                96.7,
+                97,
+                95.9
             ],
             backgroundColor: "rgba(142, 16, 16, 0.5)",
             borderColor: "rgba(142, 16, 16, 1)",
@@ -34258,9 +34316,9 @@ const data = {
             label: "Sinker",
             data: [
                 95.9,
-                96.1,
                 95.8,
-                95
+                96.2,
+                94.8
             ],
             backgroundColor: "rgba(94, 82, 185, 0.5)",
             borderColor: "rgba(94, 82, 185, 1)",
@@ -34268,6 +34326,27 @@ const data = {
         }
     ]
 };
+
+},{"./common":"baGnG","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ch1fs":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$8d68 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$8d68.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8d68.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "VeloBarChart", ()=>VeloBarChart);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _chartJs = require("chart.js");
+var _reactChartjs2 = require("react-chartjs-2");
+var _common = require("../../data/common");
+var _chartData = require("../../data/chartData");
+var _yAxisImages = require("../../plugins/yAxisImages");
+var _s = $RefreshSig$();
+(0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
 const VeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
@@ -34294,18 +34373,18 @@ const VeloBarChart = ()=>{
         className: "chart",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
             options: options,
-            data: data,
+            data: (0, _chartData.veloData),
             plugins: [
                 (0, _yAxisImages.yAxisImageLabelsPlugin)
             ]
         }, void 0, false, {
             fileName: "src/components/charts/VeloBarChart.tsx",
-            lineNumber: 74,
+            lineNumber: 55,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/charts/VeloBarChart.tsx",
-        lineNumber: 73,
+        lineNumber: 54,
         columnNumber: 5
     }, undefined);
 };
@@ -34319,7 +34398,7 @@ $RefreshReg$(_c, "VeloBarChart");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"hLxzn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/chartData":"kR6jO"}],"hLxzn":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$26b5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$26b5.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -34329,69 +34408,16 @@ $parcel$ReactRefreshHelpers$26b5.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "data", ()=>data);
 parcelHelpers.export(exports, "BreakingVeloBarChart", ()=>BreakingVeloBarChart);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _chartJs = require("chart.js");
 var _reactChartjs2 = require("react-chartjs-2");
 var _common = require("../../data/common");
+var _chartData = require("../../data/chartData");
 var _yAxisImages = require("../../plugins/yAxisImages");
 var _s = $RefreshSig$();
 (0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
-const data = {
-    labels: (0, _common.labels),
-    datasets: [
-        {
-            label: "Slider",
-            data: [
-                89,
-                89.1,
-                88.8,
-                88.2
-            ],
-            backgroundColor: "rgba(29, 45, 92, 0.5)",
-            borderWidth: 1,
-            borderColor: "rgb(29, 45, 92)"
-        },
-        {
-            label: "Sweeper",
-            data: [
-                83.3,
-                84.1,
-                82.8,
-                81.8
-            ],
-            backgroundColor: "rgba(108, 54, 124, 0.5)",
-            borderWidth: 1,
-            borderColor: "rgb(108, 54, 124)"
-        },
-        {
-            label: "Changeup",
-            data: [
-                83.3,
-                82.9,
-                79.9,
-                79.2
-            ],
-            backgroundColor: "rgba(187, 52, 121, 0.5)",
-            borderWidth: 1,
-            borderColor: "rgba(187, 52, 121, 1)"
-        },
-        {
-            label: "Knuckle Curve",
-            data: [
-                82.3,
-                82.9,
-                81.9,
-                80.6
-            ],
-            backgroundColor: "rgba(255, 145, 0, 0.5)",
-            borderWidth: 1,
-            borderColor: "rgb(255, 145, 0, 1)"
-        }
-    ]
-};
 const BreakingVeloBarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
@@ -34418,18 +34444,18 @@ const BreakingVeloBarChart = ()=>{
         className: "chart breaking",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
             options: options,
-            data: data,
+            data: (0, _chartData.breakingVeloData),
             plugins: [
                 (0, _yAxisImages.yAxisImageLabelsPlugin)
             ]
         }, void 0, false, {
             fileName: "src/components/charts/BreakingVeloBarChart.tsx",
-            lineNumber: 91,
+            lineNumber: 58,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/charts/BreakingVeloBarChart.tsx",
-        lineNumber: 90,
+        lineNumber: 57,
         columnNumber: 5
     }, undefined);
 };
@@ -34443,7 +34469,7 @@ $RefreshReg$(_c, "BreakingVeloBarChart");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cih0o":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../data/chartData":"kR6jO","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cih0o":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$6451 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$6451.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -34453,33 +34479,16 @@ $parcel$ReactRefreshHelpers$6451.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "data", ()=>data);
 parcelHelpers.export(exports, "K9BarChart", ()=>K9BarChart);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _chartJs = require("chart.js");
 var _reactChartjs2 = require("react-chartjs-2");
 var _common = require("../../data/common");
+var _chartData = require("../../data/chartData");
 var _yAxisImages = require("../../plugins/yAxisImages");
 var _s = $RefreshSig$();
 (0, _chartJs.Chart).register((0, _chartJs.CategoryScale), (0, _chartJs.LinearScale), (0, _chartJs.BarElement), (0, _chartJs.Title), (0, _chartJs.Tooltip), (0, _chartJs.Legend));
-const data = {
-    labels: (0, _common.labels),
-    datasets: [
-        {
-            label: "K/9",
-            data: [
-                13.25,
-                15.06,
-                12.13,
-                11.44
-            ],
-            backgroundColor: "rgba(6, 86, 61, 0.5)",
-            borderColor: "rgba(6, 86, 61, 1)",
-            borderWidth: 1
-        }
-    ]
-};
 const K9BarChart = ()=>{
     _s();
     const [loadedImages, setLoadedImages] = (0, _react.useState)([]);
@@ -34506,18 +34515,18 @@ const K9BarChart = ()=>{
         className: "chart",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactChartjs2.Bar), {
             options: options,
-            data: data,
+            data: (0, _chartData.k9data),
             plugins: [
                 (0, _yAxisImages.yAxisImageLabelsPlugin)
             ]
         }, void 0, false, {
             fileName: "src/components/charts/K9BarChart.tsx",
-            lineNumber: 67,
+            lineNumber: 55,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/charts/K9BarChart.tsx",
-        lineNumber: 66,
+        lineNumber: 54,
         columnNumber: 5
     }, undefined);
 };
@@ -34531,6 +34540,6 @@ $RefreshReg$(_c, "K9BarChart");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","chart.js":"6U2cz","react-chartjs-2":"eXcD6","../../data/common":"baGnG","../../plugins/yAxisImages":"bvSSy","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/chartData":"kR6jO"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequiree135", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=stachecast.6efbc4f8.js.map
