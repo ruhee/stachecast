@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -7,11 +7,11 @@ import {
   Title,
   Tooltip,
   Legend,
-} from "chart.js";
-import { Bar } from "react-chartjs-2";
-import { chartOptions, labelImagesSources } from "../../data/common";
-import { k9data } from "../../data/chartData";
-import { yAxisImageLabelsPlugin } from "../../plugins/yAxisImages";
+} from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+import { chartOptions, labelImagesSources } from '../../data/common';
+import { k9data } from '../../data/chartData';
+import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
 
 ChartJS.register(
   CategoryScale,
@@ -19,12 +19,12 @@ ChartJS.register(
   BarElement,
   Title,
   Tooltip,
-  Legend,
+  Legend
 );
 
 export const K9BarChart = () => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions("2026 Strikeouts/9", loadedImages, false, 9);
+  let options = chartOptions('2026 Strikeouts/9', loadedImages, false, 9);
 
   useEffect(() => {
     let isMounted = true;
@@ -32,7 +32,7 @@ export const K9BarChart = () => {
     const promises = labelImagesSources.map((src) => {
       return new Promise((resolve) => {
         const img = new Image();
-        img.crossOrigin = "anonymous";
+        img.crossOrigin = 'anonymous';
         img.src = src;
         img.onload = () => resolve(img);
         img.onerror = () => resolve(null);
