@@ -1,73 +1,52 @@
 import csv from 'csvtojson';
-import { writeFileSync } from 'fs';
+import fs from 'node:fs';
 const __dirname = import.meta.dirname;
 
-const csvFilePath = `${__dirname}/master-2026.csv`
+const csvFilePath = `${__dirname}/averages.csv`;
 
-// TODO: Standard spreadsheet column headers
-// This matches 2026 master but not bref exports
+// Column headers in the Averages spreadsheet
 const COLUMNS = [
-    '4 seam', 
-    'Sinker',
-    'Slider',
-    'Sweeper',
-    'Change',
-    'Knuckle curve',
-    'Game score',
-    'IP normalized',
-    'K',
-    'Normalized',
-].join("|")
+  'Format',
+  '4 seam',
+  'Sinker',
+  'Slider',
+  'Sweeper',
+  'Change',
+  'Knuckle curve',
+  'Game score',
+  'K/9',
+].join('|');
+
+// Get this from the csv eventually
+const FORMATS = [
+  'Clean shaven',
+  'Stache only',
+  'Stache + soul patch',
+  'Short beard',
+  'Full beard',
+  'Long beard',
+  'Mountain man beard',
+];
 
 csv({
-    includeColumns: new RegExp(COLUMNS)
-}).fromFile(csvFilePath).then((jsonObj) => {
-
-    console.log(
-        jsonObj.filter(item => item['Normalized'] === 'Full beard')
-    )
-
-    // full_beard = jsonObj.filter(item => item['Normalized'] === 'Full beard')
-    // construct { four_seam: n, ... }
-
-
-
-
-
-    writeFileSync('converted-2026.json', JSON.stringify(jsonObj, null, 2))
-    // console.log(jsonObj);
-    console.log("Saved file converted-2026.json");
+  includeColumns: new RegExp(COLUMNS),
 })
-.catch((err) => {
-    console.log(err)
-});
+  .fromFile(csvFilePath)
+  .then((jsonObj) => {
+    let finalObj = {};
 
-/*
+    FORMATS.forEach((format) => {
+      let currentFormat = jsonObj.find((item) => item['Format'] === format);
+      finalObj[format] = currentFormat;
+    });
 
-Starts like:
-{
-    Slider: 90,
-    Sinker: 96.9,
-    Normalized: Stache + soul patch,
-},
-{
-    Slider: 89.3,
-    Sinker: 97.3,
-    Normalized: Short beard,
-}
-
-Should end like:
-{
-    "Stache + soul patch": {
-        Sinker: 90,
-        Slider: 94.9,
-    },
-    "Short beard": {
-        Sinker: 96.9,
-        Slider: 91,
-    }
-
-}
-
-*/
-
+    // make this write to the correct dir and not rely on where it's being run
+    fs.writeFileSync(
+      'converted-averages.json',
+      JSON.stringify(finalObj, null, 2)
+    );
+    console.log('Saved file converted-averages.json');
+  })
+  .catch((err) => {
+    console.log(err);
+  });
