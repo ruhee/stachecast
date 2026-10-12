@@ -37,7 +37,13 @@ csv({
 
     FORMATS.forEach((format) => {
       let currentFormat = jsonObj.find((item) => item['Format'] === format);
-      finalObj[format] = currentFormat;
+
+      if (currentFormat) {
+        const { Format, ...rest } = currentFormat;
+        finalObj[format] = rest;
+      } else {
+        console.error(`Failed to save ${format}`)
+      }
     });
 
     // make this write to the correct dir and not rely on where it's being run

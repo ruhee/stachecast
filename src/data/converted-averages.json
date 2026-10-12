@@ -1,6 +1,5 @@
 {
   "Clean shaven": {
-    "Format": "Clean shaven",
     "4 seam": "97.2",
     "Sinker": "95.6",
     "Slider": "89.9",
@@ -11,7 +10,6 @@
     "K/9": "10.12"
   },
   "Stache only": {
-    "Format": "Stache only",
     "4 seam": "97.7",
     "Sinker": "",
     "Slider": "89.7",
@@ -22,7 +20,6 @@
     "K/9": "11.79"
   },
   "Stache + soul patch": {
-    "Format": "Stache + soul patch",
     "4 seam": "97.1",
     "Sinker": "96.1",
     "Slider": "88.2",
@@ -33,7 +30,6 @@
     "K/9": "11.43"
   },
   "Short beard": {
-    "Format": "Short beard",
     "4 seam": "96.7",
     "Sinker": "95.8",
     "Slider": "88.6",
@@ -44,7 +40,6 @@
     "K/9": "14.03"
   },
   "Full beard": {
-    "Format": "Full beard",
     "4 seam": "96.9",
     "Sinker": "96.2",
     "Slider": "88.8",
@@ -55,7 +50,6 @@
     "K/9": "11.64"
   },
   "Long beard": {
-    "Format": "Long beard",
     "4 seam": "95.9",
     "Sinker": "94.8",
     "Slider": "88",
@@ -66,7 +60,6 @@
     "K/9": "11.3"
   },
   "Mountain man beard": {
-    "Format": "Mountain man beard",
     "4 seam": "96.6",
     "Sinker": "95.6",
     "Slider": "88.6",
