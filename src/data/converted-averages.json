@@ -1,0 +1,72 @@
+{
+  "Clean shaven": {
+    "4 seam": "97.2",
+    "Sinker": "95.6",
+    "Slider": "89.9",
+    "Sweeper": "84.1",
+    "Change": "72.8",
+    "Knuckle curve": "81.7",
+    "Game score": "51",
+    "K/9": "10.12"
+  },
+  "Stache only": {
+    "4 seam": "97.7",
+    "Sinker": "",
+    "Slider": "89.7",
+    "Sweeper": "84.7",
+    "Change": "",
+    "Knuckle curve": "83.4",
+    "Game score": "57",
+    "K/9": "11.79"
+  },
+  "Stache + soul patch": {
+    "4 seam": "97.1",
+    "Sinker": "96.1",
+    "Slider": "88.2",
+    "Sweeper": "82.7",
+    "Change": "78",
+    "Knuckle curve": "82",
+    "Game score": "56",
+    "K/9": "11.43"
+  },
+  "Short beard": {
+    "4 seam": "96.7",
+    "Sinker": "95.8",
+    "Slider": "88.6",
+    "Sweeper": "84.1",
+    "Change": "82",
+    "Knuckle curve": "81.7",
+    "Game score": "55",
+    "K/9": "14.03"
+  },
+  "Full beard": {
+    "4 seam": "96.9",
+    "Sinker": "96.2",
+    "Slider": "88.8",
+    "Sweeper": "83",
+    "Change": "79.7",
+    "Knuckle curve": "81.6",
+    "Game score": "65",
+    "K/9": "11.64"
+  },
+  "Long beard": {
+    "4 seam": "95.9",
+    "Sinker": "94.8",
+    "Slider": "88",
+    "Sweeper": "81.4",
+    "Change": "78.6",
+    "Knuckle curve": "80.4",
+    "Game score": "67",
+    "K/9": "11.3"
+  },
+  "Mountain man beard": {
+    "4 seam": "96.6",
+    "Sinker": "95.6",
+    "Slider": "88.6",
+    "Sweeper": "82.5",
+    "Change": "78.4",
+    "Knuckle curve": "79.7",
+    "Game score": "41",
+    "K/9": "11.05"
+  }
+}
