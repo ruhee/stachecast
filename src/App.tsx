@@ -19,9 +19,9 @@ const RootLayout = () => (
 const Home = () => (
   <div className="container">
     {/* TODO: Move this to root layout */}
-    <Link to="/">
-      <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
-    </Link>
+    <h1>
+      <Link to="/">👨🏻 STACHECAST 🧔🏻‍♂️</Link>
+    </h1>
     <p>
       On September 7, Dylan Cease&rsquo;s{' '}
       <a href="https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302">
