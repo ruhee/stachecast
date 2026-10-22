@@ -1,32 +1,38 @@
 import { labels } from './common';
+import { averages, formats } from './averages';
 
 export const breakingVeloData = {
-  labels: labels,
+  // labels: labels,
+  labels: formats,
   datasets: [
     {
       label: 'Slider',
-      data: [89, 88.6, 89, 88],
+      // data: [89, 88.6, 89, 88],
+      data: averages['Slider'],
       backgroundColor: 'rgba(29, 45, 92, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(29, 45, 92)',
     },
     {
       label: 'Sweeper',
-      data: [83.3, 84.1, 82.8, 81.4],
+      // data: [83.3, 84.1, 82.8, 81.4],
+      data: averages['Sweeper'],
       backgroundColor: 'rgba(108, 54, 124, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(108, 54, 124)',
     },
     {
       label: 'Changeup',
-      data: [83.3, 82, 80.2, 78.6],
+      // data: [83.3, 82, 80.2, 78.6],
+      data: averages['Change'],
       backgroundColor: 'rgba(187, 52, 121, 0.5)',
       borderWidth: 1,
       borderColor: 'rgba(187, 52, 121, 1)',
     },
     {
       label: 'Knuckle Curve',
-      data: [82.3, 81.7, 81.9, 80.4],
+      data: averages['Knuckle curve'],
+      // data: [82.3, 81.7, 81.9, 80.4],
       backgroundColor: 'rgba(255, 145, 0, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(255, 145, 0, 1)',

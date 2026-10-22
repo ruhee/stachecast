@@ -9,9 +9,10 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { chartOptions, labelImagesSources } from '../../data/common';
+import { chartOptions } from '../../data/common';
 import { breakingVeloData } from '../../data/chartData';
 import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
+import { newLabelImagesSources } from '../../data/newChartData';
 
 ChartJS.register(
   CategoryScale,
@@ -32,7 +33,7 @@ export const BreakingVeloBarChart = () => {
   useEffect(() => {
     let isMounted = true;
 
-    const promises = labelImagesSources.map((src) => {
+    const promises = newLabelImagesSources.map((src) => {
       return new Promise((resolve) => {
         const img = new Image();
         img.crossOrigin = 'anonymous';
