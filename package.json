@@ -42,5 +42,8 @@
   },
   "parcel-reporter-static-files-copy": {
     "source": "public"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }
