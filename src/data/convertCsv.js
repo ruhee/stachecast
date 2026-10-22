@@ -14,6 +14,7 @@ const COLUMNS = [
   'Change',
   'Knuckle curve',
   'Game score',
+  'Game score max',
   'K/9',
 ].join('|');
 
