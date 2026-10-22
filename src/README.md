@@ -28,6 +28,12 @@ $ npm run lint # ESLint
 $ npm run lint:fix # ESLint autofix
 ```
 
+After you've updated `src/data/averages.csv` with the latest spreadsheet totals, run the data conversion (this will convert to TS and run the linter):
+
+```bash
+$ npm run data
+```
+
 ### Deployment
 
 To deploy, run this to push the built files to the `gh-pages` branch, where the Github Action will pick it up and push to the website.
