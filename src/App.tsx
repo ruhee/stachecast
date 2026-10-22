@@ -1,9 +1,17 @@
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  Link,
+  RouterProvider,
+  Outlet,
+} from 'react-router-dom';
 import { Home } from './components/Home';
 import { Credits } from './components/Credits';
 
 const RootLayout = () => (
-  <div>
+  <div className="container">
+    <h1>
+      <Link to="/">👨🏻 STACHECAST 🧔🏻‍♂️</Link>
+    </h1>
     <Outlet />
     {/* This is where the matching route element renders (inside the Outlet) */}
   </div>

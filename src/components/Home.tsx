@@ -5,11 +5,7 @@ import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
 export const Home = () => (
-  <div className="container">
-    {/* TODO: Move this to root layout */}
-    <h1>
-      <Link to="/">👨🏻 STACHECAST 🧔🏻‍♂️</Link>
-    </h1>
+  <div>
     <p>
       On September 7, Dylan Cease&rsquo;s{' '}
       <a href="https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302">

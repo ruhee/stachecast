@@ -1,5 +1,5 @@
 export const Credits = () => (
   <div>
-    <h1>Photo credits</h1>
+    <h2>Photo credits</h2>
   </div>
 );
