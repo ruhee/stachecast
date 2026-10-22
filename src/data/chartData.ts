@@ -1,11 +1,14 @@
 import { labels } from './common';
+// import { averages, formats } from './averages';
 
 export const breakingVeloData = {
   labels: labels,
+  // labels: formats,
   datasets: [
     {
       label: 'Slider',
       data: [89, 88.6, 89, 88],
+      // data: averages['Slider'],
       backgroundColor: 'rgba(29, 45, 92, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(29, 45, 92)',
