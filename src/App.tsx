@@ -4,8 +4,9 @@ import {
   RouterProvider,
   Outlet,
 } from 'react-router-dom';
-import { Home } from './components/Home';
 import { Credits } from './components/Credits';
+import { Changelog } from './components/Changelog';
+import { Home } from './components/Home';
 
 const RootLayout = () => (
   <div className="container">
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'credits', element: <Credits /> },
+      { path: 'changelog', element: <Changelog /> },
     ],
   },
 ]);
