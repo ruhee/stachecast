@@ -2,10 +2,25 @@ import { GameScoreBarChart } from './components/charts/GameScoreBarChart';
 import { VeloBarChart } from './components/charts/VeloBarChart';
 import { BreakingVeloBarChart } from './components/charts/BreakingVeloBarChart';
 import { K9BarChart } from './components/charts/K9BarChart';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Link,
+  Outlet,
+} from 'react-router-dom';
 
-export function App() {
-  return (
-    <div className="container">
+const RootLayout = () => (
+  <div>
+    <Link to="/">Home</Link> <Link to="credits">Credits</Link>
+    <div>
+      <Outlet />
+      {/* This is where the matching route element renders (inside the Outlet) */}
+    </div>
+  </div>
+);
+
+const Home = () => (
+  <div className="container">
       <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
       <p>
         On September 7, Dylan Cease&rsquo;s{' '}
@@ -98,6 +113,22 @@ export function App() {
           among starters. Keep the beard, IMO.
         </p>
       </footer>
-    </div>
+    </div> 
+)
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'credits', element: <h1>credits</h1> },
+    ],
+  },
+]);
+
+export const App = () => {
+  return (
+      <RouterProvider router={router} />
   );
 }
