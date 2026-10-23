@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { GameScoreBarChart } from './charts/GameScoreBarChart';
 import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
@@ -89,7 +88,6 @@ export const Home = () => (
         <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a>.
         Perfect name thanks to{' '}
         <a href="https://bsky.app/profile/phrichards.ca">Phil</a>.{' '}
-        <Link to="credits">Photo credits here</Link>.{' '}
       </p>
       <p>
         With sincerest and most sheepish apologies to Dylan Cease, a king among
