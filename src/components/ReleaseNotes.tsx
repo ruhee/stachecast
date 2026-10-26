@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export const ReleaseNotes = () => (
   <div>
     <h2>Release notes</h2>
     <p>
-      It&rsquo;s sorta funny to treat this thing like a serious piece of software.
+      It&rsquo;s sorta funny to treat this thing like a serious piece of
+      software.
     </p>
     <ul>
       <li>
