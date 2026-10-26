@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { GameScoreBarChart } from './charts/GameScoreBarChart';
 import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
@@ -73,7 +74,8 @@ export const Home = () => (
           David Price Nickname Generator
         </a>{' '}
         and the Stanton Strikeout Tracker. Please{' '}
-        <a href="mailto:ruhee.dewji@gmail.com">send feedback</a>.
+        <a href="mailto:ruhee.dewji@gmail.com">send feedback</a>.{' '}
+        <Link to="release-notes">See the release notes here</Link>.
       </p>
 
       <p>

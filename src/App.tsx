@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { Credits } from './components/Credits';
-// import { ReleaseNotes } from './components/ReleaseNotes';
+import { ReleaseNotes } from './components/ReleaseNotes';
 import { Home } from './components/Home';
 
 const RootLayout = () => (
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'credits', element: <Credits /> },
-      // { path: 'release-notes', element: <ReleaseNotes /> },
+      { path: 'release-notes', element: <ReleaseNotes /> },
     ],
   },
 ]);
