@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-// import { Credits } from './components/Credits';
+import { Credits } from './components/Credits';
 // import { ReleaseNotes } from './components/ReleaseNotes';
 import { Home } from './components/Home';
 
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <Home /> },
-      // { path: 'credits', element: <Credits /> },
+      { path: 'credits', element: <Credits /> },
       // { path: 'release-notes', element: <ReleaseNotes /> },
     ],
   },
