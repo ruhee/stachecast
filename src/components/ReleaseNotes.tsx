@@ -9,7 +9,7 @@ export const ReleaseNotes = () => (
     </p>
     <ul>
       <li>
-        <i>October 27, 2026:</i> Added <Link to="credits">photo credits</Link>.
+        <i>October 27, 2026:</i> Added <Link to="/credits">photo credits</Link>.
       </li>
     </ul>
   </div>
