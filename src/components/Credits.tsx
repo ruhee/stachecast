@@ -21,7 +21,13 @@ export const Credits = () => (
         </a>
         )
       </li>
-      <li>Stache & patch image: TK</li>
+      <li>
+        Stache & patch image: Screenshot from{' '}
+        <a href="https://www.mlb.com/video/dylan-cease-talks-historic-blue-jays-debut">
+          this postgame interview
+        </a>{' '}
+        at MLB.com
+      </li>
       <li>
         Short beard image: Mark Blinch/Getty Images (
         <a href="https://www.forbes.com/sites/peterchawaga/2026/07/10/blue-jays-dylan-cease-sends-yankees-phenom-message-after-nearing-history/">
