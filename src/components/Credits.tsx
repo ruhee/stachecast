@@ -12,15 +12,7 @@ export const Credits = () => (
         <a href="https://stachecast.lol/cease-sacramento-sept7.jpg">
           Link preview image
         </a>
-        : Scott Marshall/AP Photo (
-        <a
-          href="https://www.tsn.ca/radio/toronto-1050/article/olney-on-the-blue-jays-chasing-the-final-al-wild-card-spot-jays-shortcomings-in-the-rotation-and-more/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          example source
-        </a>
-        )
+        : Scott Marshall/AP Photo
       </li>
       <li>
         Stache & patch image: Screenshot from{' '}
@@ -30,25 +22,22 @@ export const Credits = () => (
         at MLB.com
       </li>
       <li>
-        Short beard image: Mark Blinch/Getty Images (
-        <a href="https://www.forbes.com/sites/peterchawaga/2026/07/10/blue-jays-dylan-cease-sends-yankees-phenom-message-after-nearing-history/">
-          example source
+        <a href="https://imageio.forbes.com/specials-images/imageserve/6a4fe24c435f10b7de6eae0f/Philadelphia-Phillies-v-Toronto-Blue-Jays/0x0.jpg?width=960&dpr=2">
+          Short beard image
         </a>
-        )
+        : Mark Blinch/Getty Images
       </li>
       <li>
-        Full beard image: Olivia Vanni/Getty Images (
-        <a href="https://www.justbaseball.com/mlb/dylan-cease-staring-down-first-cy-young-award/">
-          example source
+        <a href="https://www.justbaseball.com/wp-content/uploads/sites/2/2026/08/Dylan-Cease2-768x432.jpg">
+          Full beard image
         </a>
-        )
+        : Olivia Vanni/Getty Images
       </li>
       <li>
-        Long beard image: Ken Blaze-Imagn Images (
-        <a href="https://www.si.com/mlb/bluejays/onsi/dylan-cease-historic-blue-jays-run-puts-him-absurd-company">
-          example source
+        <a href="https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_72,w_4059,h_2283/c_fill,w_2160,ar_16:9,f_auto,q_auto,g_auto/images%2FReutersImages%2Fmmsport%2Finside_the_blue_jays%2F01m1ke4j53mgdjm90wr8.jpg">
+          Long beard image
         </a>
-        )
+        : Ken Blaze-Imagn Images
       </li>
     </ul>
   </div>
