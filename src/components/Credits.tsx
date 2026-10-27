@@ -2,16 +2,17 @@ export const Credits = () => (
   <div>
     <h2>Photo credits</h2>
     <p>
-      This is a silly side project worth no money; I just grabbed all of these
-      photos from many, many Google searches. If you are the owner of any of
-      these photos and want them removed, please{' '}
+      This is a silly side project worth no money; I grabbed all of these photos
+      from countless Google searches. If you are the owner of any of these
+      photos and want them removed, please{' '}
       <a href="mailto:ruhee.dewji@gmail.com">email me</a>.
     </p>
     <ul>
       <li>
-        The image used for link previews is{' '}
-        <a href="https://stachecast.lol/cease-sacramento-sept7.jpg">this one</a>
-        . Credit: Scott Marshall/AP Photo (
+        <a href="https://stachecast.lol/cease-sacramento-sept7.jpg">
+          Link preview image
+        </a>
+        : Scott Marshall/AP Photo (
         <a
           href="https://www.tsn.ca/radio/toronto-1050/article/olney-on-the-blue-jays-chasing-the-final-al-wild-card-spot-jays-shortcomings-in-the-rotation-and-more/"
           target="_blank"
@@ -42,7 +43,10 @@ export const Credits = () => (
         </a>
         )
       </li>
-      <li>Long beard image: I honestly can&rsquo;t figure out where I got this from—TBD</li>
+      <li>
+        Long beard image: I honestly can&rsquo;t figure out where I got this
+        from—TBD
+      </li>
     </ul>
   </div>
 );
