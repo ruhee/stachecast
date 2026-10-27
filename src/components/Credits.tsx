@@ -44,8 +44,11 @@ export const Credits = () => (
         )
       </li>
       <li>
-        Long beard image: I honestly can&rsquo;t figure out where I got this
-        from—TBD
+        Long beard image: Ken Blaze-Imagn Images (
+        <a href="https://www.si.com/mlb/bluejays/onsi/dylan-cease-historic-blue-jays-run-puts-him-absurd-company">
+          example source
+        </a>
+        )
       </li>
     </ul>
   </div>
