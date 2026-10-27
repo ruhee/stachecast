@@ -7,13 +7,6 @@ import stache from 'url:../assets/stache.jpeg';
 
 export const labelImagesSources = [stache, short, full, long];
 
-export const labels: string[] = [
-  'Stache and soul patch',
-  'Short beard',
-  'Full beard',
-  'Long beard',
-];
-
 export const chartOptions = (
   titleText: string,
   loadedImages: never[],
