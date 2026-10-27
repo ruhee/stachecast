@@ -6,10 +6,11 @@
   "source": "src/index.html",
   "type": "module",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel src/index.html",
     "build": "parcel build --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "postbuild": "cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md}\"",
