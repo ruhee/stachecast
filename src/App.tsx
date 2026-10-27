@@ -1,11 +1,18 @@
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-// import { Credits } from './components/Credits';
-// import { ReleaseNotes } from './components/ReleaseNotes';
+import {
+  createBrowserRouter,
+  Link,
+  RouterProvider,
+  Outlet,
+} from 'react-router-dom';
+import { Credits } from './components/Credits';
+import { ReleaseNotes } from './components/ReleaseNotes';
 import { Home } from './components/Home';
 
 const RootLayout = () => (
   <div className="container">
-    <h1>👨🏻 STACHECAST 🧔🏻‍♂️</h1>
+    <h1>
+      <Link to="/">👨🏻 STACHECAST 🧔🏻‍♂️</Link>
+    </h1>
     <Outlet />
     {/* This is where the matching route element renders (inside the Outlet) */}
   </div>
@@ -17,8 +24,8 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <Home /> },
-      // { path: 'credits', element: <Credits /> },
-      // { path: 'release-notes', element: <ReleaseNotes /> },
+      { path: 'credits', element: <Credits /> },
+      { path: 'release-notes', element: <ReleaseNotes /> },
     ],
   },
 ]);
