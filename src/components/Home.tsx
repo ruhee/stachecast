@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { GameScoreBarChart } from './charts/GameScoreBarChart';
 import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
@@ -72,22 +73,24 @@ export const Home = () => (
         <a href="https://nationalpost.com/sports/baseball/mlb/toronto-blue-jays-fan-created-a-david-price-nickname-generator-and-the-ace-thought-it-was-pretty-funny">
           David Price Nickname Generator
         </a>{' '}
-        and the Stanton Strikeout Tracker. Please{' '}
+        and the Stanton Strikeout Tracker. You can{' '}
+        <Link to="release-notes">see the release notes</Link> or{' '}
         <a href="mailto:ruhee.dewji@gmail.com">send feedback</a>.
       </p>
 
       <p>
-        Pitch data via{' '}
+        Pitch data:{' '}
         <a href="https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026">
           Baseball Savant and Statcast
         </a>
-        . Beard data via MLB highlight packages and my eyes. All other data from{' '}
+        . Beard data: MLB highlight packages and my eyes. All other data:{' '}
         <a href="https://www.baseball-reference.com/">Baseball Reference</a>.
         Exceptional advice by{' '}
         <a href="https://bsky.app/profile/gareths.bsky.social">Gareth</a> and{' '}
-        <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a>.
-        Perfect name thanks to{' '}
+        <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a>, and
+        perfect name by{' '}
         <a href="https://bsky.app/profile/phrichards.ca">Phil</a>.{' '}
+        <Link to="credits">Photo credits are here</Link>.
       </p>
       <p>
         With sincerest and most sheepish apologies to Dylan Cease, a king among
