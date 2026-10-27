@@ -9,7 +9,11 @@ export const ReleaseNotes = () => (
     </p>
     <ul>
       <li>
-        <i>October 27, 2026:</i> Added <Link to="/credits">photo credits</Link>.
+        <i>October 27, 2026</i>: Fixed game score chart data (the max values for
+        &ldquo;full&rdquo; and &ldquo;long&rdquo; were reversed)
+      </li>
+      <li>
+        <i>October 27, 2026</i>: Added <Link to="/credits">photo credits</Link>.
       </li>
     </ul>
   </div>
