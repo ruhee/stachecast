@@ -18,22 +18,17 @@ const RootLayout = () => (
   </div>
 );
 
-const router = createBrowserRouter(
-  [
-    {
-      path: '/',
-      element: <RootLayout />,
-      children: [
-        { index: true, element: <Home /> },
-        { path: 'credits', element: <Credits /> },
-        { path: 'release-notes', element: <ReleaseNotes /> },
-      ],
-    },
-  ],
+const router = createBrowserRouter([
   {
-    basename: '/stachecast',
-  }
-);
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'credits', element: <Credits /> },
+      { path: 'release-notes', element: <ReleaseNotes /> },
+    ],
+  },
+]);
 
 export const App = () => {
   return <RouterProvider router={router} />;
