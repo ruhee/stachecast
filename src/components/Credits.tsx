@@ -42,7 +42,7 @@ export const Credits = () => (
         </a>
         )
       </li>
-      <li>Long beard image: TK</li>
+      <li>Long beard image: I honestly can&rsquo;t figure out where I got this from—TBD</li>
     </ul>
   </div>
 );
