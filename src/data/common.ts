@@ -1,9 +1,9 @@
 import { ChartEvent, ActiveElement } from 'chart.js';
 
-import full from 'url:../assets/full2.jpg';
-import long from 'url:../assets/long2.jpg';
-import short from 'url:../assets/short4.jpg';
-import stache from 'url:../assets/stache.jpeg';
+import full from 'url:../assets/full.jpg';
+import long from 'url:../assets/long.jpg';
+import short from 'url:../assets/short.jpg';
+import stache from 'url:../assets/stache.jpg';
 
 export const labelImagesSources = [stache, short, full, long];
 
