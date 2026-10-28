@@ -47083,19 +47083,19 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "labelImagesSources", ()=>labelImagesSources);
 parcelHelpers.export(exports, "chartOptions", ()=>chartOptions);
-var _full2Jpg = require("url:../assets/full2.jpg");
-var _full2JpgDefault = parcelHelpers.interopDefault(_full2Jpg);
-var _long2Jpg = require("url:../assets/long2.jpg");
-var _long2JpgDefault = parcelHelpers.interopDefault(_long2Jpg);
-var _short4Jpg = require("url:../assets/short4.jpg");
-var _short4JpgDefault = parcelHelpers.interopDefault(_short4Jpg);
-var _stacheJpeg = require("url:../assets/stache.jpeg");
-var _stacheJpegDefault = parcelHelpers.interopDefault(_stacheJpeg);
+var _fullJpg = require("url:../assets/full.jpg");
+var _fullJpgDefault = parcelHelpers.interopDefault(_fullJpg);
+var _longJpg = require("url:../assets/long.jpg");
+var _longJpgDefault = parcelHelpers.interopDefault(_longJpg);
+var _shortJpg = require("url:../assets/short.jpg");
+var _shortJpgDefault = parcelHelpers.interopDefault(_shortJpg);
+var _stacheJpg = require("url:../assets/stache.jpg");
+var _stacheJpgDefault = parcelHelpers.interopDefault(_stacheJpg);
 const labelImagesSources = [
-    (0, _stacheJpegDefault.default),
-    (0, _short4JpgDefault.default),
-    (0, _full2JpgDefault.default),
-    (0, _long2JpgDefault.default)
+    (0, _stacheJpgDefault.default),
+    (0, _shortJpgDefault.default),
+    (0, _fullJpgDefault.default),
+    (0, _longJpgDefault.default)
 ];
 const chartOptions = (titleText, loadedImages, showLegend = true, xMin = 0)=>({
         responsive: true,
@@ -47150,17 +47150,17 @@ const chartOptions = (titleText, loadedImages, showLegend = true, xMin = 0)=>({
         }
     });
 
-},{"url:../assets/full2.jpg":"fGpW9","url:../assets/long2.jpg":"j8RCw","url:../assets/short4.jpg":"6kYPc","url:../assets/stache.jpeg":"cBjlu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fGpW9":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("full2.2a0a7b8e.jpg") + "?" + Date.now();
+},{"url:../assets/full.jpg":"lMeuX","url:../assets/long.jpg":"5dnxM","url:../assets/short.jpg":"9sWrN","url:../assets/stache.jpg":"crIGF","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"lMeuX":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("full.5b175b39.jpg") + "?" + Date.now();
 
-},{}],"j8RCw":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("long2.27f9a16b.jpg") + "?" + Date.now();
+},{}],"5dnxM":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("long.77c6157c.jpg") + "?" + Date.now();
 
-},{}],"6kYPc":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("short4.c478c5fe.jpg") + "?" + Date.now();
+},{}],"9sWrN":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("short.fc39774e.jpg") + "?" + Date.now();
 
-},{}],"cBjlu":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stache.03636207.jpeg") + "?" + Date.now();
+},{}],"crIGF":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stache.0ea38e70.jpg") + "?" + Date.now();
 
 },{}],"kR6jO":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
