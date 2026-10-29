@@ -10,9 +10,12 @@ import { Home } from './components/Home';
 
 const RootLayout = () => (
   <div className="container">
+    <h1 className="experiment">STACHECAST</h1>
+
     <h1>
       <Link to="/">👨🏻 STACHECAST 🧔🏻‍♂️</Link>
     </h1>
+
     <Outlet />
     {/* This is where the matching route element renders (inside the Outlet) */}
   </div>
