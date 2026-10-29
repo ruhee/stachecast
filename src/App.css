@@ -52,44 +52,31 @@ a {
   color: #134a8e;
 }
 
-h1,
+h1.experiment,
 h1 > a {
-  font-family: 'Denk One', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: clamp(2rem, 1rem + 4vw, 3rem);
-  margin: 0;
-  text-align: center;
-  color: #000;
-  text-decoration: none;
-}
-
-h1 > a:hover {
-  color: #000;
-}
-
-h1.experiment {
   font-family: 'Bowlby One', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 6rem;
+  text-align: center;
   background-position: center;
   color: rgb(29, 45, 92);
   font-size: clamp(3rem, 3rem + 4vw, 8rem);
+  text-decoration: none;
+  margin: 0;
 }
 
-h1.experiment:hover {
+h1.experiment:hover,
+h1.experiment:focus {
   background-image:
     linear-gradient(rgba(29, 45, 92, 0.6), rgba(29, 45, 92, 0.6)),
     url('assets/painting.jpg');
   /* background-size: cover; */
-  /* Clips the background to the text boundary */
   -webkit-background-clip: text;
   background-clip: text;
-
-  /* Makes the actual text invisible so the background image shows through */
   -webkit-text-fill-color: transparent;
   color: transparent;
+  cursor: pointer;
 }
 
 a:hover {
