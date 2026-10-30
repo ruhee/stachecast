@@ -5,7 +5,7 @@ import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
 import { chartOptions, labelImagesSources } from '../data/common';
-import { breakingVeloData, veloData } from '../data/chartData';
+import { breakingVeloData, gameScoreData, veloData } from '../data/chartData';
 
 export const Home = () => (
   <div>
@@ -60,7 +60,12 @@ export const Home = () => (
         </a>
         ) were on full-beard or long-beard outings.
       </p>
-      <GameScoreBarChart />
+      <GameScoreBarChart
+        chartOptions={chartOptions}
+        data={gameScoreData}
+        labelImagesSources={labelImagesSources}
+        title="2026 Game Scores"
+      />
       <p>
         His strikeouts follow the velo trend a little more, but they&rsquo;re
         highest with the short beard. (<em>Really</em> small sample size,
