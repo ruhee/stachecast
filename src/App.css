@@ -68,6 +68,31 @@ h1 > a:hover {
   color: #000;
 }
 
+h1.experiment,
+h1.experiment > a {
+  font-family: 'Bowlby One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(2rem, 0.545rem + 7.273vi, 6rem);
+  text-align: center;
+  background-position: center;
+  background-image:
+    linear-gradient(rgba(29, 45, 92, 0.85), rgba(29, 45, 92, 0.85)),
+    url('assets/painting.jpg'); /* TODO: maybe crop this so different pieces of it show up instead of repeating */
+  color: rgb(29, 45, 92);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  text-decoration: none;
+  margin: 0;
+}
+
+h1.experiment > a:hover,
+h1.experiment > a:focus {
+  cursor: pointer;
+}
+
 a:hover {
   color: #e8291c;
 }
