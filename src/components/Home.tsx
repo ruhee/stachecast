@@ -5,7 +5,7 @@ import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
 import { chartOptions, labelImagesSources } from '../data/common';
-import { breakingVeloData } from '../data/chartData';
+import { breakingVeloData, veloData } from '../data/chartData';
 
 export const Home = () => (
   <div>
@@ -25,7 +25,12 @@ export const Home = () => (
         of hair on his face, though the stache does better than the short beard
         on average.
       </p>
-      <VeloBarChart />
+      <VeloBarChart
+        chartOptions={chartOptions}
+        data={veloData}
+        labelImagesSources={labelImagesSources}
+        title="2026 Average Fastball Velocity"
+      />
       <p>
         (Tap or click the legend to turn datasets on/off, and tap or hover on
         individual bars for numbers.)
