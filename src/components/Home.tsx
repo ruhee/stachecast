@@ -4,6 +4,9 @@ import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
+import { chartOptions, labelImagesSources } from '../data/common';
+import { breakingVeloData } from '../data/chartData';
+
 export const Home = () => (
   <div>
     <p>
@@ -27,7 +30,12 @@ export const Home = () => (
         (Tap or click the legend to turn datasets on/off, and tap or hover on
         individual bars for numbers.)
       </p>
-      <BreakingVeloBarChart />
+      <BreakingVeloBarChart
+        chartOptions={chartOptions}
+        data={breakingVeloData}
+        labelImagesSources={labelImagesSources}
+        title="2026 Average Breaking Ball/Offspeed Velocity"
+      />
       <p>
         Cease achieves higher game scores with a full beard, though, and all of
         his best games by game score (
