@@ -2,21 +2,26 @@
 // this will eventually replace it.
 
 import { averages, formats } from './averages-full';
-import placeholder from 'url:../assets/placeholder.png';
+import clean from 'url:../assets/clean.jpg';
 import full from 'url:../assets/full.jpg';
 import long from 'url:../assets/long.jpg';
 import short from 'url:../assets/short.jpg';
-import stache from 'url:../assets/stache.jpg';
+// import stache from 'url:../assets/stache.jpg';
+import patch from 'url:../assets/patch.jpg';
+import stache from 'url:../assets/stache-only.jpg';
+import stubble from 'url:../assets/stubble.jpg';
+import mountain from 'url:../assets/mountain.jpg';
+import placeholder from 'url:../assets/placeholder.png';
 
 const labelImages = {
-  'Clean shaven': '',
-  'Stache only': '',
-  'Stache + soul patch': stache,
-  'Stubble + stache': '',
+  'Clean shaven': clean,
+  'Stache only': stache,
+  'Stache + soul patch': patch,
+  'Stubble + stache': stubble,
   'Short beard': short,
   'Full beard': full,
   'Long beard': long,
-  'Mountain man beard': '',
+  'Mountain man beard': mountain,
 };
 
 export const newLabelImagesSources = formats.map(

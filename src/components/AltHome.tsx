@@ -27,16 +27,12 @@ export const AltHome = () => (
       asks is: are those things related?
     </p>
     <div className="chart-container-v2">
-      <p>
-        In 2026, Cease&rsquo;s velo is loosely inversely related to the amount
-        of hair on his face, though the stache does better than the short beard
-        on average.
-      </p>
+      <p>(Text here)</p>
       <VeloBarChart
         chartOptions={chartOptions}
         data={veloData}
         labelImagesSources={labelImagesSources}
-        title="2026 Average Fastball Velocity"
+        title="2024-2026 Average Fastball Velocity"
       />
       <p>
         (Tap or click the legend to turn datasets on/off, and tap or hover on
@@ -46,10 +42,10 @@ export const AltHome = () => (
         chartOptions={chartOptions}
         data={breakingVeloData}
         labelImagesSources={labelImagesSources}
-        title="2026 Average Breaking Ball/Offspeed Velocity"
+        title="2024-2026 Average Breaking Ball/Offspeed Velocity"
       />
       <p>
-        Cease achieves higher game scores with a full beard, though, and all of
+        {/* Cease achieves higher game scores with a full beard, though, and all of
         his best games by game score (
         <a href="https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win">
           a no-hit bid into the 7th
@@ -65,7 +61,8 @@ export const AltHome = () => (
         >
           a CG shutout
         </a>
-        ) were on full-beard or long-beard outings.
+        ) were on full-beard or long-beard outings. */}
+        (Text here)
       </p>
       <GameScoreBarChart
         chartOptions={chartOptions}
@@ -73,11 +70,7 @@ export const AltHome = () => (
         labelImagesSources={labelImagesSources}
         title="2026 Game Scores"
       />
-      <p>
-        His strikeouts follow the velo trend a little more, but they&rsquo;re
-        highest with the short beard. (<em>Really</em> small sample size,
-        though: only 4 starts in 2026 with this beard type)
-      </p>
+      <p>(Text here)</p>
       <K9BarChart
         chartOptions={chartOptions}
         data={k9data}
@@ -94,7 +87,8 @@ export const AltHome = () => (
     <footer>
       <p>
         <em>
-          Data includes all 2026 appearances. 2019-2025 coming soon/eventually
+          Data includes all Padres (2024-2025) and Blue Jays (2026) appearances.
+          2019-2023 coming soon
         </em>
       </p>
       <p>
