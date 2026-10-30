@@ -4,7 +4,7 @@ import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
-export const SDHome = () => (
+export const AltHome = () => (
   <div>
     <p>
       On September 7, Dylan Cease&rsquo;s{' '}
