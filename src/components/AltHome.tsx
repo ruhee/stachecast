@@ -4,6 +4,14 @@ import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
+import { chartOptions, labelImagesSources } from '../data/common';
+import {
+  breakingVeloData,
+  gameScoreData,
+  k9data,
+  veloData,
+} from '../data/chartData';
+
 export const AltHome = () => (
   <div>
     <h2 style={{ color: 'red' }}>Alternate</h2>
@@ -23,12 +31,22 @@ export const AltHome = () => (
         of hair on his face, though the stache does better than the short beard
         on average.
       </p>
-      <VeloBarChart />
+      <VeloBarChart
+        chartOptions={chartOptions}
+        data={veloData}
+        labelImagesSources={labelImagesSources}
+        title="2026 Average Fastball Velocity"
+      />
       <p>
         (Tap or click the legend to turn datasets on/off, and tap or hover on
         individual bars for numbers.)
       </p>
-      <BreakingVeloBarChart />
+      <BreakingVeloBarChart
+        chartOptions={chartOptions}
+        data={breakingVeloData}
+        labelImagesSources={labelImagesSources}
+        title="2026 Average Breaking Ball/Offspeed Velocity"
+      />
       <p>
         Cease achieves higher game scores with a full beard, though, and all of
         his best games by game score (
@@ -48,13 +66,23 @@ export const AltHome = () => (
         </a>
         ) were on full-beard or long-beard outings.
       </p>
-      <GameScoreBarChart />
+      <GameScoreBarChart
+        chartOptions={chartOptions}
+        data={gameScoreData}
+        labelImagesSources={labelImagesSources}
+        title="2026 Game Scores"
+      />
       <p>
         His strikeouts follow the velo trend a little more, but they&rsquo;re
         highest with the short beard. (<em>Really</em> small sample size,
         though: only 4 starts in 2026 with this beard type)
       </p>
-      <K9BarChart />
+      <K9BarChart
+        chartOptions={chartOptions}
+        data={k9data}
+        labelImagesSources={labelImagesSources}
+        title="2026 Strikeouts/9"
+      />
     </div>
     <p>
       Can we conclude anything from this? Perhaps we still need more data...{' '}
