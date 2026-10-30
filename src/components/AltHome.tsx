@@ -4,13 +4,14 @@ import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
-import { chartOptions, labelImagesSources } from '../data/common';
+import { chartOptions } from '../data/common';
+import { newLabelImagesSources as labelImagesSources } from '../data/newChartData';
 import {
   breakingVeloData,
   gameScoreData,
   k9data,
   veloData,
-} from '../data/chartData';
+} from '../data/newChartData';
 
 export const AltHome = () => (
   <div>
@@ -25,7 +26,7 @@ export const AltHome = () => (
       his <a href="./cease-sept2.jpg">previous start</a>). What this website
       asks is: are those things related?
     </p>
-    <div className="chart-container">
+    <div className="chart-container-v2">
       <p>
         In 2026, Cease&rsquo;s velo is loosely inversely related to the amount
         of hair on his face, though the stache does better than the short beard
