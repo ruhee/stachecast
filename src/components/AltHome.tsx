@@ -14,7 +14,7 @@ import {
 
 export const AltHome = () => (
   <div>
-    <h2 style={{ color: 'red' }}>Alternate</h2>
+    <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route ‼️</h2>
     <p>
       On September 7, Dylan Cease&rsquo;s{' '}
       <a href="https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302">
