@@ -5,7 +5,12 @@ import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
 import { chartOptions, labelImagesSources } from '../data/common';
-import { breakingVeloData, gameScoreData, veloData } from '../data/chartData';
+import {
+  breakingVeloData,
+  gameScoreData,
+  k9data,
+  veloData,
+} from '../data/chartData';
 
 export const Home = () => (
   <div>
@@ -71,7 +76,12 @@ export const Home = () => (
         highest with the short beard. (<em>Really</em> small sample size,
         though: only 4 starts in 2026 with this beard type)
       </p>
-      <K9BarChart />
+      <K9BarChart
+        chartOptions={chartOptions}
+        data={k9data}
+        labelImagesSources={labelImagesSources}
+        title="2026 Strikeouts/9"
+      />
     </div>
     <p>
       Can we conclude anything from this? Perhaps we still need more data...{' '}
