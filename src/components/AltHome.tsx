@@ -68,7 +68,7 @@ export const AltHome = () => (
         chartOptions={chartOptions}
         data={gameScoreData}
         labelImagesSources={labelImagesSources}
-        title="2026 Game Scores"
+        title="2024-2026 Game Scores"
         xMin={30}
       />
       <p>(Text here)</p>
@@ -76,7 +76,7 @@ export const AltHome = () => (
         chartOptions={chartOptions}
         data={k9data}
         labelImagesSources={labelImagesSources}
-        title="2026 Strikeouts/9"
+        title="2024-2026 Strikeouts/9"
       />
     </div>
     <p>
