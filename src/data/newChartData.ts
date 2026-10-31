@@ -45,13 +45,13 @@ export const breakingVeloData = {
       borderWidth: 1,
       borderColor: 'rgb(108, 54, 124)',
     },
-    {
-      label: 'Changeup',
-      data: averages['Change'],
-      backgroundColor: 'rgba(187, 52, 121, 0.5)',
-      borderWidth: 1,
-      borderColor: 'rgba(187, 52, 121, 1)',
-    },
+    // {
+    //   label: 'Changeup',
+    //   data: averages['Change'],
+    //   backgroundColor: 'rgba(187, 52, 121, 0.5)',
+    //   borderWidth: 1,
+    //   borderColor: 'rgba(187, 52, 121, 1)',
+    // },
     {
       label: 'Knuckle Curve',
       data: averages['Knuckle curve'],

@@ -42,7 +42,7 @@ export const AltHome = () => (
         chartOptions={chartOptions}
         data={breakingVeloData}
         labelImagesSources={labelImagesSources}
-        title="2024-2026 Average Breaking Ball/Offspeed Velocity"
+        title="2024-2026 Average Breaking Ball Velocity"
       />
       <p>
         {/* Cease achieves higher game scores with a full beard, though, and all of
