@@ -9,8 +9,6 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { chartOptions, labelImagesSources } from '../../data/common';
-import { k9data } from '../../data/chartData';
 import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
 
 ChartJS.register(
@@ -22,9 +20,14 @@ ChartJS.register(
   Legend
 );
 
-export const K9BarChart = () => {
+export const K9BarChart = ({
+  chartOptions,
+  data,
+  labelImagesSources,
+  title,
+}) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions('2026 Strikeouts/9', loadedImages, false, 9);
+  let options = chartOptions(title, loadedImages, false, 9);
 
   useEffect(() => {
     let isMounted = true;
@@ -48,11 +51,11 @@ export const K9BarChart = () => {
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [labelImagesSources]);
 
   return (
     <div className="chart">
-      <Bar options={options} data={k9data} plugins={[yAxisImageLabelsPlugin]} />
+      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };

@@ -44,6 +44,15 @@ body,
   padding: 20px 0;
 }
 
+.chart-container-v2 .chart {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  aspect-ratio: 1 / 1;
+  min-height: 280px;
+  padding: 20px 0;
+}
+
 .breaking {
   min-height: 310px;
 }

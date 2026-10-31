@@ -9,8 +9,6 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { chartOptions, labelImagesSources } from '../../data/common';
-import { gameScoreData } from '../../data/chartData';
 import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
 
 ChartJS.register(
@@ -22,9 +20,15 @@ ChartJS.register(
   Legend
 );
 
-export const GameScoreBarChart = () => {
+export const GameScoreBarChart = ({
+  chartOptions,
+  data,
+  labelImagesSources,
+  title,
+  xMin,
+}) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions('2026 Game Scores', loadedImages, true, 50);
+  let options = chartOptions(title, loadedImages, true, xMin);
 
   useEffect(() => {
     let isMounted = true;
@@ -48,15 +52,11 @@ export const GameScoreBarChart = () => {
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [labelImagesSources]);
 
   return (
     <div className="chart">
-      <Bar
-        options={options}
-        data={gameScoreData}
-        plugins={[yAxisImageLabelsPlugin]}
-      />
+      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };
