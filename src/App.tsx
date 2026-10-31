@@ -7,7 +7,7 @@ import {
 import { Credits } from './components/Credits';
 import { ReleaseNotes } from './components/ReleaseNotes';
 import { Home } from './components/Home';
-import { AltHome } from './components/AltHome';
+// import { AltHome } from './components/AltHome';
 
 const RootLayout = () => (
   <div className="container">
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: 'credits', element: <Credits /> },
       { path: 'release-notes', element: <ReleaseNotes /> },
-      { path: 'alt-home', element: <AltHome /> },
+      // { path: 'alt-home', element: <AltHome /> },
     ],
   },
 ]);
