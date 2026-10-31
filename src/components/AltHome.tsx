@@ -69,6 +69,7 @@ export const AltHome = () => (
         data={gameScoreData}
         labelImagesSources={labelImagesSources}
         title="2026 Game Scores"
+        xMin={30}
       />
       <p>(Text here)</p>
       <K9BarChart

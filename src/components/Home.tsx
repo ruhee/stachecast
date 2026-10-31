@@ -70,6 +70,7 @@ export const Home = () => (
         data={gameScoreData}
         labelImagesSources={labelImagesSources}
         title="2026 Game Scores"
+        xMin={50}
       />
       <p>
         His strikeouts follow the velo trend a little more, but they&rsquo;re

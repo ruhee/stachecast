@@ -25,9 +25,10 @@ export const GameScoreBarChart = ({
   data,
   labelImagesSources,
   title,
+  xMin,
 }) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions(title, loadedImages, true, 50);
+  let options = chartOptions(title, loadedImages, true, xMin);
 
   useEffect(() => {
     let isMounted = true;
