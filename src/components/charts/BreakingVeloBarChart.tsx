@@ -9,8 +9,6 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { chartOptions, labelImagesSources } from '../../data/common';
-import { breakingVeloData } from '../../data/chartData';
 import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
 
 ChartJS.register(
@@ -22,12 +20,14 @@ ChartJS.register(
   Legend
 );
 
-export const BreakingVeloBarChart = () => {
+export const BreakingVeloBarChart = ({
+  chartOptions,
+  data,
+  labelImagesSources,
+  title,
+}) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions(
-    '2026 Average Breaking Ball/Offspeed Velocity',
-    loadedImages
-  );
+  let options = chartOptions(title, loadedImages);
 
   useEffect(() => {
     let isMounted = true;
@@ -51,15 +51,11 @@ export const BreakingVeloBarChart = () => {
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [labelImagesSources]);
 
   return (
     <div className="chart breaking">
-      <Bar
-        options={options}
-        data={breakingVeloData}
-        plugins={[yAxisImageLabelsPlugin]}
-      />
+      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
 };
