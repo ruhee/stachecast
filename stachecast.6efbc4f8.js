@@ -30221,7 +30221,7 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         lineNumber: 7,
                         columnNumber: 7
                     }, undefined),
-                    ". Beard data is from a combination of MLB highlight package, Getty Images archives, and my eyes. All other data is from",
+                    ". Beard data is from a combination of MLB highlight packages, Getty Images archives, and my eyes. All other data is from",
                     ' ',
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "https://www.baseball-reference.com/",
