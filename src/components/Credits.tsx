@@ -7,7 +7,7 @@ export const Credits = () => (
       <a href="https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026">
         Baseball Savant and Statcast
       </a>
-      . Beard data is from a combination of MLB highlight package, Getty Images
+      . Beard data is from a combination of MLB highlight packages, Getty Images
       archives, and my eyes. All other data is from{' '}
       <a href="https://www.baseball-reference.com/">Baseball Reference</a>.
     </p>
