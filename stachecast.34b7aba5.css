@@ -84,9 +84,13 @@ a:hover {
   color: #e8291c;
 }
 
+ul {
+  line-height: 1.4;
+}
+
 footer {
   color: #666;
   margin: 20px 0;
-  font-size: .75em;
+  font-size: .9em;
 }
 /*# sourceMappingURL=stachecast.34b7aba5.css.map */

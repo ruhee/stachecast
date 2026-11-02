@@ -30203,7 +30203,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Photo credits"
+                children: "Credits"
             }, void 0, false, {
                 fileName: "src/components/Credits.tsx",
                 lineNumber: 3,
@@ -30211,21 +30211,116 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
-                    "This is a silly side project worth no money; I grabbed all of these photos from countless Google searches. If you are the owner of any of these photos and want them removed, please",
+                    "Pitch data is from",
                     ' ',
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "mailto:ruhee.dewji@gmail.com",
-                        children: "email me"
+                        href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
+                        children: "Baseball Savant and Statcast"
                     }, void 0, false, {
                         fileName: "src/components/Credits.tsx",
-                        lineNumber: 8,
+                        lineNumber: 7,
+                        columnNumber: 7
+                    }, undefined),
+                    ". Beard data is from a combination of MLB highlight package, Getty Images archives, and my eyes. All other data is from",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://www.baseball-reference.com/",
+                        children: "Baseball Reference"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 12,
                         columnNumber: 7
                     }, undefined),
                     "."
                 ]
             }, void 0, true, {
                 fileName: "src/components/Credits.tsx",
-                lineNumber: 4,
+                lineNumber: 5,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: [
+                    "Thank you to",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://bsky.app/profile/gareths.bsky.social",
+                        children: "Gareth"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 16,
+                        columnNumber: 7
+                    }, undefined),
+                    ",",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://bsky.app/profile/mikepetriello.bsky.social",
+                        children: "Mike"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 17,
+                        columnNumber: 7
+                    }, undefined),
+                    ", and",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://bsky.app/profile/pointsman.bsky.social",
+                        children: "Chris"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 18,
+                        columnNumber: 7
+                    }, undefined),
+                    " for their exceptional advice, and to",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://bsky.app/profile/phrichards.ca",
+                        children: "Phil"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 20,
+                        columnNumber: 7
+                    }, undefined),
+                    " for the perfect name.",
+                    ' '
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Credits.tsx",
+                lineNumber: 14,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "Photos"
+            }, void 0, false, {
+                fileName: "src/components/Credits.tsx",
+                lineNumber: 23,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: [
+                    "This is a silly side project worth absolutely no money and hopefully a few laughs; I\u2019m using these photos in the spirit of",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://laws-lois.justice.gc.ca/eng/acts/c-42/page-6.html",
+                        children: "fair dealing"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 27,
+                        columnNumber: 7
+                    }, undefined),
+                    ". If you are the owner of any of these photos and want them removed, please ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "mailto:ruhee.dewji@gmail.com",
+                        children: "email me"
+                    }, void 0, false, {
+                        fileName: "src/components/Credits.tsx",
+                        lineNumber: 31,
+                        columnNumber: 14
+                    }, undefined),
+                    "."
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Credits.tsx",
+                lineNumber: 24,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -30237,14 +30332,14 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "Link preview image"
                             }, void 0, false, {
                                 fileName: "src/components/Credits.tsx",
-                                lineNumber: 12,
+                                lineNumber: 35,
                                 columnNumber: 9
                             }, undefined),
                             ": Scott Marshall/AP Photo"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Credits.tsx",
-                        lineNumber: 11,
+                        lineNumber: 34,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -30256,7 +30351,7 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "this postgame interview"
                             }, void 0, false, {
                                 fileName: "src/components/Credits.tsx",
-                                lineNumber: 19,
+                                lineNumber: 42,
                                 columnNumber: 9
                             }, undefined),
                             ' ',
@@ -30264,7 +30359,7 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Credits.tsx",
-                        lineNumber: 17,
+                        lineNumber: 40,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -30274,14 +30369,14 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "Short beard image"
                             }, void 0, false, {
                                 fileName: "src/components/Credits.tsx",
-                                lineNumber: 25,
+                                lineNumber: 48,
                                 columnNumber: 9
                             }, undefined),
                             ": Mark Blinch/Getty Images"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Credits.tsx",
-                        lineNumber: 24,
+                        lineNumber: 47,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -30291,14 +30386,14 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "Full beard image"
                             }, void 0, false, {
                                 fileName: "src/components/Credits.tsx",
-                                lineNumber: 31,
+                                lineNumber: 54,
                                 columnNumber: 9
                             }, undefined),
                             ": Olivia Vanni/Getty Images"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Credits.tsx",
-                        lineNumber: 30,
+                        lineNumber: 53,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -30308,20 +30403,20 @@ const Credits = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "Long beard image"
                             }, void 0, false, {
                                 fileName: "src/components/Credits.tsx",
-                                lineNumber: 37,
+                                lineNumber: 60,
                                 columnNumber: 9
                             }, undefined),
                             ": Ken Blaze-Imagn Images"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Credits.tsx",
-                        lineNumber: 36,
+                        lineNumber: 59,
                         columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Credits.tsx",
-                lineNumber: 10,
+                lineNumber: 33,
                 columnNumber: 5
             }, undefined)
         ]
@@ -32647,56 +32742,166 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            children: "October 27, 2026"
-                        }, void 0, false, {
-                            fileName: "src/components/ReleaseNotes.tsx",
-                            lineNumber: 9,
-                            columnNumber: 9
-                        }, undefined),
-                        ":",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Fixed game score chart data (the max values for \u201Cfull\u201D and \u201Clong\u201D were reversed)."
-                                }, void 0, false, {
-                                    fileName: "src/components/ReleaseNotes.tsx",
-                                    lineNumber: 11,
-                                    columnNumber: 11
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        "Added ",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                            to: "/credits",
-                                            children: "photo credits"
-                                        }, void 0, false, {
-                                            fileName: "src/components/ReleaseNotes.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 19
-                                        }, undefined),
-                                        " and release notes."
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/ReleaseNotes.tsx",
-                                    lineNumber: 15,
-                                    columnNumber: 11
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/ReleaseNotes.tsx",
-                            lineNumber: 10,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/ReleaseNotes.tsx",
-                    lineNumber: 8,
-                    columnNumber: 7
-                }, undefined)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                children: "November 2, 2026"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 9,
+                                columnNumber: 9
+                            }, undefined),
+                            ": Moved credits into credits page and increased footer text size."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ReleaseNotes.tsx",
+                        lineNumber: 8,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                children: "October 27, 2026"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 13,
+                                columnNumber: 9
+                            }, undefined),
+                            ":",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Fixed game score chart data (the max values for \u201Cfull\u201D and \u201Clong\u201D were reversed)."
+                                    }, void 0, false, {
+                                        fileName: "src/components/ReleaseNotes.tsx",
+                                        lineNumber: 15,
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            "Added ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: "/credits",
+                                                children: "photo credits"
+                                            }, void 0, false, {
+                                                fileName: "src/components/ReleaseNotes.tsx",
+                                                lineNumber: 20,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            " and release notes."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/ReleaseNotes.tsx",
+                                        lineNumber: 19,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 14,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ReleaseNotes.tsx",
+                        lineNumber: 12,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                children: "September 19, 2026"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 25,
+                                columnNumber: 9
+                            }, undefined),
+                            ":",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            "Added",
+                                            ' ',
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                href: "https://www.baseball-reference.com/boxes/TEX/TEX202609180.shtml",
+                                                children: "Sept 18 start"
+                                            }, void 0, false, {
+                                                fileName: "src/components/ReleaseNotes.tsx",
+                                                lineNumber: 29,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            "."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/ReleaseNotes.tsx",
+                                        lineNumber: 27,
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Fixed an error with June 16 data (recalculated averages)."
+                                    }, void 0, false, {
+                                        fileName: "src/components/ReleaseNotes.tsx",
+                                        lineNumber: 34,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 26,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ReleaseNotes.tsx",
+                        lineNumber: 24,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                children: "September 14, 2026"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 38,
+                                columnNumber: 9
+                            }, undefined),
+                            ": Added",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://www.baseball-reference.com/boxes/TOR/TOR202609130.shtml",
+                                children: "Sept 13 start"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 39,
+                                columnNumber: 9
+                            }, undefined),
+                            "."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ReleaseNotes.tsx",
+                        lineNumber: 37,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                children: "September 13, 2026"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 45,
+                                columnNumber: 9
+                            }, undefined),
+                            ": Initial release \uD83C\uDF89"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ReleaseNotes.tsx",
+                        lineNumber: 44,
+                        columnNumber: 7
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/ReleaseNotes.tsx",
                 lineNumber: 7,
                 columnNumber: 5
@@ -32913,19 +33118,24 @@ const Home = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 lineNumber: 87,
                 columnNumber: 5
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                fileName: "src/components/Home.tsx",
+                lineNumber: 93,
+                columnNumber: 5
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                            children: "Data includes all 2026 appearances. 2019-2025 coming soon/eventually"
+                            children: "Data includes all 2026 appearances. 2019-2025 coming soon..."
                         }, void 0, false, {
                             fileName: "src/components/Home.tsx",
-                            lineNumber: 95,
+                            lineNumber: 96,
                             columnNumber: 9
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Home.tsx",
-                        lineNumber: 94,
+                        lineNumber: 95,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -32936,7 +33146,7 @@ const Home = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/components/Home.tsx",
-                                lineNumber: 100,
+                                lineNumber: 99,
                                 columnNumber: 27
                             }, undefined),
                             ", the stupid brain behind the",
@@ -32946,18 +33156,18 @@ const Home = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/components/Home.tsx",
-                                lineNumber: 102,
+                                lineNumber: 101,
                                 columnNumber: 9
                             }, undefined),
                             ' ',
-                            "and the Stanton Strikeout Tracker. You can",
+                            "and the Stanton Strikeout Tracker.",
                             ' ',
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "release-notes",
-                                children: "see the release notes"
+                                children: "Check out the release notes"
                             }, void 0, false, {
                                 fileName: "src/components/Home.tsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 9
                             }, undefined),
                             " or",
@@ -32967,96 +33177,36 @@ const Home = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/components/Home.tsx",
-                                lineNumber: 107,
+                                lineNumber: 106,
                                 columnNumber: 9
                             }, undefined),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Home.tsx",
-                        lineNumber: 99,
+                        lineNumber: 98,
                         columnNumber: 7
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: [
-                            "Pitch data:",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
-                                children: "Baseball Savant and Statcast"
-                            }, void 0, false, {
-                                fileName: "src/components/Home.tsx",
-                                lineNumber: 112,
-                                columnNumber: 9
-                            }, undefined),
-                            ". Beard data: MLB highlight packages and my eyes. All other data:",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://www.baseball-reference.com/",
-                                children: "Baseball Reference"
-                            }, void 0, false, {
-                                fileName: "src/components/Home.tsx",
-                                lineNumber: 116,
-                                columnNumber: 9
-                            }, undefined),
-                            ". Exceptional advice by",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://bsky.app/profile/gareths.bsky.social",
-                                children: "Gareth"
-                            }, void 0, false, {
-                                fileName: "src/components/Home.tsx",
-                                lineNumber: 118,
-                                columnNumber: 9
-                            }, undefined),
-                            " and",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://bsky.app/profile/pointsman.bsky.social",
-                                children: "Chris"
-                            }, void 0, false, {
-                                fileName: "src/components/Home.tsx",
-                                lineNumber: 119,
-                                columnNumber: 9
-                            }, undefined),
-                            ", and perfect name by",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://bsky.app/profile/phrichards.ca",
-                                children: "Phil"
-                            }, void 0, false, {
-                                fileName: "src/components/Home.tsx",
-                                lineNumber: 121,
-                                columnNumber: 9
-                            }, undefined),
-                            ".",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "credits",
-                                children: "Photo credits are here"
-                            }, void 0, false, {
-                                fileName: "src/components/Home.tsx",
-                                lineNumber: 122,
-                                columnNumber: 9
-                            }, undefined),
-                            "."
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Home.tsx",
-                        lineNumber: 110,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "credits",
+                        children: "The credits are here"
                     }, void 0, false, {
                         fileName: "src/components/Home.tsx",
-                        lineNumber: 124,
+                        lineNumber: 108,
+                        columnNumber: 7
+                    }, undefined),
+                    ", including data and photos.",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Sincerest and most sheepish apologies to Dylan Cease. \uD83D\uDC51"
+                    }, void 0, false, {
+                        fileName: "src/components/Home.tsx",
+                        lineNumber: 109,
                         columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Home.tsx",
-                lineNumber: 93,
+                lineNumber: 94,
                 columnNumber: 5
             }, undefined)
         ]
