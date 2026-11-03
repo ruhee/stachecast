@@ -29,7 +29,7 @@ export const BarChart = ({
   customClassName,
 }) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions(title, loadedImages, true, legendXMin);
+  let options = chartOptions(title, loadedImages, true, legendXMin || 0);
 
   useEffect(() => {
     let isMounted = true;

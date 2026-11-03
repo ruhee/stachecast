@@ -1,13 +1,6 @@
 import { BarChart } from './BarChart';
-import { veloData } from '../../data/chartData';
+// import { veloData } from '../../data/chartData';
 
-export const NewVeloBarChart = () => {
-  return (
-    <BarChart
-      // options={options}
-      data={veloData}
-      legendXMin={94}
-      title="New velo bar chart"
-    />
-  );
+export const NewVeloBarChart = ({ data }) => {
+  return <BarChart data={data} legendXMin={94} title="wew velo bar chart" />;
 };

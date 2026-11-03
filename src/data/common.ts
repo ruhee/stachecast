@@ -32,9 +32,21 @@ export const labelImagesSources = [stache, short, full, long];
 export const chartConfig = {
   velo: {
     legendXMin: 94,
-    title: "new velo bar chart",
-  }
-}
+    title: '2026 Average Fastball Velocity',
+  },
+  breaking: {
+    // legendXMin: 0,
+    title: '2026 Average Breaking Ball/Offspeed Velocity',
+  },
+  gameScore: {
+    legendXMin: 50,
+    title: '2026 Game Scores',
+  },
+  k9: {
+    legendXMin: 9,
+    title: '2026 Strikeouts/9',
+  },
+};
 
 export const chartOptions = (
   titleText: string,
