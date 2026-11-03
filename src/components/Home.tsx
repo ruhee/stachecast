@@ -97,7 +97,12 @@ export const Home = () => {
           highest with the short beard. (<em>Really</em> small sample size,
           though: only 4 starts in 2026 with this beard type)
         </p>
-        <BarChart data={k9data} title={k9.title} legendXMin={k9.legendXMin} />
+        <BarChart
+          data={k9data}
+          title={k9.title}
+          legendXMin={k9.legendXMin}
+          showLegend={false}
+        />
         <K9BarChart
           chartOptions={chartOptions}
           data={k9data}

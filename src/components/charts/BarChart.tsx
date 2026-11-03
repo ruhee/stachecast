@@ -22,14 +22,14 @@ ChartJS.register(
 );
 
 export const BarChart = ({
-  //   options,
   data,
   title,
   legendXMin,
   customClassName,
+  showLegend = true,
 }) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions(title, loadedImages, true, legendXMin || 0);
+  let options = chartOptions(title, loadedImages, showLegend, legendXMin || 0);
 
   useEffect(() => {
     let isMounted = true;
