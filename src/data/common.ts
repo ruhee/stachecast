@@ -29,6 +29,13 @@ export const labelImagesSources = [stache, short, full, long];
 //   (format) => labelImages[format] || placeholder
 // );
 
+export const chartConfig = {
+  velo: {
+    legendXMin: 94,
+    title: "new velo bar chart",
+  }
+}
+
 export const chartOptions = (
   titleText: string,
   loadedImages: never[],

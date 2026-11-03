@@ -4,15 +4,19 @@ import { VeloBarChart } from './charts/VeloBarChart';
 import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
 import { K9BarChart } from './charts/K9BarChart';
 
-import { chartOptions, labelImagesSources } from '../data/common';
+import { chartOptions, labelImagesSources, chartConfig } from '../data/common';
 import {
   breakingVeloData,
   gameScoreData,
   k9data,
   veloData,
 } from '../data/chartData';
+import { BarChart } from './charts/BarChart';
 
-export const Home = () => (
+export const Home = () => {
+  const { velo } = chartConfig;
+
+  return (
   <div>
     <p>
       On September 7, Dylan Cease&rsquo;s{' '}
@@ -30,6 +34,11 @@ export const Home = () => (
         of hair on his face, though the stache does better than the short beard
         on average.
       </p>
+      <BarChart
+        data={veloData}
+        legendXMin={velo.legendXMin}
+        title={velo.title}
+      />
       <VeloBarChart
         chartOptions={chartOptions}
         data={veloData}
@@ -109,4 +118,5 @@ export const Home = () => (
       <p>Sincerest and most sheepish apologies to Dylan Cease. 👑</p>
     </footer>
   </div>
-);
+)
+}
