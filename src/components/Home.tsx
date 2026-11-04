@@ -41,7 +41,6 @@ export const Home = () => {
         </p>
         <BarChart
           data={breakingVeloData}
-          legendXMin={breaking.legendXMin}
           title={breaking.title}
           customClassName="breaking"
         />
