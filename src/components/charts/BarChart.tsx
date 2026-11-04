@@ -24,6 +24,15 @@ ChartJS.register(
   Legend
 );
 
+interface BarChartProps {
+  data: any; // todo
+  title: string;
+  legendXMin?: number;
+  customClassName?: string;
+  showLegend?: boolean;
+  labelImagesSources?: string[];
+}
+
 export const BarChart = ({
   data,
   title,
@@ -31,7 +40,7 @@ export const BarChart = ({
   customClassName = '',
   showLegend = true,
   labelImagesSources = labelImages,
-}) => {
+}: BarChartProps) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
   let options = chartOptions(title, loadedImages, showLegend, legendXMin || 0);
 
