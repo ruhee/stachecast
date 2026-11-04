@@ -1,10 +1,6 @@
 import { Link } from 'react-router-dom';
-import { GameScoreBarChart } from './charts/GameScoreBarChart';
-import { VeloBarChart } from './charts/VeloBarChart';
-import { BreakingVeloBarChart } from './charts/BreakingVeloBarChart';
-import { K9BarChart } from './charts/K9BarChart';
 
-import { chartOptions, labelImagesSources, chartConfig } from '../data/common';
+import { chartConfig } from '../data/common';
 import {
   breakingVeloData,
   gameScoreData,
@@ -39,12 +35,6 @@ export const Home = () => {
           legendXMin={velo.legendXMin}
           title={velo.title}
         />
-        <VeloBarChart
-          chartOptions={chartOptions}
-          data={veloData}
-          labelImagesSources={labelImagesSources}
-          title="2026 Average Fastball Velocity"
-        />
         <p>
           (Tap or click the legend to turn datasets on/off, and tap or hover on
           individual bars for numbers.)
@@ -54,12 +44,6 @@ export const Home = () => {
           legendXMin={breaking.legendXMin}
           title={breaking.title}
           customClassName="breaking"
-        />
-        <BreakingVeloBarChart
-          chartOptions={chartOptions}
-          data={breakingVeloData}
-          labelImagesSources={labelImagesSources}
-          title="2026 Average Breaking Ball/Offspeed Velocity"
         />
         <p>
           Cease achieves higher game scores with a full beard, though, and all
@@ -85,13 +69,6 @@ export const Home = () => {
           title={gameScore.title}
           legendXMin={gameScore.legendXMin}
         />
-        <GameScoreBarChart
-          chartOptions={chartOptions}
-          data={gameScoreData}
-          labelImagesSources={labelImagesSources}
-          title="2026 Game Scores"
-          xMin={50}
-        />
         <p>
           His strikeouts follow the velo trend a little more, but they&rsquo;re
           highest with the short beard. (<em>Really</em> small sample size,
@@ -102,12 +79,6 @@ export const Home = () => {
           title={k9.title}
           legendXMin={k9.legendXMin}
           showLegend={false}
-        />
-        <K9BarChart
-          chartOptions={chartOptions}
-          data={k9data}
-          labelImagesSources={labelImagesSources}
-          title="2026 Strikeouts/9"
         />
       </div>
       <p>
