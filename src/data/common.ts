@@ -1,33 +1,30 @@
 import { ChartEvent, ActiveElement } from 'chart.js';
 
-// import clean from 'url:../assets/clean.jpg';
 import full from 'url:../assets/full.jpg';
 import long from 'url:../assets/long.jpg';
 import short from 'url:../assets/short.jpg';
 import stache from 'url:../assets/stache.jpg';
-// import patch from 'url:../assets/patch.jpg';
-// import stache from 'url:../assets/stache-only.jpg'
-// import stubble from 'url:../assets/stubble.jpg'
-// import mountain from 'url:../assets/mountain.jpg'
-// import placeholder from 'url:../assets/placeholder.png';
-// import { formats } from './averages';
 
 export const labelImagesSources = [stache, short, full, long];
 
-// const labelImages = {
-//   'Clean shaven': clean,
-//   'Stache only': stache,
-//   'Stache + soul patch': patch,
-//   'Stubble + stache': stubble,
-//   'Short beard': short,
-//   'Full beard': full,
-//   'Long beard': long,
-//   'Mountain man beard': mountain,
-// };
-
-// export const labelImagesSources = formats.map(
-//   (format) => labelImages[format] || placeholder
-// );
+export const chartConfig = {
+  velo: {
+    legendXMin: 94,
+    title: '2026 Average Fastball Velocity',
+  },
+  breaking: {
+    // legendXMin: 0,
+    title: '2026 Average Breaking Ball/Offspeed Velocity',
+  },
+  gameScore: {
+    legendXMin: 50,
+    title: '2026 Game Scores',
+  },
+  k9: {
+    legendXMin: 9,
+    title: '2026 Strikeouts/9',
+  },
+};
 
 export const chartOptions = (
   titleText: string,

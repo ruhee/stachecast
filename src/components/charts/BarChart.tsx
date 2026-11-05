@@ -10,6 +10,10 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
+import {
+  chartOptions,
+  labelImagesSources as labelImages,
+} from '../../data/common';
 
 ChartJS.register(
   CategoryScale,
@@ -20,14 +24,25 @@ ChartJS.register(
   Legend
 );
 
-export const K9BarChart = ({
-  chartOptions,
+interface BarChartProps {
+  data: any; // todo
+  title: string;
+  legendXMin?: number;
+  customClassName?: string;
+  showLegend?: boolean;
+  labelImagesSources?: string[];
+}
+
+export const BarChart = ({
   data,
-  labelImagesSources,
   title,
-}) => {
+  legendXMin,
+  customClassName = '',
+  showLegend = true,
+  labelImagesSources = labelImages,
+}: BarChartProps) => {
   const [loadedImages, setLoadedImages] = useState<never[]>([]);
-  let options = chartOptions(title, loadedImages, false, 9);
+  let options = chartOptions(title, loadedImages, showLegend, legendXMin || 0);
 
   useEffect(() => {
     let isMounted = true;
@@ -54,7 +69,7 @@ export const K9BarChart = ({
   }, [labelImagesSources]);
 
   return (
-    <div className="chart">
+    <div className={`chart ${customClassName || ''}`}>
       <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
     </div>
   );
