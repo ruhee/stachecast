@@ -114,3 +114,22 @@ export const veloData = {
     },
   ],
 };
+
+export const newChartConfig = {
+  velo: {
+    legendXMin: 94,
+    title: 'Average Fastball Velocity',
+  },
+  breaking: {
+    // legendXMin: 0,
+    title: 'Average Breaking Ball/Offspeed Velocity',
+  },
+  gameScore: {
+    legendXMin: 30,
+    title: 'Game Scores',
+  },
+  k9: {
+    legendXMin: 9,
+    title: 'Strikeouts/9',
+  },
+};
