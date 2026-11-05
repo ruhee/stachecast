@@ -68,8 +68,7 @@ export const AltHome = () => {
       <footer>
         <p>
           <em>
-            Data includes all Padres (2024-2025) and Blue Jays (2026)
-            appearances. 2019-2023 coming soon
+            Data includes all MLB regular season and postseason appearances 2019-2026.
           </em>
         </p>
         <p>

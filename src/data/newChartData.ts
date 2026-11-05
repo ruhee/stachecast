@@ -129,7 +129,7 @@ export const newChartConfig = {
     title: 'Game Scores',
   },
   k9: {
-    legendXMin: 9,
+    legendXMin: 7,
     title: 'Strikeouts/9',
   },
 };
