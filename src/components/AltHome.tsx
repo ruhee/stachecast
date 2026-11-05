@@ -68,7 +68,8 @@ export const AltHome = () => {
       <footer>
         <p>
           <em>
-            Data includes all MLB regular season and postseason appearances 2019-2026.
+            Data includes all MLB regular season and postseason appearances
+            2019-2026.
           </em>
         </p>
         <p>
