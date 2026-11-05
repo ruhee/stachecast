@@ -6,10 +6,12 @@ import {
   gameScoreData,
   k9data,
   veloData,
+  newChartConfig,
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
 
 export const AltHome = () => {
+  const { velo, breaking, gameScore, k9 } = newChartConfig;
   return (
     <div>
       <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
@@ -27,9 +29,9 @@ export const AltHome = () => {
         <p>(Text here)</p>
         <BarChart
           data={veloData}
-          legendXMin={94}
+          legendXMin={velo.legendXMin}
           labelImagesSources={labelImagesSources}
-          title="2024-2026 Average Fastball Velocity"
+          title={velo.title}
         />
         <p>
           (Tap or click the legend to turn datasets on/off, and tap or hover on
@@ -37,42 +39,23 @@ export const AltHome = () => {
         </p>
         <BarChart
           data={breakingVeloData}
-          legendXMin={0}
+          legendXMin={breaking.legendXMin}
           labelImagesSources={labelImagesSources}
-          title="2024-2026 Average Breaking Ball Velocity"
+          title={breaking.title}
         />
-        <p>
-          {/* Cease achieves higher game scores with a full beard, though, and all of
-        his best games by game score (
-        <a href="https://www.mlb.com/bluejays/video/dylan-cease-take-no-hitter-into-7th-in-blue-jays-win">
-          a no-hit bid into the 7th
-        </a>
-        ,{' '}
-        <a href="https://www.mlb.com/video/dylan-cease-flirts-with-no-hitter-in-blue-jays-win">
-          a no-hit bid into the 9th
-        </a>
-        , and{' '}
-        <a
-          href="https://www.mlb.com/news/dylan-cease-pitches-complete-game-shutout-al-cy-young-award-case
-        "
-        >
-          a CG shutout
-        </a>
-        ) were on full-beard or long-beard outings. */}
-          (Text here)
-        </p>
+        <p>(Text here)</p>
         <BarChart
           data={gameScoreData}
-          legendXMin={30}
+          legendXMin={gameScore.legendXMin}
           labelImagesSources={labelImagesSources}
-          title="2024-2026 Game Scores"
+          title={gameScore.title}
         />
         <p>(Text here)</p>
         <BarChart
           data={k9data}
-          legendXMin={9}
+          legendXMin={k9.legendXMin}
           labelImagesSources={labelImagesSources}
-          title="2024-2026 Strikeouts/9"
+          title={k9.title}
           showLegend={false}
         />
       </div>
