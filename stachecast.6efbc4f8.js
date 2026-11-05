@@ -33221,7 +33221,7 @@ $RefreshReg$(_c, "Home");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/common":"baGnG","../data/chartData":"kR6jO","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./charts/BarChart":"fsRKI"}],"baGnG":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/common":"baGnG","../data/chartData":"kR6jO","./charts/BarChart":"fsRKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"baGnG":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "labelImagesSources", ()=>labelImagesSources);
@@ -47569,7 +47569,6 @@ var _reactRouterDom = require("react-router-dom");
 var _newChartData = require("../data/newChartData");
 var _barChart = require("./charts/BarChart");
 const AltHome = ()=>{
-    const { velo, breaking, gameScore, k9 } = (0, _newChartData.newChartConfig);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -47579,7 +47578,7 @@ const AltHome = ()=>{
                 children: "\u203C\uFE0F Alternate/unreleased route - WIP \u203C\uFE0F"
             }, void 0, false, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 17,
+                lineNumber: 15,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47591,7 +47590,7 @@ const AltHome = ()=>{
                         children: "velocity was down"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 20,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, undefined),
                     ' ',
@@ -47602,7 +47601,7 @@ const AltHome = ()=>{
                         children: "so was his facial hair"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 24,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, undefined),
                     " (compare that to his ",
@@ -47611,14 +47610,14 @@ const AltHome = ()=>{
                         children: "previous start"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 25,
+                        lineNumber: 23,
                         columnNumber: 13
                     }, undefined),
                     "). What this website asks is: are those things related?"
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 18,
+                lineNumber: 16,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -47628,75 +47627,75 @@ const AltHome = ()=>{
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 29,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.veloData),
-                        legendXMin: velo.legendXMin,
+                        legendXMin: 94,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: velo.title
+                        title: "2024-2026 Average Fastball Velocity"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 30,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 36,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.breakingVeloData),
-                        legendXMin: breaking.legendXMin,
+                        legendXMin: 0,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: breaking.title
+                        title: "2024-2026 Average Breaking Ball Velocity"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 40,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 46,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.gameScoreData),
-                        legendXMin: gameScore.legendXMin,
+                        legendXMin: 30,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: gameScore.title
+                        title: "2024-2026 Game Scores"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 47,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 53,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.k9data),
-                        legendXMin: k9.legendXMin,
+                        legendXMin: 9,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: k9.title,
+                        title: "2024-2026 Strikeouts/9",
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 54,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 28,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47708,28 +47707,28 @@ const AltHome = ()=>{
                         children: "let\u2019s get cracking, Dylan."
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 64,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 62,
+                lineNumber: 79,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                            children: "Data includes all MLB regular season and postseason appearances 2019-2026."
+                            children: "Data includes all Padres (2024-2025) and Blue Jays (2026) appearances. 2019-2023 coming soon"
                         }, void 0, false, {
                             fileName: "src/components/AltHome.tsx",
-                            lineNumber: 70,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 69,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47741,7 +47740,7 @@ const AltHome = ()=>{
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 77,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, undefined),
                             ", the stupid brain behind the",
@@ -47751,18 +47750,18 @@ const AltHome = ()=>{
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 79,
+                                lineNumber: 96,
                                 columnNumber: 11
                             }, undefined),
                             ' ',
-                            "and the Stanton Strikeout Tracker.",
+                            "and the Stanton Strikeout Tracker. You can",
                             ' ',
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "release-notes",
-                                children: "Check out the release notes"
+                                children: "see the release notes"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 83,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, undefined),
                             " or",
@@ -47772,42 +47771,102 @@ const AltHome = ()=>{
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 84,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, undefined),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 75,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "credits",
-                        children: "The credits are here"
-                    }, void 0, false, {
-                        fileName: "src/components/AltHome.tsx",
-                        lineNumber: 86,
-                        columnNumber: 9
-                    }, undefined),
-                    ", including data and photos.",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Sincerest and most sheepish apologies to Dylan Cease. \uD83D\uDC51"
+                        children: [
+                            "Pitch data:",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
+                                children: "Baseball Savant and Statcast"
+                            }, void 0, false, {
+                                fileName: "src/components/AltHome.tsx",
+                                lineNumber: 106,
+                                columnNumber: 11
+                            }, undefined),
+                            ". Beard data: MLB highlight packages and my eyes. All other data:",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://www.baseball-reference.com/",
+                                children: "Baseball Reference"
+                            }, void 0, false, {
+                                fileName: "src/components/AltHome.tsx",
+                                lineNumber: 110,
+                                columnNumber: 11
+                            }, undefined),
+                            ". Exceptional advice by",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://bsky.app/profile/gareths.bsky.social",
+                                children: "Gareth"
+                            }, void 0, false, {
+                                fileName: "src/components/AltHome.tsx",
+                                lineNumber: 112,
+                                columnNumber: 11
+                            }, undefined),
+                            " and",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://bsky.app/profile/pointsman.bsky.social",
+                                children: "Chris"
+                            }, void 0, false, {
+                                fileName: "src/components/AltHome.tsx",
+                                lineNumber: 113,
+                                columnNumber: 11
+                            }, undefined),
+                            ", and perfect name by",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://bsky.app/profile/phrichards.ca",
+                                children: "Phil"
+                            }, void 0, false, {
+                                fileName: "src/components/AltHome.tsx",
+                                lineNumber: 115,
+                                columnNumber: 11
+                            }, undefined),
+                            ".",
+                            ' ',
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "credits",
+                                children: "Photo credits are here"
+                            }, void 0, false, {
+                                fileName: "src/components/AltHome.tsx",
+                                lineNumber: 116,
+                                columnNumber: 11
+                            }, undefined),
+                            "."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/AltHome.tsx",
+                        lineNumber: 104,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 88,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 68,
+                lineNumber: 85,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/AltHome.tsx",
-        lineNumber: 16,
+        lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
@@ -47830,7 +47889,6 @@ parcelHelpers.export(exports, "breakingVeloData", ()=>breakingVeloData);
 parcelHelpers.export(exports, "gameScoreData", ()=>gameScoreData);
 parcelHelpers.export(exports, "k9data", ()=>k9data);
 parcelHelpers.export(exports, "veloData", ()=>veloData);
-parcelHelpers.export(exports, "newChartConfig", ()=>newChartConfig);
 var _averagesFull = require("./averages-full");
 var _cleanJpg = require("url:../assets/clean.jpg");
 var _cleanJpgDefault = parcelHelpers.interopDefault(_cleanJpg);
@@ -47945,24 +48003,6 @@ const veloData = {
         }
     ]
 };
-const newChartConfig = {
-    velo: {
-        legendXMin: 94,
-        title: 'Average Fastball Velocity'
-    },
-    breaking: {
-        // legendXMin: 0,
-        title: 'Average Breaking Ball/Offspeed Velocity'
-    },
-    gameScore: {
-        legendXMin: 30,
-        title: 'Game Scores'
-    },
-    k9: {
-        legendXMin: 7,
-        title: 'Strikeouts/9'
-    }
-};
 
 },{"./averages-full":"9vTnr","url:../assets/clean.jpg":"jkQMQ","url:../assets/full.jpg":"lMeuX","url:../assets/long.jpg":"5dnxM","url:../assets/short.jpg":"9sWrN","url:../assets/patch.jpg":"YLgNO","url:../assets/stache-only.jpg":"j6YWz","url:../assets/stubble.jpg":"cNl0n","url:../assets/mountain.jpg":"id61o","url:../assets/placeholder.png":"jLmyh","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9vTnr":[function(require,module,exports,__globalThis) {
 // Generated by convertCsv.js from averages-full.csv. Do not edit by hand.
@@ -47972,11 +48012,9 @@ parcelHelpers.export(exports, "formats", ()=>formats);
 parcelHelpers.export(exports, "averages", ()=>averages);
 const formats = [
     'Clean shaven',
-    'Stubble',
     'Stache only',
     'Stache + soul patch',
     'Stubble + stache',
-    'Short beard + stache',
     'Short beard',
     'Full beard',
     'Long beard',
@@ -47984,112 +48022,94 @@ const formats = [
 ];
 const averages = {
     '4 seam': [
+        97.2,
+        97.4,
         97.1,
-        96.5,
-        96.6,
-        97.1,
+        97.2,
+        96.9,
+        96.8,
         96.3,
-        96.1,
-        96.8,
-        96.8,
-        96.7,
-        97
+        96.6
     ],
     Sinker: [
         95.6,
-        96.2,
-        96.1,
         96,
-        96.8,
+        96.1,
+        96.2,
         95.7,
-        96.4,
-        95.9,
-        95.3,
-        95.5
+        96.1,
+        94.8,
+        95.6
     ],
     Slider: [
-        85.9,
-        85,
-        87.4,
+        89.9,
+        89.2,
         88.2,
-        87.5,
-        87.3,
-        85.8,
-        86.6,
-        87.3,
-        87.8
+        89.5,
+        88.8,
+        88.7,
+        87.7,
+        88.6
     ],
     Sweeper: [
+        84.1,
+        84.4,
+        82.7,
+        85.2,
+        84.2,
         83.5,
-        84.7,
-        84.6,
         82.6,
-        84.6,
-        84.6,
-        84.7,
-        83.7,
-        82.9,
-        83.3
+        82.5
     ],
     Change: [
-        81.3,
-        81,
-        77,
+        72.8,
+        91.2,
         78,
-        74.8,
-        75.1,
-        81.5,
-        80.2,
-        75.9,
-        76.9
+        null,
+        82.6,
+        77.3,
+        73.8,
+        78.4
     ],
     'Knuckle curve': [
-        80.1,
-        79.4,
-        81.2,
+        81.7,
+        82.8,
         82,
-        81.6,
-        80.7,
-        79.4,
-        80.5,
-        81.1,
-        80.1
+        83.3,
+        81.5,
+        81.8,
+        81.5,
+        79.7
     ],
     'Game score': [
-        42,
         51,
-        57,
         55,
-        59,
-        44,
-        52,
+        56,
+        50,
         53,
-        62,
-        53
+        65,
+        63,
+        41
     ],
     'Game score max': [
-        50,
-        76,
-        90,
+        52,
+        77,
         93,
-        81,
-        68,
-        80,
-        79,
+        70,
+        75,
         94,
-        72
+        85,
+        67
     ],
     'K/9': [
-        8.41,
-        8.2,
-        11.39,
-        11.17,
-        10.97,
-        11.94,
-        10.98,
-        11.13,
-        11.66,
-        12.32
+        10.12,
+        11.55,
+        11.43,
+        12.25,
+        13.29,
+        11.26,
+        11.34,
+        11.05
     ]
 };
 
