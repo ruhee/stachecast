@@ -6,6 +6,10 @@ export const ReleaseNotes = () => (
     <p>Obviously we are doing some very serious software engineering.</p>
     <ul>
       <li>
+        <i>November 5, 2026</i>: Hopefully 0% noticeable to everyone but me,
+        but: refactored all the charts to avoid repeating things so much.
+      </li>
+      <li>
         <i>November 2, 2026</i>: Moved credits into credits page and increased
         footer text size.
       </li>
@@ -18,6 +22,10 @@ export const ReleaseNotes = () => (
           </li>
           <li>
             Added <Link to="/credits">photo credits</Link> and release notes.
+          </li>
+          <li>
+            Switched to using a dynamically-generated data file rather than
+            hardcoded data in the graphs.
           </li>
         </ul>
       </li>
