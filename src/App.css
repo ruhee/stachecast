@@ -53,6 +53,12 @@ body,
   padding: 20px 0;
 }
 
+@media (max-width: 768px) {
+  .chart-container-v2 .chart {
+    min-height: 500px; /* Make it taller on mobile */
+    /* or use height: 100vh / min-height / calc() */
+  }
+}
 .breaking {
   min-height: 310px;
 }
@@ -106,8 +112,12 @@ a:hover {
   color: #e8291c;
 }
 
+ul {
+  line-height: 1.4;
+}
+
 footer {
-  font-size: 0.75em;
+  font-size: 0.9em;
   color: #666;
   margin: 20px 0;
 }

@@ -1,11 +1,34 @@
 export const Credits = () => (
   <div>
-    <h2>Photo credits</h2>
+    <h2>Credits</h2>
+
     <p>
-      This is a silly side project worth no money; I grabbed all of these photos
-      from countless Google searches. If you are the owner of any of these
-      photos and want them removed, please{' '}
-      <a href="mailto:ruhee.dewji@gmail.com">email me</a>.
+      Pitch data is from{' '}
+      <a href="https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026">
+        Baseball Savant and Statcast
+      </a>
+      . Beard data is from a combination of MLB highlight packages, Getty Images
+      archives, and my eyes. All other data is from{' '}
+      <a href="https://www.baseball-reference.com/">Baseball Reference</a>.
+    </p>
+    <p>
+      Thank you to{' '}
+      <a href="https://bsky.app/profile/gareths.bsky.social">Gareth</a>,{' '}
+      <a href="https://bsky.app/profile/mikepetriello.bsky.social">Mike</a>, and{' '}
+      <a href="https://bsky.app/profile/pointsman.bsky.social">Chris</a> for
+      their exceptional advice, and to{' '}
+      <a href="https://bsky.app/profile/phrichards.ca">Phil</a> for the perfect
+      name.{' '}
+    </p>
+    <h3>Photos</h3>
+    <p>
+      This is a silly side project worth absolutely no money and hopefully a few
+      laughs; I&rsquo;m using these photos in the spirit of{' '}
+      <a href="https://laws-lois.justice.gc.ca/eng/acts/c-42/page-6.html">
+        fair dealing
+      </a>
+      . If you are the owner of any of these photos and want them removed,
+      please <a href="mailto:ruhee.dewji@gmail.com">email me</a>.
     </p>
     <ul>
       <li>
