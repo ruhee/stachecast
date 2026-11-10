@@ -3,15 +3,14 @@ import fs from 'node:fs';
 
 const __dirname = import.meta.dirname;
 
-// Pitch data files, streamed in order into one accumulator. Explicit list, never a
-// glob (a glob would grab subset/overlapping files and double-count). Grows as
-// seasons are added: frozen history + one write-once file per season. For now it's
-// just the 2026 test slice, which is what's live in prod.
-const PITCH_FILES = ['savant/pitches_2026.csv'];
+// NOTE: I'm intending to update a 2027 season file as the season goes on, rather than re-export the entire list.
+// Add 2027 to this list once the season starts, same thing for future seasons if this lasts this long
+// const PITCH_FILES = ['savant/pitches_2026.csv']; // keeping for quick tests
+const PITCH_FILES = ['savant/pitches.csv'];
 
-const FORMATS_SOURCE = 'exports/averages-full.csv'; // Format column -> chart order
-const DATE_FORMAT_MAP = 'exports/formats.csv'; // Date,Format -> one row per start
-const OUT_NAME = 'velocities';
+const FORMATS_SOURCE = 'exports/averages-full.csv'; // Format column -> chart order - this is the all years averages google sheet
+const DATE_FORMAT_MAP = 'exports/formats.csv'; // Date,Format -> one row per start - this is from the computed google sheet
+const OUTPUT_NAME = 'velocities';
 
 const abs = (p) => `${__dirname}/${p}`;
 const clean = (v) => String(v ?? '').trim(); // strip CRLF / stray whitespace
@@ -144,14 +143,14 @@ export const pitchCounts = ${JSON.stringify(pitchCounts, null, 2)} as const;
 
 export const starts = ${JSON.stringify(starts, null, 2)} as const;
 `;
-  fs.writeFileSync(abs(`${OUT_NAME}.ts`), output);
+  fs.writeFileSync(abs(`${OUTPUT_NAME}.ts`), output);
 
   // 5. Summary. The two "no match" lists are the ones worth reading every run.
   const mapDatesNoPitches = [...dateToFormat.keys()]
     .filter((d) => !matchedDates.has(d))
     .sort();
 
-  console.log(`\nSaved ${OUT_NAME}.ts`);
+  console.log(`\nSaved ${OUTPUT_NAME}.ts`);
   console.log(`Pitches matched: ${matched} / ${total}`);
   console.log('\nStarts per format:');
   formats.forEach((f, i) => console.log(`  ${f}: ${starts[i]}`));
