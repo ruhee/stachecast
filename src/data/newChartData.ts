@@ -1,7 +1,8 @@
 // chartData.ts is the prod 2026 stuff, leave that alone while tinkering.
 // this will eventually replace it.
 
-import { averages, formats } from './averages-full';
+import { averages } from './averages-full';
+import { velocities, formats } from './velocities';
 import clean from 'url:../assets/clean.jpg';
 import full from 'url:../assets/full.jpg';
 import long from 'url:../assets/long.jpg';
@@ -33,14 +34,14 @@ export const breakingVeloData = {
   datasets: [
     {
       label: 'Slider',
-      data: averages['Slider'],
+      data: velocities['Slider'],
       backgroundColor: 'rgba(29, 45, 92, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(29, 45, 92)',
     },
     {
       label: 'Sweeper',
-      data: averages['Sweeper'],
+      data: velocities['Sweeper'],
       backgroundColor: 'rgba(108, 54, 124, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(108, 54, 124)',
@@ -54,7 +55,7 @@ export const breakingVeloData = {
     // },
     {
       label: 'Knuckle Curve',
-      data: averages['Knuckle curve'],
+      data: velocities['Knuckle Curve'],
       backgroundColor: 'rgba(255, 145, 0, 0.5)',
       borderWidth: 1,
       borderColor: 'rgb(255, 145, 0, 1)',
@@ -100,7 +101,7 @@ export const veloData = {
   datasets: [
     {
       label: 'Four-seam',
-      data: averages['4 seam'],
+      data: velocities['4-Seam Fastball'],
       backgroundColor: 'rgba(142, 16, 16, 0.5)',
       borderColor: 'rgba(142, 16, 16, 1)',
       borderWidth: 1,
