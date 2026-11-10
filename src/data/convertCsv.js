@@ -7,7 +7,7 @@ const isNew = !!process.env.npm_config_new;
 // Switch based on the flag, so we can process both files in the same script.
 // averages-full is all years, averages is just 2026 (switch these names later)
 const fileName = isNew ? 'averages-full' : 'averages';
-const csvFilePath = `${__dirname}/${fileName}.csv`;
+const csvFilePath = `${__dirname}/exports/${fileName}.csv`;
 
 // Column headers in the Averages spreadsheet
 const COLUMNS = [
