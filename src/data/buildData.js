@@ -5,8 +5,8 @@ const __dirname = import.meta.dirname;
 
 // NOTE: I'm intending to update a 2027 season file as the season goes on, rather than re-export the entire list.
 // Add 2027 to this list once the season starts, same thing for future seasons if this lasts this long
-const PITCH_FILES = ['savant/pitches_2026.csv']; // keeping for quick tests
-// const PITCH_FILES = ['savant/pitches.csv'];
+// const PITCH_FILES = ['savant/pitches_2026.csv']; // keeping for quick tests
+const PITCH_FILES = ['savant/pitches.csv'];
 
 const FORMATS_SOURCE = 'exports/averages-full.csv'; // Format column -> chart order - this is the all years averages google sheet
 const DATE_FORMAT_MAP = 'exports/formats.csv'; // Date,Format -> one row per start - this is from the computed google sheet
