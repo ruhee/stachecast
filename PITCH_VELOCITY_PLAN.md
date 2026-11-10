@@ -28,11 +28,11 @@ Columns used (matched by **name**, so column order between exports doesn't matte
 |---|---|
 | `game_date` | `YYYY-MM-DD`. Join key to `starts.csv`. Exactly one game per date. |
 | `game_year` | Season. Optional sanity-check that a season file holds only its own year. |
-| `pitch_name` | Readable pitch label, e.g. `4-Seam Fastball` (used instead of `pitch_type` — see note). |
+| `pitch_name` | The pitch type, as a readable label — e.g. `4-Seam Fastball`, `Slider`, `Changeup`. This is the bucket key: each format gets a separate average per pitch type. Read from this column rather than `pitch_type` (see note). |
 | `release_speed` | Out-of-hand velocity. Rows with an empty value are skipped. |
 
 Notes:
-- Use `pitch_name`, **not** `pitch_type`: each Savant export carries a UTF-8 BOM on the first header (`pitch_type`), which corrupts that key. We read none of the first column, so the BOM is otherwise harmless.
+- `pitch_type` and `pitch_name` hold the **same** pitch-type information — `pitch_type` is the short code (`FF`, `SL`, `CH`), `pitch_name` the readable label. We bucket by pitch type either way; we just read the `pitch_name` column because each Savant export carries a UTF-8 BOM on the first header (`pitch_type`), which corrupts that key. We read none of the first column, so the BOM is otherwise harmless.
 - **Overlap guard:** if the same `game_date` appears in two input files, **fail loudly**. Pooling silently absorbs duplicates, so this is the safety net against accidentally listing an overlapping or subset file.
 
 ### 2. Date → format map — `src/data/starts.csv` (you maintain this)
@@ -101,6 +101,7 @@ export const starts = [2, 13, /* … one per format … */] as const; // distinc
 ## Wiring up
 - `package.json`: add `"data:pitches": "node src/data/aggregatePitches.js && prettier --write src/data/velocities.ts"`. Commit the generated `.ts`, same as the current `npm run data` flow — keep it out of the Parcel build so deploys stay fast.
 - `src/data/newChartData.ts`: point the velocity datasets at the new `velocities` object instead of `averages[...]`. Keys rename: `'4 seam'` → `'4-Seam Fastball'`, `'Change'` → `'Changeup'`, `'Knuckle curve'` → `'Knuckle Curve'`; Sinker / Slider / Sweeper unchanged. Game score and K/9 keep reading `averages-full`.
+  - **Data keys vs. display labels are separate things.** `velocities` is keyed by Savant's `pitch_name` spelling; that's what these lookups use. The `label:` strings shown on the chart (`'Four-seam'`, etc.) are set by hand and independent — they can keep whatever spelling you like, Savant's spelling never reaches the screen. This is a **one-time rename** (accepted); after it, re-running the data script refills the same keys and needs no further graph edits. We keep Savant's spelling as the key rather than translating to the old spellings, to avoid maintaining a perpetual name-mapping layer.
 - Later, when promoting to prod, do the same in `src/data/chartData.ts`.
 
 ## Season rollover
