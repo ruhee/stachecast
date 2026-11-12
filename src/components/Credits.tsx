@@ -62,6 +62,12 @@ export const Credits = () => (
         </a>
         : Ken Blaze-Imagn Images
       </li>
+      <li>
+        <a href="https://www.instagram.com/p/DceKWgNlcj0/?img_index=2">
+          Header image
+        </a>
+        : the man himself! (via Sportsnet)
+      </li>
     </ul>
   </div>
 );
