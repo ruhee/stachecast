@@ -32746,13 +32746,13 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                children: "November 2, 2026"
+                                children: "November 5, 2026"
                             }, void 0, false, {
                                 fileName: "src/components/ReleaseNotes.tsx",
                                 lineNumber: 9,
                                 columnNumber: 9
                             }, undefined),
-                            ": Moved credits into credits page and increased footer text size."
+                            ": Hopefully 0% noticeable to everyone but me, but: refactored all the charts to avoid repeating things so much."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ReleaseNotes.tsx",
@@ -32762,10 +32762,26 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                children: "October 27, 2026"
+                                children: "November 2, 2026"
                             }, void 0, false, {
                                 fileName: "src/components/ReleaseNotes.tsx",
                                 lineNumber: 13,
+                                columnNumber: 9
+                            }, undefined),
+                            ": Moved credits into credits page and increased footer text size."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ReleaseNotes.tsx",
+                        lineNumber: 12,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                children: "October 27, 2026"
+                            }, void 0, false, {
+                                fileName: "src/components/ReleaseNotes.tsx",
+                                lineNumber: 17,
                                 columnNumber: 9
                             }, undefined),
                             ":",
@@ -32775,7 +32791,7 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         children: "Fixed game score chart data (the max values for \u201Cfull\u201D and \u201Clong\u201D were reversed)."
                                     }, void 0, false, {
                                         fileName: "src/components/ReleaseNotes.tsx",
-                                        lineNumber: 15,
+                                        lineNumber: 19,
                                         columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32786,26 +32802,33 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 children: "photo credits"
                                             }, void 0, false, {
                                                 fileName: "src/components/ReleaseNotes.tsx",
-                                                lineNumber: 20,
+                                                lineNumber: 24,
                                                 columnNumber: 19
                                             }, undefined),
                                             " and release notes."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/ReleaseNotes.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 23,
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Switched to using a dynamically-generated data file rather than hardcoded data in the graphs."
+                                    }, void 0, false, {
+                                        fileName: "src/components/ReleaseNotes.tsx",
+                                        lineNumber: 26,
                                         columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/ReleaseNotes.tsx",
-                                lineNumber: 14,
+                                lineNumber: 18,
                                 columnNumber: 9
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ReleaseNotes.tsx",
-                        lineNumber: 12,
+                        lineNumber: 16,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32814,7 +32837,7 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "September 19, 2026"
                             }, void 0, false, {
                                 fileName: "src/components/ReleaseNotes.tsx",
-                                lineNumber: 25,
+                                lineNumber: 33,
                                 columnNumber: 9
                             }, undefined),
                             ":",
@@ -32829,33 +32852,33 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 children: "Sept 18 start"
                                             }, void 0, false, {
                                                 fileName: "src/components/ReleaseNotes.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 37,
                                                 columnNumber: 13
                                             }, undefined),
                                             "."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/ReleaseNotes.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 35,
                                         columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Fixed an error with June 16 data (recalculated averages)."
                                     }, void 0, false, {
                                         fileName: "src/components/ReleaseNotes.tsx",
-                                        lineNumber: 34,
+                                        lineNumber: 42,
                                         columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/ReleaseNotes.tsx",
-                                lineNumber: 26,
+                                lineNumber: 34,
                                 columnNumber: 9
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ReleaseNotes.tsx",
-                        lineNumber: 24,
+                        lineNumber: 32,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32864,7 +32887,7 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "September 14, 2026"
                             }, void 0, false, {
                                 fileName: "src/components/ReleaseNotes.tsx",
-                                lineNumber: 38,
+                                lineNumber: 46,
                                 columnNumber: 9
                             }, undefined),
                             ": Added",
@@ -32874,14 +32897,14 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "Sept 13 start"
                             }, void 0, false, {
                                 fileName: "src/components/ReleaseNotes.tsx",
-                                lineNumber: 39,
+                                lineNumber: 47,
                                 columnNumber: 9
                             }, undefined),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ReleaseNotes.tsx",
-                        lineNumber: 37,
+                        lineNumber: 45,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32890,14 +32913,14 @@ const ReleaseNotes = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: "September 13, 2026"
                             }, void 0, false, {
                                 fileName: "src/components/ReleaseNotes.tsx",
-                                lineNumber: 45,
+                                lineNumber: 53,
                                 columnNumber: 9
                             }, undefined),
                             ": Initial release \uD83C\uDF89"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ReleaseNotes.tsx",
-                        lineNumber: 44,
+                        lineNumber: 52,
                         columnNumber: 7
                     }, undefined)
                 ]
@@ -47569,6 +47592,7 @@ var _reactRouterDom = require("react-router-dom");
 var _newChartData = require("../data/newChartData");
 var _barChart = require("./charts/BarChart");
 const AltHome = ()=>{
+    const { velo, breaking, gameScore, k9 } = (0, _newChartData.newChartConfig);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -47578,7 +47602,7 @@ const AltHome = ()=>{
                 children: "\u203C\uFE0F Alternate/unreleased route - WIP \u203C\uFE0F"
             }, void 0, false, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 15,
+                lineNumber: 17,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47590,7 +47614,7 @@ const AltHome = ()=>{
                         children: "velocity was down"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, undefined),
                     ' ',
@@ -47601,7 +47625,7 @@ const AltHome = ()=>{
                         children: "so was his facial hair"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 22,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, undefined),
                     " (compare that to his ",
@@ -47610,14 +47634,14 @@ const AltHome = ()=>{
                         children: "previous start"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 23,
+                        lineNumber: 25,
                         columnNumber: 13
                     }, undefined),
                     "). What this website asks is: are those things related?"
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 16,
+                lineNumber: 18,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -47627,75 +47651,75 @@ const AltHome = ()=>{
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 27,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.veloData),
-                        legendXMin: 94,
+                        legendXMin: velo.legendXMin,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: "2024-2026 Average Fastball Velocity"
+                        title: velo.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 34,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.breakingVeloData),
-                        legendXMin: 0,
+                        legendXMin: breaking.legendXMin,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: "2024-2026 Average Breaking Ball Velocity"
+                        title: breaking.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 38,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.gameScoreData),
-                        legendXMin: 30,
+                        legendXMin: gameScore.legendXMin,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: "2024-2026 Game Scores"
+                        title: gameScore.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 64,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 70,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
                         data: (0, _newChartData.k9data),
-                        legendXMin: 9,
+                        legendXMin: k9.legendXMin,
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: "2024-2026 Strikeouts/9",
+                        title: k9.title,
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 71,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47707,28 +47731,28 @@ const AltHome = ()=>{
                         children: "let\u2019s get cracking, Dylan."
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 81,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 79,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                            children: "Data includes all Padres (2024-2025) and Blue Jays (2026) appearances. 2019-2023 coming soon"
+                            children: "Data includes all MLB regular season and postseason appearances 2019-2026."
                         }, void 0, false, {
                             fileName: "src/components/AltHome.tsx",
-                            lineNumber: 87,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 86,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47740,7 +47764,7 @@ const AltHome = ()=>{
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 94,
+                                lineNumber: 77,
                                 columnNumber: 11
                             }, undefined),
                             ", the stupid brain behind the",
@@ -47750,18 +47774,18 @@ const AltHome = ()=>{
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 96,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, undefined),
                             ' ',
-                            "and the Stanton Strikeout Tracker. You can",
+                            "and the Stanton Strikeout Tracker.",
                             ' ',
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "release-notes",
-                                children: "see the release notes"
+                                children: "Check out the release notes"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 100,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, undefined),
                             " or",
@@ -47771,102 +47795,42 @@ const AltHome = ()=>{
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 101,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, undefined),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 92,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: [
-                            "Pitch data:",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://baseballsavant.mlb.com/savant-player/dylan-cease-656302?stats=gamelogs-r-pitching-mlb&season=2026",
-                                children: "Baseball Savant and Statcast"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 106,
-                                columnNumber: 11
-                            }, undefined),
-                            ". Beard data: MLB highlight packages and my eyes. All other data:",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://www.baseball-reference.com/",
-                                children: "Baseball Reference"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 110,
-                                columnNumber: 11
-                            }, undefined),
-                            ". Exceptional advice by",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://bsky.app/profile/gareths.bsky.social",
-                                children: "Gareth"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 112,
-                                columnNumber: 11
-                            }, undefined),
-                            " and",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://bsky.app/profile/pointsman.bsky.social",
-                                children: "Chris"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 113,
-                                columnNumber: 11
-                            }, undefined),
-                            ", and perfect name by",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://bsky.app/profile/phrichards.ca",
-                                children: "Phil"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 115,
-                                columnNumber: 11
-                            }, undefined),
-                            ".",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "credits",
-                                children: "Photo credits are here"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 116,
-                                columnNumber: 11
-                            }, undefined),
-                            "."
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/AltHome.tsx",
-                        lineNumber: 104,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "With sincerest and most sheepish apologies to Dylan Cease, a king among starters. Keep the beard, IMO."
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "credits",
+                        children: "The credits are here"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 118,
+                        lineNumber: 86,
+                        columnNumber: 9
+                    }, undefined),
+                    ", including data and photos.",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Sincerest and most sheepish apologies to Dylan Cease. \uD83D\uDC51"
+                    }, void 0, false, {
+                        fileName: "src/components/AltHome.tsx",
+                        lineNumber: 88,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 85,
+                lineNumber: 68,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/AltHome.tsx",
-        lineNumber: 14,
+        lineNumber: 16,
         columnNumber: 5
     }, undefined);
 };
@@ -47879,7 +47843,7 @@ $RefreshReg$(_c, "AltHome");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./charts/BarChart":"fsRKI"}],"7aXpw":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7aXpw":[function(require,module,exports,__globalThis) {
 // chartData.ts is the prod 2026 stuff, leave that alone while tinkering.
 // this will eventually replace it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -47889,7 +47853,9 @@ parcelHelpers.export(exports, "breakingVeloData", ()=>breakingVeloData);
 parcelHelpers.export(exports, "gameScoreData", ()=>gameScoreData);
 parcelHelpers.export(exports, "k9data", ()=>k9data);
 parcelHelpers.export(exports, "veloData", ()=>veloData);
+parcelHelpers.export(exports, "newChartConfig", ()=>newChartConfig);
 var _averagesFull = require("./averages-full");
+var _velocities = require("./velocities");
 var _cleanJpg = require("url:../assets/clean.jpg");
 var _cleanJpgDefault = parcelHelpers.interopDefault(_cleanJpg);
 var _fullJpg = require("url:../assets/full.jpg");
@@ -47919,20 +47885,20 @@ const labelImages = {
     'Long beard': (0, _longJpgDefault.default),
     'Mountain man beard': (0, _mountainJpgDefault.default)
 };
-const newLabelImagesSources = (0, _averagesFull.formats).map((format)=>labelImages[format] || (0, _placeholderPngDefault.default));
+const newLabelImagesSources = (0, _velocities.formats).map((format)=>labelImages[format] || (0, _placeholderPngDefault.default));
 const breakingVeloData = {
-    labels: (0, _averagesFull.formats),
+    labels: (0, _velocities.formats),
     datasets: [
         {
             label: 'Slider',
-            data: (0, _averagesFull.averages)['Slider'],
+            data: (0, _velocities.velocities)['Slider'],
             backgroundColor: 'rgba(29, 45, 92, 0.5)',
             borderWidth: 1,
             borderColor: 'rgb(29, 45, 92)'
         },
         {
             label: 'Sweeper',
-            data: (0, _averagesFull.averages)['Sweeper'],
+            data: (0, _velocities.velocities)['Sweeper'],
             backgroundColor: 'rgba(108, 54, 124, 0.5)',
             borderWidth: 1,
             borderColor: 'rgb(108, 54, 124)'
@@ -47946,7 +47912,7 @@ const breakingVeloData = {
         // },
         {
             label: 'Knuckle Curve',
-            data: (0, _averagesFull.averages)['Knuckle curve'],
+            data: (0, _velocities.velocities)['Knuckle Curve'],
             backgroundColor: 'rgba(255, 145, 0, 0.5)',
             borderWidth: 1,
             borderColor: 'rgb(255, 145, 0, 1)'
@@ -47954,7 +47920,7 @@ const breakingVeloData = {
     ]
 };
 const gameScoreData = {
-    labels: (0, _averagesFull.formats),
+    labels: (0, _velocities.formats),
     datasets: [
         {
             label: 'Average',
@@ -47973,7 +47939,7 @@ const gameScoreData = {
     ]
 };
 const k9data = {
-    labels: (0, _averagesFull.formats),
+    labels: (0, _velocities.formats),
     datasets: [
         {
             label: 'K/9',
@@ -47985,26 +47951,44 @@ const k9data = {
     ]
 };
 const veloData = {
-    labels: (0, _averagesFull.formats),
+    labels: (0, _velocities.formats),
     datasets: [
         {
             label: 'Four-seam',
-            data: (0, _averagesFull.averages)['4 seam'],
+            data: (0, _velocities.velocities)['4-Seam Fastball'],
             backgroundColor: 'rgba(142, 16, 16, 0.5)',
             borderColor: 'rgba(142, 16, 16, 1)',
             borderWidth: 1
         },
         {
             label: 'Sinker',
-            data: (0, _averagesFull.averages)['Sinker'],
+            data: (0, _velocities.velocities)['Sinker'],
             backgroundColor: 'rgba(94, 82, 185, 0.5)',
             borderColor: 'rgba(94, 82, 185, 1)',
             borderWidth: 1
         }
     ]
 };
+const newChartConfig = {
+    velo: {
+        legendXMin: 94,
+        title: 'Average Fastball Velocity'
+    },
+    breaking: {
+        // legendXMin: 0,
+        title: 'Average Breaking Ball/Offspeed Velocity'
+    },
+    gameScore: {
+        legendXMin: 30,
+        title: 'Game Scores'
+    },
+    k9: {
+        legendXMin: 7,
+        title: 'Strikeouts/9'
+    }
+};
 
-},{"./averages-full":"9vTnr","url:../assets/clean.jpg":"jkQMQ","url:../assets/full.jpg":"lMeuX","url:../assets/long.jpg":"5dnxM","url:../assets/short.jpg":"9sWrN","url:../assets/patch.jpg":"YLgNO","url:../assets/stache-only.jpg":"j6YWz","url:../assets/stubble.jpg":"cNl0n","url:../assets/mountain.jpg":"id61o","url:../assets/placeholder.png":"jLmyh","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9vTnr":[function(require,module,exports,__globalThis) {
+},{"./averages-full":"9vTnr","url:../assets/clean.jpg":"jkQMQ","url:../assets/full.jpg":"lMeuX","url:../assets/long.jpg":"5dnxM","url:../assets/short.jpg":"9sWrN","url:../assets/patch.jpg":"YLgNO","url:../assets/mountain.jpg":"id61o","url:../assets/placeholder.png":"jLmyh","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./velocities":"jJjyu","url:../assets/stubble.jpg":"cNl0n","url:../assets/stache-only.jpg":"j6YWz"}],"9vTnr":[function(require,module,exports,__globalThis) {
 // Generated by convertCsv.js from averages-full.csv. Do not edit by hand.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -48012,9 +47996,11 @@ parcelHelpers.export(exports, "formats", ()=>formats);
 parcelHelpers.export(exports, "averages", ()=>averages);
 const formats = [
     'Clean shaven',
+    'Stubble',
     'Stache only',
     'Stache + soul patch',
     'Stubble + stache',
+    'Short beard + stache',
     'Short beard',
     'Full beard',
     'Long beard',
@@ -48022,94 +48008,112 @@ const formats = [
 ];
 const averages = {
     '4 seam': [
-        97.2,
-        97.4,
         97.1,
-        97.2,
-        96.9,
-        96.8,
+        96.5,
+        96.6,
+        97.1,
         96.3,
-        96.6
+        96.1,
+        96.8,
+        96.8,
+        96.7,
+        97
     ],
     Sinker: [
         95.6,
-        96,
-        96.1,
         96.2,
-        95.7,
         96.1,
-        94.8,
-        95.6
+        96,
+        96.8,
+        95.7,
+        96.4,
+        95.9,
+        95.3,
+        95.5
     ],
     Slider: [
-        89.9,
-        89.2,
+        85.9,
+        85,
+        87.4,
         88.2,
-        89.5,
-        88.8,
-        88.7,
-        87.7,
-        88.6
+        87.5,
+        87.3,
+        85.8,
+        86.6,
+        87.3,
+        87.8
     ],
     Sweeper: [
-        84.1,
-        84.4,
-        82.7,
-        85.2,
-        84.2,
         83.5,
+        84.7,
+        84.6,
         82.6,
-        82.5
+        84.6,
+        84.6,
+        84.7,
+        83.7,
+        82.9,
+        83.3
     ],
     Change: [
-        72.8,
-        91.2,
+        81.3,
+        81,
+        77,
         78,
-        null,
-        82.6,
-        77.3,
-        73.8,
-        78.4
+        74.8,
+        75.1,
+        81.5,
+        80.2,
+        75.9,
+        76.9
     ],
     'Knuckle curve': [
-        81.7,
-        82.8,
+        80.1,
+        79.4,
+        81.2,
         82,
-        83.3,
-        81.5,
-        81.8,
-        81.5,
-        79.7
+        81.6,
+        80.7,
+        79.4,
+        80.5,
+        81.1,
+        80.1
     ],
     'Game score': [
+        42,
         51,
+        57,
         55,
-        56,
-        50,
+        59,
+        44,
+        52,
         53,
-        65,
-        63,
-        41
+        62,
+        53
     ],
     'Game score max': [
-        52,
-        77,
+        50,
+        76,
+        90,
         93,
-        70,
-        75,
+        81,
+        68,
+        80,
+        79,
         94,
-        85,
-        67
+        72
     ],
     'K/9': [
-        10.12,
-        11.55,
-        11.43,
-        12.25,
-        13.29,
-        11.26,
-        11.34,
-        11.05
+        8.41,
+        8.2,
+        11.39,
+        11.17,
+        10.97,
+        11.94,
+        10.98,
+        11.13,
+        11.66,
+        12.32
     ]
 };
 
@@ -48119,17 +48123,223 @@ module.exports = module.bundle.resolve("clean.0b7ae1c7.jpg") + "?" + Date.now();
 },{}],"YLgNO":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("patch.c4899e91.jpg") + "?" + Date.now();
 
-},{}],"j6YWz":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stache-only.7369f5b8.jpg") + "?" + Date.now();
-
-},{}],"cNl0n":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stubble.36b1bbc0.jpg") + "?" + Date.now();
-
 },{}],"id61o":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("mountain.a179a74c.jpg") + "?" + Date.now();
 
 },{}],"jLmyh":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("placeholder.0f8d4211.png") + "?" + Date.now();
+
+},{}],"jJjyu":[function(require,module,exports,__globalThis) {
+// Generated by buildData.js from the Savant pitch files. Do not edit by hand.
+// Accumulates all pitches of a given type for a given format and then averages them
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "formats", ()=>formats);
+parcelHelpers.export(exports, "velocities", ()=>velocities);
+parcelHelpers.export(exports, "pitchCounts", ()=>pitchCounts);
+parcelHelpers.export(exports, "starts", ()=>starts);
+const formats = [
+    'Clean shaven',
+    'Stubble',
+    'Stache only',
+    'Stache + soul patch',
+    'Stubble + stache',
+    'Short beard + stache',
+    'Short beard',
+    'Full beard',
+    'Long beard',
+    'Mountain man beard'
+];
+const velocities = {
+    '4-Seam Fastball': [
+        97.1,
+        96.3,
+        96.6,
+        97.1,
+        96.4,
+        96.1,
+        96.7,
+        96.8,
+        96.7,
+        97
+    ],
+    Changeup: [
+        82.7,
+        79.6,
+        76.8,
+        82,
+        75.6,
+        76.8,
+        82.1,
+        80.4,
+        78.6,
+        77.7
+    ],
+    Cutter: [
+        null,
+        null,
+        null,
+        null,
+        91,
+        null,
+        null,
+        null,
+        92,
+        91.3
+    ],
+    'Knuckle Curve': [
+        79.7,
+        79.5,
+        81,
+        82.1,
+        81.2,
+        80.7,
+        79.7,
+        80.3,
+        80.9,
+        80.3
+    ],
+    Sinker: [
+        95.7,
+        96.2,
+        95.9,
+        96,
+        96.4,
+        96,
+        96.7,
+        95.8,
+        95.2,
+        95.6
+    ],
+    Slider: [
+        86.5,
+        85.6,
+        87.4,
+        88.1,
+        87.4,
+        87.4,
+        86.1,
+        86.9,
+        87.3,
+        87.9
+    ],
+    Sweeper: [
+        83.4,
+        84.6,
+        84.4,
+        82.8,
+        84.9,
+        84.6,
+        84.6,
+        83.9,
+        83.1,
+        84.3
+    ]
+};
+const pitchCounts = {
+    '4-Seam Fastball': [
+        185,
+        444,
+        1957,
+        1389,
+        1003,
+        531,
+        811,
+        1123,
+        1205,
+        412
+    ],
+    Changeup: [
+        27,
+        78,
+        118,
+        149,
+        26,
+        36,
+        174,
+        229,
+        156,
+        64
+    ],
+    Cutter: [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        14,
+        3
+    ],
+    'Knuckle Curve': [
+        60,
+        146,
+        609,
+        290,
+        284,
+        185,
+        223,
+        311,
+        335,
+        106
+    ],
+    Sinker: [
+        15,
+        12,
+        77,
+        110,
+        25,
+        27,
+        49,
+        51,
+        51,
+        22
+    ],
+    Slider: [
+        88,
+        316,
+        1858,
+        1312,
+        967,
+        462,
+        460,
+        857,
+        998,
+        370
+    ],
+    Sweeper: [
+        2,
+        4,
+        59,
+        148,
+        13,
+        17,
+        6,
+        25,
+        82,
+        19
+    ]
+};
+const starts = [
+    4,
+    11,
+    48,
+    36,
+    24,
+    13,
+    19,
+    27,
+    29,
+    12
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"cNl0n":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stubble.36b1bbc0.jpg") + "?" + Date.now();
+
+},{}],"j6YWz":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stache-only.7369f5b8.jpg") + "?" + Date.now();
 
 },{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
 
