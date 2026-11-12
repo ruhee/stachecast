@@ -53,7 +53,7 @@ html, body, #app {
 
 @media (width <= 768px) {
   .chart-container-v2 .chart {
-    min-height: 580px;
+    min-height: 500px;
   }
 }
 
