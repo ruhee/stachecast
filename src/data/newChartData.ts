@@ -4,21 +4,25 @@
 import { averages } from './averages-full';
 import { velocities, formats } from './velocities';
 import clean from 'url:../assets/clean.jpg';
+import stubble from 'url:../assets/stubble.jpg';
+import stache from 'url:../assets/stache-only.jpg';
+import patch from 'url:../assets/patch.jpg';
+import stubblestache from 'url:../assets/stubble-stache.jpg';
+import shortstache from 'url:../assets/short-stache.jpg'
+import short from 'url:../assets/short.jpg';
 import full from 'url:../assets/full.jpg';
 import long from 'url:../assets/long.jpg';
-import short from 'url:../assets/short.jpg';
-// import stache from 'url:../assets/stache.jpg';
-import patch from 'url:../assets/patch.jpg';
-import stache from 'url:../assets/stache-only.jpg';
-import stubble from 'url:../assets/stubble.jpg';
 import mountain from 'url:../assets/mountain.jpg';
+
 import placeholder from 'url:../assets/placeholder.png';
 
 const labelImages = {
   'Clean shaven': clean,
+  'Stubble': stubble,
   'Stache only': stache,
   'Stache + soul patch': patch,
-  'Stubble + stache': stubble,
+  'Stubble + stache': stubblestache,
+  'Short beard + stache': shortstache,
   'Short beard': short,
   'Full beard': full,
   'Long beard': long,
