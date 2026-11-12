@@ -92,7 +92,7 @@ h1.experiment > a {
   text-align: center;
   background-position: center;
   background-image:
-    linear-gradient(rgba(29, 45, 92, 0.85), rgba(29, 45, 92, 0.85)),
+    linear-gradient(rgba(29, 45, 92, 0.75), rgba(29, 45, 92, 0.75)),
     url('assets/painting.jpg'); /* TODO: maybe crop this so different pieces of it show up instead of repeating */
   color: rgb(29, 45, 92);
   -webkit-background-clip: text;
