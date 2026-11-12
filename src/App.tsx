@@ -11,7 +11,7 @@ import { AltHome } from './components/AltHome';
 
 const RootLayout = () => (
   <div className="container">
-    <h1 className="experiment">
+    <h1 className="masked">
       <Link to="/">STACHECAST</Link>
     </h1>
     <Outlet />
