@@ -55,7 +55,7 @@ body,
 
 @media (max-width: 768px) {
   .chart-container-v2 .chart {
-    min-height: 500px; /* Make it taller on mobile */
+    min-height: 580px; /* Make it taller on mobile */
     /* or use height: 100vh / min-height / calc() */
   }
 }
