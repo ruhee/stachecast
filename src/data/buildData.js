@@ -137,7 +137,7 @@ export const starts = ${JSON.stringify(starts, null, 2)} as const;
 `;
   fs.writeFileSync(abs(`${OUTPUT_NAME}.ts`), output);
 
-  // 5. Summary. The two "no match" lists are the ones worth reading every run.
+  // summarize
   const mapDatesNoPitches = [...dateToFormat.keys()]
     .filter((d) => !matchedDates.has(d))
     .sort();
