@@ -108,7 +108,7 @@ export const veloData = {
     },
     {
       label: 'Sinker',
-      data: averages['Sinker'],
+      data: velocities['Sinker'],
       backgroundColor: 'rgba(94, 82, 185, 0.5)',
       borderColor: 'rgba(94, 82, 185, 1)',
       borderWidth: 1,
