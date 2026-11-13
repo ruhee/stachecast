@@ -6,6 +6,13 @@ export const ReleaseNotes = () => (
     <p>Obviously we are doing some very serious software engineering.</p>
     <ul>
       <li>
+        <i>November 12, 2026:</i> New header, including{' '}
+        <a href="https://www.sportsnet.ca/mlb/article/pretty-unbelievable-blue-jays-dylan-cease-unveils-painting-at-art-gallery-of-ontario/">
+          this painting
+        </a>
+        .
+      </li>
+      <li>
         <i>November 5, 2026</i>: Hopefully 0% noticeable to everyone but me,
         but: refactored all the charts to avoid repeating things so much.
       </li>
