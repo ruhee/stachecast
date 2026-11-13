@@ -35,8 +35,13 @@ export const Credits = () => (
         : Orlando Ramirez/Getty Images
       </li>
       <li>Stubble:</li>
-      <li>Stache:</li>
-      <li>Stache & patch:</li>
+      <li>
+        <a href="https://www.sandiegouniontribune.com/wp-content/uploads/2025/09/SUT-L-dylan-cease-09302025.jpg">
+          Stache
+        </a>
+        : Michael Reaves/Getty Images
+      </li>
+      <li>Stache & patch: Justin Casterline/Getty Images</li>
       <li>
         <a
           href="https://media.gettyimages.com/id/2228277234/photo/st-louis-cardinals-v-san-diego-padres.jpg?s=2048x2048&w=gi&k=20&c=QVbcryQPoWH_Bgz3FZcDn3mkkJNsmYYifzOdBPzEoU4="
