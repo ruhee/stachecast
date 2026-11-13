@@ -65,27 +65,13 @@ a {
   color: #134a8e;
 }
 
-h1, h1 > a {
-  text-align: center;
-  color: #000;
-  margin: 0;
-  font-family: Denk One, sans-serif;
-  font-size: clamp(2rem, 1rem + 4vw, 3rem);
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-h1 > a:hover {
-  color: #000;
-}
-
-h1.experiment, h1.experiment > a {
+h1.masked, h1.masked > a {
   text-align: center;
   color: #0000;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#1d2d5cbf, #1d2d5cbf), url("painting.8a28c59f.jpg");
+  background-image: linear-gradient(#1d2d5ccc, #1d2d5ccc), url("painting.8a28c59f.jpg");
   background-position: center;
+  background-size: 340px;
   background-clip: text;
   margin: 0;
   font-family: Bowlby One, sans-serif;
@@ -95,7 +81,7 @@ h1.experiment, h1.experiment > a {
   text-decoration: none;
 }
 
-h1.experiment > a:hover, h1.experiment > a:focus {
+h1.masked > a:hover, h1.masked > a:focus {
   cursor: pointer;
 }
 
