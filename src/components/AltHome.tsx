@@ -6,6 +6,7 @@ import {
   gameScoreData,
   k9data,
   veloData,
+  occurrenceData,
   newChartConfig,
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
@@ -56,6 +57,16 @@ export const AltHome = () => {
           legendXMin={k9.legendXMin}
           labelImagesSources={labelImagesSources}
           title={k9.title}
+          showLegend={false}
+        />
+        <p>
+          Of course, it&rsquo;s important to know the sample sizes you&rsquo;re
+          working with when doing rigorous analysis...{' '}
+        </p>
+        <BarChart
+          data={occurrenceData}
+          labelImagesSources={labelImagesSources}
+          title="Appearances per style"
           showLegend={false}
         />
       </div>
