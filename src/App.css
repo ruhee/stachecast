@@ -77,7 +77,7 @@ h1.masked > a {
   background-position: center;
   background-size: 340px;
   background-image:
-    linear-gradient(rgba(29, 45, 92, 0.80), rgba(29, 45, 92, 0.80)),
+    linear-gradient(rgba(29, 45, 92, 0.8), rgba(29, 45, 92, 0.8)),
     url('assets/painting.jpg'); /* TODO: maybe crop this so different pieces of it show up instead of repeating */
   color: rgb(29, 45, 92);
   -webkit-background-clip: text;
@@ -86,6 +86,10 @@ h1.masked > a {
   color: transparent;
   text-decoration: none;
   margin: 0;
+
+  @media (max-width: 768px) {
+    background-size: 160px;
+  }
 }
 
 h1.masked > a:hover,
