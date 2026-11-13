@@ -79,6 +79,10 @@ h1.masked, h1.masked > a {
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
+
+  @media (width <= 768px) {
+    background-size: 160px;
+  }
 }
 
 h1.masked > a:hover, h1.masked > a:focus {
