@@ -2,7 +2,7 @@
 // this will eventually replace it.
 
 import { averages } from './averages-full';
-import { velocities, formats } from './velocities';
+import { velocities, formats, starts } from './velocities';
 import clean from 'url:../assets/clean.jpg';
 import stubble from 'url:../assets/stubble.jpg';
 import stache from 'url:../assets/stache-only.jpg';
@@ -113,6 +113,19 @@ export const veloData = {
     {
       label: 'Sinker',
       data: velocities['Sinker'],
+      backgroundColor: 'rgba(94, 82, 185, 0.5)',
+      borderColor: 'rgba(94, 82, 185, 1)',
+      borderWidth: 1,
+    },
+  ],
+};
+
+export const occurrenceData = {
+  labels: formats,
+  datasets: [
+    {
+      label: 'Appearances',
+      data: starts,
       backgroundColor: 'rgba(94, 82, 185, 0.5)',
       borderColor: 'rgba(94, 82, 185, 1)',
       borderWidth: 1,
