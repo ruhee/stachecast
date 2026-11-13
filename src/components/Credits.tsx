@@ -41,7 +41,12 @@ export const Credits = () => (
         </a>
         : Michael Reaves/Getty Images
       </li>
-      <li>Stache & patch: Justin Casterline/Getty Images</li>
+      <li>
+        <a href="https://www.gettyimages.ca/detail/news-photo/dylan-cease-of-the-toronto-blue-jays-looks-on-during-the-news-photo/2269709204?adppopup=true">
+          Stache & patch
+        </a>
+        : Justin Casterline/Getty Images
+      </li>
       <li>
         <a
           href="https://media.gettyimages.com/id/2228277234/photo/st-louis-cardinals-v-san-diego-padres.jpg?s=2048x2048&w=gi&k=20&c=QVbcryQPoWH_Bgz3FZcDn3mkkJNsmYYifzOdBPzEoU4="
