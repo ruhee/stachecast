@@ -66,10 +66,8 @@ async function main() {
       if (!format) {
         return;
       }
-      // matchedDates.add(date);
 
       const stuff = +row['Stuff+'];
-      // console.log(typeof(stuff))
 
       // There isn't any Stuff+ for 2019 so we expect this sometimes
       if (stuff === null || Number.isNaN(stuff)) return;
