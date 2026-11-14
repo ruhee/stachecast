@@ -7,6 +7,7 @@ import {
   k9data,
   veloData,
   occurrenceData,
+  stuffPlusData,
   newChartConfig,
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
@@ -67,6 +68,13 @@ export const AltHome = () => {
           data={occurrenceData}
           labelImagesSources={labelImagesSources}
           title="Appearances per style"
+          showLegend={false}
+        />
+        <p>Fangraphs Stuff+ text here</p>
+        <BarChart
+          data={stuffPlusData}
+          labelImagesSources={labelImagesSources}
+          title="Stuff+ by style"
           showLegend={false}
         />
       </div>
