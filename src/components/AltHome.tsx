@@ -63,8 +63,9 @@ export const AltHome = () => {
         <p>
           By Fangraphs&rsquo; Stuff+ the &rsquo;stache styles do pretty well in
           general, although they are all slightly beaten by the really unruly
-          beard. (Stuff+ sets the baseline/average at 100—110 is quite good. The
-          clean shaven number... not so good.)
+          beard. (This is a usage-weighted average of all pitches in a start,
+          averaged over starts. Stuff+ sets the baseline/average at 100—110 is
+          quite good. The clean shaven number... not so good.)
         </p>
         <BarChart
           data={stuffPlusData}
