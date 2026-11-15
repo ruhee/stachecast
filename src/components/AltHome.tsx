@@ -7,6 +7,7 @@ import {
   k9data,
   veloData,
   occurrenceData,
+  stuffPlusData,
   newChartConfig,
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
@@ -57,6 +58,19 @@ export const AltHome = () => {
           legendXMin={k9.legendXMin}
           labelImagesSources={labelImagesSources}
           title={k9.title}
+          showLegend={false}
+        />
+        <p>
+          By Fangraphs&rsquo; Stuff+ the &rsquo;stache styles do pretty well in
+          general, although they are all slightly beaten by the really unruly
+          beard. (This is a usage-weighted average of all pitches in a start,
+          averaged over starts. Stuff+ sets the baseline/average at 100—110 is
+          quite good. The clean shaven number... not so good.)
+        </p>
+        <BarChart
+          data={stuffPlusData}
+          labelImagesSources={labelImagesSources}
+          title="Stuff+ by style"
           showLegend={false}
         />
         <p>

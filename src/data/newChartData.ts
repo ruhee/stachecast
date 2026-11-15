@@ -15,6 +15,7 @@ import long from 'url:../assets/long-new.jpg';
 import mountain from 'url:../assets/mountain.jpg';
 
 import placeholder from 'url:../assets/placeholder.png';
+import { stuffs } from './fangraphs';
 
 const labelImages = {
   'Clean shaven': clean,
@@ -129,6 +130,19 @@ export const occurrenceData = {
       backgroundColor: 'rgba(94, 82, 185, 0.5)',
       borderColor: 'rgba(94, 82, 185, 1)',
       borderWidth: 1,
+    },
+  ],
+};
+
+export const stuffPlusData = {
+  labels: formats,
+  datasets: [
+    {
+      label: 'Stuff+',
+      data: stuffs,
+      backgroundColor: 'rgba(187, 52, 121, 0.5)',
+      borderWidth: 1,
+      borderColor: 'rgba(187, 52, 121, 1)',
     },
   ],
 };
