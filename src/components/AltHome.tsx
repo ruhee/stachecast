@@ -15,29 +15,33 @@ import { BarChart } from './charts/BarChart';
 export const AltHome = () => {
   const { velo, breaking, gameScore, k9 } = newChartConfig;
   return (
-    <div>
+    <div className="alt-home">
       <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
       <p>
         Baseball has a rich history of analysis. We can examine just about every
         detail of a player or a game: do left-handed pitchers throw fastballs
         better in the daytime? What&rsquo;s the average launch angle on Yordan
-        Alvarez&rsquo;s home runs? Do the Jays&rsquo; white-panel caps result in
-        more wins than the regular blue ones? What about when the roof is open?
+        Alvarez&rsquo;s home runs?
+        {/* Do the Jays&rsquo; white-panel caps result in
+        more wins than the regular blue ones? What about when the roof is open? */}
       </p>
       <p>
-        By most of the metrics available to us, it&rsquo;s obvious that
-        the Blue Jays&rsquo; Dylan Cease is <em>really</em> good. He strikes guys out
-        consistently. He throws hard. He&rsquo;s thrown a no-hitter, finished
-        second in Cy Young voting twice, and signed a huge contract to play in
-        Toronto for seven seasons. But there&rsquo;s still one thing those
-        numbers can&rsquo;t quantify.
+        By most of the metrics available to us, it&rsquo;s obvious that the Blue
+        Jays&rsquo; Dylan Cease is <em>really</em> good. He strikes guys out
+        consistently, he throws hard, he&rsquo;s finished second in Cy Young
+        voting twice. But there&rsquo;s still one thing those numbers
+        can&rsquo;t quantify.
       </p>
-      <p>(Some photos here)</p>
-      <p>Over the 8 seasons in his MLB career, Cease has appeared on the mound sporting an impressive range of facial hair styles.
-        He&rsquo;s had the classic old-timey &rsquo;stache; he&rsquo;s had a beard reminiscent of many people&rsquo;s COVID quarantine looks;
-        he&rsquo;s even, much to the surprise of Padres fans, gone clean shaven (briefly). But which one of these yields the best <em>results</em>? Does he pitch better with the &rsquo;stache or without it?
-        Could the 2026 Cy Young campaign have ended differently if he had left the razor alone? Perhaps it&rsquo;s time to find out.
+      <p>
+        Over his 8-year MLB career, Cease has sported an impressive range of
+        facial hair styles, including the classic old-timey &rsquo;stache, a
+        beard reminiscent of many people&rsquo;s COVID quarantine looks, and
+        even clean shaven (briefly). But which one of these yields the best{' '}
+        <em>results</em>? Does he pitch better with the &rsquo;stache or without
+        it? Could the 2026 Cy Young campaign have ended differently if he had
+        left the razor alone? It&rsquo;s time to find out.
       </p>
+
       <hr />
       <div className="chart-container-v2">
         <p>Blah blah blah, some words about how the fastballs look</p>
