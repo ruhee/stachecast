@@ -48148,7 +48148,7 @@ $RefreshReg$(_c, "AltHome");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../assets/patch.jpg":"YLgNO","url:../assets/mountain.jpg":"id61o","url:../assets/stache-only.jpg":"j6YWz","url:../assets/clean.jpg":"jkQMQ","url:../assets/stubble.jpg":"cNl0n","url:../assets/stubble-stache.jpg":"1l5dC","url:../assets/short-stache.jpg":"1EQEN","url:../assets/short-new.jpg":"cvSCN","url:../assets/full-new.jpg":"awphr","url:../assets/long-new.jpg":"f0t4Y"}],"7aXpw":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","url:../assets/clean.jpg":"jkQMQ","url:../assets/stubble.jpg":"cNl0n","url:../assets/stache-only.jpg":"j6YWz","url:../assets/patch.jpg":"YLgNO","url:../assets/stubble-stache.jpg":"1l5dC","url:../assets/short-stache.jpg":"1EQEN","url:../assets/short-new.jpg":"cvSCN","url:../assets/full-new.jpg":"awphr","url:../assets/long-new.jpg":"f0t4Y","url:../assets/mountain.jpg":"id61o","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7aXpw":[function(require,module,exports,__globalThis) {
 // chartData.ts is the prod 2026 stuff, leave that alone while tinkering.
 // this will eventually replace it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
