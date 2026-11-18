@@ -47638,6 +47638,7 @@ var _barChart = require("./charts/BarChart");
 const AltHome = ()=>{
     const { velo, breaking, gameScore, k9 } = (0, _newChartData.newChartConfig);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "alt-home",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
@@ -47650,7 +47651,7 @@ const AltHome = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Baseball has a rich history of analysis. We can examine just about every detail of a player or a game: do left-handed pitchers throw fastballs better in the daytime? What\u2019s the average launch angle on Yordan Alvarez\u2019s home runs? Do the Jays\u2019 white-panel caps result in more wins than the regular blue ones? What about when the roof is open?"
+                children: "Baseball has a rich history of analysis. We can examine just about every detail of a player or a game: do left-handed pitchers throw fastballs better in the daytime? What\u2019s the average launch angle on Yordan Alvarez\u2019s home runs?"
             }, void 0, false, {
                 fileName: "src/components/AltHome.tsx",
                 lineNumber: 20,
@@ -47663,34 +47664,27 @@ const AltHome = ()=>{
                         children: "really"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 45
                     }, undefined),
                     " good. He strikes guys out consistently. He throws hard. He\u2019s thrown a no-hitter, finished second in Cy Young voting twice, and signed a huge contract to play in Toronto for seven seasons. But there\u2019s still one thing those numbers can\u2019t quantify."
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 27,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "(Some photos here)"
-            }, void 0, false, {
-                fileName: "src/components/AltHome.tsx",
-                lineNumber: 35,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
-                    "Over the 8 seasons in his MLB career, Cease has appeared on the mound sporting an impressive range of facial hair styles. He\u2019s had the classic old-timey \u2019stache; he\u2019s had a beard reminiscent of many people\u2019s COVID quarantine looks; he\u2019s even, much to the surprise of Padres fans, gone clean shaven (briefly). But which one of these yields the best ",
+                    "Over his 8-year MLB career, Cease has sported an impressive range of facial hair styles. He\u2019s had the classic old-timey \u2019stache; he\u2019s had a beard reminiscent of many people\u2019s COVID quarantine looks; he\u2019s even gone clean shaven (briefly). But which one of these yields the best ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
                         children: "results"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 38,
-                        columnNumber: 131
+                        columnNumber: 93
                     }, undefined),
-                    "? Does he pitch better with the \u2019stache or without it? Could the 2026 Cy Young campaign have ended differently if he had left the razor alone? Perhaps it\u2019s time to find out."
+                    "? Does he pitch better with the \u2019stache or without it? Could the 2026 Cy Young campaign have ended differently if he had left the razor alone? It\u2019s time to find out."
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
@@ -47699,7 +47693,7 @@ const AltHome = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -47709,7 +47703,7 @@ const AltHome = ()=>{
                         children: "Blah blah blah, some words about how the fastballs look"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 43,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47719,14 +47713,14 @@ const AltHome = ()=>{
                         title: velo.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 50,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47736,14 +47730,14 @@ const AltHome = ()=>{
                         title: breaking.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 54,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 60,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47753,14 +47747,14 @@ const AltHome = ()=>{
                         title: gameScore.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 61,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Text here)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 67,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47771,14 +47765,14 @@ const AltHome = ()=>{
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 68,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "By Fangraphs\u2019 Stuff+ the \u2019stache styles do pretty well in general, although they are all slightly beaten by the really unruly beard. (This is a usage-weighted average of all pitches in a start, averaged over starts. Stuff+ sets the baseline/average at 100\u2014110 is quite good. The clean shaven number... not so good.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 75,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47788,7 +47782,7 @@ const AltHome = ()=>{
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 82,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47798,7 +47792,7 @@ const AltHome = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 88,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47808,13 +47802,13 @@ const AltHome = ()=>{
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 92,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47826,13 +47820,13 @@ const AltHome = ()=>{
                         children: "let\u2019s get cracking, Dylan."
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 101,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 99,
+                lineNumber: 100,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -47842,12 +47836,12 @@ const AltHome = ()=>{
                             children: "Data includes all MLB regular season and postseason appearances 2019-2026."
                         }, void 0, false, {
                             fileName: "src/components/AltHome.tsx",
-                            lineNumber: 107,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 106,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47859,7 +47853,7 @@ const AltHome = ()=>{
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 114,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, undefined),
                             ", the stupid brain behind the",
@@ -47869,7 +47863,7 @@ const AltHome = ()=>{
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 116,
+                                lineNumber: 117,
                                 columnNumber: 11
                             }, undefined),
                             ' ',
@@ -47880,7 +47874,7 @@ const AltHome = ()=>{
                                 children: "Check out the release notes"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 120,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, undefined),
                             " or",
@@ -47890,14 +47884,14 @@ const AltHome = ()=>{
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 121,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, undefined),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 112,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -47905,7 +47899,7 @@ const AltHome = ()=>{
                         children: "The credits are here"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 123,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, undefined),
                     ", including data and photos.",
@@ -47913,13 +47907,13 @@ const AltHome = ()=>{
                         children: "Sincerest and most sheepish apologies to Dylan Cease. \uD83D\uDC51"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 125,
+                        lineNumber: 126,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 105,
+                lineNumber: 106,
                 columnNumber: 7
             }, undefined)
         ]
