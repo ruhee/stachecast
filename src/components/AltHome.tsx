@@ -18,17 +18,20 @@ export const AltHome = () => {
     <div>
       <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
       <p>
-        On September 7, Dylan Cease&rsquo;s{' '}
-        <a href="https://baseballsavant.mlb.com/player-scroll/game?gamePk=824958&player_id=656302">
-          velocity was down
-        </a>{' '}
-        and, for the first time in awhile,{' '}
-        <a href="./cease-sept7.jpg">so was his facial hair</a> (compare that to
-        his <a href="./cease-sept2.jpg">previous start</a>). What this website
-        asks is: are those things related?
+        The Blue Jays&rsquo; Dylan Cease has had a great deal of success in his
+        career so far—finishing second in Cy Young voting twice, throwing a
+        no-hitter, and much more. He&rsquo;s also had a great deal of variation
+        in <em>look</em>:
       </p>
+      <p>
+        There are so many ways we can measure the effectiveness of his pitching.
+        But what about those looks? Does he throw harder with a beard or with a
+        stache? Could he have won the 2026 Cy Young if he had made different
+        choices with the razor? It&rsquo;s time to find out.
+      </p>
+      <hr />
       <div className="chart-container-v2">
-        <p>(Text here)</p>
+        <p>Blah blah blah, some words about how the fastballs look</p>
         <BarChart
           data={veloData}
           legendXMin={velo.legendXMin}
