@@ -119,7 +119,7 @@ footer {
 
 hr {
   border: 0;
-  background-color: rgb(29, 45, 92);
+  background-color: rgba(29, 45, 92, 0.7);
   height: 3px;
 }
 

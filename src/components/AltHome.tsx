@@ -29,16 +29,16 @@ export const AltHome = () => {
     <div className="alt-home">
       <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
       <p>
-        Baseball has a rich history of analysis. We can examine just about every
-        detail of a player or a game: what&rsquo;s the average launch angle on
-        Yordan Alvarez&rsquo;s home runs?
+        Baseball has a rich history of analysis. These days, we can examine just
+        about every detail of a player or a game: what&rsquo;s the average
+        launch angle on Yordan Alvarez&rsquo;s home runs?
         <sup>
           <a href="#ref1" id="note1">
             1
           </a>
         </sup>{' '}
-        Do left-handed pitchers throw fastballs better in the daytime or at
-        night?
+        Do left-handed pitchers throw their fastballs better in the daytime or
+        at night?
         <sup>
           <a href="#ref2" id="note2">
             2
@@ -46,7 +46,7 @@ export const AltHome = () => {
         </sup>
       </p>
       <p>
-        By most of the metrics available to us, it&rsquo;s obvious that the Blue
+        By all of the metrics available to us, it&rsquo;s obvious that the Blue
         Jays&rsquo; Dylan Cease is <em>really</em> good. He strikes guys out
         consistently, he throws hard, he&rsquo;s finished second in Cy Young
         voting twice. But there&rsquo;s still one thing those numbers
@@ -65,16 +65,33 @@ export const AltHome = () => {
         <img src={short} alt="" />
       </p>
       <p>
-        Over his 8-year MLB career, Cease has sported an impressive range of
-        facial hair styles, including the classic old-timey &rsquo;stache, a
-        beard reminiscent of many people&rsquo;s COVID quarantine looks, and
-        even clean shaven (briefly). But which one of these yields the best{' '}
-        <em>results</em>? Does he pitch better with the &rsquo;stache or without
-        it? Could his 2026 Cy Young campaign have ended differently if he had
-        left the razor alone? It&rsquo;s time to find out.
+        Over his 8 seasons in Major League Baseball, Dylan Cease has sported an
+        impressive range of facial hair styles, including the classic old-timey
+        &rsquo;stache and a beard reminiscent of many people&rsquo;s COVID
+        quarantine looks. He&rsquo;s even been clean shaven (
+        <a href="https://www.tiktok.com/@padres/video/7493972444055899438">
+          to great surprise
+        </a>
+        ). But which one of these yields the best <em>results</em>? Does he
+        pitch better with the &rsquo;stache or without it? Could those Cy Young
+        campaigns have ended differently if he had left the razor alone?
+        It&rsquo;s time to find out.
       </p>
       <hr />
       <div className="chart-container-v2">
+        <BarChart
+          data={k9data}
+          legendXMin={k9.legendXMin}
+          labelImagesSources={labelImagesSources}
+          title={k9.title}
+          showLegend={false}
+        />
+        <p>
+          If we look at Cease&rsquo;s strikeouts per 9, it&rsquo;s obvious that
+          having little to no facial hair is a poor choice. Strikeouts tick way
+          up once the &rsquo;stache appears on the scene, and stay up.
+          (Interestingly, the extremely long beard does best here.)
+        </p>
         <BarChart
           data={veloData}
           legendXMin={velo.legendXMin}
@@ -91,28 +108,15 @@ export const AltHome = () => {
           labelImagesSources={labelImagesSources}
           title={breaking.title}
         />
-        <p>(Text here)</p>
+        <p>The velocity is less clear... </p>
+
         <BarChart
           data={gameScoreData}
           legendXMin={gameScore.legendXMin}
           labelImagesSources={labelImagesSources}
           title={gameScore.title}
         />
-        <p>(Text here)</p>
-        <BarChart
-          data={k9data}
-          legendXMin={k9.legendXMin}
-          labelImagesSources={labelImagesSources}
-          title={k9.title}
-          showLegend={false}
-        />
-        <p>
-          By Fangraphs&rsquo; Stuff+ the &rsquo;stache styles do pretty well in
-          general, although they are all slightly beaten by the really unruly
-          beard. (This is a usage-weighted average of all pitches in a start,
-          averaged over starts. Stuff+ sets the baseline/average at 100—110 is
-          quite good. The clean shaven number... not so good.)
-        </p>
+
         <BarChart
           data={stuffPlusData}
           labelImagesSources={labelImagesSources}
@@ -120,15 +124,22 @@ export const AltHome = () => {
           showLegend={false}
         />
         <p>
-          Of course, it&rsquo;s important to know the sample sizes you&rsquo;re
-          working with when doing rigorous analysis...{' '}
+          By FanGraphs&rsquo; Stuff+ the &rsquo;stache styles do pretty well in
+          general, although they are all slightly beaten by the really unruly
+          beard. (This is a usage-weighted average of all pitches in a start,
+          averaged over starts. Stuff+ sets the baseline/average at 100.)
         </p>
+
         <BarChart
           data={occurrenceData}
           labelImagesSources={labelImagesSources}
           title="Appearances per style"
           showLegend={false}
         />
+        <p>
+          Of course, it&rsquo;s important to know the sample sizes you&rsquo;re
+          working with when doing rigorous analysis...{' '}
+        </p>
       </div>
       <p>
         Can we conclude anything from this? Perhaps we still need more data...{' '}
@@ -139,8 +150,8 @@ export const AltHome = () => {
       <footer>
         <p>
           <em>
-            Data includes all MLB regular season and postseason appearances
-            2019-2026.
+            Data includes all MLB appearances 2019-2026 (regular season,
+            postseason, and All-Star Game).
           </em>
         </p>
         <p>
