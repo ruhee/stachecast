@@ -108,4 +108,18 @@ footer {
   font-weight: 400;
   line-height: 1.6;
 }
+
+hr {
+  background-color: #1d2d5c;
+  border: 0;
+  height: 3px;
+}
+
+.intro-images img {
+  width: 100px;
+
+  @media (width <= 768px) {
+    width: 75px;
+  }
+}
 /*# sourceMappingURL=stachecast.34b7aba5.css.map */
