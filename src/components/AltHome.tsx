@@ -18,16 +18,25 @@ export const AltHome = () => {
     <div>
       <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
       <p>
-        The Blue Jays&rsquo; Dylan Cease has had a great deal of success in his
-        career so far—finishing second in Cy Young voting twice, throwing a
-        no-hitter, and much more. He&rsquo;s also had a great deal of variation
-        in <em>look</em>:
+        Baseball has a rich history of analysis. We can examine just about every
+        detail of a player or a game: do left-handed pitchers throw fastballs
+        better in the daytime? What&rsquo;s the average launch angle on Yordan
+        Alvarez&rsquo;s home runs? Do the Jays&rsquo; white-panel caps result in
+        more wins than the regular blue ones? What about when the roof is open?
       </p>
       <p>
-        There are so many ways we can measure the effectiveness of his pitching.
-        But what about those looks? Does he throw harder with a beard or with a
-        stache? Could he have won the 2026 Cy Young if he had made different
-        choices with the razor? It&rsquo;s time to find out.
+        By most of the metrics available to us, it&rsquo;s obvious that
+        the Blue Jays&rsquo; Dylan Cease is <em>really</em> good. He strikes guys out
+        consistently. He throws hard. He&rsquo;s thrown a no-hitter, finished
+        second in Cy Young voting twice, and signed a huge contract to play in
+        Toronto for seven seasons. But there&rsquo;s still one thing those
+        numbers can&rsquo;t quantify.
+      </p>
+      <p>(Some photos here)</p>
+      <p>Over the 8 seasons in his MLB career, Cease has appeared on the mound sporting an impressive range of facial hair styles.
+        He&rsquo;s had the classic old-timey &rsquo;stache; he&rsquo;s had a beard reminiscent of many people&rsquo;s COVID quarantine looks;
+        he&rsquo;s even, much to the surprise of Padres fans, gone clean shaven (briefly). But which one of these yields the best <em>results</em>? Does he pitch better with the &rsquo;stache or without it?
+        Could the 2026 Cy Young campaign have ended differently if he had left the razor alone? Perhaps it&rsquo;s time to find out.
       </p>
       <hr />
       <div className="chart-container-v2">
