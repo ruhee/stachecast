@@ -47640,6 +47640,16 @@ const AltHome = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "alt-home",
         children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                style: {
+                    color: 'red'
+                },
+                children: "\u203C\uFE0F Alternate/unreleased route - WIP \u203C\uFE0F"
+            }, void 0, false, {
+                fileName: "src/components/AltHome.tsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Baseball has a rich history of analysis. We can examine just about every detail of a player or a game: do left-handed pitchers throw fastballs better in the daytime? What\u2019s the average launch angle on Yordan Alvarez\u2019s home runs?"
             }, void 0, false, {
