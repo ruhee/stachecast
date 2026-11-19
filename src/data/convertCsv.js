@@ -21,6 +21,7 @@ const COLUMNS = [
   'Game score',
   'Game score max',
   'K/9',
+  'K%',
 ].join('|');
 
 csv({
