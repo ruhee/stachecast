@@ -47656,7 +47656,7 @@ var _longNewJpgDefault = parcelHelpers.interopDefault(_longNewJpg);
 var _mountainJpg = require("url:../assets/mountain.jpg");
 var _mountainJpgDefault = parcelHelpers.interopDefault(_mountainJpg);
 const AltHome = ()=>{
-    const { velo, breaking, gameScore, k9 } = (0, _newChartData.newChartConfig);
+    const { velo, breaking, gameScore, kPercentage } = (0, _newChartData.newChartConfig);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "alt-home",
         children: [
@@ -47852,10 +47852,10 @@ const AltHome = ()=>{
                 className: "chart-container-v2",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
-                        data: (0, _newChartData.k9data),
-                        legendXMin: k9.legendXMin,
+                        data: (0, _newChartData.kPercentageData),
+                        // legendXMin={}
                         labelImagesSources: (0, _newChartData.newLabelImagesSources),
-                        title: k9.title,
+                        title: kPercentage.title,
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
@@ -47863,7 +47863,7 @@ const AltHome = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "If we look at Cease\u2019s strikeouts per 9, it\u2019s obvious that having little to no facial hair is a poor choice. Strikeouts tick way up once the \u2019stache appears on the scene, and stay up. (Interestingly, the extremely long beard does best here.)"
+                        children: "If we look at Cease\u2019s strikeout rate, it\u2019s obvious that having little to no facial hair is a poor choice. Strikeouts tick way up once the \u2019stache appears on the scene, and stay up. (Interestingly, the extremely long beard does best here.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 89,
@@ -48165,6 +48165,7 @@ parcelHelpers.export(exports, "newLabelImagesSources", ()=>newLabelImagesSources
 parcelHelpers.export(exports, "breakingVeloData", ()=>breakingVeloData);
 parcelHelpers.export(exports, "gameScoreData", ()=>gameScoreData);
 parcelHelpers.export(exports, "k9data", ()=>k9data);
+parcelHelpers.export(exports, "kPercentageData", ()=>kPercentageData);
 parcelHelpers.export(exports, "veloData", ()=>veloData);
 parcelHelpers.export(exports, "occurrenceData", ()=>occurrenceData);
 parcelHelpers.export(exports, "stuffPlusData", ()=>stuffPlusData);
@@ -48271,6 +48272,18 @@ const k9data = {
         }
     ]
 };
+const kPercentageData = {
+    labels: (0, _velocities.formats),
+    datasets: [
+        {
+            label: 'K%',
+            data: (0, _averagesFull.averages)['K%'],
+            backgroundColor: 'rgba(6, 86, 61, 0.5)',
+            borderColor: 'rgba(6, 86, 61, 1)',
+            borderWidth: 1
+        }
+    ]
+};
 const veloData = {
     labels: (0, _velocities.formats),
     datasets: [
@@ -48330,6 +48343,9 @@ const newChartConfig = {
     k9: {
         legendXMin: 7,
         title: 'Strikeouts/9'
+    },
+    kPercentage: {
+        title: 'Strikeout %'
     }
 };
 
@@ -48459,6 +48475,18 @@ const averages = {
         11.13,
         11.66,
         12.32
+    ],
+    'K%': [
+        20.65,
+        20.9,
+        30.03,
+        29.84,
+        29.2,
+        28,
+        27.89,
+        29.24,
+        32.44,
+        32.64
     ]
 };
 
