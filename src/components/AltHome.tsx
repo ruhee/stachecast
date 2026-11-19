@@ -29,7 +29,6 @@ export const AltHome = () => {
   const { velo, breaking, gameScore, kPercentage } = newChartConfig;
   return (
     <div className="alt-home">
-      <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
       <p>
         Baseball has a rich history of analysis. These days, we can examine just
         about every detail of a player or a game: what&rsquo;s the average
@@ -105,7 +104,6 @@ export const AltHome = () => {
         </p>
         <BarChart
           data={breakingVeloData}
-          legendXMin={breaking.legendXMin}
           labelImagesSources={labelImagesSources}
           title={breaking.title}
         />
@@ -150,12 +148,6 @@ export const AltHome = () => {
       </p>
       <footer>
         <p>
-          <em>
-            Data includes all MLB appearances 2019-2026 (regular season,
-            postseason, and All-Star Game).
-          </em>
-        </p>
-        <p>
           <span>
             <sup>1</sup> In 2026,{' '}
             <a href="https://baseballsavant.mlb.com/statcast_search?hfAB=home%5C.%5C.run%7C&hfGT=R%7C&hfSea=2026%7C&player_type=batter&batters_lookup%5B%5D=670541&hfFlag=is%5C.%5C.bunt%5C.%5C.not%7C&group_by=name&sort_col=launch_angle&sort_order=desc&chk_stats_launch_angle=on#results">
@@ -173,6 +165,12 @@ export const AltHome = () => {
               &#x21A9;
             </a>
           </span>
+        </p>
+         <p>
+          <em>
+            Data includes all MLB appearances 2019-2026 (regular season,
+            postseason, and All-Star Game).
+          </em>
         </p>
         <hr />
         <p>
