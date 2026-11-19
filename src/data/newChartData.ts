@@ -101,6 +101,19 @@ export const k9data = {
   ],
 };
 
+export const kPercentageData = {
+  labels: formats,
+  datasets: [
+    {
+      label: 'K%',
+      data: averages['K%'],
+      backgroundColor: 'rgba(6, 86, 61, 0.5)',
+      borderColor: 'rgba(6, 86, 61, 1)',
+      borderWidth: 1,
+    },
+  ],
+};
+
 export const veloData = {
   labels: formats,
   datasets: [
@@ -163,5 +176,8 @@ export const newChartConfig = {
   k9: {
     legendXMin: 7,
     title: 'Strikeouts/9',
+  },
+  kPercentage: {
+    title: 'Strikeout %',
   },
 };

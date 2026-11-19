@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 
-import { newLabelImagesSources as labelImagesSources } from '../data/newChartData';
+import {
+  kPercentageData,
+  newLabelImagesSources as labelImagesSources,
+} from '../data/newChartData';
 import {
   breakingVeloData,
   gameScoreData,
-  k9data,
   veloData,
   occurrenceData,
   stuffPlusData,
@@ -24,7 +26,7 @@ import long from 'url:../assets/long-new.jpg';
 import mountain from 'url:../assets/mountain.jpg';
 
 export const AltHome = () => {
-  const { velo, breaking, gameScore, k9 } = newChartConfig;
+  const { velo, breaking, gameScore, kPercentage } = newChartConfig;
   return (
     <div className="alt-home">
       <h2 style={{ color: 'red' }}>‼️ Alternate/unreleased route - WIP ‼️</h2>
@@ -80,14 +82,13 @@ export const AltHome = () => {
       <hr />
       <div className="chart-container-v2">
         <BarChart
-          data={k9data}
-          legendXMin={k9.legendXMin}
+          data={kPercentageData}
           labelImagesSources={labelImagesSources}
-          title={k9.title}
+          title={kPercentage.title}
           showLegend={false}
         />
         <p>
-          If we look at Cease&rsquo;s strikeouts per 9, it&rsquo;s obvious that
+          If we look at Cease&rsquo;s strikeout rate, it&rsquo;s obvious that
           having little to no facial hair is a poor choice. Strikeouts tick way
           up once the &rsquo;stache appears on the scene, and stay up.
           (Interestingly, the extremely long beard does best here.)
