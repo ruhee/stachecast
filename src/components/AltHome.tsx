@@ -17,11 +17,8 @@ import { BarChart } from './charts/BarChart';
 
 import clean from 'url:../assets/clean.jpg';
 import stubble from 'url:../assets/stubble.jpg';
-import stache from 'url:../assets/stache-only.jpg';
 import patch from 'url:../assets/patch.jpg';
 import stubbleStache from 'url:../assets/stubble-stache.jpg';
-import shortStache from 'url:../assets/short-stache.jpg';
-import short from 'url:../assets/short-new.jpg';
 import full from 'url:../assets/full-new.jpg';
 import long from 'url:../assets/long-new.jpg';
 import mountain from 'url:../assets/mountain.jpg';
@@ -54,18 +51,16 @@ export const AltHome = () => {
         voting twice. But there&rsquo;s still one thing those numbers
         can&rsquo;t quantify...
       </p>
-      <p className="intro-images">
+      <div className="intro-images">
         <img src={long} alt="" />
         <img src={stubbleStache} alt="" />
         <img src={patch} alt="" />
         <img src={mountain} alt="" />
         <img src={stubble} alt="" />
         <img src={full} alt="" />
-        <img src={clean} alt="" />
-        <img src={stache} alt="" />
-        <img src={shortStache} alt="" />
-        <img src={short} alt="" />
-      </p>
+        <img src={clean} className="mobile-hidden" alt="" />
+      </div>
+
       <p>
         Over his 8 seasons in Major League Baseball, Dylan Cease has sported an
         impressive range of facial hair styles, including the classic old-timey

@@ -128,11 +128,32 @@ hr {
   height: 1px;
 }
 
+.intro-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+}
+
 .intro-images img {
+  flex: 1 1 0;
+  min-width: 0;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.mobile-hidden {
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+/* .intro-images img {
   width: 100px;
   margin: 0 2px;
 
   @media (max-width: 768px) {
     width: 75px;
   }
-}
+} */
