@@ -103,10 +103,14 @@ footer {
 }
 
 .alt-home {
-  font-family: Cactus Classical Serif, serif;
+  font-family: Libre Baskerville, serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
+}
+
+.alt-home p:first-of-type {
+  margin-top: 0;
 }
 
 hr {
