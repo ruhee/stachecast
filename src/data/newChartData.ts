@@ -181,3 +181,5 @@ export const newChartConfig = {
     title: 'Strikeout %',
   },
 };
+
+export const totalStarts = starts.reduce((acc, curr) => acc + curr, 0);

@@ -11,6 +11,7 @@ import {
   occurrenceData,
   stuffPlusData,
   newChartConfig,
+  totalStarts,
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
 
@@ -157,11 +158,12 @@ export const AltHome = () => {
         />
       </div>
       <p>
-        (In total, we&rsquo;re looking at 223 appearances over 8 seasons. The
-        &rsquo;stache alone accounts for almost a quarter of them.)
+        (In total, we&rsquo;re looking at {totalStarts} appearances over 8
+        seasons. The &rsquo;stache alone accounts for almost a quarter of them.)
       </p>
       <p>
-        Can we conclude anything from this? Perhaps we still need more data...{' '}
+        So, can we conclude anything from this? Perhaps we still need more
+        data...{' '}
         <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">
           let&rsquo;s get cracking, Dylan.
         </a>
