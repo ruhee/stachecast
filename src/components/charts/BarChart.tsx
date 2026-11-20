@@ -7,6 +7,7 @@ import {
   Title,
   Tooltip,
   Legend,
+  defaults,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { yAxisImageLabelsPlugin } from '../../plugins/yAxisImages';
@@ -23,6 +24,8 @@ ChartJS.register(
   Tooltip,
   Legend
 );
+
+defaults.font.family = "'Libre Baskerville', serif";
 
 interface BarChartProps {
   data: any; // todo

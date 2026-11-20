@@ -65,6 +65,13 @@ export const chartOptions = (
   },
   plugins: {
     legend: {
+      labels: {
+        usePointStyle: true,
+        pointStyle: 'rectRounded',
+        font: {
+          family: "'Libre Baskerville', serif",
+        },
+      },
       display: showLegend,
       position: 'top' as const,
       onHover: (event: ChartEvent) => {
@@ -83,6 +90,9 @@ export const chartOptions = (
     title: {
       display: true,
       text: titleText,
+      font: {
+        size: 15,
+      },
     },
     yAxisImageLabels: {
       images: loadedImages,

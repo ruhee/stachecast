@@ -2,6 +2,7 @@ html {
   color-scheme: light;
   font-family: system-ui;
   height: 100%;
+  font-size: 16px;
 }
 
 html,
@@ -111,7 +112,7 @@ footer {
 }
 
 .alt-home {
-  font-family: 'Cactus Classical Serif', serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;

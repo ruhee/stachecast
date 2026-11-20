@@ -166,7 +166,7 @@ export const AltHome = () => {
             </a>
           </span>
         </p>
-         <p>
+        <p>
           <em>
             Data includes all MLB appearances 2019-2026 (regular season,
             postseason, and All-Star Game).
