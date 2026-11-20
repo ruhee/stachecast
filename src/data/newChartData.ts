@@ -34,22 +34,23 @@ export const newLabelImagesSources = formats.map(
   (format) => labelImages[format] || placeholder
 );
 
+// https://www.schemecolor.com/coastal-vintage-2.php
 export const breakingVeloData = {
   labels: formats,
   datasets: [
     {
       label: 'Slider',
       data: velocities['Slider'],
-      backgroundColor: 'rgba(29, 45, 92, 0.5)',
+      backgroundColor: 'rgba(67, 93, 132, 0.6)',
       borderWidth: 1,
-      borderColor: 'rgb(29, 45, 92)',
+      borderColor: 'rgb(67, 93, 132)',
     },
     {
       label: 'Sweeper',
       data: velocities['Sweeper'],
-      backgroundColor: 'rgba(108, 54, 124, 0.5)',
+      backgroundColor: 'rgba(152, 93, 117, 0.6)',
       borderWidth: 1,
-      borderColor: 'rgb(108, 54, 124)',
+      borderColor: 'rgb(152, 93, 117)',
     },
     // {
     //   label: 'Changeup',
@@ -61,9 +62,9 @@ export const breakingVeloData = {
     {
       label: 'Knuckle Curve',
       data: velocities['Knuckle Curve'],
-      backgroundColor: 'rgba(255, 145, 0, 0.5)',
+      backgroundColor: 'rgba(41, 147, 126, 0.6)',
       borderWidth: 1,
-      borderColor: 'rgb(255, 145, 0, 1)',
+      borderColor: 'rgb(41, 147, 126, 1)',
     },
   ],
 };
@@ -107,8 +108,8 @@ export const kPercentageData = {
     {
       label: 'K%',
       data: averages['K%'],
-      backgroundColor: 'rgba(6, 86, 61, 0.5)',
-      borderColor: 'rgba(6, 86, 61, 1)',
+      backgroundColor: 'rgba(35, 83, 71, 0.7)',
+      borderColor: 'rgba(35, 83, 71, 1)',
       borderWidth: 1,
     },
   ],
@@ -140,8 +141,8 @@ export const occurrenceData = {
     {
       label: 'Appearances',
       data: starts,
-      backgroundColor: 'rgba(94, 82, 185, 0.5)',
-      borderColor: 'rgba(94, 82, 185, 1)',
+      backgroundColor: 'rgba(113, 89, 123, 0.6)',
+      borderColor: 'rgba(113, 89, 123, 1)',
       borderWidth: 1,
     },
   ],

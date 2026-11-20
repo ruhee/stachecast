@@ -116,12 +116,12 @@ export const AltHome = () => {
           hover on individual bars for numbers.)
         </p>
         <p>
-          By{' '}
+          By FanGraphs&rsquo; <s>Scruff+</s>, sorry,{' '}
           <a href="https://library.fangraphs.com/pitching/stuff-location-and-pitching-primer/">
-            FanGraphs&rsquo; Stuff+
-          </a>{' '}
-          the &rsquo;stache styles do pretty well in general, although they are
-          all once again slightly beaten by the really unruly beard.
+            Stuff+
+          </a>
+          , the &rsquo;stache styles do pretty well in general, although they
+          are all once again slightly beaten by the really unruly beard.
           (What&rsquo;s going on with that?)
         </p>
         <BarChart
@@ -131,16 +131,11 @@ export const AltHome = () => {
           showLegend={false}
         />
 
-        <p>Not looking good for &ldquo;clean shaven&rdquo; so far, either.</p>
         <p>
-          (The above takes a usage-weighted average of all pitches in a start
-          and averages <em>that</em> across the number of starts, so it&rsquo;s
-          a little general. Stuff+ sets the baseline/average at 100.)
+          Not looking good for &ldquo;clean shaven&rdquo; so far, either. (Note:
+          Stuff+ sets the baseline/average at 100.)
         </p>
-        <p>
-          The velocity numbers, though, admittedly make things a little less
-          obvious...{' '}
-        </p>
+        <p>The velocity numbers, though, seem quite a bit less obvious... </p>
         <BarChart
           data={veloData}
           legendXMin={velo.legendXMin}
@@ -160,9 +155,9 @@ export const AltHome = () => {
           Stuff+, a decently high K%...
         </p>
         <p>
-          Of course, when doing rigorous scientific analysis like this,
-          it&rsquo;s also very important to know the sample sizes you&rsquo;re
-          working with.{' '}
+          Of course, when doing rigorous shavermetric analysis, it&rsquo;s also
+          very important to know the sample sizes you&rsquo;re working
+          with.{' '}
         </p>
         <BarChart
           data={occurrenceData}
