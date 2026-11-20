@@ -15,12 +15,12 @@ import {
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
 
-import clean from 'url:../assets/clean.jpg';
-import stubble from 'url:../assets/stubble.jpg';
+import stache from 'url:../assets/stache-only.jpg';
 import patch from 'url:../assets/patch.jpg';
 import stubbleStache from 'url:../assets/stubble-stache.jpg';
 import full from 'url:../assets/full-new.jpg';
 import long from 'url:../assets/long-new.jpg';
+import shortStache from 'url:../assets/short-stache-alternate.jpg';
 import mountain from 'url:../assets/mountain.jpg';
 
 export const AltHome = () => {
@@ -52,13 +52,13 @@ export const AltHome = () => {
         can&rsquo;t quantify...
       </p>
       <div className="intro-images">
-        <img src={long} alt="" />
-        <img src={stubbleStache} alt="" />
-        <img src={patch} alt="" />
-        <img src={mountain} alt="" />
-        <img src={stubble} alt="" />
-        <img src={full} alt="" />
-        <img src={clean} className="mobile-hidden" alt="" />
+        <img src={stubbleStache} alt="Dylan Cease with a mustache" />
+        <img src={long} alt="Dylan Cease with a beard" />
+        <img src={shortStache} alt="" />
+        <img src={mountain} alt="Dylan Cease with a long beard" />
+        <img src={patch} alt="Dylan Cease with a mustache and a soul patch" />
+        <img src={full} className="mobile-hidden" alt="" />
+        <img src={stache} alt="" />
       </div>
 
       <p>
