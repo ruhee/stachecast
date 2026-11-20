@@ -41,30 +41,23 @@ export const breakingVeloData = {
     {
       label: 'Slider',
       data: velocities['Slider'],
-      backgroundColor: 'rgba(67, 93, 132, 0.6)',
+      backgroundColor: 'rgba(166, 36, 189, 0.5)',
       borderWidth: 1,
-      borderColor: 'rgb(67, 93, 132)',
+      borderColor: 'rgb(166, 36, 189)',
     },
     {
       label: 'Sweeper',
       data: velocities['Sweeper'],
-      backgroundColor: 'rgba(152, 93, 117, 0.6)',
+      backgroundColor: 'rgba(189, 166, 36, 0.5)',
       borderWidth: 1,
-      borderColor: 'rgb(152, 93, 117)',
+      borderColor: 'rgb(189, 166, 36)',
     },
-    // {
-    //   label: 'Changeup',
-    //   data: averages['Change'],
-    //   backgroundColor: 'rgba(187, 52, 121, 0.5)',
-    //   borderWidth: 1,
-    //   borderColor: 'rgba(187, 52, 121, 1)',
-    // },
     {
       label: 'Knuckle Curve',
       data: velocities['Knuckle Curve'],
-      backgroundColor: 'rgba(41, 147, 126, 0.6)',
+      backgroundColor: 'rgba(36, 189, 166, 0.5)',
       borderWidth: 1,
-      borderColor: 'rgb(41, 147, 126, 1)',
+      borderColor: 'rgb(36, 189, 166, 1)',
     },
   ],
 };
@@ -82,8 +75,8 @@ export const gameScoreData = {
     {
       label: 'Highest',
       data: averages['Game score max'],
-      backgroundColor: 'rgba(19, 74, 142, 0.5)',
-      borderColor: 'rgba(19, 74, 142, 1)',
+      backgroundColor: 'rgba(36, 140, 131, 0.5)',
+      borderColor: 'rgba(36, 140, 131, 1)',
       borderWidth: 1,
     },
   ],
@@ -108,7 +101,7 @@ export const kPercentageData = {
     {
       label: 'K%',
       data: averages['K%'],
-      backgroundColor: 'rgba(35, 83, 71, 0.7)',
+      backgroundColor: 'rgba(35, 83, 71, 0.5)',
       borderColor: 'rgba(35, 83, 71, 1)',
       borderWidth: 1,
     },
@@ -121,15 +114,15 @@ export const veloData = {
     {
       label: 'Four-seam',
       data: velocities['4-Seam Fastball'],
-      backgroundColor: 'rgba(142, 16, 16, 0.5)',
-      borderColor: 'rgba(142, 16, 16, 1)',
+      backgroundColor: 'rgba(214, 28, 56, 0.5)',
+      borderColor: 'rgb(214, 28, 56)',
       borderWidth: 1,
     },
     {
       label: 'Sinker',
       data: velocities['Sinker'],
-      backgroundColor: 'rgba(94, 82, 185, 0.5)',
-      borderColor: 'rgba(94, 82, 185, 1)',
+      backgroundColor: 'rgba(28, 56, 214, 0.5)',
+      borderColor: 'rgb(28, 56, 214)',
       borderWidth: 1,
     },
   ],
@@ -141,7 +134,7 @@ export const occurrenceData = {
     {
       label: 'Appearances',
       data: starts,
-      backgroundColor: 'rgba(113, 89, 123, 0.6)',
+      backgroundColor: 'rgba(113, 89, 123, 0.5)',
       borderColor: 'rgba(113, 89, 123, 1)',
       borderWidth: 1,
     },
@@ -154,9 +147,9 @@ export const stuffPlusData = {
     {
       label: 'Stuff+',
       data: stuffs,
-      backgroundColor: 'rgba(187, 52, 121, 0.5)',
+      backgroundColor: 'rgba(80, 174, 38, 0.5)', // the actual fangraphs colour lol
       borderWidth: 1,
-      borderColor: 'rgba(187, 52, 121, 1)',
+      borderColor: 'rgba(80, 174, 38, 1)',
     },
   ],
 };
@@ -167,8 +160,7 @@ export const newChartConfig = {
     title: 'Average Fastball Velocity',
   },
   breaking: {
-    // legendXMin: 0,
-    title: 'Average Breaking Ball/Offspeed Velocity',
+    title: 'Average Breaking Ball Velocity',
   },
   gameScore: {
     legendXMin: 30,
