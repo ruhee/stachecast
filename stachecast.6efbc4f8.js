@@ -47646,10 +47646,8 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
 var _newChartData = require("../data/newChartData");
 var _barChart = require("./charts/BarChart");
-var _cleanJpg = require("url:../assets/clean.jpg");
-var _cleanJpgDefault = parcelHelpers.interopDefault(_cleanJpg);
-var _stubbleJpg = require("url:../assets/stubble.jpg");
-var _stubbleJpgDefault = parcelHelpers.interopDefault(_stubbleJpg);
+var _stacheOnlyJpg = require("url:../assets/stache-only.jpg");
+var _stacheOnlyJpgDefault = parcelHelpers.interopDefault(_stacheOnlyJpg);
 var _patchJpg = require("url:../assets/patch.jpg");
 var _patchJpgDefault = parcelHelpers.interopDefault(_patchJpg);
 var _stubbleStacheJpg = require("url:../assets/stubble-stache.jpg");
@@ -47658,6 +47656,8 @@ var _fullNewJpg = require("url:../assets/full-new.jpg");
 var _fullNewJpgDefault = parcelHelpers.interopDefault(_fullNewJpg);
 var _longNewJpg = require("url:../assets/long-new.jpg");
 var _longNewJpgDefault = parcelHelpers.interopDefault(_longNewJpg);
+var _shortStacheAlternateJpg = require("url:../assets/short-stache-alternate.jpg");
+var _shortStacheAlternateJpgDefault = parcelHelpers.interopDefault(_shortStacheAlternateJpg);
 var _mountainJpg = require("url:../assets/mountain.jpg");
 var _mountainJpgDefault = parcelHelpers.interopDefault(_mountainJpg);
 const AltHome = ()=>{
@@ -47727,23 +47727,23 @@ const AltHome = ()=>{
                 className: "intro-images",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _longNewJpgDefault.default),
-                        alt: ""
+                        src: (0, _stubbleStacheJpgDefault.default),
+                        alt: "Dylan Cease with a mustache"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 55,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _stubbleStacheJpgDefault.default),
-                        alt: ""
+                        src: (0, _longNewJpgDefault.default),
+                        alt: "Dylan Cease with a beard"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 56,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _patchJpgDefault.default),
+                        src: (0, _shortStacheAlternateJpgDefault.default),
                         alt: ""
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
@@ -47752,15 +47752,15 @@ const AltHome = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _mountainJpgDefault.default),
-                        alt: ""
+                        alt: "Dylan Cease with a long beard"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 58,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _stubbleJpgDefault.default),
-                        alt: ""
+                        src: (0, _patchJpgDefault.default),
+                        alt: "Dylan Cease with a mustache and a soul patch"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 59,
@@ -47768,6 +47768,7 @@ const AltHome = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _fullNewJpgDefault.default),
+                        className: "mobile-hidden",
                         alt: ""
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
@@ -47775,8 +47776,7 @@ const AltHome = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _cleanJpgDefault.default),
-                        className: "mobile-hidden",
+                        src: (0, _stacheOnlyJpgDefault.default),
                         alt: ""
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
@@ -48200,7 +48200,7 @@ $RefreshReg$(_c, "AltHome");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","url:../assets/clean.jpg":"jkQMQ","url:../assets/stubble.jpg":"cNl0n","url:../assets/patch.jpg":"YLgNO","url:../assets/stubble-stache.jpg":"1l5dC","url:../assets/full-new.jpg":"awphr","url:../assets/long-new.jpg":"f0t4Y","url:../assets/mountain.jpg":"id61o","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7aXpw":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","url:../assets/stache-only.jpg":"j6YWz","url:../assets/patch.jpg":"YLgNO","url:../assets/stubble-stache.jpg":"1l5dC","url:../assets/full-new.jpg":"awphr","url:../assets/long-new.jpg":"f0t4Y","url:../assets/mountain.jpg":"id61o","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../assets/short-stache-alternate.jpg":"3vOQ0"}],"7aXpw":[function(require,module,exports,__globalThis) {
 // chartData.ts is the prod 2026 stuff, leave that alone while tinkering.
 // this will eventually replace it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -48785,6 +48785,9 @@ const stuffs = [
     109.93
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3vOQ0":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("short-stache-alternate.27646936.jpg") + "?" + Date.now();
+
+},{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=stachecast.6efbc4f8.js.map
