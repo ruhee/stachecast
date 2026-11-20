@@ -48328,15 +48328,15 @@ const veloData = {
         {
             label: 'Four-seam',
             data: (0, _velocities.velocities)['4-Seam Fastball'],
-            backgroundColor: 'rgba(214, 28, 56, 0.5)',
-            borderColor: 'rgb(214, 28, 56)',
+            backgroundColor: 'rgba(158, 39, 57, 0.5)',
+            borderColor: 'rgb(158, 39, 57)',
             borderWidth: 1
         },
         {
             label: 'Sinker',
             data: (0, _velocities.velocities)['Sinker'],
-            backgroundColor: 'rgba(28, 56, 214, 0.5)',
-            borderColor: 'rgb(28, 56, 214)',
+            backgroundColor: 'rgba(39, 116, 158, 0.5)',
+            borderColor: 'rgb(39, 116, 158)',
             borderWidth: 1
         }
     ]
