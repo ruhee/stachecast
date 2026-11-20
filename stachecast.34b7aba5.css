@@ -121,18 +121,22 @@ hr {
 }
 
 .intro-images {
-  flex-flow: wrap;
+  flex-flow: row;
   align-items: center;
   gap: 2px;
-  height: 75px;
   display: flex;
-  overflow: hidden;
 }
 
 .intro-images img {
   aspect-ratio: 1;
   object-fit: cover;
   flex: 1 1 0;
-  min-width: 75px;
+  min-width: 0;
+}
+
+.mobile-hidden {
+  @media (width <= 600px) {
+    display: none;
+  }
 }
 /*# sourceMappingURL=stachecast.34b7aba5.css.map */
