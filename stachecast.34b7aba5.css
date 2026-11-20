@@ -120,12 +120,17 @@ hr {
   height: 1px;
 }
 
-.intro-images img {
-  width: 100px;
-  margin: 0 2px;
+.intro-images {
+  flex-flow: wrap;
+  align-items: center;
+  gap: 2px;
+  display: flex;
+}
 
-  @media (width <= 768px) {
-    width: 75px;
-  }
+.intro-images img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  flex: 1 1 0;
+  min-width: 0;
 }
 /*# sourceMappingURL=stachecast.34b7aba5.css.map */
