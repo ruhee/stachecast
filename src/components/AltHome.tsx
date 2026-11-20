@@ -103,10 +103,6 @@ export const AltHome = () => {
           <a href="https://www.baseball-reference.com/boxes/BOS/BOS202607250.shtml">
             highest score
           </a>
-          , but the &rsquo;stache & patch comes in a close second, buoyed by the{' '}
-          <a href="https://www.baseball-reference.com/boxes/WAS/WAS202407250.shtml">
-            no-hitter
-          </a>
           :
         </p>
         <BarChart
@@ -119,25 +115,14 @@ export const AltHome = () => {
           (Tip: Tap or click the legend to turn datasets on/off, and tap or
           hover on individual bars for numbers.)
         </p>
-        <p>The velocity is, admittedly, a little less obvious... </p>
-
-        <BarChart
-          data={veloData}
-          legendXMin={velo.legendXMin}
-          labelImagesSources={labelImagesSources}
-          title={velo.title}
-        />
-
-        <BarChart
-          data={breakingVeloData}
-          labelImagesSources={labelImagesSources}
-          title={breaking.title}
-        />
         <p>
-          By FanGraphs&rsquo; Stuff+ the &rsquo;stache styles do pretty well in
-          general, although they are all slightly beaten by the really unruly
-          beard. (This is a usage-weighted average of all pitches in a start,
-          averaged over starts. Stuff+ sets the baseline/average at 100.)
+          By{' '}
+          <a href="https://library.fangraphs.com/pitching/stuff-location-and-pitching-primer/">
+            FanGraphs&rsquo; Stuff+
+          </a>{' '}
+          the &rsquo;stache styles do pretty well in general, although they are
+          all once again slightly beaten by the really unruly beard.
+          (What&rsquo;s going on with that?)
         </p>
         <BarChart
           data={stuffPlusData}
@@ -146,9 +131,38 @@ export const AltHome = () => {
           showLegend={false}
         />
 
+        <p>Not looking good for &ldquo;clean shaven&rdquo; so far, either.</p>
         <p>
-          Of course, it&rsquo;s important to know the sample sizes you&rsquo;re
-          working with when doing rigorous analysis...{' '}
+          (The above takes a usage-weighted average of all pitches in a start
+          and averages <em>that</em> across the number of starts, so it&rsquo;s
+          a little general. Stuff+ sets the baseline/average at 100.)
+        </p>
+        <p>
+          The velocity numbers, though, admittedly make things a little less
+          obvious...{' '}
+        </p>
+        <BarChart
+          data={veloData}
+          legendXMin={velo.legendXMin}
+          labelImagesSources={labelImagesSources}
+          title={velo.title}
+        />
+        <BarChart
+          data={breakingVeloData}
+          labelImagesSources={labelImagesSources}
+          title={breaking.title}
+        />
+        <p>
+          Clean shaven does a lot better in the velo charts—the four-seamer is
+          about as fast as it gets in those appearances. But the
+          &rsquo;stache-n-patch look is coming out pretty well across all our
+          metrics—the hardest slider, the hardest four-seamer, nearly the best
+          Stuff+, a decently high K%...
+        </p>
+        <p>
+          Of course, when doing rigorous scientific analysis like this,
+          it&rsquo;s also very important to know the sample sizes you&rsquo;re
+          working with.{' '}
         </p>
         <BarChart
           data={occurrenceData}
@@ -158,8 +172,8 @@ export const AltHome = () => {
         />
       </div>
       <p>
-        (In total, we&rsquo;re looking at {totalStarts} appearances over 8
-        seasons. The &rsquo;stache alone accounts for almost a quarter of them.)
+        In total, we&rsquo;re looking at {totalStarts} appearances over 8
+        seasons. The &rsquo;stache alone accounts for almost a quarter of them.
       </p>
       <p>
         So, can we conclude anything from this? Perhaps we still need more
