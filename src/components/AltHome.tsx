@@ -71,7 +71,7 @@ export const AltHome = () => {
         &rsquo;stache and a beard reminiscent of many people&rsquo;s COVID
         quarantine looks. He&rsquo;s even been clean shaven (
         <a href="https://www.tiktok.com/@padres/video/7493972444055899438">
-          to great surprise
+          to much fanfare
         </a>
         ). But which one of these yields the best <em>results</em>? Does he
         pitch better with the &rsquo;stache or without it? Could those Cy Young
@@ -90,37 +90,47 @@ export const AltHome = () => {
           If we look at Cease&rsquo;s strikeout rate, it&rsquo;s obvious that
           having little to no facial hair is a poor choice. Strikeouts tick way
           up once the &rsquo;stache appears on the scene, and stay up.
-          (Interestingly, the extremely long beard does best here.)
+          (Interestingly, the extremely long beard does best here... I
+          can&rsquo;t explain this.)
         </p>
-        <BarChart
-          data={veloData}
-          legendXMin={velo.legendXMin}
-          labelImagesSources={labelImagesSources}
-          title={velo.title}
-        />
         <p>
-          (Tap or click the legend to turn datasets on/off, and tap or hover on
-          individual bars for numbers.)
+          By Bill James&rsquo;{' '}
+          <a href="https://www.baseball-reference.com/glossary/game-score/">
+            Game Score
+          </a>
+          , the long beard does best both by average and{' '}
+          <a href="https://www.baseball-reference.com/boxes/BOS/BOS202607250.shtml">
+            highest score
+          </a>
+          , but the &rsquo;stache & patch comes in a close second, buoyed by the{' '}
+          <a href="https://www.baseball-reference.com/boxes/WAS/WAS202407250.shtml">
+            no-hitter
+          </a>
+          :
         </p>
-        <BarChart
-          data={breakingVeloData}
-          labelImagesSources={labelImagesSources}
-          title={breaking.title}
-        />
-        <p>The velocity is less clear... </p>
-
         <BarChart
           data={gameScoreData}
           legendXMin={gameScore.legendXMin}
           labelImagesSources={labelImagesSources}
           title={gameScore.title}
         />
+        <p>
+          (Tip: Tap or click the legend to turn datasets on/off, and tap or
+          hover on individual bars for numbers.)
+        </p>
+        <p>The velocity is, admittedly, a little less obvious... </p>
 
         <BarChart
-          data={stuffPlusData}
+          data={veloData}
+          legendXMin={velo.legendXMin}
           labelImagesSources={labelImagesSources}
-          title="Stuff+ by style"
-          showLegend={false}
+          title={velo.title}
+        />
+
+        <BarChart
+          data={breakingVeloData}
+          labelImagesSources={labelImagesSources}
+          title={breaking.title}
         />
         <p>
           By FanGraphs&rsquo; Stuff+ the &rsquo;stache styles do pretty well in
@@ -128,18 +138,28 @@ export const AltHome = () => {
           beard. (This is a usage-weighted average of all pitches in a start,
           averaged over starts. Stuff+ sets the baseline/average at 100.)
         </p>
+        <BarChart
+          data={stuffPlusData}
+          labelImagesSources={labelImagesSources}
+          title="Stuff+ by style"
+          showLegend={false}
+        />
 
+        <p>
+          Of course, it&rsquo;s important to know the sample sizes you&rsquo;re
+          working with when doing rigorous analysis...{' '}
+        </p>
         <BarChart
           data={occurrenceData}
           labelImagesSources={labelImagesSources}
           title="Appearances per style"
           showLegend={false}
         />
-        <p>
-          Of course, it&rsquo;s important to know the sample sizes you&rsquo;re
-          working with when doing rigorous analysis...{' '}
-        </p>
       </div>
+      <p>
+        (In total, we&rsquo;re looking at 223 appearances over 8 seasons. The
+        &rsquo;stache alone accounts for almost a quarter of them.)
+      </p>
       <p>
         Can we conclude anything from this? Perhaps we still need more data...{' '}
         <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">
