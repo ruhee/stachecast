@@ -46,7 +46,17 @@ export const Credits = () => (
         </a>
         : Orlando Ramirez/Getty Images
       </li>
-      <li>Stubble:</li>
+      <li>
+        {' '}
+        <a
+          href="https://stachecast.lol/original/stache.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Stubble
+        </a>
+        : Jason Miller/Getty Images
+      </li>
       <li>
         <a
           href="https://stachecast.lol/original/stache.jpg"
