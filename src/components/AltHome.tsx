@@ -15,13 +15,13 @@ import {
 } from '../data/newChartData';
 import { BarChart } from './charts/BarChart';
 
-import stache from 'url:../assets/stache-only.jpg';
-import patch from 'url:../assets/patch.jpg';
-import stubbleStache from 'url:../assets/stubble-stache.jpg';
-import full from 'url:../assets/full-new.jpg';
-import long from 'url:../assets/long-new.jpg';
-import shortStache from 'url:../assets/short-stache.jpg';
-import mountain from 'url:../assets/mountain.jpg';
+import stache from 'url:../assets/v2-graph/stache-only.jpg';
+import patch from 'url:../assets/v2-graph/patch.jpg';
+import stubbleStache from 'url:../assets/v2-graph/stubble-stache.jpg';
+import full from 'url:../assets/v2-graph/full-new.jpg';
+import long from 'url:../assets/v2-graph/long-new.jpg';
+import shortStache from 'url:../assets/v2-graph/short-stache.jpg';
+import mountain from 'url:../assets/v2-graph/mountain.jpg';
 
 export const AltHome = () => {
   const { velo, breaking, gameScore, kPercentage } = newChartConfig;

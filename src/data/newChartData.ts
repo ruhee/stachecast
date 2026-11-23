@@ -3,16 +3,16 @@
 
 import { averages } from './averages-full';
 import { velocities, formats, starts } from './velocities';
-import clean from 'url:../assets/clean.jpg';
-import stubble from 'url:../assets/stubble.jpg';
-import stache from 'url:../assets/stache-only.jpg';
-import patch from 'url:../assets/patch.jpg';
-import stubbleStache from 'url:../assets/stubble-stache.jpg';
-import shortStache from 'url:../assets/short-stache.jpg';
-import short from 'url:../assets/short-new.jpg';
-import full from 'url:../assets/full-new.jpg';
-import long from 'url:../assets/long-new.jpg';
-import mountain from 'url:../assets/mountain.jpg';
+import clean from 'url:../assets/v2-graph/clean.jpg';
+import stubble from 'url:../assets/v2-graph/stubble.jpg';
+import stache from 'url:../assets/v2-graph/stache-only.jpg';
+import patch from 'url:../assets/v2-graph/patch.jpg';
+import stubbleStache from 'url:../assets/v2-graph/stubble-stache.jpg';
+import shortStache from 'url:../assets/v2-graph/short-stache.jpg';
+import short from 'url:../assets/v2-graph/short-new.jpg';
+import full from 'url:../assets/v2-graph/full-new.jpg';
+import long from 'url:../assets/v2-graph/long-new.jpg';
+import mountain from 'url:../assets/v2-graph/mountain.jpg';
 
 import placeholder from 'url:../assets/placeholder.png';
 import { stuffs } from './fangraphs';
