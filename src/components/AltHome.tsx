@@ -20,7 +20,7 @@ import patch from 'url:../assets/patch.jpg';
 import stubbleStache from 'url:../assets/stubble-stache.jpg';
 import full from 'url:../assets/full-new.jpg';
 import long from 'url:../assets/long-new.jpg';
-import shortStache from 'url:../assets/short-stache-alternate.jpg';
+import shortStache from 'url:../assets/short-stache.jpg';
 import mountain from 'url:../assets/mountain.jpg';
 
 export const AltHome = () => {
