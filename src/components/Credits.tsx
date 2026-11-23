@@ -39,12 +39,7 @@ export const Credits = () => (
         : Orlando Ramirez/Getty Images
       </li>
       <li>Stubble:</li>
-      <li>
-        <a href="https://www.sandiegouniontribune.com/wp-content/uploads/2025/09/SUT-L-dylan-cease-09302025.jpg">
-          Stache
-        </a>
-        : Michael Reaves/Getty Images
-      </li>
+      <li>Stache: Ron Vesely/Getty Images</li>
       <li>
         <a href="https://www.gettyimages.ca/detail/news-photo/dylan-cease-of-the-toronto-blue-jays-looks-on-during-the-news-photo/2269709204?adppopup=true">
           Stache & patch
