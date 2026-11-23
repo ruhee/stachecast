@@ -52,13 +52,24 @@ export const AltHome = () => {
         can&rsquo;t quantify...
       </p>
       <div className="intro-images">
-        <img src={stubbleStache} alt="Dylan Cease with a mustache" />
+        <img src={stache} alt="Dylan Cease with a mustache" />
         <img src={long} alt="Dylan Cease with a beard" />
-        <img src={shortStache} alt="" />
+        <img
+          src={stubbleStache}
+          alt="Dylan Cease with a mustache and some stubble"
+        />
         <img src={mountain} alt="Dylan Cease with a long beard" />
+
+        <img
+          src={shortStache}
+          alt="Dylan Cease with a long stache and a shorter beard"
+        />
         <img src={patch} alt="Dylan Cease with a mustache and a soul patch" />
-        <img src={full} className="mobile-hidden" alt="" />
-        <img src={stache} alt="" />
+        <img
+          src={full}
+          className="mobile-hidden"
+          alt="Dylan Cease with a beard"
+        />
       </div>
 
       <p>
