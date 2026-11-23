@@ -47646,19 +47646,19 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
 var _newChartData = require("../data/newChartData");
 var _barChart = require("./charts/BarChart");
-var _stacheOnlyJpg = require("url:../assets/stache-only.jpg");
+var _stacheOnlyJpg = require("url:../assets/v2-graph/stache-only.jpg");
 var _stacheOnlyJpgDefault = parcelHelpers.interopDefault(_stacheOnlyJpg);
-var _patchJpg = require("url:../assets/patch.jpg");
+var _patchJpg = require("url:../assets/v2-graph/patch.jpg");
 var _patchJpgDefault = parcelHelpers.interopDefault(_patchJpg);
-var _stubbleStacheJpg = require("url:../assets/stubble-stache.jpg");
+var _stubbleStacheJpg = require("url:../assets/v2-graph/stubble-stache.jpg");
 var _stubbleStacheJpgDefault = parcelHelpers.interopDefault(_stubbleStacheJpg);
-var _fullNewJpg = require("url:../assets/full-new.jpg");
+var _fullNewJpg = require("url:../assets/v2-graph/full-new.jpg");
 var _fullNewJpgDefault = parcelHelpers.interopDefault(_fullNewJpg);
-var _longNewJpg = require("url:../assets/long-new.jpg");
+var _longNewJpg = require("url:../assets/v2-graph/long-new.jpg");
 var _longNewJpgDefault = parcelHelpers.interopDefault(_longNewJpg);
-var _shortStacheJpg = require("url:../assets/short-stache.jpg");
+var _shortStacheJpg = require("url:../assets/v2-graph/short-stache.jpg");
 var _shortStacheJpgDefault = parcelHelpers.interopDefault(_shortStacheJpg);
-var _mountainJpg = require("url:../assets/mountain.jpg");
+var _mountainJpg = require("url:../assets/v2-graph/mountain.jpg");
 var _mountainJpgDefault = parcelHelpers.interopDefault(_mountainJpg);
 const AltHome = ()=>{
     const { velo, breaking, gameScore, kPercentage } = (0, _newChartData.newChartConfig);
@@ -47727,7 +47727,7 @@ const AltHome = ()=>{
                 className: "intro-images",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _stubbleStacheJpgDefault.default),
+                        src: (0, _stacheOnlyJpgDefault.default),
                         alt: "Dylan Cease with a mustache"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
@@ -47743,8 +47743,8 @@ const AltHome = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _shortStacheJpgDefault.default),
-                        alt: ""
+                        src: (0, _stubbleStacheJpgDefault.default),
+                        alt: "Dylan Cease with a mustache and some stubble"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
                         lineNumber: 57,
@@ -47755,7 +47755,15 @@ const AltHome = ()=>{
                         alt: "Dylan Cease with a long beard"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 58,
+                        lineNumber: 61,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _shortStacheJpgDefault.default),
+                        alt: "Dylan Cease with a long stache and a shorter beard"
+                    }, void 0, false, {
+                        fileName: "src/components/AltHome.tsx",
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -47763,24 +47771,16 @@ const AltHome = ()=>{
                         alt: "Dylan Cease with a mustache and a soul patch"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 59,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _fullNewJpgDefault.default),
                         className: "mobile-hidden",
-                        alt: ""
+                        alt: "Dylan Cease with a beard"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 60,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _stacheOnlyJpgDefault.default),
-                        alt: ""
-                    }, void 0, false, {
-                        fileName: "src/components/AltHome.tsx",
-                        lineNumber: 61,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -47797,7 +47797,7 @@ const AltHome = ()=>{
                         children: "to much fanfare"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 69,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, undefined),
                     "). But which one of these yields the best ",
@@ -47805,19 +47805,19 @@ const AltHome = ()=>{
                         children: "results"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 72,
+                        lineNumber: 83,
                         columnNumber: 51
                     }, undefined),
                     "? Does he pitch better with the \u2019stache or without it? Could those Cy Young campaigns have ended differently if he had left the razor alone? It\u2019s time to find out."
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 64,
+                lineNumber: 75,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 77,
+                lineNumber: 88,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -47830,14 +47830,14 @@ const AltHome = ()=>{
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 79,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "If we look at Cease\u2019s strikeout rate, it\u2019s obvious that having little to no facial hair is a poor choice. Strikeouts tick way up once the \u2019stache appears on the scene, and stay up. (Interestingly, the extremely long beard does best here... I can\u2019t explain this.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 85,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47849,7 +47849,7 @@ const AltHome = ()=>{
                                 children: "Game Score"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 94,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, undefined),
                             ", the long beard does best both by average and",
@@ -47859,14 +47859,14 @@ const AltHome = ()=>{
                                 children: "highest score"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 98,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, undefined),
                             ":"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 92,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47876,14 +47876,14 @@ const AltHome = ()=>{
                         title: gameScore.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 103,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "(Tip: Tap or click the legend to turn datasets on/off, and tap or hover on individual bars for numbers.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 109,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47893,7 +47893,7 @@ const AltHome = ()=>{
                                 children: "Scruff+"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 114,
+                                lineNumber: 125,
                                 columnNumber: 31
                             }, undefined),
                             ", sorry,",
@@ -47903,14 +47903,14 @@ const AltHome = ()=>{
                                 children: "Stuff+"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 115,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, undefined),
                             ", the \u2019stache styles do pretty well in general, although they are all once again slightly beaten by the really unruly beard. (What\u2019s going on with that?)"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 113,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47920,21 +47920,21 @@ const AltHome = ()=>{
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 122,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Not looking good for \u201Cclean shaven\u201D so far, either. (Note: Stuff+ sets the baseline/average at 100.)"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 129,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "The velocity numbers, though, seem quite a bit less obvious... "
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 133,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47944,7 +47944,7 @@ const AltHome = ()=>{
                         title: velo.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 134,
+                        lineNumber: 145,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47953,14 +47953,14 @@ const AltHome = ()=>{
                         title: breaking.title
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 140,
+                        lineNumber: 151,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Clean shaven does a lot better in the velo charts\u2014the four-seamer is about as fast as it gets in those appearances. But the \u2019stache-n-patch look is coming out pretty well across all our metrics\u2014the hardest slider, the hardest four-seamer, nearly the best Stuff+, a decently high K%..."
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 145,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47970,7 +47970,7 @@ const AltHome = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 152,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _barChart.BarChart), {
@@ -47980,13 +47980,13 @@ const AltHome = ()=>{
                         showLegend: false
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 157,
+                        lineNumber: 168,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 78,
+                lineNumber: 89,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -47997,7 +47997,7 @@ const AltHome = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 164,
+                lineNumber: 175,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -48009,13 +48009,13 @@ const AltHome = ()=>{
                         children: "let\u2019s get cracking, Dylan."
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 171,
+                        lineNumber: 182,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 168,
+                lineNumber: 179,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -48028,7 +48028,7 @@ const AltHome = ()=>{
                                         children: "1"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 178,
+                                        lineNumber: 189,
                                         columnNumber: 13
                                     }, undefined),
                                     " In 2026,",
@@ -48038,7 +48038,7 @@ const AltHome = ()=>{
                                         children: "Savant says"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 179,
+                                        lineNumber: 190,
                                         columnNumber: 13
                                     }, undefined),
                                     ' ',
@@ -48049,18 +48049,18 @@ const AltHome = ()=>{
                                         children: "\u21A9"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 194,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 177,
+                                lineNumber: 188,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 187,
+                                lineNumber: 198,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -48069,7 +48069,7 @@ const AltHome = ()=>{
                                         children: "2"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 200,
                                         columnNumber: 13
                                     }, undefined),
                                     " Are you kidding me, I\u2019m not doing that.\xa0",
@@ -48079,19 +48079,19 @@ const AltHome = ()=>{
                                         children: "\u21A9"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 188,
+                                lineNumber: 199,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 176,
+                        lineNumber: 187,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -48099,17 +48099,17 @@ const AltHome = ()=>{
                             children: "Data includes all MLB appearances 2019-2026 (regular season, postseason, and All-Star Game)."
                         }, void 0, false, {
                             fileName: "src/components/AltHome.tsx",
-                            lineNumber: 196,
+                            lineNumber: 207,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 195,
+                        lineNumber: 206,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 201,
+                        lineNumber: 212,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -48121,7 +48121,7 @@ const AltHome = ()=>{
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 204,
+                                lineNumber: 215,
                                 columnNumber: 11
                             }, undefined),
                             ", the stupid brain behind the",
@@ -48131,7 +48131,7 @@ const AltHome = ()=>{
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 206,
+                                lineNumber: 217,
                                 columnNumber: 11
                             }, undefined),
                             ' ',
@@ -48142,7 +48142,7 @@ const AltHome = ()=>{
                                 children: "Check out the release notes"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 210,
+                                lineNumber: 221,
                                 columnNumber: 11
                             }, undefined),
                             " or",
@@ -48152,14 +48152,14 @@ const AltHome = ()=>{
                                 children: "send feedback"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 211,
+                                lineNumber: 222,
                                 columnNumber: 11
                             }, undefined),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 202,
+                        lineNumber: 213,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -48167,7 +48167,7 @@ const AltHome = ()=>{
                         children: "The credits are here"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 213,
+                        lineNumber: 224,
                         columnNumber: 9
                     }, undefined),
                     ", including data and photos.",
@@ -48175,13 +48175,13 @@ const AltHome = ()=>{
                         children: "Sincerest and most sheepish apologies to Dylan Cease. \uD83D\uDC51"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 215,
+                        lineNumber: 226,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 175,
+                lineNumber: 186,
                 columnNumber: 7
             }, undefined)
         ]
@@ -48200,7 +48200,7 @@ $RefreshReg$(_c, "AltHome");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","url:../assets/stache-only.jpg":"j6YWz","url:../assets/patch.jpg":"YLgNO","url:../assets/full-new.jpg":"awphr","url:../assets/long-new.jpg":"f0t4Y","url:../assets/mountain.jpg":"id61o","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../assets/stubble-stache.jpg":"1l5dC","url:../assets/short-stache.jpg":"1EQEN"}],"7aXpw":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../assets/v2-graph/stache-only.jpg":"247IT","url:../assets/v2-graph/patch.jpg":"52e0m","url:../assets/v2-graph/stubble-stache.jpg":"16gGb","url:../assets/v2-graph/full-new.jpg":"8qPsW","url:../assets/v2-graph/long-new.jpg":"8mgIG","url:../assets/v2-graph/short-stache.jpg":"j22uJ","url:../assets/v2-graph/mountain.jpg":"ieFwn"}],"7aXpw":[function(require,module,exports,__globalThis) {
 // chartData.ts is the prod 2026 stuff, leave that alone while tinkering.
 // this will eventually replace it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -48217,25 +48217,25 @@ parcelHelpers.export(exports, "newChartConfig", ()=>newChartConfig);
 parcelHelpers.export(exports, "totalStarts", ()=>totalStarts);
 var _averagesFull = require("./averages-full");
 var _velocities = require("./velocities");
-var _cleanJpg = require("url:../assets/clean.jpg");
+var _cleanJpg = require("url:../assets/v2-graph/clean.jpg");
 var _cleanJpgDefault = parcelHelpers.interopDefault(_cleanJpg);
-var _stubbleJpg = require("url:../assets/stubble.jpg");
+var _stubbleJpg = require("url:../assets/v2-graph/stubble.jpg");
 var _stubbleJpgDefault = parcelHelpers.interopDefault(_stubbleJpg);
-var _stacheOnlyJpg = require("url:../assets/stache-only.jpg");
+var _stacheOnlyJpg = require("url:../assets/v2-graph/stache-only.jpg");
 var _stacheOnlyJpgDefault = parcelHelpers.interopDefault(_stacheOnlyJpg);
-var _patchJpg = require("url:../assets/patch.jpg");
+var _patchJpg = require("url:../assets/v2-graph/patch.jpg");
 var _patchJpgDefault = parcelHelpers.interopDefault(_patchJpg);
-var _stubbleStacheJpg = require("url:../assets/stubble-stache.jpg");
+var _stubbleStacheJpg = require("url:../assets/v2-graph/stubble-stache.jpg");
 var _stubbleStacheJpgDefault = parcelHelpers.interopDefault(_stubbleStacheJpg);
-var _shortStacheJpg = require("url:../assets/short-stache.jpg");
+var _shortStacheJpg = require("url:../assets/v2-graph/short-stache.jpg");
 var _shortStacheJpgDefault = parcelHelpers.interopDefault(_shortStacheJpg);
-var _shortNewJpg = require("url:../assets/short-new.jpg");
+var _shortNewJpg = require("url:../assets/v2-graph/short-new.jpg");
 var _shortNewJpgDefault = parcelHelpers.interopDefault(_shortNewJpg);
-var _fullNewJpg = require("url:../assets/full-new.jpg");
+var _fullNewJpg = require("url:../assets/v2-graph/full-new.jpg");
 var _fullNewJpgDefault = parcelHelpers.interopDefault(_fullNewJpg);
-var _longNewJpg = require("url:../assets/long-new.jpg");
+var _longNewJpg = require("url:../assets/v2-graph/long-new.jpg");
 var _longNewJpgDefault = parcelHelpers.interopDefault(_longNewJpg);
-var _mountainJpg = require("url:../assets/mountain.jpg");
+var _mountainJpg = require("url:../assets/v2-graph/mountain.jpg");
 var _mountainJpgDefault = parcelHelpers.interopDefault(_mountainJpg);
 var _placeholderPng = require("url:../assets/placeholder.png");
 var _placeholderPngDefault = parcelHelpers.interopDefault(_placeholderPng);
@@ -48387,7 +48387,7 @@ const newChartConfig = {
 };
 const totalStarts = (0, _velocities.starts).reduce((acc, curr)=>acc + curr, 0);
 
-},{"./averages-full":"9vTnr","./velocities":"jJjyu","url:../assets/clean.jpg":"jkQMQ","url:../assets/stubble.jpg":"cNl0n","url:../assets/stache-only.jpg":"j6YWz","url:../assets/patch.jpg":"YLgNO","url:../assets/stubble-stache.jpg":"1l5dC","url:../assets/short-stache.jpg":"1EQEN","url:../assets/long-new.jpg":"f0t4Y","url:../assets/mountain.jpg":"id61o","url:../assets/placeholder.png":"jLmyh","./fangraphs":"1Lfm6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../assets/full-new.jpg":"awphr","url:../assets/short-new.jpg":"cvSCN"}],"9vTnr":[function(require,module,exports,__globalThis) {
+},{"./averages-full":"9vTnr","./velocities":"jJjyu","url:../assets/placeholder.png":"jLmyh","./fangraphs":"1Lfm6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../assets/v2-graph/clean.jpg":"liWxO","url:../assets/v2-graph/stubble.jpg":"bu6iq","url:../assets/v2-graph/stache-only.jpg":"247IT","url:../assets/v2-graph/patch.jpg":"52e0m","url:../assets/v2-graph/stubble-stache.jpg":"16gGb","url:../assets/v2-graph/short-stache.jpg":"j22uJ","url:../assets/v2-graph/short-new.jpg":"fLi34","url:../assets/v2-graph/full-new.jpg":"8qPsW","url:../assets/v2-graph/long-new.jpg":"8mgIG","url:../assets/v2-graph/mountain.jpg":"ieFwn"}],"9vTnr":[function(require,module,exports,__globalThis) {
 // Generated by convertCsv.js from averages-full.csv. Do not edit by hand.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -48734,31 +48734,7 @@ const starts = [
     12
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jkQMQ":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("clean.0b7ae1c7.jpg") + "?" + Date.now();
-
-},{}],"cNl0n":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stubble.36b1bbc0.jpg") + "?" + Date.now();
-
-},{}],"j6YWz":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stache-only.7369f5b8.jpg") + "?" + Date.now();
-
-},{}],"YLgNO":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("patch.c4899e91.jpg") + "?" + Date.now();
-
-},{}],"1l5dC":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("stubble-stache.bb4058e2.jpg") + "?" + Date.now();
-
-},{}],"1EQEN":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("short-stache.04dbc45d.jpg") + "?" + Date.now();
-
-},{}],"f0t4Y":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("long-new.5c3c7bb4.jpg") + "?" + Date.now();
-
-},{}],"id61o":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("mountain.a179a74c.jpg") + "?" + Date.now();
-
-},{}],"jLmyh":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jLmyh":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("placeholder.0f8d4211.png") + "?" + Date.now();
 
 },{}],"1Lfm6":[function(require,module,exports,__globalThis) {
@@ -48779,11 +48755,35 @@ const stuffs = [
     109.93
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"awphr":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("full-new.91fc31e6.jpg") + "?" + Date.now();
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"liWxO":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("clean.9f165e38.jpg") + "?" + Date.now();
 
-},{}],"cvSCN":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("short-new.1d4bce77.jpg") + "?" + Date.now();
+},{}],"bu6iq":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stubble.b0c1b34a.jpg") + "?" + Date.now();
+
+},{}],"247IT":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stache-only.ed2175d2.jpg") + "?" + Date.now();
+
+},{}],"52e0m":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("patch.a3695820.jpg") + "?" + Date.now();
+
+},{}],"16gGb":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("stubble-stache.756670e3.jpg") + "?" + Date.now();
+
+},{}],"j22uJ":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("short-stache.517f5ef3.jpg") + "?" + Date.now();
+
+},{}],"fLi34":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("short-new.60aff6de.jpg") + "?" + Date.now();
+
+},{}],"8qPsW":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("full-new.a5135347.jpg") + "?" + Date.now();
+
+},{}],"8mgIG":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("long-new.79f8e49c.jpg") + "?" + Date.now();
+
+},{}],"ieFwn":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("mountain.469b21c7.jpg") + "?" + Date.now();
 
 },{}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
 
