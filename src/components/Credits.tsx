@@ -27,28 +27,49 @@ export const Credits = () => (
     <h3>Photos</h3>
     <ul>
       <li>
-        <a href="https://stachecast.lol/cease-sacramento-sept7.jpg">
+        <a
+          href="https://stachecast.lol/cease-sacramento-sept7.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
           Link preview
         </a>
         : Scott Marshall/AP Photo
       </li>
       <li>
-        <a href="https://media.gettyimages.com/id/2209831737/photo/colorado-rockies-v-san-diego-padres.webp?s=612x612&w=gi&k=20&c=Hvd3NmTuCbQccGQtvcTHfkGHJVke8a9VAQm1r9oIfN4=">
+        <a
+          href="https://stachecast.lol/original/clean.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
           Clean shaven
         </a>
         : Orlando Ramirez/Getty Images
       </li>
       <li>Stubble:</li>
-      <li>Stache: Ron Vesely/Getty Images</li>
       <li>
-        <a href="https://www.gettyimages.ca/detail/news-photo/dylan-cease-of-the-toronto-blue-jays-looks-on-during-the-news-photo/2269709204?adppopup=true">
+        <a
+          href="https://stachecast.lol/original/stache.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Stache
+        </a>
+        : Ron Vesely/Getty Images
+      </li>
+      <li>
+        <a
+          href="https://stachecast.lol/original/patch.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
           Stache & patch
         </a>
         : Justin Casterline/Getty Images
       </li>
       <li>
         <a
-          href="https://media.gettyimages.com/id/2228277234/photo/st-louis-cardinals-v-san-diego-padres.jpg?s=2048x2048&w=gi&k=20&c=QVbcryQPoWH_Bgz3FZcDn3mkkJNsmYYifzOdBPzEoU4="
+          href="https://stachecast.lol/original/short-stache.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -57,21 +78,51 @@ export const Credits = () => (
         : Orlando Ramirez/Getty Images
       </li>
       <li>
-        <a href="https://media.gettyimages.com/id/2281138160/photo/philadelphia-phillies-v-toronto-blue-jays.webp?s=612x612&w=gi&k=20&c=eCXqV3tans4zvnxgCu4GdSUC5NnKydQ8k5D_g1xXmko=">
+        <a
+          href="https://stachecast.lol/original/short.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
           Short beard
         </a>
         : Mark Blinch/Getty Images
       </li>
-      <li>Full beard: Brendan Sloter/Getty Images</li>
       <li>
-        <a href="https://media.gettyimages.com/id/2287022357/photo/toronto-blue-jays-v-boston-red-sox.webp?s=1024x1024&w=gi&k=20&c=U1ZUFnADrS44hXuQOZx46Q8qliWhF8Xr6OEwdbuD_WA=">
+        <a
+          href="https://stachecast.lol/original/full.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Full beard
+        </a>
+        : Brendan Sloter/Getty Images
+      </li>
+      <li>
+        <a
+          href="https://stachecast.lol/original/long.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
           Long beard
         </a>
         : Natalie Reid/Getty Images
       </li>
-      <li>Mountain man beard: Orlando Ramirez/Getty Images</li>
       <li>
-        <a href="https://www.instagram.com/p/DceKWgNlcj0/?img_index=2">
+        <a
+          href="https://stachecast.lol/original/mountain.jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Mountain man beard
+        </a>
+        : Orlando Ramirez/Getty Images
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/p/DceKWgNlcj0/?img_index=2"
+          target="_blank"
+          rel="noreferrer"
+        >
           Header
         </a>
         : the man himself! (via Sportsnet)
