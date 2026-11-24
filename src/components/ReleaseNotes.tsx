@@ -6,7 +6,26 @@ export const ReleaseNotes = () => (
     <p>Obviously we are doing some very serious software engineering.</p>
     <ul>
       <li>
-        <i>November 12, 2026:</i> New header, including{' '}
+        <i>December 2, 2026</i>: ✨ Version 2 ✨
+        <ul>
+          <li>Added 2019-2025 data (and reclassified 2026).</li>
+          <li>Swapped all the graph photos.</li>
+          <li>
+            Added a bunch of new data like Stuff+ and appearances, and switched
+            from K/9 to K%.
+          </li>
+          <li>Velo is now calculated directly from raw Savant pitch lists.</li>
+          <li>
+            A bunch of boring stuff like npm scripts to output the chart files.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <i>November 19, 2026</i>: Tinkered with chart display (fonts, legend
+        styles, etc)
+      </li>
+      <li>
+        <i>November 12, 2026</i>: New header, including{' '}
         <a href="https://www.sportsnet.ca/mlb/article/pretty-unbelievable-blue-jays-dylan-cease-unveils-painting-at-art-gallery-of-ontario/">
           this painting
         </a>
