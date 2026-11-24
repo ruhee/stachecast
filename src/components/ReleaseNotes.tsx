@@ -10,34 +10,48 @@ export const ReleaseNotes = () => (
         <ul>
           <li>Added 2019-2025 data (and reclassified 2026).</li>
           <li>Swapped all the graph photos.</li>
-          <li>
-            Added a bunch of new data like Stuff+ and appearances, and switched
-            from K/9 to K%.
-          </li>
+          <li>Added a bunch of new data like Stuff+ and appearances.</li>
+          <li>Switched from K/9 to K%. #sabermetrics</li>
           <li>Velo is now calculated directly from raw Savant pitch lists.</li>
+        </ul>
+      </li>
+      <li>
+        <i>November 19, 2026</i>:
+        <ul>
           <li>
-            A bunch of boring stuff like npm scripts to output the chart files.
+            Tinkered with chart display (swapped fonts, updated legend styles,
+            etc).
           </li>
         </ul>
       </li>
       <li>
-        <i>November 19, 2026</i>: Tinkered with chart display (fonts, legend
-        styles, etc)
+        <i>November 12, 2026</i>:
+        <ul>
+          <li>
+            New header, including{' '}
+            <a href="https://www.sportsnet.ca/mlb/article/pretty-unbelievable-blue-jays-dylan-cease-unveils-painting-at-art-gallery-of-ontario/">
+              this painting
+            </a>
+            .
+          </li>
+        </ul>
       </li>
       <li>
-        <i>November 12, 2026</i>: New header, including{' '}
-        <a href="https://www.sportsnet.ca/mlb/article/pretty-unbelievable-blue-jays-dylan-cease-unveils-painting-at-art-gallery-of-ontario/">
-          this painting
-        </a>
-        .
+        <i>November 5, 2026</i>:
+        <ul>
+          <li>
+            Hopefully 0% noticeable to everyone but me, but: refactored all the
+            charts to avoid repeating things so much.
+          </li>
+        </ul>
       </li>
       <li>
-        <i>November 5, 2026</i>: Hopefully 0% noticeable to everyone but me,
-        but: refactored all the charts to avoid repeating things so much.
-      </li>
-      <li>
-        <i>November 2, 2026</i>: Moved credits into credits page and increased
-        footer text size.
+        <i>November 2, 2026</i>:
+        <ul>
+          <li>
+            Moved credits into credits page and increased footer text size.
+          </li>
+        </ul>
       </li>
       <li>
         <i>October 27, 2026</i>:
@@ -69,11 +83,16 @@ export const ReleaseNotes = () => (
         </ul>
       </li>
       <li>
-        <i>September 14, 2026</i>: Added{' '}
-        <a href="https://www.baseball-reference.com/boxes/TOR/TOR202609130.shtml">
-          Sept 13 start
-        </a>
-        .
+        <i>September 14, 2026</i>:
+        <ul>
+          <li>
+            Added{' '}
+            <a href="https://www.baseball-reference.com/boxes/TOR/TOR202609130.shtml">
+              Sept 13 start
+            </a>
+            .
+          </li>
+        </ul>
       </li>
       <li>
         <i>September 13, 2026</i>: Initial release 🎉
