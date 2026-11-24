@@ -13,6 +13,11 @@ body,
   margin: 0;
 }
 
+body {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+}
+
 #app {
   display: block;
 }
@@ -101,10 +106,6 @@ a:hover {
   color: #e8291c;
 }
 
-ul {
-  line-height: 1.4;
-}
-
 footer {
   font-size: 0.9em;
   color: #666;
@@ -158,4 +159,8 @@ hr {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+ul {
+  margin-bottom: 1rem;
 }
