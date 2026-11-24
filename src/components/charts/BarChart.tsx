@@ -28,6 +28,7 @@ ChartJS.register(
 defaults.font.family = "'Libre Baskerville', serif";
 
 interface BarChartProps {
+  ariaLabel: string;
   data: any; // todo
   title: string;
   legendXMin?: number;
@@ -37,6 +38,7 @@ interface BarChartProps {
 }
 
 export const BarChart = ({
+  ariaLabel,
   data,
   title,
   legendXMin,
@@ -73,7 +75,13 @@ export const BarChart = ({
 
   return (
     <div className={`chart ${customClassName || ''}`}>
-      <Bar options={options} data={data} plugins={[yAxisImageLabelsPlugin]} />
+      <Bar
+        aria-label={ariaLabel}
+        role="img"
+        options={options}
+        data={data}
+        plugins={[yAxisImageLabelsPlugin]}
+      />
     </div>
   );
 };

@@ -88,6 +88,7 @@ export const AltHome = () => {
       <hr />
       <div className="chart-container-v2">
         <BarChart
+          ariaLabel={kPercentage.title}
           data={kPercentageData}
           labelImagesSources={labelImagesSources}
           title={kPercentage.title}
@@ -112,6 +113,7 @@ export const AltHome = () => {
           :
         </p>
         <BarChart
+          ariaLabel={gameScore.title}
           data={gameScoreData}
           legendXMin={gameScore.legendXMin}
           labelImagesSources={labelImagesSources}
@@ -131,6 +133,7 @@ export const AltHome = () => {
           (What&rsquo;s going on with that?)
         </p>
         <BarChart
+          ariaLabel="Stuff+ by style"
           data={stuffPlusData}
           labelImagesSources={labelImagesSources}
           title="Stuff+ by style"
@@ -143,12 +146,14 @@ export const AltHome = () => {
         </p>
         <p>The velocity numbers, though, seem quite a bit less obvious... </p>
         <BarChart
+          ariaLabel={velo.title}
           data={veloData}
           legendXMin={velo.legendXMin}
           labelImagesSources={labelImagesSources}
           title={velo.title}
         />
         <BarChart
+          ariaLabel={breaking.title}
           data={breakingVeloData}
           labelImagesSources={labelImagesSources}
           title={breaking.title}
@@ -166,6 +171,7 @@ export const AltHome = () => {
           with.{' '}
         </p>
         <BarChart
+          ariaLabel="Appearances per style"
           data={occurrenceData}
           labelImagesSources={labelImagesSources}
           title="Appearances per style"

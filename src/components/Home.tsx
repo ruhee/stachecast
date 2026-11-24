@@ -31,6 +31,7 @@ export const Home = () => {
           beard on average.
         </p>
         <BarChart
+          ariaLabel={velo.title}
           data={veloData}
           legendXMin={velo.legendXMin}
           title={velo.title}
@@ -40,6 +41,7 @@ export const Home = () => {
           individual bars for numbers.)
         </p>
         <BarChart
+          ariaLabel={breaking.title}
           data={breakingVeloData}
           title={breaking.title}
           customClassName="breaking"
@@ -64,6 +66,7 @@ export const Home = () => {
           ) were on full-beard or long-beard outings.
         </p>
         <BarChart
+          ariaLabel={gameScore.title}
           data={gameScoreData}
           title={gameScore.title}
           legendXMin={gameScore.legendXMin}
@@ -74,6 +77,7 @@ export const Home = () => {
           though: only 4 starts in 2026 with this beard type)
         </p>
         <BarChart
+          ariaLabel={k9.title}
           data={k9data}
           title={k9.title}
           legendXMin={k9.legendXMin}
