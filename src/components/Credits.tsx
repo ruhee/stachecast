@@ -49,7 +49,7 @@ export const Credits = () => (
       <li>
         {' '}
         <a
-          href="https://stachecast.lol/original/stache.jpg"
+          href="https://stachecast.lol/original/stubble.jpg"
           target="_blank"
           rel="noreferrer"
         >
