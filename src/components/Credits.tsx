@@ -38,7 +38,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/clean.jpg"
+          href="https://stachecast.lol/clean.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -49,7 +49,7 @@ export const Credits = () => (
       <li>
         {' '}
         <a
-          href="https://stachecast.lol/original/stubble.jpg"
+          href="https://stachecast.lol/stubble.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -59,7 +59,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/stache.jpg"
+          href="https://stachecast.lol/stache.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -69,7 +69,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/patch.jpg"
+          href="https://stachecast.lol/patch.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -79,7 +79,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/short-stache.jpg"
+          href="https://stachecast.lol/short-stache.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -89,7 +89,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/short.jpg"
+          href="https://stachecast.lol/short.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -99,7 +99,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/full.jpg"
+          href="https://stachecast.lol/full.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -109,7 +109,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/long.jpg"
+          href="https://stachecast.lol/long.jpg"
           target="_blank"
           rel="noreferrer"
         >
@@ -119,7 +119,7 @@ export const Credits = () => (
       </li>
       <li>
         <a
-          href="https://stachecast.lol/original/mountain.jpg"
+          href="https://stachecast.lol/mountain.jpg"
           target="_blank"
           rel="noreferrer"
         >
