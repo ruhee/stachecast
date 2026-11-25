@@ -113,8 +113,15 @@ export const AltHome = () => {
           </sup>
           , it&rsquo;s obvious that having little to no facial hair is a poor
           choice. Strikeouts tick way up once the &rsquo;stache appears on the
-          scene, and stay up. (Interestingly, the extremely long beard does best
-          here... I can&rsquo;t explain this.)
+          scene, and stay up. (Interestingly, the{' '}
+          <a
+            href="https://stachecast.lol/mountain2.jpg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            extremely long beard
+          </a>{' '}
+          does best here... I can&rsquo;t explain this.)
         </p>
         <p>
           By Bill James&rsquo;{' '}
@@ -159,15 +166,8 @@ export const AltHome = () => {
             Stuff+
           </a>
           , all of the &rsquo;stache styles and that longer beard all do pretty
-          well, although they are once again slightly beaten by the{' '}
-          <a
-            href="https://stachecast.lol/mountain2.jpg"
-            target="_blank"
-            rel="noreferrer"
-          >
-            really unruly beard
-          </a>
-          . (Seriously, what&rsquo;s going on with that?)
+          well, although they are once again slightly beaten by the really
+          unruly beard. (Seriously, what&rsquo;s going on with that?)
         </p>
         <BarChart
           ariaLabel={stuffPlus.title}
@@ -214,8 +214,8 @@ export const AltHome = () => {
           Turns out that being clean shaven is not bad for Cease in the velo
           department—the four-seamer is about as fast as it gets in those
           appearances. But the &rsquo;stache-n-patch look is coming out pretty
-          well across all our metrics—the hardest slider, the hardest
-          four-seamer, nearly the best Stuff+, a decently high K%...
+          well across all our metrics so far: the hardest slider, the hardest
+          four-seamer, nearly the best Stuff+...
         </p>
         <p>
           Of course, when doing rigorous shavermetric analysis, it&rsquo;s also
@@ -236,9 +236,17 @@ export const AltHome = () => {
       </div>
       <p>
         In total, we&rsquo;re looking at {totalStarts} appearances over 8
-        seasons. The &rsquo;stache alone accounts for almost a quarter of them.
+        seasons. The &rsquo;stache styles make up the majority, and Cease is
+        clean-shaven by far the least often of any style, which probably
+        explains why it freaked the Padres out so much.
       </p>
-      <p>So, what can we conclude from all of this?</p>
+      <p>So, after all this, what can we conclude?</p>
+      <p>
+        As we&rsquo;ve seen, the respectably-long beard performs very well
+        start-to-start—if Cease wants to go deep into a game, that seems like a
+        great bet. On the other hand, the &rsquo;stache & patch holds its own on
+        many of the other metrics.
+      </p>
       <p>
         I could make a recommendation, but this might be a level of overreach
         into a stranger&rsquo;s life that I&rsquo;m not comfortable making...
