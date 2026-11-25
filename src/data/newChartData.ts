@@ -173,6 +173,12 @@ export const newChartConfig = {
   kPercentage: {
     title: 'Strikeout %',
   },
+  stuffPlus: {
+    title: 'Stuff+ by style',
+  },
+  appearances: {
+    title: 'Appearances per style',
+  },
 };
 
 export const totalStarts = starts.reduce((acc, curr) => acc + curr, 0);

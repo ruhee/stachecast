@@ -13,6 +13,10 @@ import {
   newChartConfig,
   totalStarts,
 } from '../data/newChartData';
+import { averages } from '../data/averages-full';
+import { stuffs } from '../data/fangraphs';
+import { starts } from '../data/velocities';
+
 import { BarChart } from './charts/BarChart';
 
 import stache from 'url:../assets/v2-graph/stache-only.jpg';
@@ -22,9 +26,11 @@ import full from 'url:../assets/v2-graph/full-new.jpg';
 import long from 'url:../assets/v2-graph/long-new.jpg';
 import shortStache from 'url:../assets/v2-graph/short-stache.jpg';
 import mountain from 'url:../assets/v2-graph/mountain.jpg';
+import { ScreenReaderTable } from './ScreenReaderTable';
 
 export const AltHome = () => {
-  const { velo, breaking, gameScore, kPercentage } = newChartConfig;
+  const { appearances, breaking, gameScore, kPercentage, stuffPlus, velo } =
+    newChartConfig;
   return (
     <div className="alt-home">
       <p>
@@ -94,6 +100,10 @@ export const AltHome = () => {
           title={kPercentage.title}
           showLegend={false}
         />
+        <ScreenReaderTable
+          caption={kPercentage.title}
+          data={[{ name: 'K%', values: averages['K%'] }]}
+        />
         <p>
           If we look at Cease&rsquo;s strikeout rate, it&rsquo;s obvious that
           having little to no facial hair is a poor choice. Strikeouts tick way
@@ -119,6 +129,13 @@ export const AltHome = () => {
           labelImagesSources={labelImagesSources}
           title={gameScore.title}
         />
+        <ScreenReaderTable
+          caption={gameScore.title}
+          data={[
+            { name: 'Average', values: averages['Game score'] },
+            { name: 'Highest', values: averages['Game score max'] },
+          ]}
+        />
         <p>
           (Tip: Tap or click the legend to turn datasets on/off, and tap or
           hover on individual bars for numbers.)
@@ -133,13 +150,16 @@ export const AltHome = () => {
           (What&rsquo;s going on with that?)
         </p>
         <BarChart
-          ariaLabel="Stuff+ by style"
+          ariaLabel={stuffPlus.title}
           data={stuffPlusData}
           labelImagesSources={labelImagesSources}
-          title="Stuff+ by style"
+          title={stuffPlus.title}
           showLegend={false}
         />
-
+        <ScreenReaderTable
+          caption={stuffPlus.title}
+          data={[{ name: 'Stuff+', values: stuffs }]}
+        />
         <p>
           Not looking good for &ldquo;clean shaven&rdquo; so far, either. (Note:
           Stuff+ sets the baseline/average at 100.)
@@ -152,11 +172,26 @@ export const AltHome = () => {
           labelImagesSources={labelImagesSources}
           title={velo.title}
         />
+        <ScreenReaderTable
+          caption={velo.title}
+          data={[
+            { name: 'Four-seam', values: averages['4 seam'] },
+            { name: 'Sinker', values: averages['Sinker'] },
+          ]}
+        />
         <BarChart
           ariaLabel={breaking.title}
           data={breakingVeloData}
           labelImagesSources={labelImagesSources}
           title={breaking.title}
+        />
+        <ScreenReaderTable
+          caption={breaking.title}
+          data={[
+            { name: 'Slider', values: averages['Slider'] },
+            { name: 'Sweeper', values: averages['Sweeper'] },
+            { name: 'Knuckle curve', values: averages['Knuckle curve'] },
+          ]}
         />
         <p>
           Clean shaven does a lot better in the velo charts—the four-seamer is
@@ -171,11 +206,15 @@ export const AltHome = () => {
           with.{' '}
         </p>
         <BarChart
-          ariaLabel="Appearances per style"
+          ariaLabel={appearances.title}
           data={occurrenceData}
           labelImagesSources={labelImagesSources}
-          title="Appearances per style"
+          title={appearances.title}
           showLegend={false}
+        />
+        <ScreenReaderTable
+          caption={appearances.title}
+          data={[{ name: 'Appearances', values: starts }]}
         />
       </div>
       <p>
