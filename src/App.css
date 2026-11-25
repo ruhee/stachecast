@@ -25,7 +25,7 @@ body,
   min-width: 320px;
   margin: 20px auto 0;
   box-sizing: border-box;
-  padding: 0 1rem;
+  padding: 0 1rem 5rem 1rem;
 }
 
 .chart-container {
@@ -157,5 +157,7 @@ hr {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border-width: 0;
 }
