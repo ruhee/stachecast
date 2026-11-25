@@ -221,12 +221,14 @@ export const AltHome = () => {
         In total, we&rsquo;re looking at {totalStarts} appearances over 8
         seasons. The &rsquo;stache alone accounts for almost a quarter of them.
       </p>
+      <p>So, what can we conclude from all of this?</p>
       <p>
-        So, can we conclude anything from this? Perhaps we still need more
-        data...{' '}
-        <a href="https://en.wikipedia.org/wiki/List_of_facial_hairstyles">
-          let&rsquo;s get cracking, Dylan.
-        </a>
+        I could make a recommendation, but this might be a level of overreach
+        into a stranger&rsquo;s life that I&rsquo;m not comfortable making...
+        but if a certain variably-hirsute pitcher happens to be reading this,
+        let me say, everything you&rsquo;ve been doing (and it&rsquo;s a lot)
+        seems to be working. But if you&rsquo;re going to win that elusive Cy in
+        2027... maybe at least give the razor a break. ⚾️
       </p>
       <hr />
       <footer>
