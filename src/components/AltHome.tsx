@@ -228,6 +228,7 @@ export const AltHome = () => {
           let&rsquo;s get cracking, Dylan.
         </a>
       </p>
+      <hr />
       <footer>
         <p>
           <span>
@@ -250,8 +251,8 @@ export const AltHome = () => {
         </p>
         <p>
           <em>
-            Data includes all MLB appearances 2019-2026 (regular season,
-            postseason, and All-Star Game).
+            Data includes all MLB regular season, postseason, and All-Star Game
+            appearances, 2019-2026.
           </em>
         </p>
         <hr />
@@ -263,11 +264,10 @@ export const AltHome = () => {
             David Price Nickname Generator
           </a>{' '}
           and the Stanton Strikeout Tracker.{' '}
-          <Link to="release-notes">Check out the release notes</Link> or{' '}
-          <a href="mailto:ruhee.dewji@gmail.com">send feedback</a>.
         </p>
-        <Link to="credits">The credits are here</Link>, including data and
-        photos.
+        <Link to="credits">Data and photo credits are here</Link>, and{' '}
+        <Link to="release-notes">release notes here</Link>. You can also{' '}
+        <a href="mailto:ruhee.dewji@gmail.com">email me</a>.
         <p>Sincerest and most sheepish apologies to Dylan Cease. 👑</p>
       </footer>
     </div>
