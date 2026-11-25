@@ -8,6 +8,7 @@ import { Credits } from './components/Credits';
 import { ReleaseNotes } from './components/ReleaseNotes';
 import { Home } from './components/Home';
 import { AltHome } from './components/AltHome';
+import { ErrorScreen } from './components/ErrorScreen';
 
 const RootLayout = () => (
   <div className="container">
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />,
+    errorElement: <ErrorScreen />,
     children: [
       { index: true, element: <Home /> },
       { path: 'credits', element: <Credits /> },
