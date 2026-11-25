@@ -105,18 +105,23 @@ export const AltHome = () => {
           data={[{ name: 'K%', values: averages['K%'] }]}
         />
         <p>
-          If we look at Cease&rsquo;s strikeout rate, it&rsquo;s obvious that
-          having little to no facial hair is a poor choice. Strikeouts tick way
-          up once the &rsquo;stache appears on the scene, and stay up.
-          (Interestingly, the extremely long beard does best here... I
-          can&rsquo;t explain this.)
+          If we look at Cease&rsquo;s strikeout rate
+          <sup>
+            <a href="#ref3" id="note3">
+              3
+            </a>
+          </sup>
+          , it&rsquo;s obvious that having little to no facial hair is a poor
+          choice. Strikeouts tick way up once the &rsquo;stache appears on the
+          scene, and stay up. (Interestingly, the extremely long beard does best
+          here... I can&rsquo;t explain this.)
         </p>
         <p>
           By Bill James&rsquo;{' '}
           <a href="https://www.baseball-reference.com/glossary/game-score/">
             Game Score
           </a>
-          , the long beard does best both by average and{' '}
+          , the longer-but-not-longest beard does best both by average and{' '}
           <a href="https://www.baseball-reference.com/boxes/BOS/BOS202607250.shtml">
             highest score
           </a>
@@ -137,17 +142,32 @@ export const AltHome = () => {
           ]}
         />
         <p>
-          (Tip: Tap or click the legend to turn datasets on/off, and tap or
-          hover on individual bars for numbers.)
+          This makes sense: in 2026, some of Cease&rsquo;s best games were
+          long-beard outings, including a{' '}
+          <a
+            href="https://www.mlb.com/news/dylan-cease-pitches-complete-game-shutout-al-cy-young-award-case"
+            target="_blank"
+            rel="noreferrer"
+          >
+            complete game shutout
+          </a>{' '}
+          and two no-hit bids that lasted into the 7th or later.
         </p>
         <p>
           By FanGraphs&rsquo; <s>Scruff+</s>, sorry,{' '}
           <a href="https://library.fangraphs.com/pitching/stuff-location-and-pitching-primer/">
             Stuff+
           </a>
-          , the &rsquo;stache styles do pretty well in general, although they
-          are all once again slightly beaten by the really unruly beard.
-          (What&rsquo;s going on with that?)
+          , all of the &rsquo;stache styles and that longer beard all do pretty
+          well, although they are once again slightly beaten by the{' '}
+          <a
+            href="https://stachecast.lol/mountain2.jpg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            really unruly beard
+          </a>
+          . (Seriously, what&rsquo;s going on with that?)
         </p>
         <BarChart
           ariaLabel={stuffPlus.title}
@@ -160,11 +180,8 @@ export const AltHome = () => {
           caption={stuffPlus.title}
           data={[{ name: 'Stuff+', values: stuffs }]}
         />
-        <p>
-          Not looking good for &ldquo;clean shaven&rdquo; so far, either. (Note:
-          Stuff+ sets the baseline/average at 100.)
-        </p>
-        <p>The velocity numbers, though, seem quite a bit less obvious... </p>
+        <p>Not looking great for &ldquo;clean shaven&rdquo; so far, either.</p>
+        <p>Pitch velo, however, makes things a little less obvious... </p>
         <BarChart
           ariaLabel={velo.title}
           data={veloData}
@@ -194,11 +211,11 @@ export const AltHome = () => {
           ]}
         />
         <p>
-          Clean shaven does a lot better in the velo charts—the four-seamer is
-          about as fast as it gets in those appearances. But the
-          &rsquo;stache-n-patch look is coming out pretty well across all our
-          metrics—the hardest slider, the hardest four-seamer, nearly the best
-          Stuff+, a decently high K%...
+          Turns out that being clean shaven is not bad for Cease in the velo
+          department—the four-seamer is about as fast as it gets in those
+          appearances. But the &rsquo;stache-n-patch look is coming out pretty
+          well across all our metrics—the hardest slider, the hardest
+          four-seamer, nearly the best Stuff+, a decently high K%...
         </p>
         <p>
           Of course, when doing rigorous shavermetric analysis, it&rsquo;s also
@@ -247,6 +264,15 @@ export const AltHome = () => {
           <span>
             <sup>2</sup> Are you kidding me, I&rsquo;m not doing that.&nbsp;
             <a href="#note2" id="ref2">
+              &#x21A9;
+            </a>
+          </span>
+          <br />
+          <span>
+            <sup>3</sup> Tip: Tap on the legend items to turn things on/off, and
+            tap/hover on the bars for specific numbers. This is serious science,
+            after all.&nbsp;
+            <a href="#note3" id="ref3">
               &#x21A9;
             </a>
           </span>
