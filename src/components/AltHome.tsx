@@ -193,7 +193,7 @@ export const AltHome = () => {
         <p>
           <span>
             <sup>1</sup> In 2026,{' '}
-            <a href="https://baseballsavant.mlb.com/statcast_search?hfAB=home%5C.%5C.run%7C&hfGT=R%7C&hfSea=2026%7C&player_type=batter&batters_lookup%5B%5D=670541&hfFlag=is%5C.%5C.bunt%5C.%5C.not%7C&group_by=name&sort_col=launch_angle&sort_order=desc&chk_stats_launch_angle=on#results">
+            <a href="https://baseballsavant.mlb.com/statcast_search?hfAB=home%5C.%5C.run%7C&hfGT=R%7C&hfSea=2026%7C&player_type=batter&batters_lookup%5B%5D=670541&group_by=name&sort_col=launch_angle&sort_order=desc&chk_stats_launch_angle=on#results">
               Savant says
             </a>{' '}
             it was 29°.&nbsp;
