@@ -105,15 +105,10 @@ export const AltHome = () => {
           data={[{ name: 'K%', values: averages['K%'] }]}
         />
         <p>
-          If we look at Cease&rsquo;s strikeout rate
-          <sup>
-            <a href="#ref3" id="note3">
-              3
-            </a>
-          </sup>
-          , it&rsquo;s obvious that having little to no facial hair is a poor
-          choice. Strikeouts tick way up once the &rsquo;stache appears on the
-          scene, and stay up. (Interestingly, the{' '}
+          If we look at Cease&rsquo;s strikeout rate , it&rsquo;s obvious that
+          having little to no facial hair is a poor choice. Strikeouts tick way
+          up once the &rsquo;stache appears on the scene, and stay up.
+          (Interestingly, the{' '}
           <a
             href="https://stachecast.lol/mountain2.jpg"
             target="_blank"
@@ -245,15 +240,14 @@ export const AltHome = () => {
         As we&rsquo;ve seen, the respectably-long beard performs very well
         start-to-start—if Cease wants to go deep into a game, that seems like a
         great bet. On the other hand, the &rsquo;stache & patch holds its own on
-        many of the other metrics.
+        many of the other metrics, including strikeouts, velo, and{' '}
+        <em>stuff</em>.
       </p>
       <p>
-        I could make a recommendation, but this might be a level of overreach
-        into a stranger&rsquo;s life that I&rsquo;m not comfortable making...
-        but if a certain variably-hirsute pitcher happens to be reading this,
-        let me say, everything you&rsquo;ve been doing (and it&rsquo;s a lot)
-        seems to be working. But if you&rsquo;re going to win that elusive Cy in
-        2027... maybe at least give the razor a break. ⚾️
+        If a certain variably-hirsute pitcher happens to be reading this, let me
+        say, everything you&rsquo;ve been doing (and I think we can agree that
+        it&rsquo;s a lot) seems to be working. But if you&rsquo;re going to win
+        that elusive Cy in 2027... maybe give the razor a break sometimes. ⚾️
       </p>
       <hr />
       <footer>
@@ -272,15 +266,6 @@ export const AltHome = () => {
           <span>
             <sup>2</sup> Are you kidding me, I&rsquo;m not doing that.&nbsp;
             <a href="#note2" id="ref2">
-              &#x21A9;
-            </a>
-          </span>
-          <br />
-          <span>
-            <sup>3</sup> Tip: Tap on the legend items to turn things on/off, and
-            tap/hover on the bars for specific numbers. This is serious science,
-            after all.&nbsp;
-            <a href="#note3" id="ref3">
               &#x21A9;
             </a>
           </span>
