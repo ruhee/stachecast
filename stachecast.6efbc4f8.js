@@ -17514,7 +17514,7 @@ $RefreshReg$(_c1, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","./components/Credits":"dQSXj","./components/ReleaseNotes":"bFBfa","./components/Home":"i0EQZ","./components/AltHome":"jMBTZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/ErrorScreen":"98NKg"}],"fKeYf":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","./components/Credits":"dQSXj","./components/ReleaseNotes":"bFBfa","./components/Home":"i0EQZ","./components/AltHome":"jMBTZ","./components/ErrorScreen":"98NKg","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fKeYf":[function(require,module,exports,__globalThis) {
 /**
  * react-router-dom v7.18.4
  *
@@ -48117,21 +48117,22 @@ const AltHome = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: [
-                    "So, can we conclude anything from this? Perhaps we still need more data...",
-                    ' ',
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "https://en.wikipedia.org/wiki/List_of_facial_hairstyles",
-                        children: "let\u2019s get cracking, Dylan."
-                    }, void 0, false, {
-                        fileName: "src/components/AltHome.tsx",
-                        lineNumber: 227,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                children: "So, what can we conclude from all of this?"
+            }, void 0, false, {
                 fileName: "src/components/AltHome.tsx",
                 lineNumber: 224,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "I could make a recommendation, but this might be a level of overreach into a stranger\u2019s life that I\u2019m not comfortable making... but if a certain variably-hirsute pitcher happens to be reading this, let me say, everything you\u2019ve been doing (and it\u2019s a lot) seems to be working. But if you\u2019re going to win that elusive Cy in 2027... maybe at least give the razor a break. \u26BE\uFE0F"
+            }, void 0, false, {
+                fileName: "src/components/AltHome.tsx",
+                lineNumber: 225,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                fileName: "src/components/AltHome.tsx",
+                lineNumber: 233,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -48144,7 +48145,7 @@ const AltHome = ()=>{
                                         children: "1"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 234,
+                                        lineNumber: 237,
                                         columnNumber: 13
                                     }, undefined),
                                     " In 2026,",
@@ -48154,7 +48155,7 @@ const AltHome = ()=>{
                                         children: "Savant says"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 235,
+                                        lineNumber: 238,
                                         columnNumber: 13
                                     }, undefined),
                                     ' ',
@@ -48165,18 +48166,18 @@ const AltHome = ()=>{
                                         children: "\u21A9"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 239,
+                                        lineNumber: 242,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 233,
+                                lineNumber: 236,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 243,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -48185,7 +48186,7 @@ const AltHome = ()=>{
                                         children: "2"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 245,
+                                        lineNumber: 248,
                                         columnNumber: 13
                                     }, undefined),
                                     " Are you kidding me, I\u2019m not doing that.\xa0",
@@ -48195,37 +48196,37 @@ const AltHome = ()=>{
                                         children: "\u21A9"
                                     }, void 0, false, {
                                         fileName: "src/components/AltHome.tsx",
-                                        lineNumber: 246,
+                                        lineNumber: 249,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 244,
+                                lineNumber: 247,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 232,
+                        lineNumber: 235,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                            children: "Data includes all MLB appearances 2019-2026 (regular season, postseason, and All-Star Game)."
+                            children: "Data includes all MLB regular season, postseason, and All-Star Game appearances, 2019-2026."
                         }, void 0, false, {
                             fileName: "src/components/AltHome.tsx",
-                            lineNumber: 252,
+                            lineNumber: 255,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 251,
+                        lineNumber: 254,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 257,
+                        lineNumber: 260,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -48237,7 +48238,7 @@ const AltHome = ()=>{
                                 children: "Ruhee"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 260,
+                                lineNumber: 263,
                                 columnNumber: 11
                             }, undefined),
                             ", the stupid brain behind the",
@@ -48247,57 +48248,58 @@ const AltHome = ()=>{
                                 children: "David Price Nickname Generator"
                             }, void 0, false, {
                                 fileName: "src/components/AltHome.tsx",
-                                lineNumber: 262,
+                                lineNumber: 265,
                                 columnNumber: 11
                             }, undefined),
                             ' ',
                             "and the Stanton Strikeout Tracker.",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "release-notes",
-                                children: "Check out the release notes"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 266,
-                                columnNumber: 11
-                            }, undefined),
-                            " or",
-                            ' ',
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "mailto:ruhee.dewji@gmail.com",
-                                children: "send feedback"
-                            }, void 0, false, {
-                                fileName: "src/components/AltHome.tsx",
-                                lineNumber: 267,
-                                columnNumber: 11
-                            }, undefined),
-                            "."
+                            ' '
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 258,
+                        lineNumber: 261,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                         to: "credits",
-                        children: "The credits are here"
+                        children: "Data and photo credits are here"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 269,
+                        lineNumber: 270,
                         columnNumber: 9
                     }, undefined),
-                    ", including data and photos.",
+                    ", and",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "release-notes",
+                        children: "release notes here"
+                    }, void 0, false, {
+                        fileName: "src/components/AltHome.tsx",
+                        lineNumber: 271,
+                        columnNumber: 9
+                    }, undefined),
+                    ". You can also",
+                    ' ',
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "mailto:ruhee.dewji@gmail.com",
+                        children: "email me"
+                    }, void 0, false, {
+                        fileName: "src/components/AltHome.tsx",
+                        lineNumber: 272,
+                        columnNumber: 9
+                    }, undefined),
+                    ".",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Sincerest and most sheepish apologies to Dylan Cease. \uD83D\uDC51"
                     }, void 0, false, {
                         fileName: "src/components/AltHome.tsx",
-                        lineNumber: 271,
+                        lineNumber: 273,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AltHome.tsx",
-                lineNumber: 231,
+                lineNumber: 234,
                 columnNumber: 7
             }, undefined)
         ]
@@ -49101,6 +49103,6 @@ $RefreshReg$(_c, "ErrorScreen");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"fKeYf"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=stachecast.6efbc4f8.js.map
