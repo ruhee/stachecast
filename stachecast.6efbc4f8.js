@@ -17415,6 +17415,7 @@ var _credits = require("./components/Credits");
 var _releaseNotes = require("./components/ReleaseNotes");
 var _home = require("./components/Home");
 var _altHome = require("./components/AltHome");
+var _errorScreen = require("./components/ErrorScreen");
 const RootLayout = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container",
         children: [
@@ -17425,23 +17426,23 @@ const RootLayout = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: "STACHECAST"
                 }, void 0, false, {
                     fileName: "src/App.tsx",
-                    lineNumber: 15,
+                    lineNumber: 16,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 5
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 3
     }, undefined);
 _c = RootLayout;
@@ -17450,15 +17451,20 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
         path: '/',
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RootLayout, {}, void 0, false, {
             fileName: "src/App.tsx",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 14
+        }, undefined),
+        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorScreen.ErrorScreen), {}, void 0, false, {
+            fileName: "src/App.tsx",
+            lineNumber: 27,
+            columnNumber: 19
         }, undefined),
         children: [
             {
                 index: true,
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _home.Home), {}, void 0, false, {
                     fileName: "src/App.tsx",
-                    lineNumber: 27,
+                    lineNumber: 29,
                     columnNumber: 31
                 }, undefined)
             },
@@ -17466,7 +17472,7 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
                 path: 'credits',
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _credits.Credits), {}, void 0, false, {
                     fileName: "src/App.tsx",
-                    lineNumber: 28,
+                    lineNumber: 30,
                     columnNumber: 35
                 }, undefined)
             },
@@ -17474,7 +17480,7 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
                 path: 'release-notes',
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _releaseNotes.ReleaseNotes), {}, void 0, false, {
                     fileName: "src/App.tsx",
-                    lineNumber: 29,
+                    lineNumber: 31,
                     columnNumber: 41
                 }, undefined)
             },
@@ -17482,7 +17488,7 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
                 path: 'alt-home',
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _altHome.AltHome), {}, void 0, false, {
                     fileName: "src/App.tsx",
-                    lineNumber: 30,
+                    lineNumber: 32,
                     columnNumber: 36
                 }, undefined)
             }
@@ -17494,7 +17500,7 @@ const App = ()=>{
         router: router
     }, void 0, false, {
         fileName: "src/App.tsx",
-        lineNumber: 36,
+        lineNumber: 38,
         columnNumber: 10
     }, undefined);
 };
@@ -17508,7 +17514,7 @@ $RefreshReg$(_c1, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","./components/Credits":"dQSXj","./components/ReleaseNotes":"bFBfa","./components/Home":"i0EQZ","./components/AltHome":"jMBTZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fKeYf":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","./components/Credits":"dQSXj","./components/ReleaseNotes":"bFBfa","./components/Home":"i0EQZ","./components/AltHome":"jMBTZ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/ErrorScreen":"98NKg"}],"fKeYf":[function(require,module,exports,__globalThis) {
 /**
  * react-router-dom v7.18.4
  *
@@ -48310,7 +48316,7 @@ $RefreshReg$(_c, "AltHome");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","./charts/BarChart":"fsRKI","url:../assets/v2-graph/stache-only.jpg":"247IT","url:../assets/v2-graph/patch.jpg":"52e0m","url:../assets/v2-graph/stubble-stache.jpg":"16gGb","url:../assets/v2-graph/full-new.jpg":"8qPsW","url:../assets/v2-graph/long-new.jpg":"8mgIG","url:../assets/v2-graph/short-stache.jpg":"j22uJ","url:../assets/v2-graph/mountain.jpg":"ieFwn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./ScreenReaderTable":"hFuOT","../data/averages-full":"9vTnr","../data/fangraphs":"1Lfm6","../data/velocities":"jJjyu"}],"7aXpw":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../data/newChartData":"7aXpw","../data/averages-full":"9vTnr","../data/fangraphs":"1Lfm6","../data/velocities":"jJjyu","./charts/BarChart":"fsRKI","url:../assets/v2-graph/stache-only.jpg":"247IT","url:../assets/v2-graph/patch.jpg":"52e0m","url:../assets/v2-graph/stubble-stache.jpg":"16gGb","url:../assets/v2-graph/full-new.jpg":"8qPsW","url:../assets/v2-graph/long-new.jpg":"8mgIG","url:../assets/v2-graph/short-stache.jpg":"j22uJ","url:../assets/v2-graph/mountain.jpg":"ieFwn","./ScreenReaderTable":"hFuOT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7aXpw":[function(require,module,exports,__globalThis) {
 // chartData.ts is the prod 2026 stuff, leave that alone while tinkering.
 // this will eventually replace it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -49001,6 +49007,100 @@ $RefreshReg$(_c, "ScreenReaderTable");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","../data/averages-full":"9vTnr","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","../data/averages-full":"9vTnr","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"98NKg":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$e14f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$e14f.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e14f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ErrorScreen", ()=>ErrorScreen);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const ErrorScreen = ()=>{
+    _s();
+    const error = (0, _reactRouterDom.useRouteError)();
+    if ((0, _reactRouterDom.isRouteErrorResponse)(error) && error.status === 404) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "masked",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/",
+                    children: "STACHECAST"
+                }, void 0, false, {
+                    fileName: "src/components/ErrorScreen.tsx",
+                    lineNumber: 10,
+                    columnNumber: 11
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/ErrorScreen.tsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "Sorry, that page doesn\u2019t exist!"
+            }, void 0, false, {
+                fileName: "src/components/ErrorScreen.tsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/",
+                children: "Back home"
+            }, void 0, false, {
+                fileName: "src/components/ErrorScreen.tsx",
+                lineNumber: 13,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/ErrorScreen.tsx",
+        lineNumber: 8,
+        columnNumber: 7
+    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: error?.message || 'An unexpected error occurred.'
+            }, void 0, false, {
+                fileName: "src/components/ErrorScreen.tsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/",
+                children: "Back home"
+            }, void 0, false, {
+                fileName: "src/components/ErrorScreen.tsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/ErrorScreen.tsx",
+        lineNumber: 19,
+        columnNumber: 5
+    }, undefined);
+};
+_s(ErrorScreen, "oAgjgbJzsRXlB89+MoVumxMQqKM=", false, function() {
+    return [
+        (0, _reactRouterDom.useRouteError)
+    ];
+});
+_c = ErrorScreen;
+var _c;
+$RefreshReg$(_c, "ErrorScreen");
+
+  $parcel$ReactRefreshHelpers$e14f.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"fKeYf"}]},["7KwkS","4dmnR"], "4dmnR", "parcelRequire15cd", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=stachecast.6efbc4f8.js.map
