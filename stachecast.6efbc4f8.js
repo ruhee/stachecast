@@ -48191,6 +48191,7 @@ const AltHome = ()=>{
                 className: "intro-images",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "mobile-hidden",
                         src: (0, _wolverineJpgDefault.default),
                         alt: "Hugh Jackman as Wolverine with mutton chops"
                     }, void 0, false, {
