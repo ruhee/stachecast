@@ -234,25 +234,26 @@ export const AltHome = () => {
         />
       </div>
       <p>
-        In total, we&rsquo;re looking at {totalStarts} appearances over 8
-        seasons. The &rsquo;stache styles make up the majority, and Cease is
-        clean-shaven by far the least often of any style, which probably
-        explains why it freaked the Padres out so much.
+        We&rsquo;re looking at {totalStarts} appearances over 8 seasons, and the
+        &rsquo;stache styles make up the majority of those. Cease is
+        clean-shaven by far the least often of any style, which explains why it
+        freaked the Padres out so much.
       </p>
-      <p>So, after all this, what can we conclude?</p>
+      <p>So after all this, what can we conclude?</p>
       <p>
-        As we&rsquo;ve seen, the respectably-long beard performs very well
-        start-to-start—if Cease wants to go deep into a game, that seems like a
-        great bet. On the other hand, the &rsquo;stache & patch holds its own on
-        many of the other metrics, including strikeouts, velo, and{' '}
-        <em>stuff</em>.
+        As we&rsquo;ve seen, the &rsquo;stache & patch performs very respectably
+        on many metrics including velocity and <em>stuff</em>; it makes sense
+        that Cease returns to that well so often. It&rsquo;s working.
+      </p>
+      <p>
+        On the other hand, the respectably-long beard appears to be great for
+        things like high strikeout rate and generally going deep into a game.
       </p>
       <p>
         {' '}
-        If a certain variably-hirsute pitcher is reading this: if you want the
-        best of both worlds—throw hard, strike everyone out, but also go deep
-        into every game—there&rsquo;s one untested option that lets you have
-        your cake and eat it too...
+        So, if a certain variably-hirsute pitcher is reading this: if you want
+        the best of both worlds, there might be one as-yet-untested option that
+        lets you have your cake and eat it too...
       </p>
       <div className="intro-images">
         <img
@@ -267,8 +268,8 @@ export const AltHome = () => {
         <img src={lemmy} alt="Lemmy with mutton chops" />
       </div>
       <p>
-        The 2027 Cy Young is in reach. I&rsquo;m just saying... think about it.
-        ⚾️
+        I&rsquo;m just saying, the 2027 Cy Young is within your reach. Think
+        about it. ⚾️
       </p>
       <hr />
       <footer>
