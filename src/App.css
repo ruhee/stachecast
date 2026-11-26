@@ -161,3 +161,8 @@ hr {
   white-space: nowrap;
   border-width: 0;
 }
+
+.muttonchops {
+  /* margin: 0 auto; */
+  /* display:block; */
+}

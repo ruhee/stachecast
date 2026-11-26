@@ -26,6 +26,9 @@ import full from 'url:../assets/v2-graph/full-new.jpg';
 import long from 'url:../assets/v2-graph/long-new.jpg';
 import shortStache from 'url:../assets/v2-graph/short-stache.jpg';
 import mountain from 'url:../assets/v2-graph/mountain.jpg';
+import muttonchops from 'url:../assets/muttonchops.jpg';
+import wolverine from 'url:../assets/wolverine.jpg';
+
 import { ScreenReaderTable } from './ScreenReaderTable';
 
 export const AltHome = () => {
@@ -244,10 +247,19 @@ export const AltHome = () => {
         <em>stuff</em>.
       </p>
       <p>
-        If a certain variably-hirsute pitcher happens to be reading this, let me
-        say, everything you&rsquo;ve been doing (and I think we can agree that
-        it&rsquo;s a lot) seems to be working. But if you&rsquo;re going to win
-        that elusive Cy in 2027... maybe give the razor a break sometimes. ⚾️
+        {' '}
+        If a certain variably-hirsute pitcher is reading this: if you want the
+        best of both worlds—throw hard, strike everyone out, but also go deep
+        into every game—there&rsquo;s one untested option that lets you have
+        your cake and eat it too...
+      </p>
+      <div className="intro-images">
+        <img src={wolverine} alt="Hugh Jackman as Wolverine with mutton chops" />
+        <img src={muttonchops} alt="A colourized photo of a Victorian man with mutton chops and a mustache" />
+      </div>
+      <p>
+        The 2027 Cy Young is in reach. I&rsquo;m just saying... think about it.
+        ⚾️
       </p>
       <hr />
       <footer>
