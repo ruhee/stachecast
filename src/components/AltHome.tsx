@@ -28,6 +28,7 @@ import shortStache from 'url:../assets/v2-graph/short-stache.jpg';
 import mountain from 'url:../assets/v2-graph/mountain.jpg';
 import muttonchops from 'url:../assets/muttonchops.jpg';
 import wolverine from 'url:../assets/wolverine.jpg';
+import lemmy from 'url:../assets/lemmy.jpg';
 
 import { ScreenReaderTable } from './ScreenReaderTable';
 
@@ -254,8 +255,16 @@ export const AltHome = () => {
         your cake and eat it too...
       </p>
       <div className="intro-images">
-        <img src={wolverine} alt="Hugh Jackman as Wolverine with mutton chops" />
-        <img src={muttonchops} alt="A colourized photo of a Victorian man with mutton chops and a mustache" />
+        <img
+          className="mobile-hidden"
+          src={wolverine}
+          alt="Hugh Jackman as Wolverine with mutton chops"
+        />
+        <img
+          src={muttonchops}
+          alt="A colourized photo of a Victorian man with mutton chops and a mustache"
+        />
+        <img src={lemmy} alt="Lemmy with mutton chops" />
       </div>
       <p>
         The 2027 Cy Young is in reach. I&rsquo;m just saying... think about it.
